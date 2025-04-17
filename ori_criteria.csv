@@ -1,0 +1,19 @@
+Organism,Percentage contamination,No. of contigs,N50,Assembly Length (+/-5%RefSeq),Ns per 100 kb,GC content (%),Tool for taxonomic classification
+A. baumannii,<=5%,300,>25000,[3.4-4.8],<=100,[38.7-39.7],Speciator
+P. aeruginosa,<=5%,500,>25000,[5.7-8.2],<=100,[65.0-66.9],Speciator
+K. pneumoniae,<=5%,400,>25000,[4.7-6.7],<=100,[56.1-58.0],Speciator/Kleborate
+E. coli,<=5%,500,>25000,[3.7-6.5],<=100,[50.1-51.1],Speciator
+Enterobacter spp.,<=5%,400,>25000,[4.2-5.9],<=100,[52.8-56.4],Speciator
+E. faecium,<=10%,300,>25000,[2.3-3.6],<=100,[37.4-38.5],Speciator
+S. aureus,<=5%,200,>25000,[2.5-3.3],<=100,[32.4-33.1],Speciator
+H. pylori,<=5%,150,>15000,[1.4-1.8],<=100,[38.4-39.3],Speciator
+C. jejuni,<=5%,150,>25000,[1.4-2.0],<=100,[30.1-30.9],Speciator
+C. coli,<=5%,150,>25000,[1.5-2.2],<=100,[30.6-31.5],Speciator
+S. Typhi,<=5%,300,>25000,[4.3-5.3],<=100,[51.8-52.3],Speciator/SISTR
+S. Enteritidis,<=5%,300,>25000,[4.4-5.2],<=100,[51.8-52.4],Speciator/SISTR
+S. Typhimurium,<=5%,300,>25000,[4.4-5.6],<=100,[51.8-52.3],Speciator/SISTR
+N. gonorrhoeae,<=5%,175,>25000,[2.0-2.4],<=100,[52.1-52.9],Speciator
+S. pneumoniae,<=5%,175,>25000,[1.8-2.4],<=100,[39.3-39.9],Speciator
+H. influenzae,<=5%,100,>25000,[1.7-2.2],<=100,[37.6-38.4],Speciator
+S. sonnei,<=5%,500,>15000,[4.0-5.6],<=100,[50.0-51.4],Speciator
+S. flexneri,<=5%,500,>15000,[4.0-5.6],<=100,[50.0-51.4],Speciator

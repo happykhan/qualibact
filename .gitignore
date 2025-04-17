@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+calculate_workdir/
 
 # C extensions
 *.so
