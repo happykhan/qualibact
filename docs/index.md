@@ -1,7 +1,7 @@
 # GenomeQC Results
 
 ## What is GenomeQC?
-GenomeQC is a comprehensive tool for assessing the quality of bacterial genome assemblies. It evaluates genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis.
+GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/)
 
 ## Quick Links
 - [📋 Methods](methods.md) - Detailed methodology and criteria

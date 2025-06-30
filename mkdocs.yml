@@ -1,4 +1,5 @@
-site_name: GenomeQC Results
+site_name: GenomeQC
+site_url: https://happykhan.github.io/genomeqc/    
 theme:
   name: material
   features:
@@ -9,8 +10,6 @@ theme:
     - navigation.top
   palette:
     - scheme: default
-      primary: blue
-      accent: blue
 markdown_extensions:
   - admonition
   - codehilite

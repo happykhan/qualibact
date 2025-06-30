@@ -33,7 +33,7 @@ def create_index_page(docs_dir: Path):
     lines = [
         "# GenomeQC Results\n",
         "## What is GenomeQC?",
-        "GenomeQC is a comprehensive tool for assessing the quality of bacterial genome assemblies. It evaluates genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis.\n",
+        "GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/)\n",
 
         "## Quick Links",
         "- [📋 Methods](methods.md) - Detailed methodology and criteria",
@@ -68,7 +68,8 @@ def create_index_page(docs_dir: Path):
     index_path.write_text("\n".join(lines))
 
 def write_mkdocs_yml():
-    mkdocs_yml = f"""site_name: GenomeQC Results
+    mkdocs_yml = f"""site_name: GenomeQC
+site_url: https://happykhan.github.io/genomeqc/    
 theme:
   name: material
   features:
@@ -79,8 +80,6 @@ theme:
     - navigation.top
   palette:
     - scheme: default
-      primary: blue
-      accent: blue
 markdown_extensions:
   - admonition
   - codehilite
