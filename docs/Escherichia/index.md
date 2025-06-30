@@ -1,4 +1,4 @@
-# Escherichia Overview
+# *Escherichia* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Escherichia coli](Escherichia_coli/index.md)

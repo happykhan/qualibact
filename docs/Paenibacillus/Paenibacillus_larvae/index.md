@@ -16,10 +16,10 @@ The suggested thresholds are:
 [Download metrics CSV](Paenibacillus_larvae_metrics.csv){.md-button}
 
 
-These thresholds are based on **0** genomes from RefSeq and **1164** genomes from ATB / SRA.
+These thresholds are based on **12** genomes from RefSeq and **1164** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **98** and retaining **1066**.
-The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
+The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.
 
 [Download high quality genomes list](Paenibacillus_larvae_high_quality_genomes.csv.xz)
 

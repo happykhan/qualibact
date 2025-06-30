@@ -1,4 +1,4 @@
-# Serratia Overview
+# *Serratia* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Serratia marcescens](Serratia_marcescens/index.md)

@@ -1,4 +1,4 @@
-# Francisella Overview
+# *Francisella* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Francisella tularensis](Francisella_tularensis/index.md)

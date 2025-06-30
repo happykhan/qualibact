@@ -1,7 +1,7 @@
 # GenomeQC Results
 
 ## What is GenomeQC?
-GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/)
+GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/). Source code for this process is available at [GenomeQC](https://github.com/happykhan/genomeqc).
 
 ## Quick Links
 - [📋 Methods](methods.md) - Detailed methodology and criteria
@@ -24,12 +24,13 @@ Use the navigation menu above to explore:
 - Species-specific thresholds can be derived from available reference genomes, and thresholds can be updated as more genomes are added.
 - Variation between species — even within a genus — supports the need for species-level cutoffs, which this approach accommodates.
 
+- Variation between SRA and Refseq: We have observed that Genome size and assembly length distributions differ significantly between RefSeq and SRA (i.e. ATB). The cause is unclear, but relying on RefSeq-derived thresholds alone may result in unfairly excluding valid genomes. This approach combines both datasets to ensure a more inclusive and representative set of thresholds.
+
 ### ⚠️ Caveats
 - **Species Definitions Depend on GTDB:** I use the sylph species designation, so all GTDB-related quirks apply. E.g., Shigella is included in E. coli, and there are issues for Bordetella and Pertussis as their classifications are not entirely correct.
 - **No Ground Truth Claims:** This evaluation reflects what has been previously observed in available datasets. It does not attempt to define a universal "ground truth" for any species.
 - **Assembly-Method Specific:** The metrics (e.g. N50, number of contigs) are meaningful primarily for assemblies generated with Shovill (or similar SPAdes-based pipelines). Exact thresholds will vary for long-read or alternative assemblers like SKESA. However, not using Shovill implies rejection of the Torstyverse, which is heresy.
 - **Long-Read Assemblies Not Explicitly Handled:** These cutoffs are not designed for long-read assemblies. That said, genome size and GC content thresholds should still apply, and it's reasonable to expect long-read assemblies to exceed the quality of short-read derived thresholds — not fall below them.
-- **Reference Bias:** Genome size and assembly length distributions differ significantly between RefSeq and SRA (i.e. ATB). The cause is unclear, but relying on RefSeq-derived thresholds alone may result in unfairly excluding valid genomes.
 - **Generic vs. Specific Tradeoff:** While the generic approach is broadly applicable, it may miss species-specific quality nuances or lineage-level exceptions.
 
 ## Citation

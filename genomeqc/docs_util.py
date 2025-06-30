@@ -1,6 +1,6 @@
 from rich.console import Console
 from pathlib import Path
-
+import pandas as pd
 
 def create_methods_page(docs_dir):
     """Create a methods page explaining the GenomeQC pipeline"""
@@ -33,7 +33,7 @@ def create_index_page(docs_dir: Path):
     lines = [
         "# GenomeQC Results\n",
         "## What is GenomeQC?",
-        "GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/)\n",
+        "GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/). Source code for this process is available at [GenomeQC](https://github.com/happykhan/genomeqc).\n",
 
         "## Quick Links",
         "- [📋 Methods](methods.md) - Detailed methodology and criteria",
@@ -53,12 +53,12 @@ def create_index_page(docs_dir: Path):
         "- Quality assessment is based on multiple standard metrics (e.g. N50, number of contigs, genome size, GC%), allowing reproducible filtering.",
         "- Species-specific thresholds can be derived from available reference genomes, and thresholds can be updated as more genomes are added.",
         "- Variation between species — even within a genus — supports the need for species-level cutoffs, which this approach accommodates.\n",
+        "- Variation between SRA and Refseq: We have observed that Genome size and assembly length distributions differ significantly between RefSeq and SRA (i.e. ATB). The cause is unclear, but relying on RefSeq-derived thresholds alone may result in unfairly excluding valid genomes. This approach combines both datasets to ensure a more inclusive and representative set of thresholds.\n",                
         "### ⚠️ Caveats",
         "- **Species Definitions Depend on GTDB:** I use the sylph species designation, so all GTDB-related quirks apply. E.g., Shigella is included in E. coli, and there are issues for Bordetella and Pertussis as their classifications are not entirely correct.",
         "- **No Ground Truth Claims:** This evaluation reflects what has been previously observed in available datasets. It does not attempt to define a universal \"ground truth\" for any species.",
         "- **Assembly-Method Specific:** The metrics (e.g. N50, number of contigs) are meaningful primarily for assemblies generated with Shovill (or similar SPAdes-based pipelines). Exact thresholds will vary for long-read or alternative assemblers like SKESA. However, not using Shovill implies rejection of the Torstyverse, which is heresy.",
         "- **Long-Read Assemblies Not Explicitly Handled:** These cutoffs are not designed for long-read assemblies. That said, genome size and GC content thresholds should still apply, and it's reasonable to expect long-read assemblies to exceed the quality of short-read derived thresholds — not fall below them.",
-        "- **Reference Bias:** Genome size and assembly length distributions differ significantly between RefSeq and SRA (i.e. ATB). The cause is unclear, but relying on RefSeq-derived thresholds alone may result in unfairly excluding valid genomes.",
         "- **Generic vs. Specific Tradeoff:** While the generic approach is broadly applicable, it may miss species-specific quality nuances or lineage-level exceptions.\n",
         "## Citation",
         "If you use GenomeQC, please cite the following:",
@@ -97,3 +97,27 @@ nav:
 """
 
     Path("mkdocs.yml").write_text(mkdocs_yml)    
+
+
+def get_rejection_reasons(row, metrics_df):
+  reasons = []
+  species = row['species_sylph'] if 'species_sylph' in row else row.get('species', None)
+  if not species:
+      return ['Unknown species']
+  species_metrics = metrics_df[metrics_df['species'] == species.replace(' ', '_')]
+  for _, metric_row in species_metrics.iterrows():
+      metric = metric_row['metric']
+      lower = metric_row['lower_bounds']
+      upper = metric_row['upper_bounds']
+      value = row.get(metric)
+      if pd.isnull(value):
+          continue
+      try:
+          value = float(value)
+      except Exception:
+          continue
+      if pd.notnull(lower) and value < float(lower):
+          reasons.append(f"{metric} below {lower}")
+      if pd.notnull(upper) and value > float(upper):
+          reasons.append(f"{metric} above {upper}")
+  return reasons if reasons else ['Unknown/other']

@@ -56,28 +56,20 @@ def create_species_page(species_dir: Path, output_dir: Path, species_safe_name: 
                 png_file.rename(new_path)        
         # Add download link to metrics file
         metrics_filename = f"{species_safe_name}_metrics.csv"
-        genus = species_dir.name.split('_')[0]
-
         f.write(f"\n\n[Download metrics CSV]({metrics_filename}){{.md-button}}\n\n")
         original_count = species_counts['original_count'].values[0] if not species_counts.empty else 0
         filtered_out_count = species_counts['filtered_out_count'].values[0] if not species_counts.empty else 0
         finally_count = species_counts['final_count'].values[0] if not species_counts.empty else 0
         f.write(f"\nThese thresholds are based on **{refseq_count}** genomes from RefSeq and **{original_count}** genomes from ATB / SRA.\n")
         f.write(f"\nThese thresholds were applied to all the bacteria dataset, which resulted in removing **{filtered_out_count}** and retaining **{finally_count}**.\n")
-        f.write(f"The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. \n")
+        f.write(f"The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.\n")
         # Download link to high quality genomes
         hq_genomes_file = species_dir / f"{species_safe_name}_high_quality_genomes.csv.xz"
-        if hq_genomes_file.exists():
-            hq_genomes_link = f"{hq_genomes_file.name}"
-            f.write(f"\n[Download high quality genomes list]({hq_genomes_link})\n\n")
-        else:
-            print(f"[bold red]Warning: High quality genomes file not found for {species_safe_name}.[/bold red]")
+        hq_genomes_link = f"{hq_genomes_file.name}"
+        f.write(f"\n[Download high quality genomes list]({hq_genomes_link})\n\n")
         filtered_genomes_file = species_dir / f"{species_safe_name}_filtered_out_genomes.csv.xz"
-        if filtered_genomes_file.exists():
-            filtered_genomes_link = f"{filtered_genomes_file.name}"
-            f.write(f"\n[Download rejected genomes list]({filtered_genomes_link})\n\n")
-        else:
-            print(f"[bold red]Warning: Filtered genomes file not found for {species_safe_name}.[/bold red]")
+        filtered_genomes_link = f"{filtered_genomes_file.name}"
+        f.write(f"\n[Download rejected genomes list]({filtered_genomes_link})\n\n")
         # A link to full summary tables 
         f.write("\n\n## Summary Tables\n")
         f.write("These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.\n\n")

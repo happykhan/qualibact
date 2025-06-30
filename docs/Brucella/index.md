@@ -1,4 +1,4 @@
-# Brucella Overview
+# *Brucella* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Brucella melitensis](Brucella_melitensis/index.md)

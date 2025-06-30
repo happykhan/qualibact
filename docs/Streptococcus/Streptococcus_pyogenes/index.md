@@ -16,10 +16,16 @@ The suggested thresholds are:
 [Download metrics CSV](Streptococcus_pyogenes_metrics.csv){.md-button}
 
 
-These thresholds are based on **0** genomes from RefSeq and **45861** genomes from ATB / SRA.
+These thresholds are based on **368** genomes from RefSeq and **45861** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **1751** and retaining **44110**.
-The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
+The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.
+
+[Download high quality genomes list](Streptococcus_pyogenes_high_quality_genomes.csv.xz)
+
+
+[Download rejected genomes list](Streptococcus_pyogenes_filtered_out_genomes.csv.xz)
+
 
 
 ## Summary Tables

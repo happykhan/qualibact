@@ -3,14 +3,24 @@ import shutil
 from pathlib import Path
 from rich import print
 from rich.progress import track
-from genomeqc.docs_util import create_methods_page, create_index_page, write_mkdocs_yml
+from genomeqc.docs_util import create_methods_page, create_index_page, write_mkdocs_yml, get_rejection_reasons
 from genomeqc.docs_summary import create_summary_page
 from genomeqc.docs_species import create_species_page, create_species_list_page
 import json
 import pandas as pd
 import lzma
+from genomeqc.species_util import DEF_METRIC_LIST
+from genomeqc.summary_util import plot_summary_plot
 
-def files_to_fetch(species_dir: Path, output_dir: Path):
+
+def fix_filtered_out_genomes(filtered_csv: Path, output_file: Path, metrics_df: pd.DataFrame):
+        df = pd.read_csv(filtered_csv)
+        df['rejection_reason'] = df.apply(lambda row: "; ".join(get_rejection_reasons(row, metrics_df)), axis=1)
+        with lzma.open(output_file, "wt") as f:
+            df.to_csv(f, index=False)
+
+
+def files_to_fetch(species_dir: Path, output_dir: Path, metrics_df: pd.DataFrame):
     # get files that end with CDS_vs_Genome_Size.png
     files_to_copy = []
     files_to_compress = []
@@ -59,28 +69,36 @@ def files_to_fetch(species_dir: Path, output_dir: Path):
         if os.path.exists(output_file):
             print(f"[bold yellow]Skipping existing compressed file: {output_file}[/bold yellow]")
             continue
-        # Zip these up  xz -c output_genomeqc/Salmonella_enterica/Salmonella_enterica_high_quality_genomes.csv  -9 -T 4  
-        with open(files, "rb") as f_in, open(output_file, "wb") as f_out:
-            f_out.write(lzma.compress(f_in.read(), preset=9))
+        # Zip these up  xz -c output_genomeqc/Salmonella_enterica/Salmonella_enterica_high_quality_genomes.csv  -9 -T 4
+        if files.endswith("_filtered_out_genomes.csv"):
+            fix_filtered_out_genomes(files, Path(output_file), metrics_df)
+        else:
+            with open(files, "rb") as f_in, open(output_file, "wb") as f_out:
+                f_out.write(lzma.compress(f_in.read(), preset=9))
     for files in files_to_copy:
         shutil.copy(files, output_dir)
     return files_to_copy
 
 def get_refseq_counts(species_dir: Path):
     """Calculate number of genomes in the refseq"""
-    species_json = species_dir / f"{species_dir.name}.json"
+    # Json name has a space 
+    space_name = species_dir.name.replace("_", " ")
+    species_json = species_dir / f"{space_name}.json"
     if species_json.exists():
         with open(species_json, 'r') as f:
             data = json.load(f)
             return data.get("total_count", 0)
+    print(f"[bold red]Warning: {species_json} not found. Returning 0.[/bold red]")
     return 0
 
 def create_genus_overview_page(genus_dir: Path , all_species_count_df, all_summary_df, species_list):
     """Create a genus overview page"""
+    # Create genus plots, if number of species is greater than 1
+    genus_summary_df = all_summary_df[all_summary_df['species'].str.startswith(genus_dir.name)]
     output_path = Path(genus_dir) / "index.md"
     
     lines = [
-        f"# {genus_dir.name.title()} Overview\n",    
+        f"# *{genus_dir.name.title()}* Overview\n",    
         "This page provides an overview of the genus, including links to species-specific pages and general information.\n\n",
     ]
     genus_count_df = all_species_count_df[all_species_count_df['species'].str.startswith(genus_dir.name)]
@@ -101,7 +119,6 @@ def create_genus_overview_page(genus_dir: Path , all_species_count_df, all_summa
         lines.append(f"\n\n[📊 Download species counts table](species_counts.csv){{.md-button}}\n")
         # Write the species counts to a CSV file
         genus_count_df.to_csv(genus_dir / "species_counts.csv", index=False)
-    genus_summary_df = all_summary_df[all_summary_df['species'].str.startswith(genus_dir.name)]
     if not genus_summary_df.empty:
         lines.append("## Genus Summary Metrics\n")
         lines.append("This section provides a summary of the metrics for the genus:\n\n")
@@ -115,17 +132,30 @@ def create_genus_overview_page(genus_dir: Path , all_species_count_df, all_summa
         lines.append(f"\n\n[📊 Download genus summary metrics table](genus_summary_metrics.csv){{.md-button}}\n")
         # Write the genus summary to a CSV file
         genus_summary_df.to_csv(genus_dir / "genus_summary_metrics.csv", index=False)
+        # Find all png files in genus_dir
+        png_files = list(genus_dir.glob("*.png"))
+        if png_files:
+            lines.append("## Genus Visualizations\n")
+            lines.append("These plots show the main summary visualizations for this genus, including distributions of key genomic metrics such as genome size, GC content, number of contigs, and other relevant statistics. The boxplot for each species is based on the distribution (i.e. median, q1, q3, min and max) of the filtered genomes. The red line is the lower threshold and the blue line is the upper threshold. Use these plots to compare and explore the diversity and characteristics of genomes within this genus:\n\n")
+            for png_file in sorted(png_files):
+                metric_name = png_file.stem.split('_')[0].title()
+                lines.append(f"- [Distribution of {metric_name} for this genus]({png_file.name})\n")            
+            # Show GC_Content, Genome_size and number of contigs
+            for png_file in sorted(png_files):
+                if png_file.name.startswith("GC_Content") or png_file.name.startswith("Genome_Size") or png_file.name.startswith("number"):
+                    metric_name = png_file.stem.split('_')[0].title()
+                    lines.append(f"![Distribution of {metric_name}]({png_file.name})\n")
+
     with open(output_path, "w") as f:
         f.writelines(lines)
+    
     print(f"[bold green]Created genus overview page: {output_path}[/bold green]")
 
-def create_genus_plots():
+def create_genus_plots(metrics_df, plot_dir):
     """Create placeholder plots for genus overview"""
     # This function can be expanded to generate actual plots if needed
-    print("[bold yellow]Placeholder for genus plots creation.[/bold yellow]")
-    # For now, just print a message
-    # In the future, you can add code to generate plots using matplotlib or seaborn
-    # and save them in the appropriate directory.
+    for metric in DEF_METRIC_LIST + ['Genome_Size', 'Total_Coding_Sequences']:
+        plot_summary_plot(metric, metrics_df, plot_dir)       
 
 def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
     """Generate documentation structure"""
@@ -134,6 +164,7 @@ def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
     all_summary_df = pd.read_csv(all_summary_file)
     all_species_count_file = Path(calculate_dir) / "all_summary" / "species_counts.csv"
     all_species_count_df = pd.read_csv(all_species_count_file)
+    all_stats_df = pd.read_csv(Path(calculate_dir) / "all_summary" / "all_metrics_summary.csv")
     os.makedirs(docs_dir, exist_ok=True)
     print("[bold cyan]🏠 Creating main pages...[/bold cyan]")
     create_index_page(docs_dir)
@@ -151,7 +182,9 @@ def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
     for genus, species_list in track(genera_dict.items(), description="Processing genera..."):
         # Create genus overview page
         os.makedirs(Path(docs_dir) / genus, exist_ok=True)
-        create_genus_plots()
+        genus_summary_df = all_stats_df[all_stats_df['species'].str.startswith(genus)]
+        if len(species_list) > 1:
+            create_genus_plots(genus_summary_df, Path(docs_dir) / genus)
         create_genus_overview_page(Path(docs_dir) / genus, all_species_count_df, all_summary_df, species_list)
         for species_dir in species_list:
             species_safe_name = os.path.basename(species_dir)
@@ -171,7 +204,7 @@ def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
                 continue
             filter_metrics.to_csv(output_dir / f"{species_safe_name}_metrics.csv", index=False)        
             # species_dir/ 
-            files_to_fetch(species_dir, output_dir) 
+            files_to_fetch(species_dir, output_dir, filter_metrics) 
             # Create spacies page 
             create_species_page(species_dir, output_dir, species_safe_name, refseq_count, species_counts, filter_metrics)
     create_species_list_page(docs_dir, genera_dict)
