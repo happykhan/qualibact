@@ -13,7 +13,6 @@ Use the navigation menu above to explore:
 
 - **Methods** - Technical details about the analysis pipeline
 
-- **All genera** - List of all genera included here, with links to genus-specific overviews
 - **All species** - List of all species included here, with links to species-specific overviews
 - **Summary page** - The QC criteria and summary tables for all genera and species
 
