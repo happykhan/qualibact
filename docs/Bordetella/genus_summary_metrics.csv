@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bordetella_pertussis,N50,11000.0,
+Bordetella_pertussis,no_of_contigs,,550.0
+Bordetella_pertussis,GC_Content,67.0,68.0
+Bordetella_pertussis,Completeness,92.0,
+Bordetella_pertussis,Contamination,,8.0
+Bordetella_pertussis,Total_Coding_Sequences,3600.0,4300.0
+Bordetella_pertussis,Genome_Size,3700000.0,4400000.0

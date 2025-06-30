@@ -1,0 +1,15 @@
+species,metric,lower_bounds,upper_bounds
+Yersinia_pestis,N50,17000.0,
+Yersinia_pestis,no_of_contigs,,540.0
+Yersinia_pestis,GC_Content,47.0,48.0
+Yersinia_pestis,Completeness,95.0,
+Yersinia_pestis,Contamination,,2.0
+Yersinia_pestis,Total_Coding_Sequences,3900.0,4600.0
+Yersinia_pestis,Genome_Size,4400000.0,5000000.0
+Yersinia_enterocolitica,N50,34000.0,
+Yersinia_enterocolitica,no_of_contigs,,330.0
+Yersinia_enterocolitica,GC_Content,46.0,48.0
+Yersinia_enterocolitica,Completeness,92.0,
+Yersinia_enterocolitica,Contamination,,5.0
+Yersinia_enterocolitica,Total_Coding_Sequences,4000.0,5000.0
+Yersinia_enterocolitica,Genome_Size,4300000.0,5200000.0

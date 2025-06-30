@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterococcus_faecium,N50,16000.0,
+Enterococcus_faecium,no_of_contigs,,560.0
+Enterococcus_faecium,GC_Content,37.0,39.0
+Enterococcus_faecium,Completeness,96.0,
+Enterococcus_faecium,Contamination,,5.0
+Enterococcus_faecium,Total_Coding_Sequences,2300.0,3600.0
+Enterococcus_faecium,Genome_Size,2400000.0,3500000.0

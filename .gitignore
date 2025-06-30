@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 calculate_workdir/
+output_compare_gc/ 
+output_genomeqc/
 
 # C extensions
 *.so

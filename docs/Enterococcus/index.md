@@ -1,0 +1,47 @@
+# Enterococcus Overview
+This page provides an overview of the genus, including links to species-specific pages and general information.
+
+- [Species page: Enterococcus faecalis](/Enterococcus/Enterococcus_faecalis/)
+- [Species page: Enterococcus faecium](/Enterococcus/Enterococcus_faecium/)
+- [Species page: Enterococcus lactis](/Enterococcus/Enterococcus_lactis/)
+## Genus Species Count Summary
+Breakdown of genomes filtered and retained by using these metrics:
+
+| species               |   original_count |   filtered_out_count |   final_count |
+|:----------------------|-----------------:|---------------------:|--------------:|
+| Enterococcus_faecium  |            36574 |                 1084 |         35490 |
+| Enterococcus_faecalis |             9673 |                  255 |          9418 |
+| Enterococcus_lactis   |             1293 |                   49 |          1244 |
+
+
+[📊 Download complete species counts table](species_counts.csv){.md-button}
+## Genus Summary Metrics
+This section provides a summary of the metrics for the genus:
+
+| species               | metric                 |   lower_bounds |   upper_bounds |
+|:----------------------|:-----------------------|---------------:|---------------:|
+| Enterococcus_faecalis | N50                    |    46000       |      nan       |
+| Enterococcus_faecalis | no_of_contigs          |      nan       |      230       |
+| Enterococcus_faecalis | GC_Content             |       36       |       38       |
+| Enterococcus_faecalis | Completeness           |       97       |      nan       |
+| Enterococcus_faecalis | Contamination          |      nan       |        3       |
+| Enterococcus_faecalis | Total_Coding_Sequences |     2400       |     3600       |
+| Enterococcus_faecalis | Genome_Size            |        2.6e+06 |        3.6e+06 |
+| Enterococcus_lactis   | N50                    |    36000       |      nan       |
+| Enterococcus_lactis   | no_of_contigs          |      nan       |      230       |
+| Enterococcus_lactis   | GC_Content             |       37       |       39       |
+| Enterococcus_lactis   | Completeness           |       97       |      nan       |
+| Enterococcus_lactis   | Contamination          |      nan       |        2       |
+| Enterococcus_lactis   | Total_Coding_Sequences |     2400       |     3100       |
+| Enterococcus_lactis   | Genome_Size            |        2.5e+06 |        3.1e+06 |
+| Enterococcus_faecium  | N50                    |    16000       |      nan       |
+| Enterococcus_faecium  | no_of_contigs          |      nan       |      560       |
+| Enterococcus_faecium  | GC_Content             |       37       |       39       |
+| Enterococcus_faecium  | Completeness           |       96       |      nan       |
+| Enterococcus_faecium  | Contamination          |      nan       |        5       |
+| Enterococcus_faecium  | Total_Coding_Sequences |     2300       |     3600       |
+
+... and 1 more rows
+
+
+[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}

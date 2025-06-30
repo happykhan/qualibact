@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Yersinia_enterocolitica,N50,34000.0,
+Yersinia_enterocolitica,no_of_contigs,,330.0
+Yersinia_enterocolitica,GC_Content,46.0,48.0
+Yersinia_enterocolitica,Completeness,92.0,
+Yersinia_enterocolitica,Contamination,,5.0
+Yersinia_enterocolitica,Total_Coding_Sequences,4000.0,5000.0
+Yersinia_enterocolitica,Genome_Size,4300000.0,5200000.0

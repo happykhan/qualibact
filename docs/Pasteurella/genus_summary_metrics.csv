@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pasteurella_multocida,N50,26000.0,
+Pasteurella_multocida,no_of_contigs,,180.0
+Pasteurella_multocida,GC_Content,40.0,41.0
+Pasteurella_multocida,Completeness,91.0,
+Pasteurella_multocida,Contamination,,3.0
+Pasteurella_multocida,Total_Coding_Sequences,2000.0,2900.0
+Pasteurella_multocida,Genome_Size,2100000.0,2800000.0

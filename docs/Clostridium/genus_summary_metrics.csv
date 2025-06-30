@@ -1,0 +1,15 @@
+species,metric,lower_bounds,upper_bounds
+Clostridium_difficile,N50,8000.0,
+Clostridium_difficile,no_of_contigs,,800.0
+Clostridium_difficile,GC_Content,28.0,30.0
+Clostridium_difficile,Completeness,95.0,
+Clostridium_difficile,Contamination,,4.0
+Clostridium_difficile,Total_Coding_Sequences,3400.0,4300.0
+Clostridium_difficile,Genome_Size,3800000.0,4600000.0
+Clostridium_botulinum,N50,12000.0,
+Clostridium_botulinum,no_of_contigs,,570.0
+Clostridium_botulinum,GC_Content,27.0,29.0
+Clostridium_botulinum,Completeness,95.0,
+Clostridium_botulinum,Contamination,,3.0
+Clostridium_botulinum,Total_Coding_Sequences,2600.0,4400.0
+Clostridium_botulinum,Genome_Size,2700000.0,4500000.0

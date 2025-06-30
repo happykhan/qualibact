@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Paenibacillus_larvae,N50,21000.0,
+Paenibacillus_larvae,no_of_contigs,,800.0
+Paenibacillus_larvae,GC_Content,43.0,46.0
+Paenibacillus_larvae,Completeness,86.0,
+Paenibacillus_larvae,Contamination,,4.0
+Paenibacillus_larvae,Total_Coding_Sequences,3800.0,5300.0
+Paenibacillus_larvae,Genome_Size,3600000.0,4800000.0

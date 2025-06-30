@@ -1,0 +1,88 @@
+# *Haemophilus influenzae*
+
+This is the GenomeQC page for *Haemophilus influenzae*. For detailed methods on how these thresholds were calculated, please see [Methods](/methods).
+The suggested thresholds are: 
+
+| metric                 | lower_bounds   | upper_bounds   |
+|:-----------------------|:---------------|:---------------|
+| N50                    | 28000.0        |                |
+| no_of_contigs          |                | 140.0          |
+| GC_Content             | 37.0           | 39.0           |
+| Completeness           | 94.0           |                |
+| Contamination          |                | 3.0            |
+| Total_Coding_Sequences | 1600.0         | 2200.0         |
+| Genome_Size            | 1700000.0      | 2200000.0      |
+
+[Download metrics CSV](/Haemophilus/Haemophilus_influenzae/Haemophilus_influenzae_metrics.csv){.md-button}
+
+
+These thresholds are based on **0** genomes from RefSeq and **12553** genomes from ATB / SRA.
+
+These thresholds were applied to all the bacteria dataset, which resulted in removing **523** and retaining **12030**.
+The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
+
+[Download high quality genomes list](/Haemophilus/Haemophilus_influenzae/Haemophilus_influenzae_high_quality_genomes.csv.xz)
+
+
+[Download rejected genomes list](/Haemophilus/Haemophilus_influenzae/Haemophilus_influenzae_filtered_out_genomes.csv.xz)
+
+
+
+## Summary Tables
+These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.
+
+[Download full summary tables](/Haemophilus/Haemophilus_influenzae/summary.csv)
+
+[Download simple summary tables](/Haemophilus/Haemophilus_influenzae/selected_summary.csv)
+
+## Plots and Visualizations
+
+This plot is a histogram comparing genome sizes between the SRA and RefSeq datasets. Each bar represents the density of genomes within a specific size range for both datasets. By comparing the shapes and positions of the bars, you can identify differences in genome size distributions, such as shifts, peaks, or outliers. This visualization helps reveal whether one dataset tends to have larger or smaller genomes, or if there are notable differences in variability or coverage between SRA and RefSeq.
+
+![Genome Size Distribution](Genome_Size_refseq_histogram_kde.png)
+
+This plot is a QQ (quantile-quantile) plot, which compares the distribution of the SRA data with RefSeq. Points falling along the diagonal line indicate that the data follows the expected distribution. Deviations from the line suggest departures from normality, such as skewness or outliers. This helps assess whether the dataset is consistently distributed or if there are systematic differences.
+
+![Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
+
+This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
+
+![CDS vs Genome Size](Haemophilus_influenzae_CDS_vs_Genome_Size.png
+
+### Additional Plots
+
+These plots provide additional insights into the genome characteristics:
+
+- [GC Content Histogram](Haemophilus_influenzae_GC_Content_refseq_histogram_kde.png)
+- [GC Content QQ Plot](Haemophilus_influenzae_GC_Content_refseq_qqplot.png)
+- [Total Coding Sequences Histogram](Haemophilus_influenzae_Total_Coding_Sequences_refseq_histogram_kde.png)
+- [Total Coding Sequences QQ Plot](Haemophilus_influenzae_Total_Coding_Sequences_refseq_qqplot.png)
+- [Genome Size Histogram](Haemophilus_influenzae_Genome_Size_refseq_histogram_kde.png)
+- [Genome Size QQ Plot](Haemophilus_influenzae_Genome_Size_refseq_qqplot.png)
+## Illustrating the filtering process
+These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
+N50 vs total length for all genomes in the dataset.
+
+![ALL Total Length vs N50](Haemophilus_influenzae_all_total_length_N50.png)
+
+N50 vs total length for genomes in the dataset, coloured according to whether they are an anomaly or not.
+
+![Sampled Total Length vs N50](Haemophilus_influenzae_sample_total_length_N50.png)
+
+N50 vs total length post filtering on the dataset.
+
+![Filtered Total Length vs N50](Haemophilus_influenzae_filt_total_length_N50.png)
+
+### Additional Plots
+
+These plots provide additional insights into the genome characteristics:
+
+- [N50 vs number of contigs, all genomes](Haemophilus_influenzae_all_N50_number.png)
+- [N50 vs number of contigs, sampled genomes](Haemophilus_influenzae_sample_N50_number.png)
+- [N50 vs number of contigs, filtered genomes](Haemophilus_influenzae_filt_N50_number.png)
+- [GC Content vs Total Length, all genomes](Haemophilus_influenzae_all_total_length_GC_Content.png)
+- [GC Content vs Total Length, sampled genomes](Haemophilus_influenzae_sample_total_length_GC_Content.png)
+- [GC Content vs Total Length, filtered genomes](Haemophilus_influenzae_filt_total_length_GC_Content.png)
+- [Longest Contig vs Total Length, all genomes](Haemophilus_influenzae_all_total_length_longest.png)
+- [Longest Contig vs Total Length, sampled genomes](Haemophilus_influenzae_sample_total_length_longest.png)
+- [Longest Contig vs Total Length, filtered genomes](Haemophilus_influenzae_filt_total_length_longest.png)

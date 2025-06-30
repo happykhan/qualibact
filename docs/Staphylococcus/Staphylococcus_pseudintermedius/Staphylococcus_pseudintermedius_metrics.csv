@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_pseudintermedius,N50,32000.0,
+Staphylococcus_pseudintermedius,no_of_contigs,,220.0
+Staphylococcus_pseudintermedius,GC_Content,37.0,38.0
+Staphylococcus_pseudintermedius,Completeness,92.0,
+Staphylococcus_pseudintermedius,Contamination,,5.0
+Staphylococcus_pseudintermedius,Total_Coding_Sequences,2200.0,2900.0
+Staphylococcus_pseudintermedius,Genome_Size,2400000.0,2900000.0

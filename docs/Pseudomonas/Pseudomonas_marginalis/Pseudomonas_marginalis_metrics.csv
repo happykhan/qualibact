@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_marginalis,N50,34000.0,
+Pseudomonas_marginalis,no_of_contigs,,350.0
+Pseudomonas_marginalis,GC_Content,59.0,61.0
+Pseudomonas_marginalis,Completeness,100.0,
+Pseudomonas_marginalis,Contamination,,8.0
+Pseudomonas_marginalis,Total_Coding_Sequences,6000.0,7100.0
+Pseudomonas_marginalis,Genome_Size,6600000.0,7600000.0

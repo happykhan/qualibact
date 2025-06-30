@@ -1,0 +1,6 @@
+species,original_count,filtered_out_count,final_count
+Mycobacterium_tuberculosis,180095,8818,171277
+Mycobacterium_abscessus,5906,247,5659
+Mycobacterium_avium,3494,208,3286
+Mycobacterium_intracellulare,2150,99,2051
+Mycobacterium_marinum,1170,36,1134

@@ -1,0 +1,15 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_aeruginosa,N50,34000.0,
+Pseudomonas_aeruginosa,no_of_contigs,,500.0
+Pseudomonas_aeruginosa,GC_Content,65.0,67.0
+Pseudomonas_aeruginosa,Completeness,96.0,
+Pseudomonas_aeruginosa,Contamination,,7.0
+Pseudomonas_aeruginosa,Total_Coding_Sequences,5600.0,7600.0
+Pseudomonas_aeruginosa,Genome_Size,6000000.0,7800000.0
+Pseudomonas_marginalis,N50,34000.0,
+Pseudomonas_marginalis,no_of_contigs,,350.0
+Pseudomonas_marginalis,GC_Content,59.0,61.0
+Pseudomonas_marginalis,Completeness,100.0,
+Pseudomonas_marginalis,Contamination,,8.0
+Pseudomonas_marginalis,Total_Coding_Sequences,6000.0,7100.0
+Pseudomonas_marginalis,Genome_Size,6600000.0,7600000.0

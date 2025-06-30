@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_cholerae,N50,77000.0,
+Vibrio_cholerae,no_of_contigs,,230.0
+Vibrio_cholerae,GC_Content,47.0,48.0
+Vibrio_cholerae,Completeness,96.0,
+Vibrio_cholerae,Contamination,,5.0
+Vibrio_cholerae,Total_Coding_Sequences,3400.0,4200.0
+Vibrio_cholerae,Genome_Size,3800000.0,4500000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Klebsiella_oxytoca,N50,68000.0,
+Klebsiella_oxytoca,no_of_contigs,,350.0
+Klebsiella_oxytoca,GC_Content,54.0,56.0
+Klebsiella_oxytoca,Completeness,97.0,
+Klebsiella_oxytoca,Contamination,,8.0
+Klebsiella_oxytoca,Total_Coding_Sequences,5000.0,6600.0
+Klebsiella_oxytoca,Genome_Size,5300000.0,6800000.0

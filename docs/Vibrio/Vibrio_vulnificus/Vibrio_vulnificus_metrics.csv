@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_vulnificus,N50,64000.0,
+Vibrio_vulnificus,no_of_contigs,,310.0
+Vibrio_vulnificus,GC_Content,45.0,47.0
+Vibrio_vulnificus,Completeness,98.0,
+Vibrio_vulnificus,Contamination,,6.0
+Vibrio_vulnificus,Total_Coding_Sequences,4200.0,5800.0
+Vibrio_vulnificus,Genome_Size,4700000.0,6100000.0

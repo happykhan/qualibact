@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterococcus_faecalis,N50,46000.0,
+Enterococcus_faecalis,no_of_contigs,,230.0
+Enterococcus_faecalis,GC_Content,36.0,38.0
+Enterococcus_faecalis,Completeness,97.0,
+Enterococcus_faecalis,Contamination,,3.0
+Enterococcus_faecalis,Total_Coding_Sequences,2400.0,3600.0
+Enterococcus_faecalis,Genome_Size,2600000.0,3600000.0

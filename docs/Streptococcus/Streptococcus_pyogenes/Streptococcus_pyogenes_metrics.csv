@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptococcus_pyogenes,N50,60000.0,
+Streptococcus_pyogenes,no_of_contigs,,90.0
+Streptococcus_pyogenes,GC_Content,38.0,39.0
+Streptococcus_pyogenes,Completeness,98.0,
+Streptococcus_pyogenes,Contamination,,3.0
+Streptococcus_pyogenes,Total_Coding_Sequences,1500.0,2100.0
+Streptococcus_pyogenes,Genome_Size,1600000.0,2100000.0

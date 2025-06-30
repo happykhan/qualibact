@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_aureus,N50,26000.0,
+Staphylococcus_aureus,no_of_contigs,,280.0
+Staphylococcus_aureus,GC_Content,32.0,34.0
+Staphylococcus_aureus,Completeness,96.0,
+Staphylococcus_aureus,Contamination,,4.0
+Staphylococcus_aureus,Total_Coding_Sequences,2400.0,3400.0
+Staphylococcus_aureus,Genome_Size,2600000.0,3300000.0

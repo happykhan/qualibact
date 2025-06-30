@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Listeria_innocua,N50,48000.0,
+Listeria_innocua,no_of_contigs,,180.0
+Listeria_innocua,GC_Content,37.0,38.0
+Listeria_innocua,Completeness,96.0,
+Listeria_innocua,Contamination,,2.0
+Listeria_innocua,Total_Coding_Sequences,2700.0,3300.0
+Listeria_innocua,Genome_Size,2700000.0,3100000.0

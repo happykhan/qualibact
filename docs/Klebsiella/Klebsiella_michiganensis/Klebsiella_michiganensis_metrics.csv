@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Klebsiella_michiganensis,N50,55000.0,
+Klebsiella_michiganensis,no_of_contigs,,380.0
+Klebsiella_michiganensis,GC_Content,55.0,57.0
+Klebsiella_michiganensis,Completeness,96.0,
+Klebsiella_michiganensis,Contamination,,4.0
+Klebsiella_michiganensis,Total_Coding_Sequences,5300.0,6900.0
+Klebsiella_michiganensis,Genome_Size,5700000.0,7000000.0

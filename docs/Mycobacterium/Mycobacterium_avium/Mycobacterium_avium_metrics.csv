@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Mycobacterium_avium,N50,14000.0,
+Mycobacterium_avium,no_of_contigs,,620.0
+Mycobacterium_avium,GC_Content,68.0,70.0
+Mycobacterium_avium,Completeness,94.0,
+Mycobacterium_avium,Contamination,,7.0
+Mycobacterium_avium,Total_Coding_Sequences,4500.0,5700.0
+Mycobacterium_avium,Genome_Size,4700000.0,5900000.0

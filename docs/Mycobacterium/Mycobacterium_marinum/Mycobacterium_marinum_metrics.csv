@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Mycobacterium_marinum,N50,22000.0,
+Mycobacterium_marinum,no_of_contigs,,620.0
+Mycobacterium_marinum,GC_Content,65.0,66.0
+Mycobacterium_marinum,Completeness,98.0,
+Mycobacterium_marinum,Contamination,,3.0
+Mycobacterium_marinum,Total_Coding_Sequences,5200.0,6000.0
+Mycobacterium_marinum,Genome_Size,5200000.0,6700000.0

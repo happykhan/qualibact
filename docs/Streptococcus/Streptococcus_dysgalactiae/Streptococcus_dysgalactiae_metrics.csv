@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptococcus_dysgalactiae,N50,34000.0,
+Streptococcus_dysgalactiae,no_of_contigs,,190.0
+Streptococcus_dysgalactiae,GC_Content,39.0,40.0
+Streptococcus_dysgalactiae,Completeness,92.0,
+Streptococcus_dysgalactiae,Contamination,,3.0
+Streptococcus_dysgalactiae,Total_Coding_Sequences,1900.0,2400.0
+Streptococcus_dysgalactiae,Genome_Size,1900000.0,2400000.0

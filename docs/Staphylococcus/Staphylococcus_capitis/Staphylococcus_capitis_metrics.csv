@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_capitis,N50,39000.0,
+Staphylococcus_capitis,no_of_contigs,,150.0
+Staphylococcus_capitis,GC_Content,32.0,34.0
+Staphylococcus_capitis,Completeness,98.0,
+Staphylococcus_capitis,Contamination,,1.0
+Staphylococcus_capitis,Total_Coding_Sequences,2200.0,2700.0
+Staphylococcus_capitis,Genome_Size,2300000.0,2800000.0

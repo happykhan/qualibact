@@ -1,0 +1,7 @@
+species,original_count,filtered_out_count,final_count
+Staphylococcus_aureus,121428,4269,117159
+Staphylococcus_epidermidis,6411,250,6161
+Staphylococcus_pseudintermedius,5492,226,5266
+Staphylococcus_haemolyticus,1674,99,1575
+Staphylococcus_capitis,1612,67,1545
+Staphylococcus_saprophyticus,1193,58,1135

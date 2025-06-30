@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Listeria_monocytogenes,N50,66000.0,
+Listeria_monocytogenes,no_of_contigs,,120.0
+Listeria_monocytogenes,GC_Content,37.0,39.0
+Listeria_monocytogenes,Completeness,97.0,
+Listeria_monocytogenes,Contamination,,5.0
+Listeria_monocytogenes,Total_Coding_Sequences,2700.0,3400.0
+Listeria_monocytogenes,Genome_Size,2800000.0,3300000.0

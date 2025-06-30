@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Neisseria_lactamica,N50,59000.0,
+Neisseria_lactamica,no_of_contigs,,120.0
+Neisseria_lactamica,GC_Content,51.0,53.0
+Neisseria_lactamica,Completeness,100.0,
+Neisseria_lactamica,Contamination,,1.0
+Neisseria_lactamica,Total_Coding_Sequences,1900.0,2300.0
+Neisseria_lactamica,Genome_Size,2000000.0,2300000.0

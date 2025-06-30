@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_epidermidis,N50,11000.0,
+Staphylococcus_epidermidis,no_of_contigs,,440.0
+Staphylococcus_epidermidis,GC_Content,31.0,33.0
+Staphylococcus_epidermidis,Completeness,97.0,
+Staphylococcus_epidermidis,Contamination,,2.0
+Staphylococcus_epidermidis,Total_Coding_Sequences,2100.0,2900.0
+Staphylococcus_epidermidis,Genome_Size,2300000.0,2900000.0

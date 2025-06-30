@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_freundii,N50,58000.0,
+Citrobacter_freundii,no_of_contigs,,320.0
+Citrobacter_freundii,GC_Content,51.0,53.0
+Citrobacter_freundii,Completeness,93.0,
+Citrobacter_freundii,Contamination,,11.0
+Citrobacter_freundii,Total_Coding_Sequences,4400.0,6200.0
+Citrobacter_freundii,Genome_Size,4600000.0,6100000.0

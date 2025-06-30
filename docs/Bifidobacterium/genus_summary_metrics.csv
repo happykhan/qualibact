@@ -1,0 +1,15 @@
+species,metric,lower_bounds,upper_bounds
+Bifidobacterium_longum,N50,50000.0,
+Bifidobacterium_longum,no_of_contigs,,170.0
+Bifidobacterium_longum,GC_Content,59.0,61.0
+Bifidobacterium_longum,Completeness,94.0,
+Bifidobacterium_longum,Contamination,,3.0
+Bifidobacterium_longum,Total_Coding_Sequences,1700.0,2700.0
+Bifidobacterium_longum,Genome_Size,2200000.0,2900000.0
+Bifidobacterium_adolescentis,N50,62000.0,
+Bifidobacterium_adolescentis,no_of_contigs,,90.0
+Bifidobacterium_adolescentis,GC_Content,58.0,61.0
+Bifidobacterium_adolescentis,Completeness,94.0,
+Bifidobacterium_adolescentis,Contamination,,6.0
+Bifidobacterium_adolescentis,Total_Coding_Sequences,1600.0,2200.0
+Bifidobacterium_adolescentis,Genome_Size,2000000.0,2500000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Salmonella_enterica,N50,62000.0,
+Salmonella_enterica,no_of_contigs,,200.0
+Salmonella_enterica,GC_Content,51.0,53.0
+Salmonella_enterica,Completeness,97.0,
+Salmonella_enterica,Contamination,,8.0
+Salmonella_enterica,Total_Coding_Sequences,4100.0,6000.0
+Salmonella_enterica,Genome_Size,4400000.0,5900000.0

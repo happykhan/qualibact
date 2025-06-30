@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptococcus_pneumoniae,N50,24000.0,
+Streptococcus_pneumoniae,no_of_contigs,,220.0
+Streptococcus_pneumoniae,GC_Content,39.0,40.0
+Streptococcus_pneumoniae,Completeness,98.0,
+Streptococcus_pneumoniae,Contamination,,3.0
+Streptococcus_pneumoniae,Total_Coding_Sequences,1900.0,2500.0
+Streptococcus_pneumoniae,Genome_Size,1900000.0,2400000.0

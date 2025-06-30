@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Klebsiella_aerogenes,N50,75000.0,
+Klebsiella_aerogenes,no_of_contigs,,200.0
+Klebsiella_aerogenes,GC_Content,54.0,56.0
+Klebsiella_aerogenes,Completeness,91.0,
+Klebsiella_aerogenes,Contamination,,10.0
+Klebsiella_aerogenes,Total_Coding_Sequences,4500.0,6000.0
+Klebsiella_aerogenes,Genome_Size,4900000.0,6000000.0

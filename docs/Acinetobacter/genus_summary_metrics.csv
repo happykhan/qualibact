@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Acinetobacter_baumannii,N50,17000.0,
+Acinetobacter_baumannii,no_of_contigs,,490.0
+Acinetobacter_baumannii,GC_Content,38.0,40.0
+Acinetobacter_baumannii,Completeness,97.0,
+Acinetobacter_baumannii,Contamination,,7.0
+Acinetobacter_baumannii,Total_Coding_Sequences,3400.0,4500.0
+Acinetobacter_baumannii,Genome_Size,3600000.0,4600000.0

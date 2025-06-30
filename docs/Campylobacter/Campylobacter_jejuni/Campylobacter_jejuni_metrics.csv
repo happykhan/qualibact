@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Campylobacter_jejuni,N50,22000.0,
+Campylobacter_jejuni,no_of_contigs,,160.0
+Campylobacter_jejuni,GC_Content,30.0,31.0
+Campylobacter_jejuni,Completeness,96.0,
+Campylobacter_jejuni,Contamination,,10.0
+Campylobacter_jejuni,Total_Coding_Sequences,1600.0,2200.0
+Campylobacter_jejuni,Genome_Size,1500000.0,2000000.0
