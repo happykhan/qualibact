@@ -5,10 +5,16 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.upload.outputs.artifact_name }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -24,4 +30,21 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build MkDocs
-        run: mkdocs build 
+        run: mkdocs build --clean
+
+      - name: Upload built site
+        id: upload
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
