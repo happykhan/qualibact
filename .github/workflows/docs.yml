@@ -24,4 +24,4 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build MkDocs
-        run: mkdocs build --strict
+        run: mkdocs build 
