@@ -1,7 +1,7 @@
 # Moraxella Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Moraxella catarrhalis](/Moraxella/Moraxella_catarrhalis/)
+- [Species page: Moraxella catarrhalis](Moraxella_catarrhalis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Moraxella_catarrhalis |             2496 |                   90 |          2406 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Moraxella_catarrhalis | Genome_Size            |        1.8e+06 |        2.1e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

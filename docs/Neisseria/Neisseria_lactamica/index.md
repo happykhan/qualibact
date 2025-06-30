@@ -1,6 +1,6 @@
 # *Neisseria lactamica*
 
-This is the GenomeQC page for *Neisseria lactamica*. For detailed methods on how these thresholds were calculated, please see [Methods](/methods).
+This is the GenomeQC page for *Neisseria lactamica*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -13,7 +13,7 @@ The suggested thresholds are:
 | Total_Coding_Sequences | 1900.0         | 2300.0         |
 | Genome_Size            | 2000000.0      | 2300000.0      |
 
-[Download metrics CSV](/Neisseria/Neisseria_lactamica/Neisseria_lactamica_metrics.csv){.md-button}
+[Download metrics CSV](Neisseria_lactamica_metrics.csv){.md-button}
 
 
 These thresholds are based on **0** genomes from RefSeq and **1424** genomes from ATB / SRA.
@@ -25,9 +25,9 @@ The list of genomes retained (i.e. high quality) and the list of genomes rejecte
 ## Summary Tables
 These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.
 
-[Download full summary tables](/Neisseria/Neisseria_lactamica/summary.csv)
+[Download full summary tables](summary.csv)
 
-[Download simple summary tables](/Neisseria/Neisseria_lactamica/selected_summary.csv)
+[Download simple summary tables](selected_summary.csv)
 
 ## Plots and Visualizations
 
@@ -47,12 +47,12 @@ This plot shows the relationship between the number of coding sequences (CDS) an
 
 These plots provide additional insights into the genome characteristics:
 
-- [GC Content Histogram](Neisseria_lactamica_GC_Content_refseq_histogram_kde.png)
-- [GC Content QQ Plot](Neisseria_lactamica_GC_Content_refseq_qqplot.png)
-- [Total Coding Sequences Histogram](Neisseria_lactamica_Total_Coding_Sequences_refseq_histogram_kde.png)
-- [Total Coding Sequences QQ Plot](Neisseria_lactamica_Total_Coding_Sequences_refseq_qqplot.png)
-- [Genome Size Histogram](Neisseria_lactamica_Genome_Size_refseq_histogram_kde.png)
-- [Genome Size QQ Plot](Neisseria_lactamica_Genome_Size_refseq_qqplot.png)
+- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)
+- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)
+- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)
+- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)
+- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
+- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
 ## Illustrating the filtering process
 These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
 N50 vs total length for all genomes in the dataset.

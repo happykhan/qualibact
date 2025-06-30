@@ -1,13 +1,13 @@
 # Streptococcus Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Streptococcus agalactiae](/Streptococcus/Streptococcus_agalactiae/)
-- [Species page: Streptococcus dysgalactiae](/Streptococcus/Streptococcus_dysgalactiae/)
-- [Species page: Streptococcus equi](/Streptococcus/Streptococcus_equi/)
-- [Species page: Streptococcus pneumoniae](/Streptococcus/Streptococcus_pneumoniae/)
-- [Species page: Streptococcus pyogenes](/Streptococcus/Streptococcus_pyogenes/)
-- [Species page: Streptococcus suis](/Streptococcus/Streptococcus_suis/)
-- [Species page: Streptococcus uberis](/Streptococcus/Streptococcus_uberis/)
+- [Species page: Streptococcus agalactiae](Streptococcus_agalactiae/index.md)
+- [Species page: Streptococcus dysgalactiae](Streptococcus_dysgalactiae/index.md)
+- [Species page: Streptococcus equi](Streptococcus_equi/index.md)
+- [Species page: Streptococcus pneumoniae](Streptococcus_pneumoniae/index.md)
+- [Species page: Streptococcus pyogenes](Streptococcus_pyogenes/index.md)
+- [Species page: Streptococcus suis](Streptococcus_suis/index.md)
+- [Species page: Streptococcus uberis](Streptococcus_uberis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -22,7 +22,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Streptococcus_uberis       |             1534 |                  110 |          1424 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -52,4 +52,4 @@ This section provides a summary of the metrics for the genus:
 ... and 29 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

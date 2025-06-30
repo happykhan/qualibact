@@ -5,7 +5,6 @@ GenomeQC is a comprehensive tool for assessing the quality of bacterial genome a
 
 ## Quick Links
 - [📋 Methods](methods.md) - Detailed methodology and criteria
-- [🧬 All Genera](genera.md) - Complete list of analyzed genera
 - [🦠 All Species](species.md) - Complete list of analyzed species
 - [📊 Summary Data](summary.md) - Main summary and criteria tables
 

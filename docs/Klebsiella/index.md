@@ -1,12 +1,12 @@
 # Klebsiella Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Klebsiella aerogenes](/Klebsiella/Klebsiella_aerogenes/)
-- [Species page: Klebsiella michiganensis](/Klebsiella/Klebsiella_michiganensis/)
-- [Species page: Klebsiella oxytoca](/Klebsiella/Klebsiella_oxytoca/)
-- [Species page: Klebsiella pneumoniae](/Klebsiella/Klebsiella_pneumoniae/)
-- [Species page: Klebsiella quasipneumoniae](/Klebsiella/Klebsiella_quasipneumoniae/)
-- [Species page: Klebsiella variicola](/Klebsiella/Klebsiella_variicola/)
+- [Species page: Klebsiella aerogenes](Klebsiella_aerogenes/index.md)
+- [Species page: Klebsiella michiganensis](Klebsiella_michiganensis/index.md)
+- [Species page: Klebsiella oxytoca](Klebsiella_oxytoca/index.md)
+- [Species page: Klebsiella pneumoniae](Klebsiella_pneumoniae/index.md)
+- [Species page: Klebsiella quasipneumoniae](Klebsiella_quasipneumoniae/index.md)
+- [Species page: Klebsiella variicola](Klebsiella_variicola/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -20,7 +20,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Klebsiella_oxytoca         |             1177 |                   46 |          1131 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -50,4 +50,4 @@ This section provides a summary of the metrics for the genus:
 ... and 22 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

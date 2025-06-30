@@ -1,12 +1,12 @@
 # Staphylococcus Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Staphylococcus aureus](/Staphylococcus/Staphylococcus_aureus/)
-- [Species page: Staphylococcus capitis](/Staphylococcus/Staphylococcus_capitis/)
-- [Species page: Staphylococcus epidermidis](/Staphylococcus/Staphylococcus_epidermidis/)
-- [Species page: Staphylococcus haemolyticus](/Staphylococcus/Staphylococcus_haemolyticus/)
-- [Species page: Staphylococcus pseudintermedius](/Staphylococcus/Staphylococcus_pseudintermedius/)
-- [Species page: Staphylococcus saprophyticus](/Staphylococcus/Staphylococcus_saprophyticus/)
+- [Species page: Staphylococcus aureus](Staphylococcus_aureus/index.md)
+- [Species page: Staphylococcus capitis](Staphylococcus_capitis/index.md)
+- [Species page: Staphylococcus epidermidis](Staphylococcus_epidermidis/index.md)
+- [Species page: Staphylococcus haemolyticus](Staphylococcus_haemolyticus/index.md)
+- [Species page: Staphylococcus pseudintermedius](Staphylococcus_pseudintermedius/index.md)
+- [Species page: Staphylococcus saprophyticus](Staphylococcus_saprophyticus/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -20,7 +20,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Staphylococcus_saprophyticus    |             1193 |                   58 |          1135 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -50,4 +50,4 @@ This section provides a summary of the metrics for the genus:
 ... and 22 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

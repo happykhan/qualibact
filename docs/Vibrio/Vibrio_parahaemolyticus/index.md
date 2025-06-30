@@ -1,6 +1,6 @@
 # *Vibrio parahaemolyticus*
 
-This is the GenomeQC page for *Vibrio parahaemolyticus*. For detailed methods on how these thresholds were calculated, please see [Methods](/methods).
+This is the GenomeQC page for *Vibrio parahaemolyticus*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -13,7 +13,7 @@ The suggested thresholds are:
 | Total_Coding_Sequences | 4400.0         | 5900.0         |
 | Genome_Size            | 4900000.0      | 6100000.0      |
 
-[Download metrics CSV](/Vibrio/Vibrio_parahaemolyticus/Vibrio_parahaemolyticus_metrics.csv){.md-button}
+[Download metrics CSV](Vibrio_parahaemolyticus_metrics.csv){.md-button}
 
 
 These thresholds are based on **0** genomes from RefSeq and **8309** genomes from ATB / SRA.
@@ -21,19 +21,19 @@ These thresholds are based on **0** genomes from RefSeq and **8309** genomes fro
 These thresholds were applied to all the bacteria dataset, which resulted in removing **203** and retaining **8106**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
 
-[Download high quality genomes list](/Vibrio/Vibrio_parahaemolyticus/Vibrio_parahaemolyticus_high_quality_genomes.csv.xz)
+[Download high quality genomes list](Vibrio_parahaemolyticus_high_quality_genomes.csv.xz)
 
 
-[Download rejected genomes list](/Vibrio/Vibrio_parahaemolyticus/Vibrio_parahaemolyticus_filtered_out_genomes.csv.xz)
+[Download rejected genomes list](Vibrio_parahaemolyticus_filtered_out_genomes.csv.xz)
 
 
 
 ## Summary Tables
 These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.
 
-[Download full summary tables](/Vibrio/Vibrio_parahaemolyticus/summary.csv)
+[Download full summary tables](summary.csv)
 
-[Download simple summary tables](/Vibrio/Vibrio_parahaemolyticus/selected_summary.csv)
+[Download simple summary tables](selected_summary.csv)
 
 ## Plots and Visualizations
 
@@ -53,12 +53,12 @@ This plot shows the relationship between the number of coding sequences (CDS) an
 
 These plots provide additional insights into the genome characteristics:
 
-- [GC Content Histogram](Vibrio_parahaemolyticus_GC_Content_refseq_histogram_kde.png)
-- [GC Content QQ Plot](Vibrio_parahaemolyticus_GC_Content_refseq_qqplot.png)
-- [Total Coding Sequences Histogram](Vibrio_parahaemolyticus_Total_Coding_Sequences_refseq_histogram_kde.png)
-- [Total Coding Sequences QQ Plot](Vibrio_parahaemolyticus_Total_Coding_Sequences_refseq_qqplot.png)
-- [Genome Size Histogram](Vibrio_parahaemolyticus_Genome_Size_refseq_histogram_kde.png)
-- [Genome Size QQ Plot](Vibrio_parahaemolyticus_Genome_Size_refseq_qqplot.png)
+- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)
+- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)
+- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)
+- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)
+- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
+- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
 ## Illustrating the filtering process
 These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
 N50 vs total length for all genomes in the dataset.

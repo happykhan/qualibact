@@ -1,11 +1,11 @@
 # Mycobacterium Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Mycobacterium abscessus](/Mycobacterium/Mycobacterium_abscessus/)
-- [Species page: Mycobacterium avium](/Mycobacterium/Mycobacterium_avium/)
-- [Species page: Mycobacterium intracellulare](/Mycobacterium/Mycobacterium_intracellulare/)
-- [Species page: Mycobacterium marinum](/Mycobacterium/Mycobacterium_marinum/)
-- [Species page: Mycobacterium tuberculosis](/Mycobacterium/Mycobacterium_tuberculosis/)
+- [Species page: Mycobacterium abscessus](Mycobacterium_abscessus/index.md)
+- [Species page: Mycobacterium avium](Mycobacterium_avium/index.md)
+- [Species page: Mycobacterium intracellulare](Mycobacterium_intracellulare/index.md)
+- [Species page: Mycobacterium marinum](Mycobacterium_marinum/index.md)
+- [Species page: Mycobacterium tuberculosis](Mycobacterium_tuberculosis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -18,7 +18,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Mycobacterium_marinum        |             1170 |                   36 |          1134 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -48,4 +48,4 @@ This section provides a summary of the metrics for the genus:
 ... and 15 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

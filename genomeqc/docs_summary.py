@@ -41,7 +41,7 @@ def create_summary_page(summary_dir, docs_dir):
     lines += [
         "### Summary Statistics",
         "Statistics on distribution for each metric, for each species:\n",
-        "[Download Summary Data (CSV)](all_metrics_selected_summary.csv){.md-button}\n",
+        "[Download Summary Data (CSV)](summary/all_metrics_selected_summary.csv){.md-button}\n",
         
     ]
     

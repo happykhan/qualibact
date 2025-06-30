@@ -1,7 +1,7 @@
 # Cronobacter Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Cronobacter sakazakii](/Cronobacter/Cronobacter_sakazakii/)
+- [Species page: Cronobacter sakazakii](Cronobacter_sakazakii/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Cronobacter_sakazakii |             1717 |                   29 |          1688 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Cronobacter_sakazakii | Genome_Size            |        4.2e+06 |          5e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

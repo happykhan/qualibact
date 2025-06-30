@@ -21,7 +21,7 @@ Showing 5 of 532 rows.
 ### Summary Statistics
 Statistics on distribution for each metric, for each species:
 
-[Download Summary Data (CSV)](all_metrics_selected_summary.csv){.md-button}
+[Download Summary Data (CSV)](summary/all_metrics_selected_summary.csv){.md-button}
 
 
 ### Species Count Summary

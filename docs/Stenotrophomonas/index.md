@@ -1,7 +1,7 @@
 # Stenotrophomonas Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Stenotrophomonas maltophilia](/Stenotrophomonas/Stenotrophomonas_maltophilia/)
+- [Species page: Stenotrophomonas maltophilia](Stenotrophomonas_maltophilia/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Stenotrophomonas_maltophilia |             1904 |                   78 |          1826 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Stenotrophomonas_maltophilia | Genome_Size            |        4.1e+06 |        5.3e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

@@ -1,6 +1,6 @@
 # *Streptococcus agalactiae*
 
-This is the GenomeQC page for *Streptococcus agalactiae*. For detailed methods on how these thresholds were calculated, please see [Methods](/methods).
+This is the GenomeQC page for *Streptococcus agalactiae*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -13,7 +13,7 @@ The suggested thresholds are:
 | Total_Coding_Sequences | 1900.0         | 2400.0         |
 | Genome_Size            | 1900000.0      | 2400000.0      |
 
-[Download metrics CSV](/Streptococcus/Streptococcus_agalactiae/Streptococcus_agalactiae_metrics.csv){.md-button}
+[Download metrics CSV](Streptococcus_agalactiae_metrics.csv){.md-button}
 
 
 These thresholds are based on **0** genomes from RefSeq and **37375** genomes from ATB / SRA.
@@ -21,19 +21,19 @@ These thresholds are based on **0** genomes from RefSeq and **37375** genomes fr
 These thresholds were applied to all the bacteria dataset, which resulted in removing **1109** and retaining **36266**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
 
-[Download high quality genomes list](/Streptococcus/Streptococcus_agalactiae/Streptococcus_agalactiae_high_quality_genomes.csv.xz)
+[Download high quality genomes list](Streptococcus_agalactiae_high_quality_genomes.csv.xz)
 
 
-[Download rejected genomes list](/Streptococcus/Streptococcus_agalactiae/Streptococcus_agalactiae_filtered_out_genomes.csv.xz)
+[Download rejected genomes list](Streptococcus_agalactiae_filtered_out_genomes.csv.xz)
 
 
 
 ## Summary Tables
 These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.
 
-[Download full summary tables](/Streptococcus/Streptococcus_agalactiae/summary.csv)
+[Download full summary tables](summary.csv)
 
-[Download simple summary tables](/Streptococcus/Streptococcus_agalactiae/selected_summary.csv)
+[Download simple summary tables](selected_summary.csv)
 
 ## Plots and Visualizations
 
@@ -53,12 +53,12 @@ This plot shows the relationship between the number of coding sequences (CDS) an
 
 These plots provide additional insights into the genome characteristics:
 
-- [GC Content Histogram](Streptococcus_agalactiae_GC_Content_refseq_histogram_kde.png)
-- [GC Content QQ Plot](Streptococcus_agalactiae_GC_Content_refseq_qqplot.png)
-- [Total Coding Sequences Histogram](Streptococcus_agalactiae_Total_Coding_Sequences_refseq_histogram_kde.png)
-- [Total Coding Sequences QQ Plot](Streptococcus_agalactiae_Total_Coding_Sequences_refseq_qqplot.png)
-- [Genome Size Histogram](Streptococcus_agalactiae_Genome_Size_refseq_histogram_kde.png)
-- [Genome Size QQ Plot](Streptococcus_agalactiae_Genome_Size_refseq_qqplot.png)
+- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)
+- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)
+- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)
+- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)
+- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
+- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
 ## Illustrating the filtering process
 These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
 N50 vs total length for all genomes in the dataset.

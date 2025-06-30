@@ -87,7 +87,7 @@ def create_genus_overview_page(genus_dir: Path , all_species_count_df, all_summa
     for species_dir in sorted(species_list, key=lambda x: os.path.basename(x).lower()):
         species_safe_name = os.path.basename(species_dir)
         species_name = os.path.basename(species_dir).replace("_", " ")
-        lines.append(f"- [Species page: {species_name}](/{genus_dir.name}/{species_safe_name}/)\n")
+        lines.append(f"- [Species page: {species_name}]({species_safe_name}/index.md)\n")
     if not genus_count_df.empty:
         lines.append("## Genus Species Count Summary\n")
         lines.append("Breakdown of genomes filtered and retained by using these metrics:\n\n")

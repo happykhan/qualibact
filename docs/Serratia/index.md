@@ -1,7 +1,7 @@
 # Serratia Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Serratia marcescens](/Serratia/Serratia_marcescens/)
+- [Species page: Serratia marcescens](Serratia_marcescens/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Serratia_marcescens |             1431 |                   49 |          1382 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Serratia_marcescens | Genome_Size            |        4.8e+06 |        5.9e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

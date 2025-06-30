@@ -1,6 +1,6 @@
 # *Yersinia enterocolitica*
 
-This is the GenomeQC page for *Yersinia enterocolitica*. For detailed methods on how these thresholds were calculated, please see [Methods](/methods).
+This is the GenomeQC page for *Yersinia enterocolitica*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -13,7 +13,7 @@ The suggested thresholds are:
 | Total_Coding_Sequences | 4000.0         | 5000.0         |
 | Genome_Size            | 4300000.0      | 5200000.0      |
 
-[Download metrics CSV](/Yersinia/Yersinia_enterocolitica/Yersinia_enterocolitica_metrics.csv){.md-button}
+[Download metrics CSV](Yersinia_enterocolitica_metrics.csv){.md-button}
 
 
 These thresholds are based on **0** genomes from RefSeq and **3356** genomes from ATB / SRA.
@@ -21,19 +21,19 @@ These thresholds are based on **0** genomes from RefSeq and **3356** genomes fro
 These thresholds were applied to all the bacteria dataset, which resulted in removing **136** and retaining **3220**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. 
 
-[Download high quality genomes list](/Yersinia/Yersinia_enterocolitica/Yersinia_enterocolitica_high_quality_genomes.csv.xz)
+[Download high quality genomes list](Yersinia_enterocolitica_high_quality_genomes.csv.xz)
 
 
-[Download rejected genomes list](/Yersinia/Yersinia_enterocolitica/Yersinia_enterocolitica_filtered_out_genomes.csv.xz)
+[Download rejected genomes list](Yersinia_enterocolitica_filtered_out_genomes.csv.xz)
 
 
 
 ## Summary Tables
 These tables provide a summary of the distribution of each metric, including SDeviation, Mean, Median, and Percentiles.
 
-[Download full summary tables](/Yersinia/Yersinia_enterocolitica/summary.csv)
+[Download full summary tables](summary.csv)
 
-[Download simple summary tables](/Yersinia/Yersinia_enterocolitica/selected_summary.csv)
+[Download simple summary tables](selected_summary.csv)
 
 ## Plots and Visualizations
 
@@ -53,12 +53,12 @@ This plot shows the relationship between the number of coding sequences (CDS) an
 
 These plots provide additional insights into the genome characteristics:
 
-- [GC Content Histogram](Yersinia_enterocolitica_GC_Content_refseq_histogram_kde.png)
-- [GC Content QQ Plot](Yersinia_enterocolitica_GC_Content_refseq_qqplot.png)
-- [Total Coding Sequences Histogram](Yersinia_enterocolitica_Total_Coding_Sequences_refseq_histogram_kde.png)
-- [Total Coding Sequences QQ Plot](Yersinia_enterocolitica_Total_Coding_Sequences_refseq_qqplot.png)
-- [Genome Size Histogram](Yersinia_enterocolitica_Genome_Size_refseq_histogram_kde.png)
-- [Genome Size QQ Plot](Yersinia_enterocolitica_Genome_Size_refseq_qqplot.png)
+- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)
+- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)
+- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)
+- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)
+- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
+- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
 ## Illustrating the filtering process
 These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
 N50 vs total length for all genomes in the dataset.

@@ -1,7 +1,7 @@
 # Escherichia Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Escherichia coli](/Escherichia/Escherichia_coli/)
+- [Species page: Escherichia coli](Escherichia_coli/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Escherichia_coli |           399884 |                11452 |        388432 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Escherichia_coli | Genome_Size            |        4.1e+06 |        6.3e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

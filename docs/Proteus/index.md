@@ -1,7 +1,7 @@
 # Proteus Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Proteus mirabilis](/Proteus/Proteus_mirabilis/)
+- [Species page: Proteus mirabilis](Proteus_mirabilis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Proteus_mirabilis |             3034 |                  160 |          2874 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Proteus_mirabilis | Genome_Size            |        3.7e+06 |        4.6e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

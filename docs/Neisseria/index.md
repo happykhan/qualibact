@@ -1,9 +1,9 @@
 # Neisseria Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Neisseria gonorrhoeae](/Neisseria/Neisseria_gonorrhoeae/)
-- [Species page: Neisseria lactamica](/Neisseria/Neisseria_lactamica/)
-- [Species page: Neisseria meningitidis](/Neisseria/Neisseria_meningitidis/)
+- [Species page: Neisseria gonorrhoeae](Neisseria_gonorrhoeae/index.md)
+- [Species page: Neisseria lactamica](Neisseria_lactamica/index.md)
+- [Species page: Neisseria meningitidis](Neisseria_meningitidis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -14,7 +14,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Neisseria_lactamica    |             1424 |                   40 |          1384 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -44,4 +44,4 @@ This section provides a summary of the metrics for the genus:
 ... and 1 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

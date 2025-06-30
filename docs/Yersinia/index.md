@@ -1,8 +1,8 @@
 # Yersinia Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Yersinia enterocolitica](/Yersinia/Yersinia_enterocolitica/)
-- [Species page: Yersinia pestis](/Yersinia/Yersinia_pestis/)
+- [Species page: Yersinia enterocolitica](Yersinia_enterocolitica/index.md)
+- [Species page: Yersinia pestis](Yersinia_pestis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -12,7 +12,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Yersinia_pestis         |             2362 |                  110 |          2252 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -34,4 +34,4 @@ This section provides a summary of the metrics for the genus:
 | Yersinia_enterocolitica | Genome_Size            |        4.3e+06 |        5.2e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

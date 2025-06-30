@@ -1,7 +1,7 @@
 # Haemophilus Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Haemophilus influenzae](/Haemophilus/Haemophilus_influenzae/)
+- [Species page: Haemophilus influenzae](Haemophilus_influenzae/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,7 +10,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Haemophilus_influenzae |            12553 |                  523 |         12030 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -25,4 +25,4 @@ This section provides a summary of the metrics for the genus:
 | Haemophilus_influenzae | Genome_Size            |        1.7e+06 |        2.2e+06 |
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

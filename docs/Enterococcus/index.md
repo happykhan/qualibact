@@ -1,9 +1,9 @@
 # Enterococcus Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Enterococcus faecalis](/Enterococcus/Enterococcus_faecalis/)
-- [Species page: Enterococcus faecium](/Enterococcus/Enterococcus_faecium/)
-- [Species page: Enterococcus lactis](/Enterococcus/Enterococcus_lactis/)
+- [Species page: Enterococcus faecalis](Enterococcus_faecalis/index.md)
+- [Species page: Enterococcus faecium](Enterococcus_faecium/index.md)
+- [Species page: Enterococcus lactis](Enterococcus_lactis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -14,7 +14,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Enterococcus_lactis   |             1293 |                   49 |          1244 |
 
 
-[📊 Download complete species counts table](species_counts.csv){.md-button}
+[📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
@@ -44,4 +44,4 @@ This section provides a summary of the metrics for the genus:
 ... and 1 more rows
 
 
-[📊 Download complete genus summary metrics table](genus_summary_metrics.csv){.md-button}
+[📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}
