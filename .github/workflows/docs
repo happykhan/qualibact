@@ -25,9 +25,3 @@ jobs:
 
       - name: Build MkDocs
         run: mkdocs build --strict
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
