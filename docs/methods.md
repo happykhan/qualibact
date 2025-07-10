@@ -4,7 +4,7 @@
 
 Criteria cutoffs were determined using a combination of standard statistical methods and machine learning techniques to identify outliers and establish robust QC thresholds. Two datasets were used for this purpose:
 
-1. **Allthebacteria dataset:** The 2024-08 release comprises 2.4 million uniformly reprocessed genome assemblies, including taxonomic estimates aligned to the GTDB phylogeny. Taxonomic classification was based on sylph (v0.5.1) results with the GTDB r214 database. For more information on how sylph was run, see the [Allthebacteria documentation](https://allthebacteria.readthedocs.io/en/latest/). Only species with more than 1,000 genome records (as defined by sylph) were included. For more information aboutt sylph visit [sylph](https://github.com/bluenote-1577/sylph?tab=readme-ov-file).
+1. **Allthebacteria dataset:** The 2024-08 release comprises 2.4 million uniformly reprocessed genome assemblies, including taxonomic estimates aligned to the GTDB phylogeny. Taxonomic classification was based on sylph (v0.5.1) results with the GTDB r214 database. For more information on how sylph was run, see the [Allthebacteria documentation](https://allthebacteria.readthedocs.io/en/latest/). Only species with more than 1,000 genome records (as defined by sylph) were included. For more information about sylph visit [sylph documentation](https://github.com/bluenote-1577/sylph?tab=readme-ov-file).
 
 2. **NCBI RefSeq complete genomes:** Complete genomes from RefSeq were used to compare metrics such as genome size, number of coding sequences, and GC content. Metadata was downloaded using the NCBI Datasets command-line tool, filtered for completeness, cached as JSON, and parsed for analysis.
 
