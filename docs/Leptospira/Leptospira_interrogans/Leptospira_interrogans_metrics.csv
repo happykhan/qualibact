@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Leptospira_interrogans,N50,11000.0,
+Leptospira_interrogans,no_of_contigs,,850.0
+Leptospira_interrogans,GC_Content,34.0,36.0
+Leptospira_interrogans,Completeness,74.0,
+Leptospira_interrogans,Contamination,,13.0
+Leptospira_interrogans,Total_Coding_Sequences,3600.0,4800.0
+Leptospira_interrogans,Genome_Size,4300000.0,5600000.0

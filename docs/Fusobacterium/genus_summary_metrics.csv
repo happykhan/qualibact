@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Fusobacterium_necrophorum,N50,38000.0,
+Fusobacterium_necrophorum,no_of_contigs,,150.0
+Fusobacterium_necrophorum,GC_Content,34.0,36.0
+Fusobacterium_necrophorum,Completeness,93.0,
+Fusobacterium_necrophorum,Contamination,,5.0
+Fusobacterium_necrophorum,Total_Coding_Sequences,1800.0,2500.0
+Fusobacterium_necrophorum,Genome_Size,1900000.0,2400000.0

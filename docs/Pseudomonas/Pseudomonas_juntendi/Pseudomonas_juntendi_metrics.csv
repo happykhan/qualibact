@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_juntendi,N50,45000.0,
+Pseudomonas_juntendi,no_of_contigs,,360.0
+Pseudomonas_juntendi,GC_Content,61.0,63.0
+Pseudomonas_juntendi,Completeness,100.0,
+Pseudomonas_juntendi,Contamination,,2.0
+Pseudomonas_juntendi,Total_Coding_Sequences,4900.0,5900.0
+Pseudomonas_juntendi,Genome_Size,5300000.0,6200000.0

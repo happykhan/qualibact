@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Klebsiella_quasipneumoniae_metrics.csv){.md-button}
 
 
-These thresholds are based on **154** genomes from RefSeq and **3657** genomes from ATB / SRA.
+These thresholds are based on **159** genomes from RefSeq and **3657** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **121** and retaining **3536**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

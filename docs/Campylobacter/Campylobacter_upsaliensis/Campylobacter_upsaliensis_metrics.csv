@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Campylobacter_upsaliensis,N50,27000.0,
+Campylobacter_upsaliensis,no_of_contigs,,170.0
+Campylobacter_upsaliensis,GC_Content,34.0,36.0
+Campylobacter_upsaliensis,Completeness,99.0,
+Campylobacter_upsaliensis,Contamination,,1.0
+Campylobacter_upsaliensis,Total_Coding_Sequences,1600.0,2000.0
+Campylobacter_upsaliensis,Genome_Size,1500000.0,1900000.0

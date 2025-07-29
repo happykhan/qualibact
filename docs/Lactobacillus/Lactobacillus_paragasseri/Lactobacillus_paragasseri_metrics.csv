@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Lactobacillus_paragasseri,N50,41000.0,
+Lactobacillus_paragasseri,no_of_contigs,,160.0
+Lactobacillus_paragasseri,GC_Content,34.0,36.0
+Lactobacillus_paragasseri,Completeness,98.0,
+Lactobacillus_paragasseri,Contamination,,1.0
+Lactobacillus_paragasseri,Total_Coding_Sequences,1700.0,2200.0
+Lactobacillus_paragasseri,Genome_Size,1800000.0,2200000.0

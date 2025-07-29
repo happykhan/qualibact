@@ -2,6 +2,7 @@
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Salmonella arizonae](Salmonella_arizonae/index.md)
+- [Species page: Salmonella bongori](Salmonella_bongori/index.md)
 - [Species page: Salmonella enterica](Salmonella_enterica/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
@@ -10,6 +11,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:--------------------|-----------------:|---------------------:|--------------:|
 | Salmonella_enterica |           644703 |                21042 |        623661 |
 | Salmonella_arizonae |             1902 |                   55 |          1847 |
+| Salmonella_bongori  |              170 |                   11 |           159 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -32,6 +34,14 @@ This section provides a summary of the metrics for the genus:
 | Salmonella_enterica | Contamination          |      nan       |        8       |
 | Salmonella_enterica | Total_Coding_Sequences |     4100       |     6000       |
 | Salmonella_enterica | Genome_Size            |        4.4e+06 |        5.9e+06 |
+| Salmonella_bongori  | N50                    |    33000       |      nan       |
+| Salmonella_bongori  | no_of_contigs          |      nan       |      270       |
+| Salmonella_bongori  | GC_Content             |       51       |       52       |
+| Salmonella_bongori  | Completeness           |       98       |      nan       |
+| Salmonella_bongori  | Contamination          |      nan       |        2       |
+| Salmonella_bongori  | Total_Coding_Sequences |     3900       |     4700       |
+
+... and 1 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

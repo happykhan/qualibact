@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Limosilactobacillus_reuteri,N50,15000.0,
+Limosilactobacillus_reuteri,no_of_contigs,,380.0
+Limosilactobacillus_reuteri,GC_Content,38.0,40.0
+Limosilactobacillus_reuteri,Completeness,92.0,
+Limosilactobacillus_reuteri,Contamination,,5.0
+Limosilactobacillus_reuteri,Total_Coding_Sequences,1700.0,2800.0
+Limosilactobacillus_reuteri,Genome_Size,1800000.0,2700000.0

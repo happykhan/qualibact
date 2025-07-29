@@ -8,7 +8,7 @@ The suggested thresholds are:
 | N50                    | 23000.0        |                |
 | no_of_contigs          |                | 470.0          |
 | GC_Content             | 42.0           | 45.0           |
-| Completeness           | 91.0           |                |
+| Completeness           | 93.0           |                |
 | Contamination          |                | 12.0           |
 | Total_Coding_Sequences | 3800.0         | 5000.0         |
 | Genome_Size            | 3600000.0      | 4600000.0      |
@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Bacillus_subtilis_metrics.csv){.md-button}
 
 
-These thresholds are based on **376** genomes from RefSeq and **2197** genomes from ATB / SRA.
+These thresholds are based on **375** genomes from RefSeq and **2197** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **143** and retaining **2054**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

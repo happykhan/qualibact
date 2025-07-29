@@ -1,17 +1,25 @@
 # *Enterobacter* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
+- [Species page: Enterobacter asburiae](Enterobacter_asburiae/index.md)
+- [Species page: Enterobacter bugandensis](Enterobacter_bugandensis/index.md)
 - [Species page: Enterobacter cloacae](Enterobacter_cloacae/index.md)
 - [Species page: Enterobacter hormaechei](Enterobacter_hormaechei/index.md)
 - [Species page: Enterobacter kobei](Enterobacter_kobei/index.md)
+- [Species page: Enterobacter ludwigii](Enterobacter_ludwigii/index.md)
+- [Species page: Enterobacter roggenkampii](Enterobacter_roggenkampii/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
-| species                 |   original_count |   filtered_out_count |   final_count |
-|:------------------------|-----------------:|---------------------:|--------------:|
-| Enterobacter_hormaechei |             8967 |                  299 |          8668 |
-| Enterobacter_cloacae    |             1287 |                   51 |          1236 |
-| Enterobacter_kobei      |             1055 |                   42 |          1013 |
+| species                   |   original_count |   filtered_out_count |   final_count |
+|:--------------------------|-----------------:|---------------------:|--------------:|
+| Enterobacter_hormaechei   |             8967 |                  299 |          8668 |
+| Enterobacter_cloacae      |             1287 |                   51 |          1236 |
+| Enterobacter_kobei        |             1055 |                   42 |          1013 |
+| Enterobacter_roggenkampii |              819 |                   23 |           796 |
+| Enterobacter_asburiae     |              417 |                   18 |           399 |
+| Enterobacter_ludwigii     |              324 |                   12 |           312 |
+| Enterobacter_bugandensis  |              310 |                   14 |           296 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -27,21 +35,21 @@ This section provides a summary of the metrics for the genus:
 | Enterobacter_kobei      | Contamination          |      nan       |        3       |
 | Enterobacter_kobei      | Total_Coding_Sequences |     4200       |     5700       |
 | Enterobacter_kobei      | Genome_Size            |        4.6e+06 |        5.8e+06 |
+| Enterobacter_asburiae   | N50                    |    29000       |      nan       |
+| Enterobacter_asburiae   | no_of_contigs          |      nan       |      470       |
+| Enterobacter_asburiae   | GC_Content             |       54       |       57       |
+| Enterobacter_asburiae   | Completeness           |       97       |      nan       |
+| Enterobacter_asburiae   | Contamination          |      nan       |        5       |
+| Enterobacter_asburiae   | Total_Coding_Sequences |     4100       |     5700       |
+| Enterobacter_asburiae   | Genome_Size            |        4.4e+06 |        5.7e+06 |
 | Enterobacter_hormaechei | N50                    |    63000       |      nan       |
 | Enterobacter_hormaechei | no_of_contigs          |      nan       |      270       |
 | Enterobacter_hormaechei | GC_Content             |       54       |       56       |
 | Enterobacter_hormaechei | Completeness           |       98       |      nan       |
 | Enterobacter_hormaechei | Contamination          |      nan       |        4       |
 | Enterobacter_hormaechei | Total_Coding_Sequences |     4100       |     5700       |
-| Enterobacter_hormaechei | Genome_Size            |        4.5e+06 |        5.7e+06 |
-| Enterobacter_cloacae    | N50                    |    41000       |      nan       |
-| Enterobacter_cloacae    | no_of_contigs          |      nan       |      420       |
-| Enterobacter_cloacae    | GC_Content             |       52       |       57       |
-| Enterobacter_cloacae    | Completeness           |       91       |      nan       |
-| Enterobacter_cloacae    | Contamination          |      nan       |        4       |
-| Enterobacter_cloacae    | Total_Coding_Sequences |     4300       |     5900       |
 
-... and 1 more rows
+... and 29 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_anguillarum,N50,33000.0,
+Vibrio_anguillarum,no_of_contigs,,340.0
+Vibrio_anguillarum,GC_Content,44.0,45.0
+Vibrio_anguillarum,Completeness,97.0,
+Vibrio_anguillarum,Contamination,,2.0
+Vibrio_anguillarum,Total_Coding_Sequences,3400.0,4600.0
+Vibrio_anguillarum,Genome_Size,3800000.0,4900000.0

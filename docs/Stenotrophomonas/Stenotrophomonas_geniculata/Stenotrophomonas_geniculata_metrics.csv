@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Stenotrophomonas_geniculata,N50,31000.0,
+Stenotrophomonas_geniculata,no_of_contigs,,260.0
+Stenotrophomonas_geniculata,GC_Content,65.0,67.0
+Stenotrophomonas_geniculata,Completeness,99.0,
+Stenotrophomonas_geniculata,Contamination,,3.0
+Stenotrophomonas_geniculata,Total_Coding_Sequences,3900.0,5000.0
+Stenotrophomonas_geniculata,Genome_Size,4400000.0,5300000.0

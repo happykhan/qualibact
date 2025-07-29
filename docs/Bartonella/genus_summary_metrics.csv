@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bartonella_krasnovii,N50,60000.0,
+Bartonella_krasnovii,no_of_contigs,,290.0
+Bartonella_krasnovii,GC_Content,37.0,39.0
+Bartonella_krasnovii,Completeness,95.0,
+Bartonella_krasnovii,Contamination,,2.0
+Bartonella_krasnovii,Total_Coding_Sequences,1600.0,2100.0
+Bartonella_krasnovii,Genome_Size,2000000.0,2300000.0

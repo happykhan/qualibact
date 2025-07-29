@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_hominis,N50,5000.0,
+Staphylococcus_hominis,no_of_contigs,,1500.0
+Staphylococcus_hominis,GC_Content,31.0,34.0
+Staphylococcus_hominis,Completeness,87.0,
+Staphylococcus_hominis,Contamination,,7.0
+Staphylococcus_hominis,Total_Coding_Sequences,2000.0,2900.0
+Staphylococcus_hominis,Genome_Size,2000000.0,2600000.0

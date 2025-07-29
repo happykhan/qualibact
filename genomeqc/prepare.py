@@ -18,7 +18,7 @@ def prepare_genomeqc_dataframes(workdir, metadata_path, submit=False):
         pq_table_path=pq_table_path,
         workdir=workdir,
         metadata_path=metadata_path,
-        min_genome_count=1000,  # Minimum number of genomes per species
+        min_genome_count=100,  # Minimum number of genomes per species
     )
     logging.info("Dataframe loaded with %d rows", len(assembly_filtered_df))
     logging.info("Ignoring full dataframe with %d rows", len(assembly_full_df))
@@ -56,7 +56,7 @@ def prepare_genomeqc_dataframes(workdir, metadata_path, submit=False):
 #SBATCH --job-name=genomeqc_{safe_species}
 #SBATCH --output={abs_species_dir}/genomeqc_{safe_species}.out
 #SBATCH --error={abs_species_dir}/genomeqc_{safe_species}.err
-#SBATCH --time=00:30:00
+#SBATCH --time=02:00:00
 #SBATCH --cpus-per-task=1
 
 {python_path} {script_path} calculate "{species}" {abs_species_dir} 

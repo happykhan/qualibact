@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_amalonaticus,N50,46000.0,
+Citrobacter_amalonaticus,no_of_contigs,,270.0
+Citrobacter_amalonaticus,GC_Content,52.0,54.0
+Citrobacter_amalonaticus,Completeness,99.0,
+Citrobacter_amalonaticus,Contamination,,4.0
+Citrobacter_amalonaticus,Total_Coding_Sequences,4300.0,5700.0
+Citrobacter_amalonaticus,Genome_Size,4600000.0,5900000.0

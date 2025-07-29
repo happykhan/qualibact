@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_sedlakii,N50,196000.0,
+Citrobacter_sedlakii,no_of_contigs,,150.0
+Citrobacter_sedlakii,GC_Content,54.0,55.0
+Citrobacter_sedlakii,Completeness,99.0,
+Citrobacter_sedlakii,Contamination,,2.0
+Citrobacter_sedlakii,Total_Coding_Sequences,4100.0,5100.0
+Citrobacter_sedlakii,Genome_Size,4500000.0,5200000.0

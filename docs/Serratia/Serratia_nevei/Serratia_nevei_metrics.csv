@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Serratia_nevei,N50,48000.0,
+Serratia_nevei,no_of_contigs,,420.0
+Serratia_nevei,GC_Content,58.0,61.0
+Serratia_nevei,Completeness,100.0,
+Serratia_nevei,Contamination,,3.0
+Serratia_nevei,Total_Coding_Sequences,4500.0,5900.0
+Serratia_nevei,Genome_Size,4900000.0,6000000.0

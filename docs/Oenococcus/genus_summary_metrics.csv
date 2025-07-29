@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Oenococcus_oeni,N50,86000.0,
+Oenococcus_oeni,no_of_contigs,,70.0
+Oenococcus_oeni,GC_Content,37.0,39.0
+Oenococcus_oeni,Completeness,97.0,
+Oenococcus_oeni,Contamination,,4.0
+Oenococcus_oeni,Total_Coding_Sequences,1700.0,2100.0
+Oenococcus_oeni,Genome_Size,1700000.0,2000000.0

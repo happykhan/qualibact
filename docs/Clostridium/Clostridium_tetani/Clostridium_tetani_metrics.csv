@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Clostridium_tetani,N50,95000.0,
+Clostridium_tetani,no_of_contigs,,110.0
+Clostridium_tetani,GC_Content,28.0,29.0
+Clostridium_tetani,Completeness,98.0,
+Clostridium_tetani,Contamination,,1.0
+Clostridium_tetani,Total_Coding_Sequences,2600.0,3200.0
+Clostridium_tetani,Genome_Size,2700000.0,3100000.0

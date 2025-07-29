@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Escherichia_marmotae,N50,54000.0,
+Escherichia_marmotae,no_of_contigs,,460.0
+Escherichia_marmotae,GC_Content,50.0,51.0
+Escherichia_marmotae,Completeness,99.0,
+Escherichia_marmotae,Contamination,,2.0
+Escherichia_marmotae,Total_Coding_Sequences,4000.0,5200.0
+Escherichia_marmotae,Genome_Size,4400000.0,5300000.0

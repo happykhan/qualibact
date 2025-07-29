@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterobacter_asburiae,N50,29000.0,
+Enterobacter_asburiae,no_of_contigs,,470.0
+Enterobacter_asburiae,GC_Content,54.0,57.0
+Enterobacter_asburiae,Completeness,97.0,
+Enterobacter_asburiae,Contamination,,5.0
+Enterobacter_asburiae,Total_Coding_Sequences,4100.0,5700.0
+Enterobacter_asburiae,Genome_Size,4400000.0,5700000.0

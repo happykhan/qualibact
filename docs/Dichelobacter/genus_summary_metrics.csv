@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Dichelobacter_nodosus,N50,61000.0,
+Dichelobacter_nodosus,no_of_contigs,,100.0
+Dichelobacter_nodosus,GC_Content,43.0,45.0
+Dichelobacter_nodosus,Completeness,100.0,
+Dichelobacter_nodosus,Contamination,,5.0
+Dichelobacter_nodosus,Total_Coding_Sequences,1200.0,1500.0
+Dichelobacter_nodosus,Genome_Size,1200000.0,1500000.0

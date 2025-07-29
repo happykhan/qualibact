@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Mammaliicoccus_sciuri,N50,52000.0,
+Mammaliicoccus_sciuri,no_of_contigs,,320.0
+Mammaliicoccus_sciuri,GC_Content,32.0,33.0
+Mammaliicoccus_sciuri,Completeness,97.0,
+Mammaliicoccus_sciuri,Contamination,,5.0
+Mammaliicoccus_sciuri,Total_Coding_Sequences,2600.0,3200.0
+Mammaliicoccus_sciuri,Genome_Size,2500000.0,3200000.0

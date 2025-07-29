@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_metschnikovii,N50,74000.0,
+Vibrio_metschnikovii,no_of_contigs,,460.0
+Vibrio_metschnikovii,GC_Content,43.0,45.0
+Vibrio_metschnikovii,Completeness,96.0,
+Vibrio_metschnikovii,Contamination,,2.0
+Vibrio_metschnikovii,Total_Coding_Sequences,3200.0,3800.0
+Vibrio_metschnikovii,Genome_Size,3600000.0,4100000.0

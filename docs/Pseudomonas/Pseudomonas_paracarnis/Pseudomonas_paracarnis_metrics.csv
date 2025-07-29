@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_paracarnis,N50,54000.0,
+Pseudomonas_paracarnis,no_of_contigs,,260.0
+Pseudomonas_paracarnis,GC_Content,59.0,61.0
+Pseudomonas_paracarnis,Completeness,100.0,
+Pseudomonas_paracarnis,Contamination,,1.0
+Pseudomonas_paracarnis,Total_Coding_Sequences,5200.0,6100.0
+Pseudomonas_paracarnis,Genome_Size,5800000.0,6600000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptococcus_mitis,N50,41000.0,
+Streptococcus_mitis,no_of_contigs,,170.0
+Streptococcus_mitis,GC_Content,39.0,42.0
+Streptococcus_mitis,Completeness,93.0,
+Streptococcus_mitis,Contamination,,2.0
+Streptococcus_mitis,Total_Coding_Sequences,1700.0,2300.0
+Streptococcus_mitis,Genome_Size,1800000.0,2300000.0

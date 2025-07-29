@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Sinorhizobium_meliloti,N50,34000.0,
+Sinorhizobium_meliloti,no_of_contigs,,510.0
+Sinorhizobium_meliloti,GC_Content,61.0,63.0
+Sinorhizobium_meliloti,Completeness,97.0,
+Sinorhizobium_meliloti,Contamination,,3.0
+Sinorhizobium_meliloti,Total_Coding_Sequences,5800.0,7600.0
+Sinorhizobium_meliloti,Genome_Size,6100000.0,7700000.0

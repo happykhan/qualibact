@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacteroides_ovatus,N50,26000.0,
+Bacteroides_ovatus,no_of_contigs,,560.0
+Bacteroides_ovatus,GC_Content,41.0,43.0
+Bacteroides_ovatus,Completeness,93.0,
+Bacteroides_ovatus,Contamination,,5.0
+Bacteroides_ovatus,Total_Coding_Sequences,4700.0,6400.0
+Bacteroides_ovatus,Genome_Size,6200000.0,7700000.0

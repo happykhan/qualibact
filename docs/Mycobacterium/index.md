@@ -3,8 +3,11 @@ This page provides an overview of the genus, including links to species-specific
 
 - [Species page: Mycobacterium abscessus](Mycobacterium_abscessus/index.md)
 - [Species page: Mycobacterium avium](Mycobacterium_avium/index.md)
+- [Species page: Mycobacterium chelonae](Mycobacterium_chelonae/index.md)
 - [Species page: Mycobacterium intracellulare](Mycobacterium_intracellulare/index.md)
+- [Species page: Mycobacterium kansasii](Mycobacterium_kansasii/index.md)
 - [Species page: Mycobacterium marinum](Mycobacterium_marinum/index.md)
+- [Species page: Mycobacterium smegmatis](Mycobacterium_smegmatis/index.md)
 - [Species page: Mycobacterium tuberculosis](Mycobacterium_tuberculosis/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
@@ -16,6 +19,9 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Mycobacterium_avium          |             3494 |                  208 |          3286 |
 | Mycobacterium_intracellulare |             2150 |                   99 |          2051 |
 | Mycobacterium_marinum        |             1170 |                   36 |          1134 |
+| Mycobacterium_kansasii       |              727 |                  342 |           385 |
+| Mycobacterium_smegmatis      |              442 |                   36 |           406 |
+| Mycobacterium_chelonae       |              195 |                   10 |           185 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -31,21 +37,21 @@ This section provides a summary of the metrics for the genus:
 | Mycobacterium_avium          | Contamination          |      nan       |        7       |
 | Mycobacterium_avium          | Total_Coding_Sequences |     4500       |     5700       |
 | Mycobacterium_avium          | Genome_Size            |        4.7e+06 |        5.9e+06 |
+| Mycobacterium_kansasii       | N50                    |    29000       |      nan       |
+| Mycobacterium_kansasii       | no_of_contigs          |      nan       |      490       |
+| Mycobacterium_kansasii       | GC_Content             |       65       |       67       |
+| Mycobacterium_kansasii       | Completeness           |      100       |      nan       |
+| Mycobacterium_kansasii       | Contamination          |      nan       |        2       |
+| Mycobacterium_kansasii       | Total_Coding_Sequences |     5600       |     6300       |
+| Mycobacterium_kansasii       | Genome_Size            |        6.3e+06 |        6.9e+06 |
 | Mycobacterium_intracellulare | N50                    |    35000       |      nan       |
 | Mycobacterium_intracellulare | no_of_contigs          |      nan       |      430       |
 | Mycobacterium_intracellulare | GC_Content             |       67       |       69       |
 | Mycobacterium_intracellulare | Completeness           |       95       |      nan       |
 | Mycobacterium_intracellulare | Contamination          |      nan       |       13       |
 | Mycobacterium_intracellulare | Total_Coding_Sequences |     4900       |     7100       |
-| Mycobacterium_intracellulare | Genome_Size            |        5.2e+06 |        7.3e+06 |
-| Mycobacterium_tuberculosis   | N50                    |    34000       |      nan       |
-| Mycobacterium_tuberculosis   | no_of_contigs          |      nan       |      320       |
-| Mycobacterium_tuberculosis   | GC_Content             |       65       |       66       |
-| Mycobacterium_tuberculosis   | Completeness           |       96       |      nan       |
-| Mycobacterium_tuberculosis   | Contamination          |      nan       |        3       |
-| Mycobacterium_tuberculosis   | Total_Coding_Sequences |     4000       |     4600       |
 
-... and 15 more rows
+... and 36 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

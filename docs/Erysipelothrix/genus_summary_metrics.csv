@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Erysipelothrix_rhusiopathiae,N50,22000.0,
+Erysipelothrix_rhusiopathiae,no_of_contigs,,140.0
+Erysipelothrix_rhusiopathiae,GC_Content,36.0,37.0
+Erysipelothrix_rhusiopathiae,Completeness,90.0,
+Erysipelothrix_rhusiopathiae,Contamination,,4.0
+Erysipelothrix_rhusiopathiae,Total_Coding_Sequences,1600.0,2000.0
+Erysipelothrix_rhusiopathiae,Genome_Size,1700000.0,2000000.0

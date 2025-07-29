@@ -1,8 +1,12 @@
 # *Clostridium* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
+- [Species page: Clostridium beijerinckii](Clostridium_beijerinckii/index.md)
 - [Species page: Clostridium botulinum](Clostridium_botulinum/index.md)
+- [Species page: Clostridium cagae](Clostridium_cagae/index.md)
 - [Species page: Clostridium difficile](Clostridium_difficile/index.md)
+- [Species page: Clostridium innocuum](Clostridium_innocuum/index.md)
+- [Species page: Clostridium tetani](Clostridium_tetani/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,6 +14,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:----------------------|-----------------:|---------------------:|--------------:|
 | Clostridium_difficile |            29278 |                 1148 |         28130 |
 | Clostridium_botulinum |             1025 |                   29 |           996 |
+| Clostridium_tetani    |              187 |                    8 |           179 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -18,6 +23,13 @@ This section provides a summary of the metrics for the genus:
 
 | species               | metric                 |   lower_bounds |   upper_bounds |
 |:----------------------|:-----------------------|---------------:|---------------:|
+| Clostridium_tetani    | N50                    |    95000       |      nan       |
+| Clostridium_tetani    | no_of_contigs          |      nan       |      110       |
+| Clostridium_tetani    | GC_Content             |       28       |       29       |
+| Clostridium_tetani    | Completeness           |       98       |      nan       |
+| Clostridium_tetani    | Contamination          |      nan       |        1       |
+| Clostridium_tetani    | Total_Coding_Sequences |     2600       |     3200       |
+| Clostridium_tetani    | Genome_Size            |        2.7e+06 |        3.1e+06 |
 | Clostridium_difficile | N50                    |     8000       |      nan       |
 | Clostridium_difficile | no_of_contigs          |      nan       |      800       |
 | Clostridium_difficile | GC_Content             |       28       |       30       |
@@ -31,7 +43,8 @@ This section provides a summary of the metrics for the genus:
 | Clostridium_botulinum | Completeness           |       95       |      nan       |
 | Clostridium_botulinum | Contamination          |      nan       |        3       |
 | Clostridium_botulinum | Total_Coding_Sequences |     2600       |     4400       |
-| Clostridium_botulinum | Genome_Size            |        2.7e+06 |        4.5e+06 |
+
+... and 1 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

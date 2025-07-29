@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Klebsiella_planticola,N50,77000.0,
+Klebsiella_planticola,no_of_contigs,,390.0
+Klebsiella_planticola,GC_Content,54.0,56.0
+Klebsiella_planticola,Completeness,100.0,
+Klebsiella_planticola,Contamination,,4.0
+Klebsiella_planticola,Total_Coding_Sequences,4900.0,6700.0
+Klebsiella_planticola,Genome_Size,5200000.0,6800000.0

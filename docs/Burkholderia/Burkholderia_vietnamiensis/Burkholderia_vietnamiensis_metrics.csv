@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Burkholderia_vietnamiensis,N50,37000.0,
+Burkholderia_vietnamiensis,no_of_contigs,,400.0
+Burkholderia_vietnamiensis,GC_Content,66.0,68.0
+Burkholderia_vietnamiensis,Completeness,99.0,
+Burkholderia_vietnamiensis,Contamination,,3.0
+Burkholderia_vietnamiensis,Total_Coding_Sequences,5500.0,7100.0
+Burkholderia_vietnamiensis,Genome_Size,6100000.0,7700000.0

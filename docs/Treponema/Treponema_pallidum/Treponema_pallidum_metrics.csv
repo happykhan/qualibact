@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Treponema_pallidum,N50,3000.0,
+Treponema_pallidum,no_of_contigs,,690.0
+Treponema_pallidum,GC_Content,51.0,53.0
+Treponema_pallidum,Completeness,72.0,
+Treponema_pallidum,Contamination,,3.0
+Treponema_pallidum,Total_Coding_Sequences,900.0,1600.0
+Treponema_pallidum,Genome_Size,900000.0,1500000.0

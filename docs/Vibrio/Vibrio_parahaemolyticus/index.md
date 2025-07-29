@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Vibrio_parahaemolyticus_metrics.csv){.md-button}
 
 
-These thresholds are based on **129** genomes from RefSeq and **8309** genomes from ATB / SRA.
+These thresholds are based on **133** genomes from RefSeq and **8309** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **203** and retaining **8106**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

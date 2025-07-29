@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterobacter_ludwigii,N50,80000.0,
+Enterobacter_ludwigii,no_of_contigs,,200.0
+Enterobacter_ludwigii,GC_Content,53.0,55.0
+Enterobacter_ludwigii,Completeness,95.0,
+Enterobacter_ludwigii,Contamination,,2.0
+Enterobacter_ludwigii,Total_Coding_Sequences,4300.0,5700.0
+Enterobacter_ludwigii,Genome_Size,4600000.0,5800000.0

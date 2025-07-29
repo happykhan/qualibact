@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Morganella_morganii,N50,44000.0,
+Morganella_morganii,no_of_contigs,,240.0
+Morganella_morganii,GC_Content,50.0,52.0
+Morganella_morganii,Completeness,85.0,
+Morganella_morganii,Contamination,,21.0
+Morganella_morganii,Total_Coding_Sequences,3400.0,4400.0
+Morganella_morganii,Genome_Size,3600000.0,4500000.0

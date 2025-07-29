@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Burkholderia_ubonensis,N50,97000.0,
+Burkholderia_ubonensis,no_of_contigs,,330.0
+Burkholderia_ubonensis,GC_Content,66.0,68.0
+Burkholderia_ubonensis,Completeness,99.0,
+Burkholderia_ubonensis,Contamination,,3.0
+Burkholderia_ubonensis,Total_Coding_Sequences,5700.0,7600.0
+Burkholderia_ubonensis,Genome_Size,6300000.0,8300000.0

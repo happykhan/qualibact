@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Listeria_welshimeri,N50,79000.0,
+Listeria_welshimeri,no_of_contigs,,110.0
+Listeria_welshimeri,GC_Content,36.0,37.0
+Listeria_welshimeri,Completeness,100.0,
+Listeria_welshimeri,Contamination,,3.0
+Listeria_welshimeri,Total_Coding_Sequences,2600.0,3100.0
+Listeria_welshimeri,Genome_Size,2600000.0,3000000.0

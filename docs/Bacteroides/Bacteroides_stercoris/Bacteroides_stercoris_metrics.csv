@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacteroides_stercoris,N50,24000.0,
+Bacteroides_stercoris,no_of_contigs,,360.0
+Bacteroides_stercoris,GC_Content,45.0,47.0
+Bacteroides_stercoris,Completeness,93.0,
+Bacteroides_stercoris,Contamination,,10.0
+Bacteroides_stercoris,Total_Coding_Sequences,2900.0,4100.0
+Bacteroides_stercoris,Genome_Size,3400000.0,4800000.0

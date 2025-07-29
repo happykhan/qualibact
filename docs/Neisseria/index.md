@@ -1,47 +1,54 @@
 # *Neisseria* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
+- [Species page: Neisseria bergeri](Neisseria_bergeri/index.md)
+- [Species page: Neisseria flavescens](Neisseria_flavescens/index.md)
 - [Species page: Neisseria gonorrhoeae](Neisseria_gonorrhoeae/index.md)
 - [Species page: Neisseria lactamica](Neisseria_lactamica/index.md)
 - [Species page: Neisseria meningitidis](Neisseria_meningitidis/index.md)
+- [Species page: Neisseria perflava](Neisseria_perflava/index.md)
+- [Species page: Neisseria polysaccharea](Neisseria_polysaccharea/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
-| species                |   original_count |   filtered_out_count |   final_count |
-|:-----------------------|-----------------:|---------------------:|--------------:|
-| Neisseria_gonorrhoeae  |            57364 |                 1905 |         55459 |
-| Neisseria_meningitidis |            35852 |                 1500 |         34352 |
-| Neisseria_lactamica    |             1424 |                   40 |          1384 |
+| species                 |   original_count |   filtered_out_count |   final_count |
+|:------------------------|-----------------:|---------------------:|--------------:|
+| Neisseria_gonorrhoeae   |            57364 |                 1905 |         55459 |
+| Neisseria_meningitidis  |            35852 |                 1500 |         34352 |
+| Neisseria_lactamica     |             1424 |                   40 |          1384 |
+| Neisseria_flavescens    |              128 |                    8 |           120 |
+| Neisseria_polysaccharea |              115 |                    8 |           107 |
+| Neisseria_perflava      |              105 |                    4 |           101 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
-| species                | metric                 |   lower_bounds |   upper_bounds |
-|:-----------------------|:-----------------------|---------------:|---------------:|
-| Neisseria_meningitidis | N50                    |      18000     |      nan       |
-| Neisseria_meningitidis | no_of_contigs          |        nan     |      310       |
-| Neisseria_meningitidis | GC_Content             |         51     |       53       |
-| Neisseria_meningitidis | Completeness           |         98     |      nan       |
-| Neisseria_meningitidis | Contamination          |        nan     |        3       |
-| Neisseria_meningitidis | Total_Coding_Sequences |       1900     |     2500       |
-| Neisseria_meningitidis | Genome_Size            |          2e+06 |        2.4e+06 |
-| Neisseria_lactamica    | N50                    |      59000     |      nan       |
-| Neisseria_lactamica    | no_of_contigs          |        nan     |      120       |
-| Neisseria_lactamica    | GC_Content             |         51     |       53       |
-| Neisseria_lactamica    | Completeness           |        100     |      nan       |
-| Neisseria_lactamica    | Contamination          |        nan     |        1       |
-| Neisseria_lactamica    | Total_Coding_Sequences |       1900     |     2300       |
-| Neisseria_lactamica    | Genome_Size            |          2e+06 |        2.3e+06 |
-| Neisseria_gonorrhoeae  | N50                    |      28000     |      nan       |
-| Neisseria_gonorrhoeae  | no_of_contigs          |        nan     |      230       |
-| Neisseria_gonorrhoeae  | GC_Content             |         52     |       53       |
-| Neisseria_gonorrhoeae  | Completeness           |         98     |      nan       |
-| Neisseria_gonorrhoeae  | Contamination          |        nan     |        3       |
-| Neisseria_gonorrhoeae  | Total_Coding_Sequences |       2000     |     2500       |
+| species                 | metric                 |   lower_bounds |   upper_bounds |
+|:------------------------|:-----------------------|---------------:|---------------:|
+| Neisseria_polysaccharea | N50                    |    76000       |      nan       |
+| Neisseria_polysaccharea | no_of_contigs          |      nan       |       80       |
+| Neisseria_polysaccharea | GC_Content             |       51       |       53       |
+| Neisseria_polysaccharea | Completeness           |       99       |      nan       |
+| Neisseria_polysaccharea | Contamination          |      nan       |        1       |
+| Neisseria_polysaccharea | Total_Coding_Sequences |     1800       |     2200       |
+| Neisseria_polysaccharea | Genome_Size            |        1.9e+06 |        2.2e+06 |
+| Neisseria_perflava      | N50                    |   137000       |      nan       |
+| Neisseria_perflava      | no_of_contigs          |      nan       |       70       |
+| Neisseria_perflava      | GC_Content             |       48       |       50       |
+| Neisseria_perflava      | Completeness           |      100       |      nan       |
+| Neisseria_perflava      | Contamination          |      nan       |        2       |
+| Neisseria_perflava      | Total_Coding_Sequences |     2000       |     2400       |
+| Neisseria_perflava      | Genome_Size            |        2.1e+06 |        2.5e+06 |
+| Neisseria_flavescens    | N50                    |    48000       |      nan       |
+| Neisseria_flavescens    | no_of_contigs          |      nan       |      130       |
+| Neisseria_flavescens    | GC_Content             |       48       |       50       |
+| Neisseria_flavescens    | Completeness           |       99       |      nan       |
+| Neisseria_flavescens    | Contamination          |      nan       |        1       |
+| Neisseria_flavescens    | Total_Coding_Sequences |     2000       |     2400       |
 
-... and 1 more rows
+... and 22 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

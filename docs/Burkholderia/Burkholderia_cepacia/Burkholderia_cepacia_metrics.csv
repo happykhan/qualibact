@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Burkholderia_cepacia,N50,79000.0,
+Burkholderia_cepacia,no_of_contigs,,360.0
+Burkholderia_cepacia,GC_Content,65.0,68.0
+Burkholderia_cepacia,Completeness,95.0,
+Burkholderia_cepacia,Contamination,,5.0
+Burkholderia_cepacia,Total_Coding_Sequences,5900.0,8800.0
+Burkholderia_cepacia,Genome_Size,6400000.0,9500000.0

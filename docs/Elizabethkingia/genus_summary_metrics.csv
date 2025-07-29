@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Elizabethkingia_anophelis,N50,116000.0,
+Elizabethkingia_anophelis,no_of_contigs,,110.0
+Elizabethkingia_anophelis,GC_Content,35.0,36.0
+Elizabethkingia_anophelis,Completeness,95.0,
+Elizabethkingia_anophelis,Contamination,,6.0
+Elizabethkingia_anophelis,Total_Coding_Sequences,3400.0,4200.0
+Elizabethkingia_anophelis,Genome_Size,3800000.0,4400000.0

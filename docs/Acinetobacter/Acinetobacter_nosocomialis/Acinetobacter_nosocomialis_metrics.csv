@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Acinetobacter_nosocomialis,N50,19000.0,
+Acinetobacter_nosocomialis,no_of_contigs,,440.0
+Acinetobacter_nosocomialis,GC_Content,38.0,40.0
+Acinetobacter_nosocomialis,Completeness,90.0,
+Acinetobacter_nosocomialis,Contamination,,7.0
+Acinetobacter_nosocomialis,Total_Coding_Sequences,3500.0,4200.0
+Acinetobacter_nosocomialis,Genome_Size,3700000.0,4400000.0

@@ -2,36 +2,54 @@
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Bifidobacterium adolescentis](Bifidobacterium_adolescentis/index.md)
+- [Species page: Bifidobacterium animalis](Bifidobacterium_animalis/index.md)
+- [Species page: Bifidobacterium bifidum](Bifidobacterium_bifidum/index.md)
+- [Species page: Bifidobacterium breve](Bifidobacterium_breve/index.md)
+- [Species page: Bifidobacterium dentium](Bifidobacterium_dentium/index.md)
 - [Species page: Bifidobacterium longum](Bifidobacterium_longum/index.md)
+- [Species page: Bifidobacterium pseudocatenulatum](Bifidobacterium_pseudocatenulatum/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
-| species                      |   original_count |   filtered_out_count |   final_count |
-|:-----------------------------|-----------------:|---------------------:|--------------:|
-| Bifidobacterium_adolescentis |             2079 |                   83 |          1996 |
-| Bifidobacterium_longum       |             1904 |                  112 |          1792 |
+| species                           |   original_count |   filtered_out_count |   final_count |
+|:----------------------------------|-----------------:|---------------------:|--------------:|
+| Bifidobacterium_adolescentis      |             2079 |                   83 |          1996 |
+| Bifidobacterium_longum            |             1904 |                  112 |          1792 |
+| Bifidobacterium_pseudocatenulatum |              611 |                   36 |           575 |
+| Bifidobacterium_animalis          |              398 |                   32 |           366 |
+| Bifidobacterium_bifidum           |              246 |                    9 |           237 |
+| Bifidobacterium_breve             |              217 |                   24 |           193 |
+| Bifidobacterium_dentium           |              150 |                    5 |           145 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
-| species                      | metric                 |   lower_bounds |   upper_bounds |
-|:-----------------------------|:-----------------------|---------------:|---------------:|
-| Bifidobacterium_longum       | N50                    |    50000       |      nan       |
-| Bifidobacterium_longum       | no_of_contigs          |      nan       |      170       |
-| Bifidobacterium_longum       | GC_Content             |       59       |       61       |
-| Bifidobacterium_longum       | Completeness           |       94       |      nan       |
-| Bifidobacterium_longum       | Contamination          |      nan       |        3       |
-| Bifidobacterium_longum       | Total_Coding_Sequences |     1700       |     2700       |
-| Bifidobacterium_longum       | Genome_Size            |        2.2e+06 |        2.9e+06 |
-| Bifidobacterium_adolescentis | N50                    |    62000       |      nan       |
-| Bifidobacterium_adolescentis | no_of_contigs          |      nan       |       90       |
-| Bifidobacterium_adolescentis | GC_Content             |       58       |       61       |
-| Bifidobacterium_adolescentis | Completeness           |       94       |      nan       |
-| Bifidobacterium_adolescentis | Contamination          |      nan       |        6       |
-| Bifidobacterium_adolescentis | Total_Coding_Sequences |     1600       |     2200       |
-| Bifidobacterium_adolescentis | Genome_Size            |        2e+06   |        2.5e+06 |
+| species                           | metric                 |   lower_bounds |   upper_bounds |
+|:----------------------------------|:-----------------------|---------------:|---------------:|
+| Bifidobacterium_longum            | N50                    |    50000       |      nan       |
+| Bifidobacterium_longum            | no_of_contigs          |      nan       |      170       |
+| Bifidobacterium_longum            | GC_Content             |       59       |       61       |
+| Bifidobacterium_longum            | Completeness           |       94       |      nan       |
+| Bifidobacterium_longum            | Contamination          |      nan       |        3       |
+| Bifidobacterium_longum            | Total_Coding_Sequences |     1700       |     2700       |
+| Bifidobacterium_longum            | Genome_Size            |        2.2e+06 |        2.9e+06 |
+| Bifidobacterium_breve             | N50                    |    11000       |      nan       |
+| Bifidobacterium_breve             | no_of_contigs          |      nan       |      410       |
+| Bifidobacterium_breve             | GC_Content             |       58       |       60       |
+| Bifidobacterium_breve             | Completeness           |       95       |      nan       |
+| Bifidobacterium_breve             | Contamination          |      nan       |       13       |
+| Bifidobacterium_breve             | Total_Coding_Sequences |     1800       |     2400       |
+| Bifidobacterium_breve             | Genome_Size            |        2.2e+06 |        2.6e+06 |
+| Bifidobacterium_pseudocatenulatum | N50                    |    58000       |      nan       |
+| Bifidobacterium_pseudocatenulatum | no_of_contigs          |      nan       |       90       |
+| Bifidobacterium_pseudocatenulatum | GC_Content             |       56       |       57       |
+| Bifidobacterium_pseudocatenulatum | Completeness           |       94       |      nan       |
+| Bifidobacterium_pseudocatenulatum | Contamination          |      nan       |        2       |
+| Bifidobacterium_pseudocatenulatum | Total_Coding_Sequences |     1600       |     2300       |
+
+... and 29 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

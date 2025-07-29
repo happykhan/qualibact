@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Stenotrophomonas_pavanii,N50,36000.0,
+Stenotrophomonas_pavanii,no_of_contigs,,250.0
+Stenotrophomonas_pavanii,GC_Content,66.0,68.0
+Stenotrophomonas_pavanii,Completeness,99.0,
+Stenotrophomonas_pavanii,Contamination,,2.0
+Stenotrophomonas_pavanii,Total_Coding_Sequences,3800.0,4600.0
+Stenotrophomonas_pavanii,Genome_Size,4300000.0,4900000.0

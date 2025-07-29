@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Enterococcus_faecalis_metrics.csv){.md-button}
 
 
-These thresholds are based on **344** genomes from RefSeq and **9673** genomes from ATB / SRA.
+These thresholds are based on **347** genomes from RefSeq and **9673** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **255** and retaining **9418**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

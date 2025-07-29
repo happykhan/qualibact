@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_farmeri,N50,54000.0,
+Citrobacter_farmeri,no_of_contigs,,290.0
+Citrobacter_farmeri,GC_Content,52.0,54.0
+Citrobacter_farmeri,Completeness,99.0,
+Citrobacter_farmeri,Contamination,,6.0
+Citrobacter_farmeri,Total_Coding_Sequences,4500.0,5900.0
+Citrobacter_farmeri,Genome_Size,4900000.0,6000000.0

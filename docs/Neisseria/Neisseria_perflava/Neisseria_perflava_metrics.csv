@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Neisseria_perflava,N50,137000.0,
+Neisseria_perflava,no_of_contigs,,70.0
+Neisseria_perflava,GC_Content,48.0,50.0
+Neisseria_perflava,Completeness,100.0,
+Neisseria_perflava,Contamination,,2.0
+Neisseria_perflava,Total_Coding_Sequences,2000.0,2400.0
+Neisseria_perflava,Genome_Size,2100000.0,2500000.0

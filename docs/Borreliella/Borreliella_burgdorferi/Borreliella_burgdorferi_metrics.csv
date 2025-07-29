@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Borreliella_burgdorferi,N50,2000.0,
+Borreliella_burgdorferi,no_of_contigs,,1030.0
+Borreliella_burgdorferi,GC_Content,27.0,33.0
+Borreliella_burgdorferi,Completeness,85.0,
+Borreliella_burgdorferi,Contamination,,9.0
+Borreliella_burgdorferi,Total_Coding_Sequences,800.0,2000.0
+Borreliella_burgdorferi,Genome_Size,900000.0,1700000.0

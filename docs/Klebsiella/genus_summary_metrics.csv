@@ -20,6 +20,13 @@ Klebsiella_quasipneumoniae,Completeness,98.0,
 Klebsiella_quasipneumoniae,Contamination,,3.0
 Klebsiella_quasipneumoniae,Total_Coding_Sequences,4400.0,6300.0
 Klebsiella_quasipneumoniae,Genome_Size,4500000.0,6300000.0
+Klebsiella_planticola,N50,77000.0,
+Klebsiella_planticola,no_of_contigs,,390.0
+Klebsiella_planticola,GC_Content,54.0,56.0
+Klebsiella_planticola,Completeness,100.0,
+Klebsiella_planticola,Contamination,,4.0
+Klebsiella_planticola,Total_Coding_Sequences,4900.0,6700.0
+Klebsiella_planticola,Genome_Size,5200000.0,6800000.0
 Klebsiella_michiganensis,N50,55000.0,
 Klebsiella_michiganensis,no_of_contigs,,380.0
 Klebsiella_michiganensis,GC_Content,55.0,57.0
@@ -34,6 +41,13 @@ Klebsiella_oxytoca,Completeness,97.0,
 Klebsiella_oxytoca,Contamination,,8.0
 Klebsiella_oxytoca,Total_Coding_Sequences,5000.0,6600.0
 Klebsiella_oxytoca,Genome_Size,5300000.0,6800000.0
+Klebsiella_grimontii,N50,93000.0,
+Klebsiella_grimontii,no_of_contigs,,320.0
+Klebsiella_grimontii,GC_Content,54.0,57.0
+Klebsiella_grimontii,Completeness,98.0,
+Klebsiella_grimontii,Contamination,,2.0
+Klebsiella_grimontii,Total_Coding_Sequences,5100.0,6700.0
+Klebsiella_grimontii,Genome_Size,5600000.0,6800000.0
 Klebsiella_aerogenes,N50,75000.0,
 Klebsiella_aerogenes,no_of_contigs,,200.0
 Klebsiella_aerogenes,GC_Content,54.0,56.0

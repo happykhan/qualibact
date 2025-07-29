@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacteroides_caccae,N50,67000.0,
+Bacteroides_caccae,no_of_contigs,,380.0
+Bacteroides_caccae,GC_Content,41.0,43.0
+Bacteroides_caccae,Completeness,95.0,
+Bacteroides_caccae,Contamination,,6.0
+Bacteroides_caccae,Total_Coding_Sequences,3600.0,5100.0
+Bacteroides_caccae,Genome_Size,4500000.0,5800000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Neisseria_flavescens,N50,48000.0,
+Neisseria_flavescens,no_of_contigs,,130.0
+Neisseria_flavescens,GC_Content,48.0,50.0
+Neisseria_flavescens,Completeness,99.0,
+Neisseria_flavescens,Contamination,,1.0
+Neisseria_flavescens,Total_Coding_Sequences,2000.0,2400.0
+Neisseria_flavescens,Genome_Size,2100000.0,2500000.0

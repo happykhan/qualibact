@@ -2,7 +2,9 @@
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Yersinia enterocolitica](Yersinia_enterocolitica/index.md)
+- [Species page: Yersinia intermedia](Yersinia_intermedia/index.md)
 - [Species page: Yersinia pestis](Yersinia_pestis/index.md)
+- [Species page: Yersinia ruckeri](Yersinia_ruckeri/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,6 +12,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:------------------------|-----------------:|---------------------:|--------------:|
 | Yersinia_enterocolitica |             3356 |                  136 |          3220 |
 | Yersinia_pestis         |             2362 |                  110 |          2252 |
+| Yersinia_intermedia     |              102 |                    9 |            93 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -32,6 +35,14 @@ This section provides a summary of the metrics for the genus:
 | Yersinia_enterocolitica | Contamination          |      nan       |        5       |
 | Yersinia_enterocolitica | Total_Coding_Sequences |     4000       |     5000       |
 | Yersinia_enterocolitica | Genome_Size            |        4.3e+06 |        5.2e+06 |
+| Yersinia_intermedia     | N50                    |    52000       |      nan       |
+| Yersinia_intermedia     | no_of_contigs          |      nan       |      310       |
+| Yersinia_intermedia     | GC_Content             |       47       |       48       |
+| Yersinia_intermedia     | Completeness           |       99       |      nan       |
+| Yersinia_intermedia     | Contamination          |      nan       |        3       |
+| Yersinia_intermedia     | Total_Coding_Sequences |     4100       |     5100       |
+
+... and 1 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

@@ -6,3 +6,10 @@ Cronobacter_sakazakii,Completeness,97.0,
 Cronobacter_sakazakii,Contamination,,4.0
 Cronobacter_sakazakii,Total_Coding_Sequences,3900.0,4800.0
 Cronobacter_sakazakii,Genome_Size,4200000.0,5000000.0
+Cronobacter_turicensis,N50,194000.0,
+Cronobacter_turicensis,no_of_contigs,,110.0
+Cronobacter_turicensis,GC_Content,56.0,58.0
+Cronobacter_turicensis,Completeness,99.0,
+Cronobacter_turicensis,Contamination,,2.0
+Cronobacter_turicensis,Total_Coding_Sequences,3900.0,4500.0
+Cronobacter_turicensis,Genome_Size,4300000.0,4900000.0

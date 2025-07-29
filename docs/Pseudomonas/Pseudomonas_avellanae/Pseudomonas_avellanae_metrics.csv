@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_avellanae,N50,27000.0,
+Pseudomonas_avellanae,no_of_contigs,,520.0
+Pseudomonas_avellanae,GC_Content,58.0,59.0
+Pseudomonas_avellanae,Completeness,99.0,
+Pseudomonas_avellanae,Contamination,,2.0
+Pseudomonas_avellanae,Total_Coding_Sequences,5100.0,6200.0
+Pseudomonas_avellanae,Genome_Size,5700000.0,6600000.0

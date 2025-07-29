@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_mycoides,N50,7000.0,
+Bacillus_mycoides,no_of_contigs,,1180.0
+Bacillus_mycoides,GC_Content,35.0,36.0
+Bacillus_mycoides,Completeness,99.0,
+Bacillus_mycoides,Contamination,,3.0
+Bacillus_mycoides,Total_Coding_Sequences,5200.0,7000.0
+Bacillus_mycoides,Genome_Size,5200000.0,6600000.0

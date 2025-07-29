@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Parabacteroides_merdae,N50,42000.0,
+Parabacteroides_merdae,no_of_contigs,,320.0
+Parabacteroides_merdae,GC_Content,44.0,46.0
+Parabacteroides_merdae,Completeness,95.0,
+Parabacteroides_merdae,Contamination,,7.0
+Parabacteroides_merdae,Total_Coding_Sequences,3500.0,4800.0
+Parabacteroides_merdae,Genome_Size,4200000.0,5300000.0

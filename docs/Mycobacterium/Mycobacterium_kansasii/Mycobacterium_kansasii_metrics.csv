@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Mycobacterium_kansasii,N50,29000.0,
+Mycobacterium_kansasii,no_of_contigs,,490.0
+Mycobacterium_kansasii,GC_Content,65.0,67.0
+Mycobacterium_kansasii,Completeness,100.0,
+Mycobacterium_kansasii,Contamination,,2.0
+Mycobacterium_kansasii,Total_Coding_Sequences,5600.0,6300.0
+Mycobacterium_kansasii,Genome_Size,6300000.0,6900000.0

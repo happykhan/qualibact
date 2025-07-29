@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_werkmanii,N50,51000.0,
+Citrobacter_werkmanii,no_of_contigs,,300.0
+Citrobacter_werkmanii,GC_Content,51.0,53.0
+Citrobacter_werkmanii,Completeness,99.0,
+Citrobacter_werkmanii,Contamination,,5.0
+Citrobacter_werkmanii,Total_Coding_Sequences,4400.0,6000.0
+Citrobacter_werkmanii,Genome_Size,4700000.0,6000000.0

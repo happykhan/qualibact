@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Phocaeicola_vulgatus,N50,30000.0,
+Phocaeicola_vulgatus,no_of_contigs,,590.0
+Phocaeicola_vulgatus,GC_Content,41.0,43.0
+Phocaeicola_vulgatus,Completeness,98.0,
+Phocaeicola_vulgatus,Contamination,,3.0
+Phocaeicola_vulgatus,Total_Coding_Sequences,3800.0,5400.0
+Phocaeicola_vulgatus,Genome_Size,4500000.0,5800000.0

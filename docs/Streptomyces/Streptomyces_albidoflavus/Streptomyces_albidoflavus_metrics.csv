@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptomyces_albidoflavus,N50,6000.0,
+Streptomyces_albidoflavus,no_of_contigs,,1550.0
+Streptomyces_albidoflavus,GC_Content,72.0,74.0
+Streptomyces_albidoflavus,Completeness,96.0,
+Streptomyces_albidoflavus,Contamination,,2.0
+Streptomyces_albidoflavus,Total_Coding_Sequences,5700.0,7400.0
+Streptomyces_albidoflavus,Genome_Size,6300000.0,7800000.0

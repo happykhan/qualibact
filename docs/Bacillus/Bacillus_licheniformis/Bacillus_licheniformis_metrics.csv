@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_licheniformis,N50,84000.0,
+Bacillus_licheniformis,no_of_contigs,,170.0
+Bacillus_licheniformis,GC_Content,45.0,47.0
+Bacillus_licheniformis,Completeness,93.0,
+Bacillus_licheniformis,Contamination,,6.0
+Bacillus_licheniformis,Total_Coding_Sequences,4100.0,5100.0
+Bacillus_licheniformis,Genome_Size,4000000.0,4900000.0

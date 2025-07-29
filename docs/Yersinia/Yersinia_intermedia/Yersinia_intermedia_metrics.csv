@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Yersinia_intermedia,N50,52000.0,
+Yersinia_intermedia,no_of_contigs,,310.0
+Yersinia_intermedia,GC_Content,47.0,48.0
+Yersinia_intermedia,Completeness,99.0,
+Yersinia_intermedia,Contamination,,3.0
+Yersinia_intermedia,Total_Coding_Sequences,4100.0,5100.0
+Yersinia_intermedia,Genome_Size,4600000.0,5400000.0

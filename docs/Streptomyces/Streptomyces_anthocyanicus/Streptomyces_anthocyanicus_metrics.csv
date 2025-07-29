@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptomyces_anthocyanicus,N50,32000.0,
+Streptomyces_anthocyanicus,no_of_contigs,,570.0
+Streptomyces_anthocyanicus,GC_Content,71.0,73.0
+Streptomyces_anthocyanicus,Completeness,100.0,
+Streptomyces_anthocyanicus,Contamination,,1.0
+Streptomyces_anthocyanicus,Total_Coding_Sequences,7300.0,8400.0
+Streptomyces_anthocyanicus,Genome_Size,8100000.0,9100000.0

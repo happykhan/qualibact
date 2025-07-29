@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_rodentium,N50,1000.0,
+Citrobacter_rodentium,no_of_contigs,,310.0
+Citrobacter_rodentium,GC_Content,51.0,55.0
+Citrobacter_rodentium,Completeness,6.0,
+Citrobacter_rodentium,Contamination,,1.0
+Citrobacter_rodentium,Total_Coding_Sequences,200.0,5300.0
+Citrobacter_rodentium,Genome_Size,100000.0,5500000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Streptococcus_anginosus,N50,70000.0,
+Streptococcus_anginosus,no_of_contigs,,110.0
+Streptococcus_anginosus,GC_Content,38.0,40.0
+Streptococcus_anginosus,Completeness,90.0,
+Streptococcus_anginosus,Contamination,,3.0
+Streptococcus_anginosus,Total_Coding_Sequences,1700.0,2400.0
+Streptococcus_anginosus,Genome_Size,1800000.0,2300000.0

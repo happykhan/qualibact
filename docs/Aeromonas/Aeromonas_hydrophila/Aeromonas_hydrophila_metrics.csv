@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Aeromonas_hydrophila,N50,27000.0,
+Aeromonas_hydrophila,no_of_contigs,,500.0
+Aeromonas_hydrophila,GC_Content,60.0,62.0
+Aeromonas_hydrophila,Completeness,91.0,
+Aeromonas_hydrophila,Contamination,,8.0
+Aeromonas_hydrophila,Total_Coding_Sequences,4100.0,5400.0
+Aeromonas_hydrophila,Genome_Size,4600000.0,5700000.0

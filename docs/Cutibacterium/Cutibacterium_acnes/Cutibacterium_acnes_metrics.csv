@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Cutibacterium_acnes,N50,21000.0,
+Cutibacterium_acnes,no_of_contigs,,230.0
+Cutibacterium_acnes,GC_Content,59.0,61.0
+Cutibacterium_acnes,Completeness,96.0,
+Cutibacterium_acnes,Contamination,,3.0
+Cutibacterium_acnes,Total_Coding_Sequences,2200.0,2600.0
+Cutibacterium_acnes,Genome_Size,2400000.0,2700000.0

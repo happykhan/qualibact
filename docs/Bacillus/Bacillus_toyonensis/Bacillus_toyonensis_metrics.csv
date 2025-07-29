@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_toyonensis,N50,19000.0,
+Bacillus_toyonensis,no_of_contigs,,720.0
+Bacillus_toyonensis,GC_Content,34.0,36.0
+Bacillus_toyonensis,Completeness,97.0,
+Bacillus_toyonensis,Contamination,,2.0
+Bacillus_toyonensis,Total_Coding_Sequences,5100.0,6600.0
+Bacillus_toyonensis,Genome_Size,5000000.0,6500000.0

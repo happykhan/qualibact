@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterococcus_durans,N50,34000.0,
+Enterococcus_durans,no_of_contigs,,230.0
+Enterococcus_durans,GC_Content,37.0,39.0
+Enterococcus_durans,Completeness,98.0,
+Enterococcus_durans,Contamination,,2.0
+Enterococcus_durans,Total_Coding_Sequences,2600.0,3200.0
+Enterococcus_durans,Genome_Size,2700000.0,3300000.0

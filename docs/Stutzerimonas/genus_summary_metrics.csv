@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Stutzerimonas_stutzeri,N50,63000.0,
+Stutzerimonas_stutzeri,no_of_contigs,,610.0
+Stutzerimonas_stutzeri,GC_Content,59.0,65.0
+Stutzerimonas_stutzeri,Completeness,96.0,
+Stutzerimonas_stutzeri,Contamination,,3.0
+Stutzerimonas_stutzeri,Total_Coding_Sequences,3900.0,4900.0
+Stutzerimonas_stutzeri,Genome_Size,4200000.0,5200000.0

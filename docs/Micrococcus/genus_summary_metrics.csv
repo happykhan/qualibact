@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Micrococcus_luteus,N50,9000.0,
+Micrococcus_luteus,no_of_contigs,,530.0
+Micrococcus_luteus,GC_Content,72.0,74.0
+Micrococcus_luteus,Completeness,93.0,
+Micrococcus_luteus,Contamination,,3.0
+Micrococcus_luteus,Total_Coding_Sequences,2100.0,2900.0
+Micrococcus_luteus,Genome_Size,2300000.0,2800000.0

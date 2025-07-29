@@ -6,3 +6,17 @@ Haemophilus_influenzae,Completeness,94.0,
 Haemophilus_influenzae,Contamination,,3.0
 Haemophilus_influenzae,Total_Coding_Sequences,1600.0,2200.0
 Haemophilus_influenzae,Genome_Size,1700000.0,2200000.0
+Haemophilus_haemolyticus,N50,46000.0,
+Haemophilus_haemolyticus,no_of_contigs,,110.0
+Haemophilus_haemolyticus,GC_Content,38.0,39.0
+Haemophilus_haemolyticus,Completeness,95.0,
+Haemophilus_haemolyticus,Contamination,,2.0
+Haemophilus_haemolyticus,Total_Coding_Sequences,1700.0,2000.0
+Haemophilus_haemolyticus,Genome_Size,1800000.0,2100000.0
+Haemophilus_parainfluenzae,N50,11000.0,
+Haemophilus_parainfluenzae,no_of_contigs,,330.0
+Haemophilus_parainfluenzae,GC_Content,39.0,40.0
+Haemophilus_parainfluenzae,Completeness,99.0,
+Haemophilus_parainfluenzae,Contamination,,2.0
+Haemophilus_parainfluenzae,Total_Coding_Sequences,1700.0,2300.0
+Haemophilus_parainfluenzae,Genome_Size,1800000.0,2300000.0

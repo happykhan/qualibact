@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Limosilactobacillus_mucosae,N50,70000.0,
+Limosilactobacillus_mucosae,no_of_contigs,,110.0
+Limosilactobacillus_mucosae,GC_Content,46.0,47.0
+Limosilactobacillus_mucosae,Completeness,98.0,
+Limosilactobacillus_mucosae,Contamination,,1.0
+Limosilactobacillus_mucosae,Total_Coding_Sequences,1700.0,2400.0
+Limosilactobacillus_mucosae,Genome_Size,1800000.0,2500000.0

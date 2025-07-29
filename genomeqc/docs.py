@@ -187,6 +187,19 @@ def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
             create_genus_plots(genus_summary_df, Path(docs_dir) / genus)
         create_genus_overview_page(Path(docs_dir) / genus, all_species_count_df, all_summary_df, species_list)
         for species_dir in species_list:
+            # Check that the required file exists 
+            space_name = species_dir.name.replace("_", " ")
+            species_json = species_dir / f"{space_name}.json"
+            if not species_json.exists():
+                print(f"[bold red]Warning: {species_json} not found. Skipping species {species_dir.name}.[/bold red]")
+                continue
+            # Check the file is valid json 
+            try:
+                with open(species_json, 'r') as f:
+                    data = json.load(f)
+            except json.JSONDecodeError as e:
+                print(f"[bold red]Error: {species_json} is not a valid JSON file. Skipping species {species_dir.name}.[/bold red]")
+                continue
             species_safe_name = os.path.basename(species_dir)
             species_name = os.path.basename(species_dir).replace("_", " ")
             output_dir = Path(docs_dir) / genus / species_safe_name

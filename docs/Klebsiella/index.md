@@ -2,8 +2,11 @@
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Klebsiella aerogenes](Klebsiella_aerogenes/index.md)
+- [Species page: Klebsiella grimontii](Klebsiella_grimontii/index.md)
 - [Species page: Klebsiella michiganensis](Klebsiella_michiganensis/index.md)
+- [Species page: Klebsiella ornithinolytica](Klebsiella_ornithinolytica/index.md)
 - [Species page: Klebsiella oxytoca](Klebsiella_oxytoca/index.md)
+- [Species page: Klebsiella planticola](Klebsiella_planticola/index.md)
 - [Species page: Klebsiella pneumoniae](Klebsiella_pneumoniae/index.md)
 - [Species page: Klebsiella quasipneumoniae](Klebsiella_quasipneumoniae/index.md)
 - [Species page: Klebsiella variicola](Klebsiella_variicola/index.md)
@@ -18,6 +21,8 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Klebsiella_michiganensis   |             1884 |                   79 |          1805 |
 | Klebsiella_aerogenes       |             1619 |                   66 |          1553 |
 | Klebsiella_oxytoca         |             1177 |                   46 |          1131 |
+| Klebsiella_grimontii       |              649 |                   29 |           620 |
+| Klebsiella_planticola      |              307 |                   13 |           294 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -47,7 +52,7 @@ This section provides a summary of the metrics for the genus:
 | Klebsiella_quasipneumoniae | Contamination          |      nan       |        3       |
 | Klebsiella_quasipneumoniae | Total_Coding_Sequences |     4400       |     6300       |
 
-... and 22 more rows
+... and 36 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

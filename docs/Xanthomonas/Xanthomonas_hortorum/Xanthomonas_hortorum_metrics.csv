@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Xanthomonas_hortorum,N50,16000.0,
+Xanthomonas_hortorum,no_of_contigs,,800.0
+Xanthomonas_hortorum,GC_Content,63.0,64.0
+Xanthomonas_hortorum,Completeness,98.0,
+Xanthomonas_hortorum,Contamination,,3.0
+Xanthomonas_hortorum,Total_Coding_Sequences,4300.0,5200.0
+Xanthomonas_hortorum,Genome_Size,5000000.0,6000000.0

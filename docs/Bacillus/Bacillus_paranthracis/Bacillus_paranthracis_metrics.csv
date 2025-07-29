@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_paranthracis,N50,14000.0,
+Bacillus_paranthracis,no_of_contigs,,790.0
+Bacillus_paranthracis,GC_Content,35.0,36.0
+Bacillus_paranthracis,Completeness,96.0,
+Bacillus_paranthracis,Contamination,,2.0
+Bacillus_paranthracis,Total_Coding_Sequences,5200.0,6400.0
+Bacillus_paranthracis,Genome_Size,5100000.0,6100000.0

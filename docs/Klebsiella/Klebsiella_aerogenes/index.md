@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Klebsiella_aerogenes_metrics.csv){.md-button}
 
 
-These thresholds are based on **84** genomes from RefSeq and **1619** genomes from ATB / SRA.
+These thresholds are based on **85** genomes from RefSeq and **1619** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **66** and retaining **1553**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

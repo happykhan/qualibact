@@ -1,8 +1,11 @@
 # *Listeria* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
+- [Species page: Listeria grayi](Listeria_grayi/index.md)
 - [Species page: Listeria innocua](Listeria_innocua/index.md)
 - [Species page: Listeria monocytogenes](Listeria_monocytogenes/index.md)
+- [Species page: Listeria seeligeri](Listeria_seeligeri/index.md)
+- [Species page: Listeria welshimeri](Listeria_welshimeri/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
@@ -10,28 +13,39 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:-----------------------|-----------------:|---------------------:|--------------:|
 | Listeria_monocytogenes |            66720 |                 2606 |         64114 |
 | Listeria_innocua       |             1770 |                   95 |          1675 |
+| Listeria_welshimeri    |              379 |                  374 |             5 |
+| Listeria_seeligeri     |              277 |                    9 |           268 |
+| Listeria_grayi         |              126 |                   12 |           114 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
-| species                | metric                 |   lower_bounds |   upper_bounds |
-|:-----------------------|:-----------------------|---------------:|---------------:|
-| Listeria_innocua       | N50                    |    48000       |      nan       |
-| Listeria_innocua       | no_of_contigs          |      nan       |      180       |
-| Listeria_innocua       | GC_Content             |       37       |       38       |
-| Listeria_innocua       | Completeness           |       96       |      nan       |
-| Listeria_innocua       | Contamination          |      nan       |        2       |
-| Listeria_innocua       | Total_Coding_Sequences |     2700       |     3300       |
-| Listeria_innocua       | Genome_Size            |        2.7e+06 |        3.1e+06 |
-| Listeria_monocytogenes | N50                    |    66000       |      nan       |
-| Listeria_monocytogenes | no_of_contigs          |      nan       |      120       |
-| Listeria_monocytogenes | GC_Content             |       37       |       39       |
-| Listeria_monocytogenes | Completeness           |       97       |      nan       |
-| Listeria_monocytogenes | Contamination          |      nan       |        5       |
-| Listeria_monocytogenes | Total_Coding_Sequences |     2700       |     3400       |
-| Listeria_monocytogenes | Genome_Size            |        2.8e+06 |        3.3e+06 |
+| species             | metric                 |   lower_bounds |   upper_bounds |
+|:--------------------|:-----------------------|---------------:|---------------:|
+| Listeria_grayi      | N50                    |   144000       |      nan       |
+| Listeria_grayi      | no_of_contigs          |      nan       |       90       |
+| Listeria_grayi      | GC_Content             |       41       |       42       |
+| Listeria_grayi      | Completeness           |       84       |      nan       |
+| Listeria_grayi      | Contamination          |      nan       |        7       |
+| Listeria_grayi      | Total_Coding_Sequences |     2500       |     2900       |
+| Listeria_grayi      | Genome_Size            |        2.5e+06 |        2.9e+06 |
+| Listeria_welshimeri | N50                    |    79000       |      nan       |
+| Listeria_welshimeri | no_of_contigs          |      nan       |      110       |
+| Listeria_welshimeri | GC_Content             |       36       |       37       |
+| Listeria_welshimeri | Completeness           |      100       |      nan       |
+| Listeria_welshimeri | Contamination          |      nan       |        3       |
+| Listeria_welshimeri | Total_Coding_Sequences |     2600       |     3100       |
+| Listeria_welshimeri | Genome_Size            |        2.6e+06 |        3e+06   |
+| Listeria_innocua    | N50                    |    48000       |      nan       |
+| Listeria_innocua    | no_of_contigs          |      nan       |      180       |
+| Listeria_innocua    | GC_Content             |       37       |       38       |
+| Listeria_innocua    | Completeness           |       96       |      nan       |
+| Listeria_innocua    | Contamination          |      nan       |        2       |
+| Listeria_innocua    | Total_Coding_Sequences |     2700       |     3300       |
+
+... and 15 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_braakii,N50,77000.0,
+Citrobacter_braakii,no_of_contigs,,280.0
+Citrobacter_braakii,GC_Content,51.0,53.0
+Citrobacter_braakii,Completeness,98.0,
+Citrobacter_braakii,Contamination,,6.0
+Citrobacter_braakii,Total_Coding_Sequences,4400.0,6200.0
+Citrobacter_braakii,Genome_Size,4700000.0,6200000.0

@@ -13,3 +13,10 @@ Salmonella_enterica,Completeness,97.0,
 Salmonella_enterica,Contamination,,8.0
 Salmonella_enterica,Total_Coding_Sequences,4100.0,6000.0
 Salmonella_enterica,Genome_Size,4400000.0,5900000.0
+Salmonella_bongori,N50,33000.0,
+Salmonella_bongori,no_of_contigs,,270.0
+Salmonella_bongori,GC_Content,51.0,52.0
+Salmonella_bongori,Completeness,98.0,
+Salmonella_bongori,Contamination,,2.0
+Salmonella_bongori,Total_Coding_Sequences,3900.0,4700.0
+Salmonella_bongori,Genome_Size,4300000.0,4900000.0

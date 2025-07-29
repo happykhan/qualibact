@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Lactiplantibacillus_plantarum,N50,53000.0,
+Lactiplantibacillus_plantarum,no_of_contigs,,270.0
+Lactiplantibacillus_plantarum,GC_Content,44.0,46.0
+Lactiplantibacillus_plantarum,Completeness,98.0,
+Lactiplantibacillus_plantarum,Contamination,,4.0
+Lactiplantibacillus_plantarum,Total_Coding_Sequences,2700.0,3700.0
+Lactiplantibacillus_plantarum,Genome_Size,2800000.0,3700000.0

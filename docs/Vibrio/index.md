@@ -1,7 +1,13 @@
 # *Vibrio* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
+- [Species page: Vibrio alginolyticus](Vibrio_alginolyticus/index.md)
+- [Species page: Vibrio anguillarum](Vibrio_anguillarum/index.md)
 - [Species page: Vibrio cholerae](Vibrio_cholerae/index.md)
+- [Species page: Vibrio diabolicus](Vibrio_diabolicus/index.md)
+- [Species page: Vibrio fluvialis](Vibrio_fluvialis/index.md)
+- [Species page: Vibrio mediterranei](Vibrio_mediterranei/index.md)
+- [Species page: Vibrio metschnikovii](Vibrio_metschnikovii/index.md)
 - [Species page: Vibrio parahaemolyticus](Vibrio_parahaemolyticus/index.md)
 - [Species page: Vibrio vulnificus](Vibrio_vulnificus/index.md)
 ## Genus Species Count Summary
@@ -12,36 +18,40 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Vibrio_cholerae         |            13069 |                  527 |         12542 |
 | Vibrio_parahaemolyticus |             8309 |                  203 |          8106 |
 | Vibrio_vulnificus       |             1365 |                   28 |          1337 |
+| Vibrio_alginolyticus    |              545 |                   16 |           529 |
+| Vibrio_metschnikovii    |              163 |                    8 |           155 |
+| Vibrio_anguillarum      |              146 |                   11 |           135 |
+| Vibrio_diabolicus       |              145 |                   11 |           134 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
-| species                 | metric                 |   lower_bounds |   upper_bounds |
-|:------------------------|:-----------------------|---------------:|---------------:|
-| Vibrio_vulnificus       | N50                    |    64000       |      nan       |
-| Vibrio_vulnificus       | no_of_contigs          |      nan       |      310       |
-| Vibrio_vulnificus       | GC_Content             |       45       |       47       |
-| Vibrio_vulnificus       | Completeness           |       98       |      nan       |
-| Vibrio_vulnificus       | Contamination          |      nan       |        6       |
-| Vibrio_vulnificus       | Total_Coding_Sequences |     4200       |     5800       |
-| Vibrio_vulnificus       | Genome_Size            |        4.7e+06 |        6.1e+06 |
-| Vibrio_parahaemolyticus | N50                    |    93000       |      nan       |
-| Vibrio_parahaemolyticus | no_of_contigs          |      nan       |      180       |
-| Vibrio_parahaemolyticus | GC_Content             |       44       |       46       |
-| Vibrio_parahaemolyticus | Completeness           |       96       |      nan       |
-| Vibrio_parahaemolyticus | Contamination          |      nan       |        7       |
-| Vibrio_parahaemolyticus | Total_Coding_Sequences |     4400       |     5900       |
-| Vibrio_parahaemolyticus | Genome_Size            |        4.9e+06 |        6.1e+06 |
-| Vibrio_cholerae         | N50                    |    77000       |      nan       |
-| Vibrio_cholerae         | no_of_contigs          |      nan       |      230       |
-| Vibrio_cholerae         | GC_Content             |       47       |       48       |
-| Vibrio_cholerae         | Completeness           |       96       |      nan       |
-| Vibrio_cholerae         | Contamination          |      nan       |        5       |
-| Vibrio_cholerae         | Total_Coding_Sequences |     3400       |     4200       |
+| species              | metric                 |   lower_bounds |   upper_bounds |
+|:---------------------|:-----------------------|---------------:|---------------:|
+| Vibrio_metschnikovii | N50                    |    74000       |      nan       |
+| Vibrio_metschnikovii | no_of_contigs          |      nan       |      460       |
+| Vibrio_metschnikovii | GC_Content             |       43       |       45       |
+| Vibrio_metschnikovii | Completeness           |       96       |      nan       |
+| Vibrio_metschnikovii | Contamination          |      nan       |        2       |
+| Vibrio_metschnikovii | Total_Coding_Sequences |     3200       |     3800       |
+| Vibrio_metschnikovii | Genome_Size            |        3.6e+06 |        4.1e+06 |
+| Vibrio_alginolyticus | N50                    |    68000       |      nan       |
+| Vibrio_alginolyticus | no_of_contigs          |      nan       |      220       |
+| Vibrio_alginolyticus | GC_Content             |       44       |       45       |
+| Vibrio_alginolyticus | Completeness           |       96       |      nan       |
+| Vibrio_alginolyticus | Contamination          |      nan       |        4       |
+| Vibrio_alginolyticus | Total_Coding_Sequences |     4400       |     5300       |
+| Vibrio_alginolyticus | Genome_Size            |        4.8e+06 |        5.8e+06 |
+| Vibrio_vulnificus    | N50                    |    64000       |      nan       |
+| Vibrio_vulnificus    | no_of_contigs          |      nan       |      310       |
+| Vibrio_vulnificus    | GC_Content             |       45       |       47       |
+| Vibrio_vulnificus    | Completeness           |       98       |      nan       |
+| Vibrio_vulnificus    | Contamination          |      nan       |        6       |
+| Vibrio_vulnificus    | Total_Coding_Sequences |     4200       |     5800       |
 
-... and 1 more rows
+... and 29 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

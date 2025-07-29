@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Borreliella_afzelii,N50,12000.0,
+Borreliella_afzelii,no_of_contigs,,430.0
+Borreliella_afzelii,GC_Content,27.0,29.0
+Borreliella_afzelii,Completeness,96.0,
+Borreliella_afzelii,Contamination,,2.0
+Borreliella_afzelii,Total_Coding_Sequences,800.0,1700.0
+Borreliella_afzelii,Genome_Size,900000.0,1500000.0

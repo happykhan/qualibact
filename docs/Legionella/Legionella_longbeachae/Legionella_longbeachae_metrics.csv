@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Legionella_longbeachae,N50,32000.0,
+Legionella_longbeachae,no_of_contigs,,260.0
+Legionella_longbeachae,GC_Content,37.0,38.0
+Legionella_longbeachae,Completeness,96.0,
+Legionella_longbeachae,Contamination,,8.0
+Legionella_longbeachae,Total_Coding_Sequences,3400.0,3900.0
+Legionella_longbeachae,Genome_Size,3900000.0,4400000.0

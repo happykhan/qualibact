@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_paralicheniformis,N50,130000.0,
+Bacillus_paralicheniformis,no_of_contigs,,150.0
+Bacillus_paralicheniformis,GC_Content,45.0,47.0
+Bacillus_paralicheniformis,Completeness,96.0,
+Bacillus_paralicheniformis,Contamination,,1.0
+Bacillus_paralicheniformis,Total_Coding_Sequences,4100.0,4800.0
+Bacillus_paralicheniformis,Genome_Size,4200000.0,4700000.0

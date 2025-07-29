@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Enterococcus_hirae,N50,38000.0,
+Enterococcus_hirae,no_of_contigs,,210.0
+Enterococcus_hirae,GC_Content,36.0,38.0
+Enterococcus_hirae,Completeness,93.0,
+Enterococcus_hirae,Contamination,,2.0
+Enterococcus_hirae,Total_Coding_Sequences,2400.0,3200.0
+Enterococcus_hirae,Genome_Size,2600000.0,3300000.0

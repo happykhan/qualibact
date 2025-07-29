@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Campylobacter_fetus,N50,67000.0,
+Campylobacter_fetus,no_of_contigs,,120.0
+Campylobacter_fetus,GC_Content,33.0,34.0
+Campylobacter_fetus,Completeness,92.0,
+Campylobacter_fetus,Contamination,,8.0
+Campylobacter_fetus,Total_Coding_Sequences,1700.0,2400.0
+Campylobacter_fetus,Genome_Size,1700000.0,2200000.0

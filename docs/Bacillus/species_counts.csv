@@ -1,3 +1,15 @@
 species,original_count,filtered_out_count,final_count
 Bacillus_subtilis,2197,143,2054
 Bacillus_anthracis,1648,97,1551
+Bacillus_paranthracis,797,44,753
+Bacillus_bombysepticus,615,60,555
+Bacillus_thuringiensis,516,36,480
+Bacillus_cereus,465,20,445
+Bacillus_velezensis,292,19,273
+Bacillus_wiedmannii,186,10,176
+Bacillus_licheniformis,167,8,159
+Bacillus_mycoides,153,8,145
+Bacillus_spizizenii,140,7,133
+Bacillus_toyonensis,139,11,128
+Bacillus_safensis,120,12,108
+Bacillus_paralicheniformis,110,4,106

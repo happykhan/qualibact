@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Aliarcobacter_butzleri,N50,27000.0,
+Aliarcobacter_butzleri,no_of_contigs,,200.0
+Aliarcobacter_butzleri,GC_Content,26.0,28.0
+Aliarcobacter_butzleri,Completeness,94.0,
+Aliarcobacter_butzleri,Contamination,,10.0
+Aliarcobacter_butzleri,Total_Coding_Sequences,2000.0,2700.0
+Aliarcobacter_butzleri,Genome_Size,2000000.0,2600000.0

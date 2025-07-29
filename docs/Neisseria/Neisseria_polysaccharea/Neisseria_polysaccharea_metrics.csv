@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Neisseria_polysaccharea,N50,76000.0,
+Neisseria_polysaccharea,no_of_contigs,,80.0
+Neisseria_polysaccharea,GC_Content,51.0,53.0
+Neisseria_polysaccharea,Completeness,99.0,
+Neisseria_polysaccharea,Contamination,,1.0
+Neisseria_polysaccharea,Total_Coding_Sequences,1800.0,2200.0
+Neisseria_polysaccharea,Genome_Size,1900000.0,2200000.0

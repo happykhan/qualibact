@@ -1,0 +1,15 @@
+species,metric,lower_bounds,upper_bounds
+Providencia_stuartii,N50,21000.0,
+Providencia_stuartii,no_of_contigs,,460.0
+Providencia_stuartii,GC_Content,41.0,42.0
+Providencia_stuartii,Completeness,88.0,
+Providencia_stuartii,Contamination,,10.0
+Providencia_stuartii,Total_Coding_Sequences,3800.0,4700.0
+Providencia_stuartii,Genome_Size,4100000.0,4900000.0
+Providencia_rettgeri,N50,14000.0,
+Providencia_rettgeri,no_of_contigs,,600.0
+Providencia_rettgeri,GC_Content,40.0,44.0
+Providencia_rettgeri,Completeness,96.0,
+Providencia_rettgeri,Contamination,,6.0
+Providencia_rettgeri,Total_Coding_Sequences,3700.0,4900.0
+Providencia_rettgeri,Genome_Size,4000000.0,5100000.0

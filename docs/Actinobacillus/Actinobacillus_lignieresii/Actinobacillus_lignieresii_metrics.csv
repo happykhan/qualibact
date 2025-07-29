@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Actinobacillus_lignieresii,N50,31000.0,
+Actinobacillus_lignieresii,no_of_contigs,,170.0
+Actinobacillus_lignieresii,GC_Content,41.0,42.0
+Actinobacillus_lignieresii,Completeness,94.0,
+Actinobacillus_lignieresii,Contamination,,1.0
+Actinobacillus_lignieresii,Total_Coding_Sequences,2000.0,2400.0
+Actinobacillus_lignieresii,Genome_Size,2100000.0,2400000.0

@@ -16,7 +16,7 @@ The suggested thresholds are:
 [Download metrics CSV](Vibrio_cholerae_metrics.csv){.md-button}
 
 
-These thresholds are based on **146** genomes from RefSeq and **13069** genomes from ATB / SRA.
+These thresholds are based on **148** genomes from RefSeq and **13069** genomes from ATB / SRA.
 
 These thresholds were applied to all the bacteria dataset, which resulted in removing **527** and retaining **12542**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.

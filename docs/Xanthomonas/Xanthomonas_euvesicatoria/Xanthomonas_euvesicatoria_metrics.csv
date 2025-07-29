@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Xanthomonas_euvesicatoria,N50,52000.0,
+Xanthomonas_euvesicatoria,no_of_contigs,,270.0
+Xanthomonas_euvesicatoria,GC_Content,64.0,66.0
+Xanthomonas_euvesicatoria,Completeness,97.0,
+Xanthomonas_euvesicatoria,Contamination,,3.0
+Xanthomonas_euvesicatoria,Total_Coding_Sequences,4100.0,4800.0
+Xanthomonas_euvesicatoria,Genome_Size,4900000.0,5600000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Burkholderia_dolosa,N50,19000.0,
+Burkholderia_dolosa,no_of_contigs,,730.0
+Burkholderia_dolosa,GC_Content,66.0,68.0
+Burkholderia_dolosa,Completeness,100.0,
+Burkholderia_dolosa,Contamination,,3.0
+Burkholderia_dolosa,Total_Coding_Sequences,5500.0,6100.0
+Burkholderia_dolosa,Genome_Size,6100000.0,6600000.0

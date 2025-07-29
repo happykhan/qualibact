@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Acinetobacter_pittii,N50,26000.0,
+Acinetobacter_pittii,no_of_contigs,,360.0
+Acinetobacter_pittii,GC_Content,38.0,40.0
+Acinetobacter_pittii,Completeness,98.0,
+Acinetobacter_pittii,Contamination,,2.0
+Acinetobacter_pittii,Total_Coding_Sequences,3400.0,4400.0
+Acinetobacter_pittii,Genome_Size,3600000.0,4500000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_argenteus,N50,31000.0,
+Staphylococcus_argenteus,no_of_contigs,,240.0
+Staphylococcus_argenteus,GC_Content,32.0,33.0
+Staphylococcus_argenteus,Completeness,99.0,
+Staphylococcus_argenteus,Contamination,,1.0
+Staphylococcus_argenteus,Total_Coding_Sequences,2400.0,2900.0
+Staphylococcus_argenteus,Genome_Size,2600000.0,2900000.0

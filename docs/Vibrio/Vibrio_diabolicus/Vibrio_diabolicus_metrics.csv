@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_diabolicus,N50,104000.0,
+Vibrio_diabolicus,no_of_contigs,,150.0
+Vibrio_diabolicus,GC_Content,44.0,45.0
+Vibrio_diabolicus,Completeness,98.0,
+Vibrio_diabolicus,Contamination,,3.0
+Vibrio_diabolicus,Total_Coding_Sequences,4400.0,5100.0
+Vibrio_diabolicus,Genome_Size,4900000.0,5600000.0

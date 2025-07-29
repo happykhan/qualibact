@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Pseudomonas_asiatica,N50,37000.0,
+Pseudomonas_asiatica,no_of_contigs,,350.0
+Pseudomonas_asiatica,GC_Content,61.0,64.0
+Pseudomonas_asiatica,Completeness,97.0,
+Pseudomonas_asiatica,Contamination,,3.0
+Pseudomonas_asiatica,Total_Coding_Sequences,5100.0,6400.0
+Pseudomonas_asiatica,Genome_Size,5500000.0,6700000.0

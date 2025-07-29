@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Serratia_ureilytica,N50,59000.0,
+Serratia_ureilytica,no_of_contigs,,190.0
+Serratia_ureilytica,GC_Content,59.0,60.0
+Serratia_ureilytica,Completeness,97.0,
+Serratia_ureilytica,Contamination,,2.0
+Serratia_ureilytica,Total_Coding_Sequences,4500.0,5300.0
+Serratia_ureilytica,Genome_Size,4600000.0,5500000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Agrobacterium_fabacearum,N50,274000.0,
+Agrobacterium_fabacearum,no_of_contigs,,110.0
+Agrobacterium_fabacearum,GC_Content,57.0,61.0
+Agrobacterium_fabacearum,Completeness,89.0,
+Agrobacterium_fabacearum,Contamination,,16.0
+Agrobacterium_fabacearum,Total_Coding_Sequences,4300.0,6200.0
+Agrobacterium_fabacearum,Genome_Size,4600000.0,6500000.0

@@ -2,3 +2,7 @@ species,original_count,filtered_out_count,final_count
 Vibrio_cholerae,13069,527,12542
 Vibrio_parahaemolyticus,8309,203,8106
 Vibrio_vulnificus,1365,28,1337
+Vibrio_alginolyticus,545,16,529
+Vibrio_metschnikovii,163,8,155
+Vibrio_anguillarum,146,11,135
+Vibrio_diabolicus,145,11,134

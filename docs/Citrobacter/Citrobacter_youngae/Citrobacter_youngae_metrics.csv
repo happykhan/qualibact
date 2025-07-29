@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Citrobacter_youngae,N50,121000.0,
+Citrobacter_youngae,no_of_contigs,,230.0
+Citrobacter_youngae,GC_Content,51.0,52.0
+Citrobacter_youngae,Completeness,97.0,
+Citrobacter_youngae,Contamination,,3.0
+Citrobacter_youngae,Total_Coding_Sequences,4200.0,6100.0
+Citrobacter_youngae,Genome_Size,4600000.0,6100000.0

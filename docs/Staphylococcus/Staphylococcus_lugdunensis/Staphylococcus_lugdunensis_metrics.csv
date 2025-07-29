@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_lugdunensis,N50,83000.0,
+Staphylococcus_lugdunensis,no_of_contigs,,80.0
+Staphylococcus_lugdunensis,GC_Content,33.0,34.0
+Staphylococcus_lugdunensis,Completeness,96.0,
+Staphylococcus_lugdunensis,Contamination,,3.0
+Staphylococcus_lugdunensis,Total_Coding_Sequences,2300.0,2800.0
+Staphylococcus_lugdunensis,Genome_Size,2400000.0,2900000.0

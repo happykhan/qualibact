@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Listeria_grayi,N50,144000.0,
+Listeria_grayi,no_of_contigs,,90.0
+Listeria_grayi,GC_Content,41.0,42.0
+Listeria_grayi,Completeness,84.0,
+Listeria_grayi,Contamination,,7.0
+Listeria_grayi,Total_Coding_Sequences,2500.0,2900.0
+Listeria_grayi,Genome_Size,2500000.0,2900000.0

@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_thuringiensis,N50,18000.0,
+Bacillus_thuringiensis,no_of_contigs,,910.0
+Bacillus_thuringiensis,GC_Content,34.0,36.0
+Bacillus_thuringiensis,Completeness,92.0,
+Bacillus_thuringiensis,Contamination,,5.0
+Bacillus_thuringiensis,Total_Coding_Sequences,5100.0,7300.0
+Bacillus_thuringiensis,Genome_Size,5000000.0,6900000.0

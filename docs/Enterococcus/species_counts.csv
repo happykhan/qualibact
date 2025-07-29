@@ -2,3 +2,9 @@ species,original_count,filtered_out_count,final_count
 Enterococcus_faecium,36574,1084,35490
 Enterococcus_faecalis,9673,255,9418
 Enterococcus_lactis,1293,49,1244
+Enterococcus_hirae,995,38,957
+Enterococcus_gallinarum,305,12,293
+Enterococcus_durans,289,8,281
+Enterococcus_cecorum,264,12,252
+Enterococcus_casseliflavus,118,4,114
+Enterococcus_avium,108,5,103

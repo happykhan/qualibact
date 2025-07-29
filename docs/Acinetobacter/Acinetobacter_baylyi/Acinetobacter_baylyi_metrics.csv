@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Acinetobacter_baylyi,N50,28000.0,
+Acinetobacter_baylyi,no_of_contigs,,280.0
+Acinetobacter_baylyi,GC_Content,40.0,41.0
+Acinetobacter_baylyi,Completeness,99.0,
+Acinetobacter_baylyi,Contamination,,1.0
+Acinetobacter_baylyi,Total_Coding_Sequences,3000.0,3700.0
+Acinetobacter_baylyi,Genome_Size,3200000.0,3900000.0

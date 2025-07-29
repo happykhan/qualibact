@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Acinetobacter_johnsonii,N50,30000.0,
+Acinetobacter_johnsonii,no_of_contigs,,490.0
+Acinetobacter_johnsonii,GC_Content,40.0,42.0
+Acinetobacter_johnsonii,Completeness,87.0,
+Acinetobacter_johnsonii,Contamination,,9.0
+Acinetobacter_johnsonii,Total_Coding_Sequences,3200.0,4300.0
+Acinetobacter_johnsonii,Genome_Size,3300000.0,4200000.0
