@@ -10,7 +10,6 @@ This page provides an overview of the genus, including links to species-specific
 - [Species page: Bacillus mycoides](Bacillus_mycoides/index.md)
 - [Species page: Bacillus paralicheniformis](Bacillus_paralicheniformis/index.md)
 - [Species page: Bacillus paranthracis](Bacillus_paranthracis/index.md)
-- [Species page: Bacillus pumilus](Bacillus_pumilus/index.md)
 - [Species page: Bacillus safensis](Bacillus_safensis/index.md)
 - [Species page: Bacillus spizizenii](Bacillus_spizizenii/index.md)
 - [Species page: Bacillus subtilis](Bacillus_subtilis/index.md)
@@ -33,10 +32,12 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Bacillus_wiedmannii        |              186 |                   10 |           176 |
 | Bacillus_licheniformis     |              167 |                    8 |           159 |
 | Bacillus_mycoides          |              153 |                    8 |           145 |
+| Bacillus_mobilis           |              148 |                    7 |           141 |
 | Bacillus_spizizenii        |              140 |                    7 |           133 |
 | Bacillus_toyonensis        |              139 |                   11 |           128 |
 | Bacillus_safensis          |              120 |                   12 |           108 |
 | Bacillus_paralicheniformis |              110 |                    4 |           106 |
+| Bacillus_altitudinis       |              101 |                    7 |            94 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -66,7 +67,7 @@ This section provides a summary of the metrics for the genus:
 | Bacillus_bombysepticus | Contamination          |      nan       |        1       |
 | Bacillus_bombysepticus | Total_Coding_Sequences |     5200       |     7700       |
 
-... and 78 more rows
+... and 92 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

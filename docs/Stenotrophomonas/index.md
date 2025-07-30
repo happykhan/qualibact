@@ -11,6 +11,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | species                      |   original_count |   filtered_out_count |   final_count |
 |:-----------------------------|-----------------:|---------------------:|--------------:|
 | Stenotrophomonas_maltophilia |             1904 |                   78 |          1826 |
+| Stenotrophomonas_sepilia     |              137 |                   10 |           127 |
 | Stenotrophomonas_geniculata  |              134 |                    6 |           128 |
 | Stenotrophomonas_pavanii     |              118 |                    4 |           114 |
 
@@ -19,30 +20,30 @@ Breakdown of genomes filtered and retained by using these metrics:
 ## Genus Summary Metrics
 This section provides a summary of the metrics for the genus:
 
-| species                      | metric                 |   lower_bounds |   upper_bounds |
-|:-----------------------------|:-----------------------|---------------:|---------------:|
-| Stenotrophomonas_pavanii     | N50                    |    36000       |      nan       |
-| Stenotrophomonas_pavanii     | no_of_contigs          |      nan       |      250       |
-| Stenotrophomonas_pavanii     | GC_Content             |       66       |       68       |
-| Stenotrophomonas_pavanii     | Completeness           |       99       |      nan       |
-| Stenotrophomonas_pavanii     | Contamination          |      nan       |        2       |
-| Stenotrophomonas_pavanii     | Total_Coding_Sequences |     3800       |     4600       |
-| Stenotrophomonas_pavanii     | Genome_Size            |        4.3e+06 |        4.9e+06 |
-| Stenotrophomonas_geniculata  | N50                    |    31000       |      nan       |
-| Stenotrophomonas_geniculata  | no_of_contigs          |      nan       |      260       |
-| Stenotrophomonas_geniculata  | GC_Content             |       65       |       67       |
-| Stenotrophomonas_geniculata  | Completeness           |       99       |      nan       |
-| Stenotrophomonas_geniculata  | Contamination          |      nan       |        3       |
-| Stenotrophomonas_geniculata  | Total_Coding_Sequences |     3900       |     5000       |
-| Stenotrophomonas_geniculata  | Genome_Size            |        4.4e+06 |        5.3e+06 |
-| Stenotrophomonas_maltophilia | N50                    |    23000       |      nan       |
-| Stenotrophomonas_maltophilia | no_of_contigs          |      nan       |      410       |
-| Stenotrophomonas_maltophilia | GC_Content             |       65       |       68       |
-| Stenotrophomonas_maltophilia | Completeness           |       95       |      nan       |
-| Stenotrophomonas_maltophilia | Contamination          |      nan       |        5       |
-| Stenotrophomonas_maltophilia | Total_Coding_Sequences |     3700       |     4900       |
+| species                     | metric                 |   lower_bounds |   upper_bounds |
+|:----------------------------|:-----------------------|---------------:|---------------:|
+| Stenotrophomonas_sepilia    | N50                    |    45000       |      nan       |
+| Stenotrophomonas_sepilia    | no_of_contigs          |      nan       |      200       |
+| Stenotrophomonas_sepilia    | GC_Content             |       66       |       67       |
+| Stenotrophomonas_sepilia    | Completeness           |      100       |      nan       |
+| Stenotrophomonas_sepilia    | Contamination          |      nan       |        2       |
+| Stenotrophomonas_sepilia    | Total_Coding_Sequences |     3800       |     4400       |
+| Stenotrophomonas_sepilia    | Genome_Size            |        4.2e+06 |        4.8e+06 |
+| Stenotrophomonas_pavanii    | N50                    |    36000       |      nan       |
+| Stenotrophomonas_pavanii    | no_of_contigs          |      nan       |      250       |
+| Stenotrophomonas_pavanii    | GC_Content             |       66       |       68       |
+| Stenotrophomonas_pavanii    | Completeness           |       99       |      nan       |
+| Stenotrophomonas_pavanii    | Contamination          |      nan       |        2       |
+| Stenotrophomonas_pavanii    | Total_Coding_Sequences |     3800       |     4600       |
+| Stenotrophomonas_pavanii    | Genome_Size            |        4.3e+06 |        4.9e+06 |
+| Stenotrophomonas_geniculata | N50                    |    31000       |      nan       |
+| Stenotrophomonas_geniculata | no_of_contigs          |      nan       |      260       |
+| Stenotrophomonas_geniculata | GC_Content             |       65       |       67       |
+| Stenotrophomonas_geniculata | Completeness           |       99       |      nan       |
+| Stenotrophomonas_geniculata | Contamination          |      nan       |        3       |
+| Stenotrophomonas_geniculata | Total_Coding_Sequences |     3900       |     5000       |
 
-... and 1 more rows
+... and 8 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

@@ -57,7 +57,6 @@ This page lists all species analyzed in GenomeQC. Click on a species name to vie
 - [*Bacillus thuringiensis*](Bacillus/Bacillus_thuringiensis/index.md)
 - [*Bacillus velezensis*](Bacillus/Bacillus_velezensis/index.md)
 - [*Bacillus mycoides*](Bacillus/Bacillus_mycoides/index.md)
-- [*Bacillus pumilus*](Bacillus/Bacillus_pumilus/index.md)
 - [*Bacillus safensis*](Bacillus/Bacillus_safensis/index.md)
 ## [*Bacteroides*](Bacteroides/index.md)
 
@@ -114,7 +113,6 @@ This page lists all species analyzed in GenomeQC. Click on a species name to vie
 ## [*Campylobacter*](Campylobacter/index.md)
 
 - [*Campylobacter coli*](Campylobacter/Campylobacter_coli/index.md)
-- [*Campylobacter concheus*](Campylobacter/Campylobacter_concheus/index.md)
 - [*Campylobacter jejuni*](Campylobacter/Campylobacter_jejuni/index.md)
 - [*Campylobacter upsaliensis*](Campylobacter/Campylobacter_upsaliensis/index.md)
 - [*Campylobacter hyointestinalis*](Campylobacter/Campylobacter_hyointestinalis/index.md)
@@ -144,7 +142,6 @@ This page lists all species analyzed in GenomeQC. Click on a species name to vie
 ## [*Clostridium*](Clostridium/index.md)
 
 - [*Clostridium tetani*](Clostridium/Clostridium_tetani/index.md)
-- [*Clostridium innocuum*](Clostridium/Clostridium_innocuum/index.md)
 - [*Clostridium difficile*](Clostridium/Clostridium_difficile/index.md)
 - [*Clostridium botulinum*](Clostridium/Clostridium_botulinum/index.md)
 - [*Clostridium cagae*](Clostridium/Clostridium_cagae/index.md)
@@ -270,7 +267,6 @@ This page lists all species analyzed in GenomeQC. Click on a species name to vie
 
 - [*Legionella pneumophila*](Legionella/Legionella_pneumophila/index.md)
 - [*Legionella longbeachae*](Legionella/Legionella_longbeachae/index.md)
-- [*Legionella fraseri*](Legionella/Legionella_fraseri/index.md)
 ## [*Leptospira*](Leptospira/index.md)
 
 - [*Leptospira borgpetersenii*](Leptospira/Leptospira_borgpetersenii/index.md)
@@ -319,9 +315,6 @@ This page lists all species analyzed in GenomeQC. Click on a species name to vie
 - [*Mycobacterium marinum*](Mycobacterium/Mycobacterium_marinum/index.md)
 - [*Mycobacterium abscessus*](Mycobacterium/Mycobacterium_abscessus/index.md)
 - [*Mycobacterium chelonae*](Mycobacterium/Mycobacterium_chelonae/index.md)
-## [*Mycoplasma*](Mycoplasma/index.md)
-
-- [*Mycoplasma capri*](Mycoplasma/Mycoplasma_capri/index.md)
 ## [*Mycoplasmoides*](Mycoplasmoides/index.md)
 
 - [*Mycoplasmoides pneumoniae*](Mycoplasmoides/Mycoplasmoides_pneumoniae/index.md)

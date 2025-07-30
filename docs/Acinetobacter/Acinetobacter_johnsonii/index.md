@@ -37,6 +37,8 @@ These tables provide a summary of the distribution of each metric, including SDe
 
 ## Plots and Visualizations
 
+![Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
+
 This plot is a histogram comparing genome sizes between the SRA and RefSeq datasets. Each bar represents the density of genomes within a specific size range for both datasets. By comparing the shapes and positions of the bars, you can identify differences in genome size distributions, such as shifts, peaks, or outliers. This visualization helps reveal whether one dataset tends to have larger or smaller genomes, or if there are notable differences in variability or coverage between SRA and RefSeq.
 
 ![Genome Size Distribution](Genome_Size_refseq_histogram_kde.png)
@@ -44,10 +46,6 @@ This plot is a histogram comparing genome sizes between the SRA and RefSeq datas
 This plot is a QQ (quantile-quantile) plot, which compares the distribution of the SRA data with RefSeq. Points falling along the diagonal line indicate that the data follows the expected distribution. Deviations from the line suggest departures from normality, such as skewness or outliers. This helps assess whether the dataset is consistently distributed or if there are systematic differences.
 
 ![Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
-
-This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
-
-![CDS vs Genome Size](Acinetobacter_johnsonii_CDS_vs_Genome_Size.png)
 
 ### Additional Plots
 

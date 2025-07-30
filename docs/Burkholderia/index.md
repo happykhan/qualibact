@@ -21,9 +21,10 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Burkholderia_dolosa        |              858 |                   50 |           808 |
 | Burkholderia_multivorans   |              582 |                   26 |           556 |
 | Burkholderia_cenocepacia   |              528 |                   34 |           494 |
-| Burkholderia_cepacia       |              287 |                   13 |           274 |
 | Burkholderia_gladioli      |              287 |                   16 |           271 |
+| Burkholderia_cepacia       |              287 |                   13 |           274 |
 | Burkholderia_ubonensis     |              270 |                   15 |           255 |
+| Burkholderia_orbicola      |              256 |                   47 |           209 |
 | Burkholderia_contaminans   |              218 |                   14 |           204 |
 | Burkholderia_vietnamiensis |              201 |                   14 |           187 |
 | Burkholderia_stagnalis     |              108 |                   31 |            77 |
@@ -49,14 +50,14 @@ This section provides a summary of the metrics for the genus:
 | Burkholderia_gladioli    | Contamination          |      nan       |        5       |
 | Burkholderia_gladioli    | Total_Coding_Sequences |     6600       |     8100       |
 | Burkholderia_gladioli    | Genome_Size            |        7.6e+06 |        9.1e+06 |
-| Burkholderia_dolosa      | N50                    |    19000       |      nan       |
-| Burkholderia_dolosa      | no_of_contigs          |      nan       |      730       |
-| Burkholderia_dolosa      | GC_Content             |       66       |       68       |
-| Burkholderia_dolosa      | Completeness           |      100       |      nan       |
-| Burkholderia_dolosa      | Contamination          |      nan       |        3       |
-| Burkholderia_dolosa      | Total_Coding_Sequences |     5500       |     6100       |
+| Burkholderia_orbicola    | N50                    |     8000       |      nan       |
+| Burkholderia_orbicola    | no_of_contigs          |      nan       |     1840       |
+| Burkholderia_orbicola    | GC_Content             |       66       |       68       |
+| Burkholderia_orbicola    | Completeness           |      100       |      nan       |
+| Burkholderia_orbicola    | Contamination          |      nan       |        3       |
+| Burkholderia_orbicola    | Total_Coding_Sequences |     5700       |     8100       |
 
-... and 50 more rows
+... and 57 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}
@@ -64,13 +65,24 @@ This section provides a summary of the metrics for the genus:
 These plots show the main summary visualizations for this genus, including distributions of key genomic metrics such as genome size, GC content, number of contigs, and other relevant statistics. The boxplot for each species is based on the distribution (i.e. median, q1, q3, min and max) of the filtered genomes. The red line is the lower threshold and the blue line is the upper threshold. Use these plots to compare and explore the diversity and characteristics of genomes within this genus:
 
 - [Distribution of Completeness for this genus](Completeness_Specific_boxplot_0.png)
+- [Distribution of Completeness for this genus](Completeness_Specific_boxplot_10.png)
 - [Distribution of Contamination for this genus](Contamination_boxplot_0.png)
+- [Distribution of Contamination for this genus](Contamination_boxplot_10.png)
 - [Distribution of Gc for this genus](GC_Content_boxplot_0.png)
+- [Distribution of Gc for this genus](GC_Content_boxplot_10.png)
 - [Distribution of Genome for this genus](Genome_Size_boxplot_0.png)
+- [Distribution of Genome for this genus](Genome_Size_boxplot_10.png)
 - [Distribution of N50 for this genus](N50_boxplot_0.png)
+- [Distribution of N50 for this genus](N50_boxplot_10.png)
 - [Distribution of Total for this genus](Total_Coding_Sequences_boxplot_0.png)
+- [Distribution of Total for this genus](Total_Coding_Sequences_boxplot_10.png)
 - [Distribution of Longest for this genus](longest_boxplot_0.png)
+- [Distribution of Longest for this genus](longest_boxplot_10.png)
 - [Distribution of Number for this genus](number_boxplot_0.png)
+- [Distribution of Number for this genus](number_boxplot_10.png)
 ![Distribution of Gc](GC_Content_boxplot_0.png)
+![Distribution of Gc](GC_Content_boxplot_10.png)
 ![Distribution of Genome](Genome_Size_boxplot_0.png)
+![Distribution of Genome](Genome_Size_boxplot_10.png)
 ![Distribution of Number](number_boxplot_0.png)
+![Distribution of Number](number_boxplot_10.png)

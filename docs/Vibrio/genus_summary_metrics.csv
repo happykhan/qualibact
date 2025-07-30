@@ -48,3 +48,17 @@ Vibrio_diabolicus,Completeness,98.0,
 Vibrio_diabolicus,Contamination,,3.0
 Vibrio_diabolicus,Total_Coding_Sequences,4400.0,5100.0
 Vibrio_diabolicus,Genome_Size,4900000.0,5600000.0
+Vibrio_mediterranei,N50,412000.0,
+Vibrio_mediterranei,no_of_contigs,,140.0
+Vibrio_mediterranei,GC_Content,43.0,45.0
+Vibrio_mediterranei,Completeness,100.0,
+Vibrio_mediterranei,Contamination,,3.0
+Vibrio_mediterranei,Total_Coding_Sequences,5200.0,5600.0
+Vibrio_mediterranei,Genome_Size,5700000.0,6000000.0
+Vibrio_fluvialis,N50,108000.0,
+Vibrio_fluvialis,no_of_contigs,,150.0
+Vibrio_fluvialis,GC_Content,49.0,51.0
+Vibrio_fluvialis,Completeness,94.0,
+Vibrio_fluvialis,Contamination,,3.0
+Vibrio_fluvialis,Total_Coding_Sequences,4100.0,5200.0
+Vibrio_fluvialis,Genome_Size,4400000.0,5400000.0

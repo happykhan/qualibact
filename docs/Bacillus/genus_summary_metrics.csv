@@ -41,6 +41,13 @@ Bacillus_paralicheniformis,Completeness,96.0,
 Bacillus_paralicheniformis,Contamination,,1.0
 Bacillus_paralicheniformis,Total_Coding_Sequences,4100.0,4800.0
 Bacillus_paralicheniformis,Genome_Size,4200000.0,4700000.0
+Bacillus_mobilis,N50,17000.0,
+Bacillus_mobilis,no_of_contigs,,790.0
+Bacillus_mobilis,GC_Content,35.0,36.0
+Bacillus_mobilis,Completeness,100.0,
+Bacillus_mobilis,Contamination,,2.0
+Bacillus_mobilis,Total_Coding_Sequences,5300.0,6300.0
+Bacillus_mobilis,Genome_Size,5200000.0,6100000.0
 Bacillus_spizizenii,N50,145000.0,
 Bacillus_spizizenii,no_of_contigs,,100.0
 Bacillus_spizizenii,GC_Content,43.0,44.0
@@ -69,6 +76,13 @@ Bacillus_toyonensis,Completeness,97.0,
 Bacillus_toyonensis,Contamination,,2.0
 Bacillus_toyonensis,Total_Coding_Sequences,5100.0,6600.0
 Bacillus_toyonensis,Genome_Size,5000000.0,6500000.0
+Bacillus_altitudinis,N50,153000.0,
+Bacillus_altitudinis,no_of_contigs,,80.0
+Bacillus_altitudinis,GC_Content,40.0,42.0
+Bacillus_altitudinis,Completeness,91.0,
+Bacillus_altitudinis,Contamination,,1.0
+Bacillus_altitudinis,Total_Coding_Sequences,3600.0,4200.0
+Bacillus_altitudinis,Genome_Size,3600000.0,4000000.0
 Bacillus_thuringiensis,N50,18000.0,
 Bacillus_thuringiensis,no_of_contigs,,910.0
 Bacillus_thuringiensis,GC_Content,34.0,36.0

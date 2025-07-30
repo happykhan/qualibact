@@ -61,7 +61,7 @@ def species_run(
     metric_summary = []
     for metric in tqdm(metrics_list, desc=f"Processing metrics for {species}"):
         refseq_metric_values = refseq_data.get(metric)
-        if refseq_metric_values is not None:
+        if refseq_metric_values is not None and len(refseq_metric_values) > 0:  # Handle case where values are empty list
             metric_stats = make_metric_stats_including_refseq(metric, refseq_metric_values, filtered_species_data, species_dir)
         else:
             metric_stats = make_metric_stats(metric, filtered_species_data)

@@ -12,6 +12,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:------------------------|-----------------:|---------------------:|--------------:|
 | Yersinia_enterocolitica |             3356 |                  136 |          3220 |
 | Yersinia_pestis         |             2362 |                  110 |          2252 |
+| Yersinia_ruckeri        |              110 |                    7 |           103 |
 | Yersinia_intermedia     |              102 |                    9 |            93 |
 
 
@@ -42,7 +43,7 @@ This section provides a summary of the metrics for the genus:
 | Yersinia_intermedia     | Contamination          |      nan       |        3       |
 | Yersinia_intermedia     | Total_Coding_Sequences |     4100       |     5100       |
 
-... and 1 more rows
+... and 8 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

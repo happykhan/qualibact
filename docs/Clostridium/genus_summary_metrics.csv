@@ -20,3 +20,17 @@ Clostridium_botulinum,Completeness,95.0,
 Clostridium_botulinum,Contamination,,3.0
 Clostridium_botulinum,Total_Coding_Sequences,2600.0,4400.0
 Clostridium_botulinum,Genome_Size,2700000.0,4500000.0
+Clostridium_cagae,N50,26000.0,
+Clostridium_cagae,no_of_contigs,,300.0
+Clostridium_cagae,GC_Content,27.0,27.0
+Clostridium_cagae,Completeness,100.0,
+Clostridium_cagae,Contamination,,1.0
+Clostridium_cagae,Total_Coding_Sequences,3300.0,4000.0
+Clostridium_cagae,Genome_Size,3600000.0,4100000.0
+Clostridium_beijerinckii,N50,89000.0,
+Clostridium_beijerinckii,no_of_contigs,,280.0
+Clostridium_beijerinckii,GC_Content,29.0,30.0
+Clostridium_beijerinckii,Completeness,89.0,
+Clostridium_beijerinckii,Contamination,,9.0
+Clostridium_beijerinckii,Total_Coding_Sequences,4900.0,6000.0
+Clostridium_beijerinckii,Genome_Size,5500000.0,6500000.0

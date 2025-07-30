@@ -14,6 +14,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Aeromonas_caviae      |              830 |                   34 |           796 |
 | Aeromonas_veronii     |              409 |                   20 |           389 |
 | Aeromonas_salmonicida |              315 |                   11 |           304 |
+| Aeromonas_dhakensis   |              180 |                    8 |           172 |
 | Aeromonas_hydrophila  |              174 |                    8 |           166 |
 
 
@@ -44,7 +45,7 @@ This section provides a summary of the metrics for the genus:
 | Aeromonas_hydrophila  | Contamination          |      nan       |        8       |
 | Aeromonas_hydrophila  | Total_Coding_Sequences |     4100       |     5400       |
 
-... and 8 more rows
+... and 15 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

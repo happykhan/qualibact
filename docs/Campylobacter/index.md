@@ -2,7 +2,6 @@
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
 - [Species page: Campylobacter coli](Campylobacter_coli/index.md)
-- [Species page: Campylobacter concheus](Campylobacter_concheus/index.md)
 - [Species page: Campylobacter fetus](Campylobacter_fetus/index.md)
 - [Species page: Campylobacter hyointestinalis](Campylobacter_hyointestinalis/index.md)
 - [Species page: Campylobacter jejuni](Campylobacter_jejuni/index.md)

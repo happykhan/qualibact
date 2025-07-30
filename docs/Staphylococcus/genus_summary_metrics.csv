@@ -13,6 +13,13 @@ Staphylococcus_lugdunensis,Completeness,96.0,
 Staphylococcus_lugdunensis,Contamination,,3.0
 Staphylococcus_lugdunensis,Total_Coding_Sequences,2300.0,2800.0
 Staphylococcus_lugdunensis,Genome_Size,2400000.0,2900000.0
+Staphylococcus_coagulans,N50,71000.0,
+Staphylococcus_coagulans,no_of_contigs,,120.0
+Staphylococcus_coagulans,GC_Content,36.0,36.0
+Staphylococcus_coagulans,Completeness,100.0,
+Staphylococcus_coagulans,Contamination,,1.0
+Staphylococcus_coagulans,Total_Coding_Sequences,2000.0,2500.0
+Staphylococcus_coagulans,Genome_Size,2200000.0,2600000.0
 Staphylococcus_saprophyticus,N50,67000.0,
 Staphylococcus_saprophyticus,no_of_contigs,,120.0
 Staphylococcus_saprophyticus,GC_Content,32.0,34.0

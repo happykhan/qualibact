@@ -179,7 +179,9 @@ def plot_outliers(species, species_data, output_dir):
                 hue="anomaly",
                 palette="viridis",
             )
-            g.plot_joint(sns.kdeplot, color="r", zorder=0, levels=6)
+            # Only plot KDE if there is variance in the data for both axes
+            if subsampled_data[x_col].nunique() > 1 and subsampled_data[y_col].nunique() > 1:
+                g.plot_joint(sns.kdeplot, color="r", zorder=0, levels=6)            
             # Save the figure
             output_path = os.path.join(output_dir, f"{species}_sample_{x_col}_{y_col}.png")
             g.figure.savefig(output_path)

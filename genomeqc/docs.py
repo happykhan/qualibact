@@ -61,6 +61,8 @@ def files_to_fetch(species_dir: Path, output_dir: Path, metrics_df: pd.DataFrame
         print(f"[bold red]Warning: The following files are missing in {species_dir}:[/bold red]")
         for missing_file in missing_files:
             print(f" - {missing_file}")
+            # remove file from files_to_copy
+            files_to_copy.remove(missing_file)
     else:
         print(f"[bold green]All expected files found in {species_dir}.[/bold green]")
 

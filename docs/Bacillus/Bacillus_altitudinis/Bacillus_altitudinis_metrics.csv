@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_altitudinis,N50,153000.0,
+Bacillus_altitudinis,no_of_contigs,,80.0
+Bacillus_altitudinis,GC_Content,40.0,42.0
+Bacillus_altitudinis,Completeness,91.0,
+Bacillus_altitudinis,Contamination,,1.0
+Bacillus_altitudinis,Total_Coding_Sequences,3600.0,4200.0
+Bacillus_altitudinis,Genome_Size,3600000.0,4000000.0

@@ -35,6 +35,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Staphylococcus_warneri          |              183 |                   11 |           172 |
 | Staphylococcus_lugdunensis      |              137 |                    7 |           130 |
 | Staphylococcus_equorum          |              127 |                    8 |           119 |
+| Staphylococcus_coagulans        |              103 |                   88 |            15 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -57,14 +58,14 @@ This section provides a summary of the metrics for the genus:
 | Staphylococcus_lugdunensis      | Contamination          |      nan       |        3       |
 | Staphylococcus_lugdunensis      | Total_Coding_Sequences |     2300       |     2800       |
 | Staphylococcus_lugdunensis      | Genome_Size            |        2.4e+06 |        2.9e+06 |
-| Staphylococcus_saprophyticus    | N50                    |    67000       |      nan       |
-| Staphylococcus_saprophyticus    | no_of_contigs          |      nan       |      120       |
-| Staphylococcus_saprophyticus    | GC_Content             |       32       |       34       |
-| Staphylococcus_saprophyticus    | Completeness           |       97       |      nan       |
-| Staphylococcus_saprophyticus    | Contamination          |      nan       |        1       |
-| Staphylococcus_saprophyticus    | Total_Coding_Sequences |     2400       |     2800       |
+| Staphylococcus_coagulans        | N50                    |    71000       |      nan       |
+| Staphylococcus_coagulans        | no_of_contigs          |      nan       |      120       |
+| Staphylococcus_coagulans        | GC_Content             |       36       |       36       |
+| Staphylococcus_coagulans        | Completeness           |      100       |      nan       |
+| Staphylococcus_coagulans        | Contamination          |      nan       |        1       |
+| Staphylococcus_coagulans        | Total_Coding_Sequences |     2000       |     2500       |
 
-... and 78 more rows
+... and 85 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

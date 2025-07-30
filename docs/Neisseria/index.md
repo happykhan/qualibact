@@ -16,6 +16,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Neisseria_gonorrhoeae   |            57364 |                 1905 |         55459 |
 | Neisseria_meningitidis  |            35852 |                 1500 |         34352 |
 | Neisseria_lactamica     |             1424 |                   40 |          1384 |
+| Neisseria_bergeri       |              132 |                  111 |            21 |
 | Neisseria_flavescens    |              128 |                    8 |           120 |
 | Neisseria_polysaccharea |              115 |                    8 |           107 |
 | Neisseria_perflava      |              105 |                    4 |           101 |
@@ -41,14 +42,14 @@ This section provides a summary of the metrics for the genus:
 | Neisseria_perflava      | Contamination          |      nan       |        2       |
 | Neisseria_perflava      | Total_Coding_Sequences |     2000       |     2400       |
 | Neisseria_perflava      | Genome_Size            |        2.1e+06 |        2.5e+06 |
-| Neisseria_flavescens    | N50                    |    48000       |      nan       |
-| Neisseria_flavescens    | no_of_contigs          |      nan       |      130       |
-| Neisseria_flavescens    | GC_Content             |       48       |       50       |
-| Neisseria_flavescens    | Completeness           |       99       |      nan       |
-| Neisseria_flavescens    | Contamination          |      nan       |        1       |
-| Neisseria_flavescens    | Total_Coding_Sequences |     2000       |     2400       |
+| Neisseria_bergeri       | N50                    |    97000       |      nan       |
+| Neisseria_bergeri       | no_of_contigs          |      nan       |      100       |
+| Neisseria_bergeri       | GC_Content             |       52       |       52       |
+| Neisseria_bergeri       | Completeness           |      100       |      nan       |
+| Neisseria_bergeri       | Contamination          |      nan       |        1       |
+| Neisseria_bergeri       | Total_Coding_Sequences |     1800       |     2200       |
 
-... and 22 more rows
+... and 29 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

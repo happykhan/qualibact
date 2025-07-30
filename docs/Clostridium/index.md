@@ -5,16 +5,17 @@ This page provides an overview of the genus, including links to species-specific
 - [Species page: Clostridium botulinum](Clostridium_botulinum/index.md)
 - [Species page: Clostridium cagae](Clostridium_cagae/index.md)
 - [Species page: Clostridium difficile](Clostridium_difficile/index.md)
-- [Species page: Clostridium innocuum](Clostridium_innocuum/index.md)
 - [Species page: Clostridium tetani](Clostridium_tetani/index.md)
 ## Genus Species Count Summary
 Breakdown of genomes filtered and retained by using these metrics:
 
-| species               |   original_count |   filtered_out_count |   final_count |
-|:----------------------|-----------------:|---------------------:|--------------:|
-| Clostridium_difficile |            29278 |                 1148 |         28130 |
-| Clostridium_botulinum |             1025 |                   29 |           996 |
-| Clostridium_tetani    |              187 |                    8 |           179 |
+| species                  |   original_count |   filtered_out_count |   final_count |
+|:-------------------------|-----------------:|---------------------:|--------------:|
+| Clostridium_difficile    |            29278 |                 1148 |         28130 |
+| Clostridium_botulinum    |             1025 |                   29 |           996 |
+| Clostridium_tetani       |              187 |                    8 |           179 |
+| Clostridium_beijerinckii |              124 |                    9 |           115 |
+| Clostridium_cagae        |              107 |                   76 |            31 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -44,7 +45,7 @@ This section provides a summary of the metrics for the genus:
 | Clostridium_botulinum | Contamination          |      nan       |        3       |
 | Clostridium_botulinum | Total_Coding_Sequences |     2600       |     4400       |
 
-... and 1 more rows
+... and 15 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

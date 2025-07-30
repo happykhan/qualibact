@@ -41,6 +41,8 @@ def get_df(pq_table_path, workdir, metadata_path, min_genome_count=None, species
 def filter_assembly_data(assembly_stats, min_genome_count=None, species_list=None):
     # remove rows where species_sylph is NaN
     assembly_stats = assembly_stats[~assembly_stats["species_sylph"].isna()]
+    # Get rid of species where is ends with _sp . So it's actually a grouped genus 
+    assembly_stats = assembly_stats[~assembly_stats["species_sylph"].str.endswith("_sp")]
     assembly_stats["species_sylph"] = assembly_stats["species_sylph"].apply(rename_species)
     # Rename Clostridioides difficile to Clostridium difficile
     assembly_stats["species_sylph"] = assembly_stats["species_sylph"].replace(

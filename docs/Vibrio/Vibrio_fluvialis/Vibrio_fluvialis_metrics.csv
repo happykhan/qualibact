@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Vibrio_fluvialis,N50,108000.0,
+Vibrio_fluvialis,no_of_contigs,,150.0
+Vibrio_fluvialis,GC_Content,49.0,51.0
+Vibrio_fluvialis,Completeness,94.0,
+Vibrio_fluvialis,Contamination,,3.0
+Vibrio_fluvialis,Total_Coding_Sequences,4100.0,5200.0
+Vibrio_fluvialis,Genome_Size,4400000.0,5400000.0

@@ -13,6 +13,13 @@ Burkholderia_gladioli,Completeness,92.0,
 Burkholderia_gladioli,Contamination,,5.0
 Burkholderia_gladioli,Total_Coding_Sequences,6600.0,8100.0
 Burkholderia_gladioli,Genome_Size,7600000.0,9100000.0
+Burkholderia_orbicola,N50,8000.0,
+Burkholderia_orbicola,no_of_contigs,,1840.0
+Burkholderia_orbicola,GC_Content,66.0,68.0
+Burkholderia_orbicola,Completeness,100.0,
+Burkholderia_orbicola,Contamination,,3.0
+Burkholderia_orbicola,Total_Coding_Sequences,5700.0,8100.0
+Burkholderia_orbicola,Genome_Size,6400000.0,8100000.0
 Burkholderia_dolosa,N50,19000.0,
 Burkholderia_dolosa,no_of_contigs,,730.0
 Burkholderia_dolosa,GC_Content,66.0,68.0

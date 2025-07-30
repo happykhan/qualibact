@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Serratia_bockelmannii,N50,48000.0,
+Serratia_bockelmannii,no_of_contigs,,300.0
+Serratia_bockelmannii,GC_Content,59.0,60.0
+Serratia_bockelmannii,Completeness,100.0,
+Serratia_bockelmannii,Contamination,,2.0
+Serratia_bockelmannii,Total_Coding_Sequences,4500.0,5200.0
+Serratia_bockelmannii,Genome_Size,4900000.0,5600000.0

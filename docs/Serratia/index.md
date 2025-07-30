@@ -15,6 +15,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Serratia_marcescens    |             1431 |                   49 |          1382 |
 | Serratia_nevei         |              957 |                   47 |           910 |
 | Serratia_ureilytica    |              455 |                   22 |           433 |
+| Serratia_bockelmannii  |              300 |                   19 |           281 |
 | Serratia_nematodiphila |              294 |                   24 |           270 |
 | Serratia_liquefaciens  |              101 |                    5 |            96 |
 
@@ -46,7 +47,7 @@ This section provides a summary of the metrics for the genus:
 | Serratia_nevei         | Contamination          |      nan       |        3       |
 | Serratia_nevei         | Total_Coding_Sequences |     4500       |     5900       |
 
-... and 15 more rows
+... and 22 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

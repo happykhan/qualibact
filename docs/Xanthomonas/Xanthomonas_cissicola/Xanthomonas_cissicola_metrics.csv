@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Xanthomonas_cissicola,N50,57000.0,
+Xanthomonas_cissicola,no_of_contigs,,300.0
+Xanthomonas_cissicola,GC_Content,65.0,65.0
+Xanthomonas_cissicola,Completeness,100.0,
+Xanthomonas_cissicola,Contamination,,1.0
+Xanthomonas_cissicola,Total_Coding_Sequences,4200.0,4800.0
+Xanthomonas_cissicola,Genome_Size,5000000.0,5500000.0

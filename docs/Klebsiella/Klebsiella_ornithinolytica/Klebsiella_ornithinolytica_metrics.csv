@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Klebsiella_ornithinolytica,N50,83000.0,
+Klebsiella_ornithinolytica,no_of_contigs,,350.0
+Klebsiella_ornithinolytica,GC_Content,54.0,58.0
+Klebsiella_ornithinolytica,Completeness,97.0,
+Klebsiella_ornithinolytica,Contamination,,4.0
+Klebsiella_ornithinolytica,Total_Coding_Sequences,4800.0,6300.0
+Klebsiella_ornithinolytica,Genome_Size,5300000.0,6600000.0

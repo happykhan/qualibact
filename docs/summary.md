@@ -17,7 +17,7 @@ Here are the first few rows of the quality metrics:
 | Xanthomonas_euvesica | Completeness | 97.0 |  |
 | Xanthomonas_euvesica | Contamination |  | 3.0 |
 
-Showing 5 of 1995 rows.
+Showing 5 of 2128 rows.
 ### Summary Statistics
 Statistics on distribution for each metric, for each species:
 
@@ -49,7 +49,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Vibrio cholerae | 13069 | 527 | 12542 |
 | Haemophilus influenzae | 12553 | 523 | 12030 |
 | Enterococcus faecalis | 9673 | 255 | 9418 |
-| ... and 265 more rows | | |
+| ... and 284 more rows | | |
 
 [📊 Download complete species counts table](summary/species_counts.csv){.md-button}
 
@@ -88,7 +88,9 @@ Detailed analysis plots from the summary analysis:
 - [Contamination Boxplot 260](summary/plots/Contamination_boxplot_260.png)
 - [Contamination Boxplot 270](summary/plots/Contamination_boxplot_270.png)
 - [Contamination Boxplot 280](summary/plots/Contamination_boxplot_280.png)
+- [Contamination Boxplot 290](summary/plots/Contamination_boxplot_290.png)
 - [Contamination Boxplot 30](summary/plots/Contamination_boxplot_30.png)
+- [Contamination Boxplot 300](summary/plots/Contamination_boxplot_300.png)
 - [Contamination Boxplot 40](summary/plots/Contamination_boxplot_40.png)
 - [Contamination Boxplot 50](summary/plots/Contamination_boxplot_50.png)
 - [Contamination Boxplot 60](summary/plots/Contamination_boxplot_60.png)
@@ -117,7 +119,9 @@ Detailed analysis plots from the summary analysis:
 - [Gc Content Boxplot 260](summary/plots/GC_Content_boxplot_260.png)
 - [Gc Content Boxplot 270](summary/plots/GC_Content_boxplot_270.png)
 - [Gc Content Boxplot 280](summary/plots/GC_Content_boxplot_280.png)
+- [Gc Content Boxplot 290](summary/plots/GC_Content_boxplot_290.png)
 - [Gc Content Boxplot 30](summary/plots/GC_Content_boxplot_30.png)
+- [Gc Content Boxplot 300](summary/plots/GC_Content_boxplot_300.png)
 - [Gc Content Boxplot 40](summary/plots/GC_Content_boxplot_40.png)
 - [Gc Content Boxplot 50](summary/plots/GC_Content_boxplot_50.png)
 - [Gc Content Boxplot 60](summary/plots/GC_Content_boxplot_60.png)
@@ -146,7 +150,9 @@ Detailed analysis plots from the summary analysis:
 - [N50 Boxplot 260](summary/plots/N50_boxplot_260.png)
 - [N50 Boxplot 270](summary/plots/N50_boxplot_270.png)
 - [N50 Boxplot 280](summary/plots/N50_boxplot_280.png)
+- [N50 Boxplot 290](summary/plots/N50_boxplot_290.png)
 - [N50 Boxplot 30](summary/plots/N50_boxplot_30.png)
+- [N50 Boxplot 300](summary/plots/N50_boxplot_300.png)
 - [N50 Boxplot 40](summary/plots/N50_boxplot_40.png)
 - [N50 Boxplot 50](summary/plots/N50_boxplot_50.png)
 - [N50 Boxplot 60](summary/plots/N50_boxplot_60.png)
@@ -175,7 +181,9 @@ Detailed analysis plots from the summary analysis:
 - [Longest Boxplot 260](summary/plots/longest_boxplot_260.png)
 - [Longest Boxplot 270](summary/plots/longest_boxplot_270.png)
 - [Longest Boxplot 280](summary/plots/longest_boxplot_280.png)
+- [Longest Boxplot 290](summary/plots/longest_boxplot_290.png)
 - [Longest Boxplot 30](summary/plots/longest_boxplot_30.png)
+- [Longest Boxplot 300](summary/plots/longest_boxplot_300.png)
 - [Longest Boxplot 40](summary/plots/longest_boxplot_40.png)
 - [Longest Boxplot 50](summary/plots/longest_boxplot_50.png)
 - [Longest Boxplot 60](summary/plots/longest_boxplot_60.png)

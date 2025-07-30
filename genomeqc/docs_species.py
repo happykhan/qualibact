@@ -2,6 +2,7 @@
 from pathlib import Path
 import pandas as pd
 from rich import print
+import os 
 
 def create_species_list_page(output_dir, genera_dict):
     """Create a markdown page listing all species with links to their pages"""
@@ -77,27 +78,31 @@ def create_species_page(species_dir: Path, output_dir: Path, species_safe_name: 
         f.write(f"[Download simple summary tables](selected_summary.csv)\n\n")        
         # Link to methods page
         # Show plots 
-        f.write("## Plots and Visualizations\n\n")
         # Link to other plots 
         # Show image of Genome_Size_refseq_histogram_kde.png 
         genome_size_plot = species_dir / "Genome_Size_refseq_histogram_kde.png"
-        f.write("This plot is a histogram comparing genome sizes between the SRA and RefSeq datasets. Each bar represents the density of genomes within a specific size range for both datasets. By comparing the shapes and positions of the bars, you can identify differences in genome size distributions, such as shifts, peaks, or outliers. This visualization helps reveal whether one dataset tends to have larger or smaller genomes, or if there are notable differences in variability or coverage between SRA and RefSeq.\n\n")
-        f.write(f"![Genome Size Distribution]({genome_size_plot.name})\n\n")
-        genome_size_qq_plot = species_dir / "Genome_Size_refseq_qqplot.png"
-        f.write("This plot is a QQ (quantile-quantile) plot, which compares the distribution of the SRA data with RefSeq. Points falling along the diagonal line indicate that the data follows the expected distribution. Deviations from the line suggest departures from normality, such as skewness or outliers. This helps assess whether the dataset is consistently distributed or if there are systematic differences.\n\n")
-        f.write(f"![Genome Size QQ Plot]({genome_size_qq_plot.name})\n\n")
-        # Write an explanation 
-        f.write("This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. \n\n")
-        f.write(f"![CDS vs Genome Size]({species_dir.name}_CDS_vs_Genome_Size.png)\n\n")
-        # Add Links to remaining plots
-        f.write("### Additional Plots\n\n")
-        f.write("These plots provide additional insights into the genome characteristics:\n\n")
-        f.write(f"- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)\n")
-        f.write(f"- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)\n")
-        f.write(f"- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)\n")
-        f.write(f"- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)\n")
-        f.write(f"- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)\n")
-        f.write(f"- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)\n")
+        if os.path.exists(genome_size_plot):
+            f.write("## Plots and Visualizations\n\n")
+            f.write(f"![Genome Size Histogram]({genome_size_plot.name})\n\n")
+            f.write("This plot is a histogram comparing genome sizes between the SRA and RefSeq datasets. Each bar represents the density of genomes within a specific size range for both datasets. By comparing the shapes and positions of the bars, you can identify differences in genome size distributions, such as shifts, peaks, or outliers. This visualization helps reveal whether one dataset tends to have larger or smaller genomes, or if there are notable differences in variability or coverage between SRA and RefSeq.\n\n")
+            f.write(f"![Genome Size Distribution]({genome_size_plot.name})\n\n")
+        if os.path.exists(species_dir / "Genome_Size_refseq_qqplot.png"):
+            genome_size_qq_plot = species_dir / "Genome_Size_refseq_qqplot.png"
+            f.write("This plot is a QQ (quantile-quantile) plot, which compares the distribution of the SRA data with RefSeq. Points falling along the diagonal line indicate that the data follows the expected distribution. Deviations from the line suggest departures from normality, such as skewness or outliers. This helps assess whether the dataset is consistently distributed or if there are systematic differences.\n\n")
+            f.write(f"![Genome Size QQ Plot]({genome_size_qq_plot.name})\n\n")
+        if os.path.exists(species_dir / "CDS_vs_Genome_Size.png"):
+            f.write("This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. \n\n")
+            f.write(f"![CDS vs Genome Size]({species_dir.name}_CDS_vs_Genome_Size.png)\n\n")
+        if os.path.exists(species_dir / "GC_Content_refseq_histogram_kde.png"):
+            # Add Links to remaining plots
+            f.write("### Additional Plots\n\n")
+            f.write("These plots provide additional insights into the genome characteristics:\n\n")
+            f.write(f"- [GC Content Histogram](GC_Content_refseq_histogram_kde.png)\n")
+            f.write(f"- [GC Content QQ Plot](GC_Content_refseq_qqplot.png)\n")
+            f.write(f"- [Total Coding Sequences Histogram](Total_Coding_Sequences_refseq_histogram_kde.png)\n")
+            f.write(f"- [Total Coding Sequences QQ Plot](Total_Coding_Sequences_refseq_qqplot.png)\n")
+            f.write(f"- [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)\n")
+            f.write(f"- [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)\n")
         f.write("## Illustrating the filtering process\n")
         f.write("These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.\n")
         # Show filtered plots

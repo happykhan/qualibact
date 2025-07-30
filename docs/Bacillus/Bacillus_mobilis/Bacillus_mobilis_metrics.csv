@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Bacillus_mobilis,N50,17000.0,
+Bacillus_mobilis,no_of_contigs,,790.0
+Bacillus_mobilis,GC_Content,35.0,36.0
+Bacillus_mobilis,Completeness,100.0,
+Bacillus_mobilis,Contamination,,2.0
+Bacillus_mobilis,Total_Coding_Sequences,5300.0,6300.0
+Bacillus_mobilis,Genome_Size,5200000.0,6100000.0

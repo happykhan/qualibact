@@ -63,6 +63,9 @@ def get_metrics(taxon, outdir):
     while json_data is None:
         time.sleep(5)
         json_data = run_datasets_summary(taxon, outdir)
+    if json_data is None or "reports" not in json_data:
+        logging.error(f"No reports found for taxon {taxon} in the JSON data.")
+        return metrics_dict
 
     for dat in json_data["reports"]:
         extracted_metrics = extract_metrics(dat)

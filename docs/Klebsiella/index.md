@@ -21,6 +21,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Klebsiella_michiganensis   |             1884 |                   79 |          1805 |
 | Klebsiella_aerogenes       |             1619 |                   66 |          1553 |
 | Klebsiella_oxytoca         |             1177 |                   46 |          1131 |
+| Klebsiella_ornithinolytica |              656 |                   31 |           625 |
 | Klebsiella_grimontii       |              649 |                   29 |           620 |
 | Klebsiella_planticola      |              307 |                   13 |           294 |
 
@@ -31,6 +32,13 @@ This section provides a summary of the metrics for the genus:
 
 | species                    | metric                 |   lower_bounds |   upper_bounds |
 |:---------------------------|:-----------------------|---------------:|---------------:|
+| Klebsiella_ornithinolytica | N50                    |    83000       |      nan       |
+| Klebsiella_ornithinolytica | no_of_contigs          |      nan       |      350       |
+| Klebsiella_ornithinolytica | GC_Content             |       54       |       58       |
+| Klebsiella_ornithinolytica | Completeness           |       97       |      nan       |
+| Klebsiella_ornithinolytica | Contamination          |      nan       |        4       |
+| Klebsiella_ornithinolytica | Total_Coding_Sequences |     4800       |     6300       |
+| Klebsiella_ornithinolytica | Genome_Size            |        5.3e+06 |        6.6e+06 |
 | Klebsiella_variicola       | N50                    |    67000       |      nan       |
 | Klebsiella_variicola       | no_of_contigs          |      nan       |      350       |
 | Klebsiella_variicola       | GC_Content             |       56       |       58       |
@@ -44,15 +52,8 @@ This section provides a summary of the metrics for the genus:
 | Klebsiella_pneumoniae      | Completeness           |       96       |      nan       |
 | Klebsiella_pneumoniae      | Contamination          |      nan       |        5       |
 | Klebsiella_pneumoniae      | Total_Coding_Sequences |     4700       |     6500       |
-| Klebsiella_pneumoniae      | Genome_Size            |        4.9e+06 |        6.4e+06 |
-| Klebsiella_quasipneumoniae | N50                    |    48000       |      nan       |
-| Klebsiella_quasipneumoniae | no_of_contigs          |      nan       |      400       |
-| Klebsiella_quasipneumoniae | GC_Content             |       56       |       59       |
-| Klebsiella_quasipneumoniae | Completeness           |       98       |      nan       |
-| Klebsiella_quasipneumoniae | Contamination          |      nan       |        3       |
-| Klebsiella_quasipneumoniae | Total_Coding_Sequences |     4400       |     6300       |
 
-... and 36 more rows
+... and 43 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

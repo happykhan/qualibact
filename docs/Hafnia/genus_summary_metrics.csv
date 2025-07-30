@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Hafnia_paralvei,N50,79000.0,
+Hafnia_paralvei,no_of_contigs,,180.0
+Hafnia_paralvei,GC_Content,47.0,49.0
+Hafnia_paralvei,Completeness,100.0,
+Hafnia_paralvei,Contamination,,1.0
+Hafnia_paralvei,Total_Coding_Sequences,3900.0,4800.0
+Hafnia_paralvei,Genome_Size,4400000.0,5100000.0

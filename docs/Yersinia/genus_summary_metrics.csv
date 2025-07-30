@@ -20,3 +20,10 @@ Yersinia_intermedia,Completeness,99.0,
 Yersinia_intermedia,Contamination,,3.0
 Yersinia_intermedia,Total_Coding_Sequences,4100.0,5100.0
 Yersinia_intermedia,Genome_Size,4600000.0,5400000.0
+Yersinia_ruckeri,N50,112000.0,
+Yersinia_ruckeri,no_of_contigs,,130.0
+Yersinia_ruckeri,GC_Content,47.0,48.0
+Yersinia_ruckeri,Completeness,95.0,
+Yersinia_ruckeri,Contamination,,3.0
+Yersinia_ruckeri,Total_Coding_Sequences,3200.0,3700.0
+Yersinia_ruckeri,Genome_Size,3500000.0,4100000.0

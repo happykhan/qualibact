@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Stenotrophomonas_sepilia,N50,45000.0,
+Stenotrophomonas_sepilia,no_of_contigs,,200.0
+Stenotrophomonas_sepilia,GC_Content,66.0,67.0
+Stenotrophomonas_sepilia,Completeness,100.0,
+Stenotrophomonas_sepilia,Contamination,,2.0
+Stenotrophomonas_sepilia,Total_Coding_Sequences,3800.0,4400.0
+Stenotrophomonas_sepilia,Genome_Size,4200000.0,4800000.0

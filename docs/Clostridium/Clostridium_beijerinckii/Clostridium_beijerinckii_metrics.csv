@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Clostridium_beijerinckii,N50,89000.0,
+Clostridium_beijerinckii,no_of_contigs,,280.0
+Clostridium_beijerinckii,GC_Content,29.0,30.0
+Clostridium_beijerinckii,Completeness,89.0,
+Clostridium_beijerinckii,Contamination,,9.0
+Clostridium_beijerinckii,Total_Coding_Sequences,4900.0,6000.0
+Clostridium_beijerinckii,Genome_Size,5500000.0,6500000.0

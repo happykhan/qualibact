@@ -1,7 +1,6 @@
 # *Legionella* Overview
 This page provides an overview of the genus, including links to species-specific pages and general information.
 
-- [Species page: Legionella fraseri](Legionella_fraseri/index.md)
 - [Species page: Legionella longbeachae](Legionella_longbeachae/index.md)
 - [Species page: Legionella pneumophila](Legionella_pneumophila/index.md)
 ## Genus Species Count Summary

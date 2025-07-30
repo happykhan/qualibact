@@ -19,6 +19,8 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Vibrio_parahaemolyticus |             8309 |                  203 |          8106 |
 | Vibrio_vulnificus       |             1365 |                   28 |          1337 |
 | Vibrio_alginolyticus    |              545 |                   16 |           529 |
+| Vibrio_fluvialis        |              289 |                    9 |           280 |
+| Vibrio_mediterranei     |              217 |                   14 |           203 |
 | Vibrio_metschnikovii    |              163 |                    8 |           155 |
 | Vibrio_anguillarum      |              146 |                   11 |           135 |
 | Vibrio_diabolicus       |              145 |                   11 |           134 |
@@ -51,7 +53,7 @@ This section provides a summary of the metrics for the genus:
 | Vibrio_vulnificus    | Contamination          |      nan       |        6       |
 | Vibrio_vulnificus    | Total_Coding_Sequences |     4200       |     5800       |
 
-... and 29 more rows
+... and 43 more rows
 
 
 [📊 Download genus summary metrics table](genus_summary_metrics.csv){.md-button}

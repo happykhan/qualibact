@@ -1,0 +1,8 @@
+species,metric,lower_bounds,upper_bounds
+Staphylococcus_coagulans,N50,71000.0,
+Staphylococcus_coagulans,no_of_contigs,,120.0
+Staphylococcus_coagulans,GC_Content,36.0,36.0
+Staphylococcus_coagulans,Completeness,100.0,
+Staphylococcus_coagulans,Contamination,,1.0
+Staphylococcus_coagulans,Total_Coding_Sequences,2000.0,2500.0
+Staphylococcus_coagulans,Genome_Size,2200000.0,2600000.0
