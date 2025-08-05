@@ -23,21 +23,21 @@ This section provides a summary of the metrics for the genus:
 | Agrobacterium_tumefaciens | N50                    |   161000       |      nan       |
 | Agrobacterium_tumefaciens | no_of_contigs          |      nan       |      130       |
 | Agrobacterium_tumefaciens | GC_Content             |       57       |       61       |
-| Agrobacterium_tumefaciens | Completeness           |       89       |      nan       |
+| Agrobacterium_tumefaciens | Completeness           |       88       |      nan       |
 | Agrobacterium_tumefaciens | Contamination          |      nan       |       16       |
 | Agrobacterium_tumefaciens | Total_Coding_Sequences |     4300       |     6200       |
 | Agrobacterium_tumefaciens | Genome_Size            |        4.6e+06 |        6.5e+06 |
 | Agrobacterium_fabacearum  | N50                    |   274000       |      nan       |
 | Agrobacterium_fabacearum  | no_of_contigs          |      nan       |      110       |
 | Agrobacterium_fabacearum  | GC_Content             |       57       |       61       |
-| Agrobacterium_fabacearum  | Completeness           |       89       |      nan       |
+| Agrobacterium_fabacearum  | Completeness           |       88       |      nan       |
 | Agrobacterium_fabacearum  | Contamination          |      nan       |       16       |
 | Agrobacterium_fabacearum  | Total_Coding_Sequences |     4300       |     6200       |
 | Agrobacterium_fabacearum  | Genome_Size            |        4.6e+06 |        6.5e+06 |
 | Agrobacterium_pusense     | N50                    |   177000       |      nan       |
 | Agrobacterium_pusense     | no_of_contigs          |      nan       |      230       |
 | Agrobacterium_pusense     | GC_Content             |       59       |       60       |
-| Agrobacterium_pusense     | Completeness           |       99       |      nan       |
+| Agrobacterium_pusense     | Completeness           |       98       |      nan       |
 | Agrobacterium_pusense     | Contamination          |      nan       |        6       |
 | Agrobacterium_pusense     | Total_Coding_Sequences |     4600       |     6300       |
 

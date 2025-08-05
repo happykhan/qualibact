@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Corynebacterium_striatum,N50,51000.0,
 Corynebacterium_striatum,no_of_contigs,,290.0
 Corynebacterium_striatum,GC_Content,58.0,60.0
-Corynebacterium_striatum,Completeness,99.0,
+Corynebacterium_striatum,Completeness,98.0,
 Corynebacterium_striatum,Contamination,,3.0
 Corynebacterium_striatum,Total_Coding_Sequences,2400.0,3200.0
 Corynebacterium_striatum,Genome_Size,2600000.0,3100000.0

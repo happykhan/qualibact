@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Hungateiclostridium_thermocellum,N50,77000.0,
 Hungateiclostridium_thermocellum,no_of_contigs,,210.0
 Hungateiclostridium_thermocellum,GC_Content,38.0,40.0
-Hungateiclostridium_thermocellum,Completeness,98.0,
+Hungateiclostridium_thermocellum,Completeness,97.0,
 Hungateiclostridium_thermocellum,Contamination,,4.0
 Hungateiclostridium_thermocellum,Total_Coding_Sequences,3000.0,3500.0
 Hungateiclostridium_thermocellum,Genome_Size,3400000.0,4000000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_aeruginosa,N50,34000.0,
 Pseudomonas_aeruginosa,no_of_contigs,,500.0
 Pseudomonas_aeruginosa,GC_Content,65.0,67.0
-Pseudomonas_aeruginosa,Completeness,96.0,
+Pseudomonas_aeruginosa,Completeness,95.0,
 Pseudomonas_aeruginosa,Contamination,,7.0
 Pseudomonas_aeruginosa,Total_Coding_Sequences,5600.0,7600.0
 Pseudomonas_aeruginosa,Genome_Size,6000000.0,7800000.0

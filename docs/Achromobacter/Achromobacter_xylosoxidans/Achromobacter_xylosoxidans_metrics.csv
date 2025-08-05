@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Achromobacter_xylosoxidans,N50,33000.0,
 Achromobacter_xylosoxidans,no_of_contigs,,450.0
 Achromobacter_xylosoxidans,GC_Content,65.0,69.0
-Achromobacter_xylosoxidans,Completeness,92.0,
+Achromobacter_xylosoxidans,Completeness,91.0,
 Achromobacter_xylosoxidans,Contamination,,10.0
 Achromobacter_xylosoxidans,Total_Coding_Sequences,5600.0,6900.0
 Achromobacter_xylosoxidans,Genome_Size,6200000.0,7400000.0

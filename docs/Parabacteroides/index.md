@@ -23,21 +23,21 @@ This section provides a summary of the metrics for the genus:
 | Parabacteroides_merdae      | N50                    |    42000       |      nan       |
 | Parabacteroides_merdae      | no_of_contigs          |      nan       |      320       |
 | Parabacteroides_merdae      | GC_Content             |       44       |       46       |
-| Parabacteroides_merdae      | Completeness           |       95       |      nan       |
+| Parabacteroides_merdae      | Completeness           |       94       |      nan       |
 | Parabacteroides_merdae      | Contamination          |      nan       |        7       |
 | Parabacteroides_merdae      | Total_Coding_Sequences |     3500       |     4800       |
 | Parabacteroides_merdae      | Genome_Size            |        4.2e+06 |        5.3e+06 |
 | Parabacteroides_goldsteinii | N50                    |    35000       |      nan       |
 | Parabacteroides_goldsteinii | no_of_contigs          |      nan       |      610       |
 | Parabacteroides_goldsteinii | GC_Content             |       43       |       44       |
-| Parabacteroides_goldsteinii | Completeness           |       97       |      nan       |
+| Parabacteroides_goldsteinii | Completeness           |       96       |      nan       |
 | Parabacteroides_goldsteinii | Contamination          |      nan       |        5       |
 | Parabacteroides_goldsteinii | Total_Coding_Sequences |     5000       |     6300       |
 | Parabacteroides_goldsteinii | Genome_Size            |        6.3e+06 |        7.6e+06 |
 | Parabacteroides_distasonis  | N50                    |    28000       |      nan       |
 | Parabacteroides_distasonis  | no_of_contigs          |      nan       |      410       |
 | Parabacteroides_distasonis  | GC_Content             |       44       |       46       |
-| Parabacteroides_distasonis  | Completeness           |       92       |      nan       |
+| Parabacteroides_distasonis  | Completeness           |       91       |      nan       |
 | Parabacteroides_distasonis  | Contamination          |      nan       |        5       |
 | Parabacteroides_distasonis  | Total_Coding_Sequences |     3900       |     5000       |
 

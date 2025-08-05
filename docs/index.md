@@ -1,7 +1,7 @@
-# GenomeQC Results
+# QualiBact Results
 
-## What is GenomeQC?
-GenomeQC is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/). Source code for this process is available at [GenomeQC](https://github.com/happykhan/genomeqc).
+## What is QualiBact?
+QualiBact is a set of thresholds assessing the quality of bacterial genome assemblies. We have evaluated genomes based on various metrics to help researchers identify high-quality genomes for downstream analysis. This thresholds described here are implemented in [SpecCheck](https://github.com/happykhan/speccheck/). Source code for this process is available at [QualiBact](https://github.com/happykhan/qualibact).
 
 ## Quick Links
 - [📋 Methods](methods.md) - Detailed methodology and criteria
@@ -16,7 +16,7 @@ Use the navigation menu above to explore:
 - **All species** - List of all species included here, with links to species-specific overviews
 - **Summary page** - The QC criteria and summary tables for all genera and species
 
-## Considerations for GenomeQC
+## Considerations for QualiBact
 ### ✅ General Strengths
 - The pipeline is fully automated, generic, and can be applied to any set of genomes — including arbitrary subsets such as species, clonal complexes, or lineages.
 - Quality assessment is based on multiple standard metrics (e.g. N50, number of contigs, genome size, GC%), allowing reproducible filtering.
@@ -33,5 +33,5 @@ Use the navigation menu above to explore:
 - **Generic vs. Specific Tradeoff:** While the generic approach is broadly applicable, it may miss species-specific quality nuances or lineage-level exceptions.
 
 ## Citation
-If you use GenomeQC, please cite the following:
-> Alikhan, NF. GenomeQC: A comprehensive bacterial genome quality assessment tool. Available at: [https://github.com/happykhan/genomeqc](https://github.com/happykhan/genomeqc) (Accessed: [insert date]).
+If you use QualiBact, please cite the following:
+> Alikhan, NF. Species specific quality control of bacterial de novo genome assemblies using QualiBact. Available at: [https://github.com/happykhan/qualibact](https://github.com/happykhan/qualibact) (Accessed: [insert date]).

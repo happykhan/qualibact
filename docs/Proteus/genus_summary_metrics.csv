@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Proteus_mirabilis,N50,27000.0,
 Proteus_mirabilis,no_of_contigs,,330.0
 Proteus_mirabilis,GC_Content,38.0,40.0
-Proteus_mirabilis,Completeness,87.0,
+Proteus_mirabilis,Completeness,86.0,
 Proteus_mirabilis,Contamination,,12.0
 Proteus_mirabilis,Total_Coding_Sequences,3300.0,4500.0
 Proteus_mirabilis,Genome_Size,3700000.0,4600000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudoalteromonas_nigrifaciens,N50,413000.0,
 Pseudoalteromonas_nigrifaciens,no_of_contigs,,70.0
 Pseudoalteromonas_nigrifaciens,GC_Content,39.0,41.0
-Pseudoalteromonas_nigrifaciens,Completeness,100.0,
+Pseudoalteromonas_nigrifaciens,Completeness,99.0,
 Pseudoalteromonas_nigrifaciens,Contamination,,1.0
 Pseudoalteromonas_nigrifaciens,Total_Coding_Sequences,3400.0,4000.0
 Pseudoalteromonas_nigrifaciens,Genome_Size,3800000.0,4300000.0

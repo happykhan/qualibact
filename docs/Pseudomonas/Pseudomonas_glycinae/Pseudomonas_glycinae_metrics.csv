@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_glycinae,N50,133000.0,
 Pseudomonas_glycinae,no_of_contigs,,160.0
 Pseudomonas_glycinae,GC_Content,60.0,61.0
-Pseudomonas_glycinae,Completeness,99.0,
+Pseudomonas_glycinae,Completeness,98.0,
 Pseudomonas_glycinae,Contamination,,5.0
 Pseudomonas_glycinae,Total_Coding_Sequences,5700.0,5900.0
 Pseudomonas_glycinae,Genome_Size,6300000.0,6500000.0

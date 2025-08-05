@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Glaesserella_parasuis,N50,16000.0,
 Glaesserella_parasuis,no_of_contigs,,340.0
 Glaesserella_parasuis,GC_Content,39.0,41.0
-Glaesserella_parasuis,Completeness,86.0,
+Glaesserella_parasuis,Completeness,85.0,
 Glaesserella_parasuis,Contamination,,7.0
 Glaesserella_parasuis,Total_Coding_Sequences,2000.0,2600.0
 Glaesserella_parasuis,Genome_Size,2100000.0,2600000.0

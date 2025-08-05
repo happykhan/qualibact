@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_agalactiae,N50,36000.0,
 Streptococcus_agalactiae,no_of_contigs,,140.0
 Streptococcus_agalactiae,GC_Content,35.0,37.0
-Streptococcus_agalactiae,Completeness,96.0,
+Streptococcus_agalactiae,Completeness,95.0,
 Streptococcus_agalactiae,Contamination,,3.0
 Streptococcus_agalactiae,Total_Coding_Sequences,1900.0,2400.0
 Streptococcus_agalactiae,Genome_Size,1900000.0,2400000.0

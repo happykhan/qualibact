@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Legionella_pneumophila,N50,48000.0,
 Legionella_pneumophila,no_of_contigs,,230.0
 Legionella_pneumophila,GC_Content,38.0,39.0
-Legionella_pneumophila,Completeness,96.0,
+Legionella_pneumophila,Completeness,95.0,
 Legionella_pneumophila,Contamination,,3.0
 Legionella_pneumophila,Total_Coding_Sequences,2800.0,3500.0
 Legionella_pneumophila,Genome_Size,3200000.0,3800000.0

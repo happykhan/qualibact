@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Oenococcus_oeni | N50                    |    86000       |        nan     |
 | Oenococcus_oeni | no_of_contigs          |      nan       |         70     |
 | Oenococcus_oeni | GC_Content             |       37       |         39     |
-| Oenococcus_oeni | Completeness           |       97       |        nan     |
+| Oenococcus_oeni | Completeness           |       96       |        nan     |
 | Oenococcus_oeni | Contamination          |      nan       |          4     |
 | Oenococcus_oeni | Total_Coding_Sequences |     1700       |       2100     |
 | Oenococcus_oeni | Genome_Size            |        1.7e+06 |          2e+06 |

@@ -24,10 +24,10 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Burkholderia_gladioli      |              287 |                   16 |           271 |
 | Burkholderia_cepacia       |              287 |                   13 |           274 |
 | Burkholderia_ubonensis     |              270 |                   15 |           255 |
-| Burkholderia_orbicola      |              256 |                   47 |           209 |
+| Burkholderia_orbicola      |              256 |                   15 |           241 |
 | Burkholderia_contaminans   |              218 |                   14 |           204 |
 | Burkholderia_vietnamiensis |              201 |                   14 |           187 |
-| Burkholderia_stagnalis     |              108 |                   31 |            77 |
+| Burkholderia_stagnalis     |              108 |                   16 |            92 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -39,21 +39,21 @@ This section provides a summary of the metrics for the genus:
 | Burkholderia_cenocepacia | N50                    |    23000       |      nan       |
 | Burkholderia_cenocepacia | no_of_contigs          |      nan       |      730       |
 | Burkholderia_cenocepacia | GC_Content             |       66       |       68       |
-| Burkholderia_cenocepacia | Completeness           |       93       |      nan       |
+| Burkholderia_cenocepacia | Completeness           |       92       |      nan       |
 | Burkholderia_cenocepacia | Contamination          |      nan       |        5       |
 | Burkholderia_cenocepacia | Total_Coding_Sequences |     6200       |     8200       |
 | Burkholderia_cenocepacia | Genome_Size            |        6.7e+06 |        8.8e+06 |
 | Burkholderia_gladioli    | N50                    |    60000       |      nan       |
 | Burkholderia_gladioli    | no_of_contigs          |      nan       |      350       |
 | Burkholderia_gladioli    | GC_Content             |       67       |       69       |
-| Burkholderia_gladioli    | Completeness           |       92       |      nan       |
+| Burkholderia_gladioli    | Completeness           |       91       |      nan       |
 | Burkholderia_gladioli    | Contamination          |      nan       |        5       |
 | Burkholderia_gladioli    | Total_Coding_Sequences |     6600       |     8100       |
 | Burkholderia_gladioli    | Genome_Size            |        7.6e+06 |        9.1e+06 |
 | Burkholderia_orbicola    | N50                    |     8000       |      nan       |
 | Burkholderia_orbicola    | no_of_contigs          |      nan       |     1840       |
 | Burkholderia_orbicola    | GC_Content             |       66       |       68       |
-| Burkholderia_orbicola    | Completeness           |      100       |      nan       |
+| Burkholderia_orbicola    | Completeness           |       99       |      nan       |
 | Burkholderia_orbicola    | Contamination          |      nan       |        3       |
 | Burkholderia_orbicola    | Total_Coding_Sequences |     5700       |     8100       |
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Haemophilus_parainfluenzae,N50,11000.0,
 Haemophilus_parainfluenzae,no_of_contigs,,330.0
 Haemophilus_parainfluenzae,GC_Content,39.0,40.0
-Haemophilus_parainfluenzae,Completeness,99.0,
+Haemophilus_parainfluenzae,Completeness,98.0,
 Haemophilus_parainfluenzae,Contamination,,2.0
 Haemophilus_parainfluenzae,Total_Coding_Sequences,1700.0,2300.0
 Haemophilus_parainfluenzae,Genome_Size,1800000.0,2300000.0

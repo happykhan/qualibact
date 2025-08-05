@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_putida,N50,32000.0,
 Pseudomonas_putida,no_of_contigs,,470.0
 Pseudomonas_putida,GC_Content,59.0,64.0
-Pseudomonas_putida,Completeness,96.0,
+Pseudomonas_putida,Completeness,95.0,
 Pseudomonas_putida,Contamination,,10.0
 Pseudomonas_putida,Total_Coding_Sequences,4600.0,7100.0
 Pseudomonas_putida,Genome_Size,5100000.0,7500000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycobacterium_tuberculosis,N50,34000.0,
 Mycobacterium_tuberculosis,no_of_contigs,,320.0
 Mycobacterium_tuberculosis,GC_Content,65.0,66.0
-Mycobacterium_tuberculosis,Completeness,96.0,
+Mycobacterium_tuberculosis,Completeness,95.0,
 Mycobacterium_tuberculosis,Contamination,,3.0
 Mycobacterium_tuberculosis,Total_Coding_Sequences,4000.0,4600.0
 Mycobacterium_tuberculosis,Genome_Size,4200000.0,4600000.0

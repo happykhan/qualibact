@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_spizizenii,N50,145000.0,
 Bacillus_spizizenii,no_of_contigs,,100.0
 Bacillus_spizizenii,GC_Content,43.0,44.0
-Bacillus_spizizenii,Completeness,96.0,
+Bacillus_spizizenii,Completeness,95.0,
 Bacillus_spizizenii,Contamination,,6.0
 Bacillus_spizizenii,Total_Coding_Sequences,3900.0,4400.0
 Bacillus_spizizenii,Genome_Size,3900000.0,4300000.0

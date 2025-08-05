@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Lactobacillus_johnsonii,N50,31000.0,
 Lactobacillus_johnsonii,no_of_contigs,,160.0
 Lactobacillus_johnsonii,GC_Content,34.0,36.0
-Lactobacillus_johnsonii,Completeness,91.0,
+Lactobacillus_johnsonii,Completeness,90.0,
 Lactobacillus_johnsonii,Contamination,,6.0
 Lactobacillus_johnsonii,Total_Coding_Sequences,1700.0,2300.0
 Lactobacillus_johnsonii,Genome_Size,1700000.0,2300000.0

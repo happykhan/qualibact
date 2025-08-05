@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_wiedmannii,N50,29000.0,
 Bacillus_wiedmannii,no_of_contigs,,510.0
 Bacillus_wiedmannii,GC_Content,34.0,36.0
-Bacillus_wiedmannii,Completeness,99.0,
+Bacillus_wiedmannii,Completeness,98.0,
 Bacillus_wiedmannii,Contamination,,2.0
 Bacillus_wiedmannii,Total_Coding_Sequences,5300.0,6500.0
 Bacillus_wiedmannii,Genome_Size,5200000.0,6300000.0

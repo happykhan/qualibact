@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Clostridium_botulinum,N50,12000.0,
 Clostridium_botulinum,no_of_contigs,,570.0
 Clostridium_botulinum,GC_Content,27.0,29.0
-Clostridium_botulinum,Completeness,95.0,
+Clostridium_botulinum,Completeness,94.0,
 Clostridium_botulinum,Contamination,,3.0
 Clostridium_botulinum,Total_Coding_Sequences,2600.0,4400.0
 Clostridium_botulinum,Genome_Size,2700000.0,4500000.0

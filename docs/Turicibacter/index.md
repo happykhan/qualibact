@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Turicibacter_sanguinis | N50                    |    11000       |      nan       |
 | Turicibacter_sanguinis | no_of_contigs          |      nan       |      560       |
 | Turicibacter_sanguinis | GC_Content             |       34       |       35       |
-| Turicibacter_sanguinis | Completeness           |       96       |      nan       |
+| Turicibacter_sanguinis | Completeness           |       95       |      nan       |
 | Turicibacter_sanguinis | Contamination          |      nan       |        4       |
 | Turicibacter_sanguinis | Total_Coding_Sequences |     2700       |     3200       |
 | Turicibacter_sanguinis | Genome_Size            |        2.8e+06 |        3.3e+06 |

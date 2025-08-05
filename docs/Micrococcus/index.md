@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Micrococcus_luteus | N50                    |     9000       |      nan       |
 | Micrococcus_luteus | no_of_contigs          |      nan       |      530       |
 | Micrococcus_luteus | GC_Content             |       72       |       74       |
-| Micrococcus_luteus | Completeness           |       93       |      nan       |
+| Micrococcus_luteus | Completeness           |       92       |      nan       |
 | Micrococcus_luteus | Contamination          |      nan       |        3       |
 | Micrococcus_luteus | Total_Coding_Sequences |     2100       |     2900       |
 | Micrococcus_luteus | Genome_Size            |        2.3e+06 |        2.8e+06 |

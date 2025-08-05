@@ -15,7 +15,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Xanthomonas_euvesicatoria |              929 |                   50 |           879 |
 | Xanthomonas_campestris    |              677 |                   32 |           645 |
 | Xanthomonas_cissicola     |              560 |                   41 |           519 |
-| Xanthomonas_oryzae        |              328 |                   20 |           308 |
+| Xanthomonas_oryzae        |              328 |                   19 |           309 |
 | Xanthomonas_hortorum      |              237 |                   17 |           220 |
 | Xanthomonas_arboricola    |              124 |                    3 |           121 |
 
@@ -29,21 +29,21 @@ This section provides a summary of the metrics for the genus:
 | Xanthomonas_euvesicatoria | N50                    |    52000       |      nan       |
 | Xanthomonas_euvesicatoria | no_of_contigs          |      nan       |      270       |
 | Xanthomonas_euvesicatoria | GC_Content             |       64       |       66       |
-| Xanthomonas_euvesicatoria | Completeness           |       97       |      nan       |
+| Xanthomonas_euvesicatoria | Completeness           |       96       |      nan       |
 | Xanthomonas_euvesicatoria | Contamination          |      nan       |        3       |
 | Xanthomonas_euvesicatoria | Total_Coding_Sequences |     4100       |     4800       |
 | Xanthomonas_euvesicatoria | Genome_Size            |        4.9e+06 |        5.6e+06 |
 | Xanthomonas_arboricola    | N50                    |    53000       |      nan       |
 | Xanthomonas_arboricola    | no_of_contigs          |      nan       |      230       |
 | Xanthomonas_arboricola    | GC_Content             |       65       |       66       |
-| Xanthomonas_arboricola    | Completeness           |       98       |      nan       |
+| Xanthomonas_arboricola    | Completeness           |       97       |      nan       |
 | Xanthomonas_arboricola    | Contamination          |      nan       |        3       |
 | Xanthomonas_arboricola    | Total_Coding_Sequences |     3900       |     4700       |
 | Xanthomonas_arboricola    | Genome_Size            |        4.7e+06 |        5.4e+06 |
 | Xanthomonas_hortorum      | N50                    |    16000       |      nan       |
 | Xanthomonas_hortorum      | no_of_contigs          |      nan       |      800       |
 | Xanthomonas_hortorum      | GC_Content             |       63       |       64       |
-| Xanthomonas_hortorum      | Completeness           |       98       |      nan       |
+| Xanthomonas_hortorum      | Completeness           |       97       |      nan       |
 | Xanthomonas_hortorum      | Contamination          |      nan       |        3       |
 | Xanthomonas_hortorum      | Total_Coding_Sequences |     4300       |     5200       |
 

@@ -19,7 +19,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Enterobacter_roggenkampii |              819 |                   23 |           796 |
 | Enterobacter_asburiae     |              417 |                   18 |           399 |
 | Enterobacter_ludwigii     |              324 |                   12 |           312 |
-| Enterobacter_bugandensis  |              310 |                   14 |           296 |
+| Enterobacter_bugandensis  |              310 |                   13 |           297 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -31,21 +31,21 @@ This section provides a summary of the metrics for the genus:
 | Enterobacter_kobei      | N50                    |    60000       |      nan       |
 | Enterobacter_kobei      | no_of_contigs          |      nan       |      330       |
 | Enterobacter_kobei      | GC_Content             |       54       |       56       |
-| Enterobacter_kobei      | Completeness           |       95       |      nan       |
+| Enterobacter_kobei      | Completeness           |       94       |      nan       |
 | Enterobacter_kobei      | Contamination          |      nan       |        3       |
 | Enterobacter_kobei      | Total_Coding_Sequences |     4200       |     5700       |
 | Enterobacter_kobei      | Genome_Size            |        4.6e+06 |        5.8e+06 |
 | Enterobacter_asburiae   | N50                    |    29000       |      nan       |
 | Enterobacter_asburiae   | no_of_contigs          |      nan       |      470       |
 | Enterobacter_asburiae   | GC_Content             |       54       |       57       |
-| Enterobacter_asburiae   | Completeness           |       97       |      nan       |
+| Enterobacter_asburiae   | Completeness           |       96       |      nan       |
 | Enterobacter_asburiae   | Contamination          |      nan       |        5       |
 | Enterobacter_asburiae   | Total_Coding_Sequences |     4100       |     5700       |
 | Enterobacter_asburiae   | Genome_Size            |        4.4e+06 |        5.7e+06 |
 | Enterobacter_hormaechei | N50                    |    63000       |      nan       |
 | Enterobacter_hormaechei | no_of_contigs          |      nan       |      270       |
 | Enterobacter_hormaechei | GC_Content             |       54       |       56       |
-| Enterobacter_hormaechei | Completeness           |       98       |      nan       |
+| Enterobacter_hormaechei | Completeness           |       97       |      nan       |
 | Enterobacter_hormaechei | Contamination          |      nan       |        4       |
 | Enterobacter_hormaechei | Total_Coding_Sequences |     4100       |     5700       |
 

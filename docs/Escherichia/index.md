@@ -11,8 +11,8 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                |   original_count |   filtered_out_count |   final_count |
 |:-----------------------|-----------------:|---------------------:|--------------:|
-| Escherichia_coli       |           399884 |                11452 |        388432 |
-| Escherichia_albertii   |              693 |                   27 |           666 |
+| Escherichia_coli       |           399884 |                11441 |        388443 |
+| Escherichia_albertii   |              693 |                   26 |           667 |
 | Escherichia_marmotae   |              524 |                   31 |           493 |
 | Escherichia_fergusonii |              241 |                   11 |           230 |
 | Escherichia_ruysiae    |              130 |                   10 |           120 |
@@ -27,21 +27,21 @@ This section provides a summary of the metrics for the genus:
 | Escherichia_ruysiae    | N50                    |    60000       |      nan       |
 | Escherichia_ruysiae    | no_of_contigs          |      nan       |      240       |
 | Escherichia_ruysiae    | GC_Content             |       50       |       51       |
-| Escherichia_ruysiae    | Completeness           |      100       |      nan       |
+| Escherichia_ruysiae    | Completeness           |       99       |      nan       |
 | Escherichia_ruysiae    | Contamination          |      nan       |        2       |
 | Escherichia_ruysiae    | Total_Coding_Sequences |     4000       |     5000       |
 | Escherichia_ruysiae    | Genome_Size            |        4.3e+06 |        5.1e+06 |
 | Escherichia_marmotae   | N50                    |    54000       |      nan       |
 | Escherichia_marmotae   | no_of_contigs          |      nan       |      460       |
 | Escherichia_marmotae   | GC_Content             |       50       |       51       |
-| Escherichia_marmotae   | Completeness           |       99       |      nan       |
+| Escherichia_marmotae   | Completeness           |       98       |      nan       |
 | Escherichia_marmotae   | Contamination          |      nan       |        2       |
 | Escherichia_marmotae   | Total_Coding_Sequences |     4000       |     5200       |
 | Escherichia_marmotae   | Genome_Size            |        4.4e+06 |        5.3e+06 |
 | Escherichia_fergusonii | N50                    |    70000       |      nan       |
 | Escherichia_fergusonii | no_of_contigs          |      nan       |      210       |
 | Escherichia_fergusonii | GC_Content             |       49       |       51       |
-| Escherichia_fergusonii | Completeness           |       90       |      nan       |
+| Escherichia_fergusonii | Completeness           |       89       |      nan       |
 | Escherichia_fergusonii | Contamination          |      nan       |        9       |
 | Escherichia_fergusonii | Total_Coding_Sequences |     4000       |     5200       |
 

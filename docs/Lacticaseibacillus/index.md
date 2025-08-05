@@ -8,7 +8,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                      |   original_count |   filtered_out_count |   final_count |
 |:-----------------------------|-----------------:|---------------------:|--------------:|
-| Lacticaseibacillus_paracasei |              671 |                   29 |           642 |
+| Lacticaseibacillus_paracasei |              671 |                   28 |           643 |
 | Lacticaseibacillus_rhamnosus |              649 |                   28 |           621 |
 
 
@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Lacticaseibacillus_paracasei | N50                    |    29000       |      nan       |
 | Lacticaseibacillus_paracasei | no_of_contigs          |      nan       |      320       |
 | Lacticaseibacillus_paracasei | GC_Content             |       46       |       47       |
-| Lacticaseibacillus_paracasei | Completeness           |       86       |      nan       |
+| Lacticaseibacillus_paracasei | Completeness           |       85       |      nan       |
 | Lacticaseibacillus_paracasei | Contamination          |      nan       |       14       |
 | Lacticaseibacillus_paracasei | Total_Coding_Sequences |     2500       |     3400       |
 | Lacticaseibacillus_paracasei | Genome_Size            |        2.6e+06 |        3.5e+06 |
 | Lacticaseibacillus_rhamnosus | N50                    |    50000       |      nan       |
 | Lacticaseibacillus_rhamnosus | no_of_contigs          |      nan       |      190       |
 | Lacticaseibacillus_rhamnosus | GC_Content             |       46       |       47       |
-| Lacticaseibacillus_rhamnosus | Completeness           |       97       |      nan       |
+| Lacticaseibacillus_rhamnosus | Completeness           |       96       |      nan       |
 | Lacticaseibacillus_rhamnosus | Contamination          |      nan       |        3       |
 | Lacticaseibacillus_rhamnosus | Total_Coding_Sequences |     2600       |     3100       |
 | Lacticaseibacillus_rhamnosus | Genome_Size            |        2.8e+06 |        3.3e+06 |

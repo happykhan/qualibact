@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_haemolyticus,N50,19000.0,
 Staphylococcus_haemolyticus,no_of_contigs,,320.0
 Staphylococcus_haemolyticus,GC_Content,32.0,34.0
-Staphylococcus_haemolyticus,Completeness,96.0,
+Staphylococcus_haemolyticus,Completeness,95.0,
 Staphylococcus_haemolyticus,Contamination,,2.0
 Staphylococcus_haemolyticus,Total_Coding_Sequences,2300.0,2800.0
 Staphylococcus_haemolyticus,Genome_Size,2300000.0,2700000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Burkholderia_stagnalis,N50,129000.0,
 Burkholderia_stagnalis,no_of_contigs,,240.0
 Burkholderia_stagnalis,GC_Content,67.0,68.0
-Burkholderia_stagnalis,Completeness,100.0,
+Burkholderia_stagnalis,Completeness,99.0,
 Burkholderia_stagnalis,Contamination,,2.0
 Burkholderia_stagnalis,Total_Coding_Sequences,6600.0,7300.0
 Burkholderia_stagnalis,Genome_Size,7400000.0,8200000.0

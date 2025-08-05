@@ -31,21 +31,21 @@ This section provides a summary of the metrics for the genus:
 | Bifidobacterium_longum            | N50                    |    50000       |      nan       |
 | Bifidobacterium_longum            | no_of_contigs          |      nan       |      170       |
 | Bifidobacterium_longum            | GC_Content             |       59       |       61       |
-| Bifidobacterium_longum            | Completeness           |       94       |      nan       |
+| Bifidobacterium_longum            | Completeness           |       93       |      nan       |
 | Bifidobacterium_longum            | Contamination          |      nan       |        3       |
 | Bifidobacterium_longum            | Total_Coding_Sequences |     1700       |     2700       |
 | Bifidobacterium_longum            | Genome_Size            |        2.2e+06 |        2.9e+06 |
 | Bifidobacterium_breve             | N50                    |    11000       |      nan       |
 | Bifidobacterium_breve             | no_of_contigs          |      nan       |      410       |
 | Bifidobacterium_breve             | GC_Content             |       58       |       60       |
-| Bifidobacterium_breve             | Completeness           |       95       |      nan       |
+| Bifidobacterium_breve             | Completeness           |       94       |      nan       |
 | Bifidobacterium_breve             | Contamination          |      nan       |       13       |
 | Bifidobacterium_breve             | Total_Coding_Sequences |     1800       |     2400       |
 | Bifidobacterium_breve             | Genome_Size            |        2.2e+06 |        2.6e+06 |
 | Bifidobacterium_pseudocatenulatum | N50                    |    58000       |      nan       |
 | Bifidobacterium_pseudocatenulatum | no_of_contigs          |      nan       |       90       |
 | Bifidobacterium_pseudocatenulatum | GC_Content             |       56       |       57       |
-| Bifidobacterium_pseudocatenulatum | Completeness           |       94       |      nan       |
+| Bifidobacterium_pseudocatenulatum | Completeness           |       93       |      nan       |
 | Bifidobacterium_pseudocatenulatum | Contamination          |      nan       |        2       |
 | Bifidobacterium_pseudocatenulatum | Total_Coding_Sequences |     1600       |     2300       |
 

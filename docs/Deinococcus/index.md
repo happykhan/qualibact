@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Deinococcus_radiodurans | N50                    |    14000       |      nan       |
 | Deinococcus_radiodurans | no_of_contigs          |      nan       |      470       |
 | Deinococcus_radiodurans | GC_Content             |       66       |       67       |
-| Deinococcus_radiodurans | Completeness           |       92       |      nan       |
+| Deinococcus_radiodurans | Completeness           |       91       |      nan       |
 | Deinococcus_radiodurans | Contamination          |      nan       |        2       |
 | Deinococcus_radiodurans | Total_Coding_Sequences |     3000       |     3500       |
 | Deinococcus_radiodurans | Genome_Size            |        3.1e+06 |        3.4e+06 |

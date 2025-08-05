@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Mycoplasmopsis_bovis | N50                    |           8000 |      nan       |
 | Mycoplasmopsis_bovis | no_of_contigs          |            nan |      270       |
 | Mycoplasmopsis_bovis | GC_Content             |             28 |       30       |
-| Mycoplasmopsis_bovis | Completeness           |             93 |      nan       |
+| Mycoplasmopsis_bovis | Completeness           |             92 |      nan       |
 | Mycoplasmopsis_bovis | Contamination          |            nan |        8       |
 | Mycoplasmopsis_bovis | Total_Coding_Sequences |            800 |     1100       |
 | Mycoplasmopsis_bovis | Genome_Size            |         800000 |        1.2e+06 |

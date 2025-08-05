@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Taylorella_equigenitalis,N50,143000.0,
 Taylorella_equigenitalis,no_of_contigs,,50.0
 Taylorella_equigenitalis,GC_Content,37.0,38.0
-Taylorella_equigenitalis,Completeness,94.0,
+Taylorella_equigenitalis,Completeness,93.0,
 Taylorella_equigenitalis,Contamination,,9.0
 Taylorella_equigenitalis,Total_Coding_Sequences,1400.0,1700.0
 Taylorella_equigenitalis,Genome_Size,1600000.0,1800000.0

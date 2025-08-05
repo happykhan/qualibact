@@ -16,7 +16,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Acinetobacter_pittii       |              642 |                   21 |           621 |
 | Acinetobacter_nosocomialis |              345 |                   19 |           326 |
 | Acinetobacter_baylyi       |              258 |                   19 |           239 |
-| Acinetobacter_ursingii     |              119 |                   70 |            49 |
+| Acinetobacter_ursingii     |              119 |                    7 |           112 |
 | Acinetobacter_johnsonii    |              101 |                    6 |            95 |
 
 
@@ -29,21 +29,21 @@ This section provides a summary of the metrics for the genus:
 | Acinetobacter_baylyi   | N50                    |    28000       |      nan       |
 | Acinetobacter_baylyi   | no_of_contigs          |      nan       |      280       |
 | Acinetobacter_baylyi   | GC_Content             |       40       |       41       |
-| Acinetobacter_baylyi   | Completeness           |       99       |      nan       |
+| Acinetobacter_baylyi   | Completeness           |       98       |      nan       |
 | Acinetobacter_baylyi   | Contamination          |      nan       |        1       |
 | Acinetobacter_baylyi   | Total_Coding_Sequences |     3000       |     3700       |
 | Acinetobacter_baylyi   | Genome_Size            |        3.2e+06 |        3.9e+06 |
 | Acinetobacter_pittii   | N50                    |    26000       |      nan       |
 | Acinetobacter_pittii   | no_of_contigs          |      nan       |      360       |
 | Acinetobacter_pittii   | GC_Content             |       38       |       40       |
-| Acinetobacter_pittii   | Completeness           |       98       |      nan       |
+| Acinetobacter_pittii   | Completeness           |       97       |      nan       |
 | Acinetobacter_pittii   | Contamination          |      nan       |        2       |
 | Acinetobacter_pittii   | Total_Coding_Sequences |     3400       |     4400       |
 | Acinetobacter_pittii   | Genome_Size            |        3.6e+06 |        4.5e+06 |
 | Acinetobacter_ursingii | N50                    |    33000       |      nan       |
 | Acinetobacter_ursingii | no_of_contigs          |      nan       |      260       |
 | Acinetobacter_ursingii | GC_Content             |       39       |       41       |
-| Acinetobacter_ursingii | Completeness           |      100       |      nan       |
+| Acinetobacter_ursingii | Completeness           |       99       |      nan       |
 | Acinetobacter_ursingii | Contamination          |      nan       |        2       |
 | Acinetobacter_ursingii | Total_Coding_Sequences |     3000       |     4000       |
 

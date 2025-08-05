@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Moraxella_catarrhalis,N50,134000.0,
 Moraxella_catarrhalis,no_of_contigs,,70.0
 Moraxella_catarrhalis,GC_Content,41.0,42.0
-Moraxella_catarrhalis,Completeness,99.0,
+Moraxella_catarrhalis,Completeness,98.0,
 Moraxella_catarrhalis,Contamination,,1.0
 Moraxella_catarrhalis,Total_Coding_Sequences,1600.0,2000.0
 Moraxella_catarrhalis,Genome_Size,1800000.0,2100000.0

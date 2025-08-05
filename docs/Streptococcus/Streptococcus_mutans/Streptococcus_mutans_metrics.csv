@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_mutans,N50,74000.0,
 Streptococcus_mutans,no_of_contigs,,80.0
 Streptococcus_mutans,GC_Content,36.0,38.0
-Streptococcus_mutans,Completeness,95.0,
+Streptococcus_mutans,Completeness,94.0,
 Streptococcus_mutans,Contamination,,3.0
 Streptococcus_mutans,Total_Coding_Sequences,1800.0,2100.0
 Streptococcus_mutans,Genome_Size,1900000.0,2200000.0

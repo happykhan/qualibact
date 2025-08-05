@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Citrobacter_portucalensis,N50,47000.0,
 Citrobacter_portucalensis,no_of_contigs,,360.0
 Citrobacter_portucalensis,GC_Content,51.0,53.0
-Citrobacter_portucalensis,Completeness,97.0,
+Citrobacter_portucalensis,Completeness,96.0,
 Citrobacter_portucalensis,Contamination,,4.0
 Citrobacter_portucalensis,Total_Coding_Sequences,4300.0,5700.0
 Citrobacter_portucalensis,Genome_Size,4600000.0,5800000.0

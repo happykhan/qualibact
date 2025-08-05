@@ -28,14 +28,14 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Staphylococcus_capitis          |             1612 |                   67 |          1545 |
 | Staphylococcus_saprophyticus    |             1193 |                   58 |          1135 |
 | Staphylococcus_argenteus        |              673 |                   45 |           628 |
-| Staphylococcus_hominis          |              388 |                   29 |           359 |
+| Staphylococcus_hominis          |              388 |                   28 |           360 |
 | Staphylococcus_simulans         |              337 |                   11 |           326 |
 | Staphylococcus_chromogenes      |              331 |                   12 |           319 |
 | Staphylococcus_xylosus          |              305 |                   16 |           289 |
 | Staphylococcus_warneri          |              183 |                   11 |           172 |
 | Staphylococcus_lugdunensis      |              137 |                    7 |           130 |
 | Staphylococcus_equorum          |              127 |                    8 |           119 |
-| Staphylococcus_coagulans        |              103 |                   88 |            15 |
+| Staphylococcus_coagulans        |              103 |                    9 |            94 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -47,21 +47,21 @@ This section provides a summary of the metrics for the genus:
 | Staphylococcus_pseudintermedius | N50                    |    32000       |      nan       |
 | Staphylococcus_pseudintermedius | no_of_contigs          |      nan       |      220       |
 | Staphylococcus_pseudintermedius | GC_Content             |       37       |       38       |
-| Staphylococcus_pseudintermedius | Completeness           |       92       |      nan       |
+| Staphylococcus_pseudintermedius | Completeness           |       91       |      nan       |
 | Staphylococcus_pseudintermedius | Contamination          |      nan       |        5       |
 | Staphylococcus_pseudintermedius | Total_Coding_Sequences |     2200       |     2900       |
 | Staphylococcus_pseudintermedius | Genome_Size            |        2.4e+06 |        2.9e+06 |
 | Staphylococcus_lugdunensis      | N50                    |    83000       |      nan       |
 | Staphylococcus_lugdunensis      | no_of_contigs          |      nan       |       80       |
 | Staphylococcus_lugdunensis      | GC_Content             |       33       |       34       |
-| Staphylococcus_lugdunensis      | Completeness           |       96       |      nan       |
+| Staphylococcus_lugdunensis      | Completeness           |       95       |      nan       |
 | Staphylococcus_lugdunensis      | Contamination          |      nan       |        3       |
 | Staphylococcus_lugdunensis      | Total_Coding_Sequences |     2300       |     2800       |
 | Staphylococcus_lugdunensis      | Genome_Size            |        2.4e+06 |        2.9e+06 |
 | Staphylococcus_coagulans        | N50                    |    71000       |      nan       |
 | Staphylococcus_coagulans        | no_of_contigs          |      nan       |      120       |
 | Staphylococcus_coagulans        | GC_Content             |       36       |       36       |
-| Staphylococcus_coagulans        | Completeness           |      100       |      nan       |
+| Staphylococcus_coagulans        | Completeness           |       99       |      nan       |
 | Staphylococcus_coagulans        | Contamination          |      nan       |        1       |
 | Staphylococcus_coagulans        | Total_Coding_Sequences |     2000       |     2500       |
 

@@ -11,11 +11,11 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                  |   original_count |   filtered_out_count |   final_count |
 |:-------------------------|-----------------:|---------------------:|--------------:|
-| Clostridium_difficile    |            29278 |                 1148 |         28130 |
+| Clostridium_difficile    |            29278 |                 1146 |         28132 |
 | Clostridium_botulinum    |             1025 |                   29 |           996 |
 | Clostridium_tetani       |              187 |                    8 |           179 |
 | Clostridium_beijerinckii |              124 |                    9 |           115 |
-| Clostridium_cagae        |              107 |                   76 |            31 |
+| Clostridium_cagae        |              107 |                    8 |            99 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -27,21 +27,21 @@ This section provides a summary of the metrics for the genus:
 | Clostridium_tetani    | N50                    |    95000       |      nan       |
 | Clostridium_tetani    | no_of_contigs          |      nan       |      110       |
 | Clostridium_tetani    | GC_Content             |       28       |       29       |
-| Clostridium_tetani    | Completeness           |       98       |      nan       |
+| Clostridium_tetani    | Completeness           |       97       |      nan       |
 | Clostridium_tetani    | Contamination          |      nan       |        1       |
 | Clostridium_tetani    | Total_Coding_Sequences |     2600       |     3200       |
 | Clostridium_tetani    | Genome_Size            |        2.7e+06 |        3.1e+06 |
 | Clostridium_difficile | N50                    |     8000       |      nan       |
 | Clostridium_difficile | no_of_contigs          |      nan       |      800       |
 | Clostridium_difficile | GC_Content             |       28       |       30       |
-| Clostridium_difficile | Completeness           |       95       |      nan       |
+| Clostridium_difficile | Completeness           |       94       |      nan       |
 | Clostridium_difficile | Contamination          |      nan       |        4       |
 | Clostridium_difficile | Total_Coding_Sequences |     3400       |     4300       |
 | Clostridium_difficile | Genome_Size            |        3.8e+06 |        4.6e+06 |
 | Clostridium_botulinum | N50                    |    12000       |      nan       |
 | Clostridium_botulinum | no_of_contigs          |      nan       |      570       |
 | Clostridium_botulinum | GC_Content             |       27       |       29       |
-| Clostridium_botulinum | Completeness           |       95       |      nan       |
+| Clostridium_botulinum | Completeness           |       94       |      nan       |
 | Clostridium_botulinum | Contamination          |      nan       |        3       |
 | Clostridium_botulinum | Total_Coding_Sequences |     2600       |     4400       |
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Rhizobium_leguminosarum,N50,170000.0,
 Rhizobium_leguminosarum,no_of_contigs,,250.0
 Rhizobium_leguminosarum,GC_Content,60.0,62.0
-Rhizobium_leguminosarum,Completeness,96.0,
+Rhizobium_leguminosarum,Completeness,95.0,
 Rhizobium_leguminosarum,Contamination,,7.0
 Rhizobium_leguminosarum,Total_Coding_Sequences,6500.0,8900.0
 Rhizobium_leguminosarum,Genome_Size,6700000.0,8800000.0

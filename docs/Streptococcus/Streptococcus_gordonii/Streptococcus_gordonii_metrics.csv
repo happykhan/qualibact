@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_gordonii,N50,104000.0,
 Streptococcus_gordonii,no_of_contigs,,70.0
 Streptococcus_gordonii,GC_Content,40.0,41.0
-Streptococcus_gordonii,Completeness,100.0,
+Streptococcus_gordonii,Completeness,99.0,
 Streptococcus_gordonii,Contamination,,1.0
 Streptococcus_gordonii,Total_Coding_Sequences,2000.0,2300.0
 Streptococcus_gordonii,Genome_Size,2100000.0,2400000.0

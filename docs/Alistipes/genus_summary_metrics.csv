@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Alistipes_onderdonkii,N50,82000.0,
 Alistipes_onderdonkii,no_of_contigs,,240.0
 Alistipes_onderdonkii,GC_Content,57.0,59.0
-Alistipes_onderdonkii,Completeness,99.0,
+Alistipes_onderdonkii,Completeness,98.0,
 Alistipes_onderdonkii,Contamination,,2.0
 Alistipes_onderdonkii,Total_Coding_Sequences,2700.0,3500.0
 Alistipes_onderdonkii,Genome_Size,3300000.0,4000000.0

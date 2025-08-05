@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Klebsiella_variicola,N50,67000.0,
 Klebsiella_variicola,no_of_contigs,,350.0
 Klebsiella_variicola,GC_Content,56.0,58.0
-Klebsiella_variicola,Completeness,99.0,
+Klebsiella_variicola,Completeness,98.0,
 Klebsiella_variicola,Contamination,,3.0
 Klebsiella_variicola,Total_Coding_Sequences,4900.0,6500.0
 Klebsiella_variicola,Genome_Size,5200000.0,6500000.0

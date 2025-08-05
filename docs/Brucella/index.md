@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Brucella_melitensis | N50                    |    81000       |      nan       |
 | Brucella_melitensis | no_of_contigs          |      nan       |       90       |
 | Brucella_melitensis | GC_Content             |       57       |       58       |
-| Brucella_melitensis | Completeness           |       96       |      nan       |
+| Brucella_melitensis | Completeness           |       95       |      nan       |
 | Brucella_melitensis | Contamination          |      nan       |        1       |
 | Brucella_melitensis | Total_Coding_Sequences |     3000       |     3300       |
 | Brucella_melitensis | Genome_Size            |        3.2e+06 |        3.4e+06 |

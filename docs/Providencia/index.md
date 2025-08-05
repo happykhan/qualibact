@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Providencia_stuartii | N50                    |    21000       |      nan       |
 | Providencia_stuartii | no_of_contigs          |      nan       |      460       |
 | Providencia_stuartii | GC_Content             |       41       |       42       |
-| Providencia_stuartii | Completeness           |       88       |      nan       |
+| Providencia_stuartii | Completeness           |       87       |      nan       |
 | Providencia_stuartii | Contamination          |      nan       |       10       |
 | Providencia_stuartii | Total_Coding_Sequences |     3800       |     4700       |
 | Providencia_stuartii | Genome_Size            |        4.1e+06 |        4.9e+06 |
 | Providencia_rettgeri | N50                    |    14000       |      nan       |
 | Providencia_rettgeri | no_of_contigs          |      nan       |      600       |
 | Providencia_rettgeri | GC_Content             |       40       |       44       |
-| Providencia_rettgeri | Completeness           |       96       |      nan       |
+| Providencia_rettgeri | Completeness           |       95       |      nan       |
 | Providencia_rettgeri | Contamination          |      nan       |        6       |
 | Providencia_rettgeri | Total_Coding_Sequences |     3700       |     4900       |
 | Providencia_rettgeri | Genome_Size            |        4e+06   |        5.1e+06 |

@@ -14,13 +14,13 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                      |   original_count |   filtered_out_count |   final_count |
 |:-----------------------------|-----------------:|---------------------:|--------------:|
-| Bacteroides_fragilis         |             1390 |                   85 |          1305 |
+| Bacteroides_fragilis         |             1390 |                   84 |          1306 |
 | Bacteroides_uniformis        |             1328 |                   89 |          1239 |
 | Bacteroides_thetaiotaomicron |              785 |                   79 |           706 |
 | Bacteroides_ovatus           |              635 |                   38 |           597 |
-| Bacteroides_xylanisolvens    |              424 |                   38 |           386 |
+| Bacteroides_xylanisolvens    |              424 |                   36 |           388 |
 | Bacteroides_caccae           |              420 |                   26 |           394 |
-| Bacteroides_cellulosilyticus |              217 |                  203 |            14 |
+| Bacteroides_cellulosilyticus |              217 |                   12 |           205 |
 | Bacteroides_stercoris        |              178 |                   12 |           166 |
 
 
@@ -33,21 +33,21 @@ This section provides a summary of the metrics for the genus:
 | Bacteroides_xylanisolvens    | N50                    |    16000       |      nan       |
 | Bacteroides_xylanisolvens    | no_of_contigs          |      nan       |      980       |
 | Bacteroides_xylanisolvens    | GC_Content             |       41       |       43       |
-| Bacteroides_xylanisolvens    | Completeness           |       95       |      nan       |
+| Bacteroides_xylanisolvens    | Completeness           |       94       |      nan       |
 | Bacteroides_xylanisolvens    | Contamination          |      nan       |        9       |
 | Bacteroides_xylanisolvens    | Total_Coding_Sequences |     4400       |     6000       |
 | Bacteroides_xylanisolvens    | Genome_Size            |        5.6e+06 |        7e+06   |
 | Bacteroides_cellulosilyticus | N50                    |    50000       |      nan       |
 | Bacteroides_cellulosilyticus | no_of_contigs          |      nan       |      500       |
 | Bacteroides_cellulosilyticus | GC_Content             |       42       |       44       |
-| Bacteroides_cellulosilyticus | Completeness           |      100       |      nan       |
+| Bacteroides_cellulosilyticus | Completeness           |       99       |      nan       |
 | Bacteroides_cellulosilyticus | Contamination          |      nan       |        4       |
 | Bacteroides_cellulosilyticus | Total_Coding_Sequences |     4900       |     6100       |
 | Bacteroides_cellulosilyticus | Genome_Size            |        6.5e+06 |        7.7e+06 |
 | Bacteroides_fragilis         | N50                    |    22000       |      nan       |
 | Bacteroides_fragilis         | no_of_contigs          |      nan       |      500       |
 | Bacteroides_fragilis         | GC_Content             |       43       |       44       |
-| Bacteroides_fragilis         | Completeness           |       98       |      nan       |
+| Bacteroides_fragilis         | Completeness           |       97       |      nan       |
 | Bacteroides_fragilis         | Contamination          |      nan       |        7       |
 | Bacteroides_fragilis         | Total_Coding_Sequences |     3900       |     5100       |
 

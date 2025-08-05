@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacteroides_thetaiotaomicron,N50,16000.0,
 Bacteroides_thetaiotaomicron,no_of_contigs,,930.0
 Bacteroides_thetaiotaomicron,GC_Content,42.0,44.0
-Bacteroides_thetaiotaomicron,Completeness,94.0,
+Bacteroides_thetaiotaomicron,Completeness,93.0,
 Bacteroides_thetaiotaomicron,Contamination,,5.0
 Bacteroides_thetaiotaomicron,Total_Coding_Sequences,4400.0,6100.0
 Bacteroides_thetaiotaomicron,Genome_Size,5800000.0,7200000.0

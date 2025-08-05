@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Cutibacterium_acnes | N50                    |    21000       |      nan       |
 | Cutibacterium_acnes | no_of_contigs          |      nan       |      230       |
 | Cutibacterium_acnes | GC_Content             |       59       |       61       |
-| Cutibacterium_acnes | Completeness           |       96       |      nan       |
+| Cutibacterium_acnes | Completeness           |       95       |      nan       |
 | Cutibacterium_acnes | Contamination          |      nan       |        3       |
 | Cutibacterium_acnes | Total_Coding_Sequences |     2200       |     2600       |
 | Cutibacterium_acnes | Genome_Size            |        2.4e+06 |        2.7e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Aeromonas_caviae,N50,23000.0,
 Aeromonas_caviae,no_of_contigs,,670.0
 Aeromonas_caviae,GC_Content,60.0,63.0
-Aeromonas_caviae,Completeness,99.0,
+Aeromonas_caviae,Completeness,98.0,
 Aeromonas_caviae,Contamination,,6.0
 Aeromonas_caviae,Total_Coding_Sequences,3800.0,5200.0
 Aeromonas_caviae,Genome_Size,4200000.0,5400000.0

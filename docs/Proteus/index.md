@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Proteus_mirabilis | N50                    |    27000       |      nan       |
 | Proteus_mirabilis | no_of_contigs          |      nan       |      330       |
 | Proteus_mirabilis | GC_Content             |       38       |       40       |
-| Proteus_mirabilis | Completeness           |       87       |      nan       |
+| Proteus_mirabilis | Completeness           |       86       |      nan       |
 | Proteus_mirabilis | Contamination          |      nan       |       12       |
 | Proteus_mirabilis | Total_Coding_Sequences |     3300       |     4500       |
 | Proteus_mirabilis | Genome_Size            |        3.7e+06 |        4.6e+06 |

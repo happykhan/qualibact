@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Wolbachia_pipientis | N50                    |    13000       |      nan       |
 | Wolbachia_pipientis | no_of_contigs          |      nan       |      230       |
 | Wolbachia_pipientis | GC_Content             |       33       |       36       |
-| Wolbachia_pipientis | Completeness           |       98       |      nan       |
+| Wolbachia_pipientis | Completeness           |       97       |      nan       |
 | Wolbachia_pipientis | Contamination          |      nan       |        2       |
 | Wolbachia_pipientis | Total_Coding_Sequences |     1100       |     1700       |
 | Wolbachia_pipientis | Genome_Size            |        1.1e+06 |        1.8e+06 |

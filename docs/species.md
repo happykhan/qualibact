@@ -1,6 +1,6 @@
 # Species Overview
 
-This page lists all species analyzed in GenomeQC. Click on a species name to view its detailed page. Click the genus name for another page. 
+This page lists all species analyzed in QualiBact. Click on a species name to view its detailed page. Click the genus name for another page. 
 
 ## [*Achromobacter*](Achromobacter/index.md)
 

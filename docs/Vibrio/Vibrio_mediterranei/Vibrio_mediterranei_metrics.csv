@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Vibrio_mediterranei,N50,412000.0,
 Vibrio_mediterranei,no_of_contigs,,140.0
 Vibrio_mediterranei,GC_Content,43.0,45.0
-Vibrio_mediterranei,Completeness,100.0,
+Vibrio_mediterranei,Completeness,99.0,
 Vibrio_mediterranei,Contamination,,3.0
 Vibrio_mediterranei,Total_Coding_Sequences,5200.0,5600.0
 Vibrio_mediterranei,Genome_Size,5700000.0,6000000.0

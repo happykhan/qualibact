@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pediococcus_pentosaceus,N50,209000.0,
 Pediococcus_pentosaceus,no_of_contigs,,50.0
 Pediococcus_pentosaceus,GC_Content,37.0,38.0
-Pediococcus_pentosaceus,Completeness,85.0,
+Pediococcus_pentosaceus,Completeness,84.0,
 Pediococcus_pentosaceus,Contamination,,9.0
 Pediococcus_pentosaceus,Total_Coding_Sequences,1600.0,2200.0
 Pediococcus_pentosaceus,Genome_Size,1600000.0,2100000.0

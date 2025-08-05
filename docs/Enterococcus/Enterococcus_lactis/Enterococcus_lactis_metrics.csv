@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterococcus_lactis,N50,36000.0,
 Enterococcus_lactis,no_of_contigs,,230.0
 Enterococcus_lactis,GC_Content,37.0,39.0
-Enterococcus_lactis,Completeness,97.0,
+Enterococcus_lactis,Completeness,96.0,
 Enterococcus_lactis,Contamination,,2.0
 Enterococcus_lactis,Total_Coding_Sequences,2400.0,3100.0
 Enterococcus_lactis,Genome_Size,2500000.0,3100000.0

@@ -32,7 +32,7 @@ This section provides a summary of the metrics for the genus:
 | Stenotrophomonas_pavanii    | N50                    |    36000       |      nan       |
 | Stenotrophomonas_pavanii    | no_of_contigs          |      nan       |      250       |
 | Stenotrophomonas_pavanii    | GC_Content             |       66       |       68       |
-| Stenotrophomonas_pavanii    | Completeness           |       99       |      nan       |
+| Stenotrophomonas_pavanii    | Completeness           |       98       |      nan       |
 | Stenotrophomonas_pavanii    | Contamination          |      nan       |        2       |
 | Stenotrophomonas_pavanii    | Total_Coding_Sequences |     3800       |     4600       |
 | Stenotrophomonas_pavanii    | Genome_Size            |        4.3e+06 |        4.9e+06 |

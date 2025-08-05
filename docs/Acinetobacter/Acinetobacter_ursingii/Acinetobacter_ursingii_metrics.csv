@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Acinetobacter_ursingii,N50,33000.0,
 Acinetobacter_ursingii,no_of_contigs,,260.0
 Acinetobacter_ursingii,GC_Content,39.0,41.0
-Acinetobacter_ursingii,Completeness,100.0,
+Acinetobacter_ursingii,Completeness,99.0,
 Acinetobacter_ursingii,Contamination,,2.0
 Acinetobacter_ursingii,Total_Coding_Sequences,3000.0,4000.0
 Acinetobacter_ursingii,Genome_Size,3200000.0,4200000.0

@@ -9,7 +9,7 @@ Stenotrophomonas_sepilia,Genome_Size,4200000.0,4800000.0
 Stenotrophomonas_pavanii,N50,36000.0,
 Stenotrophomonas_pavanii,no_of_contigs,,250.0
 Stenotrophomonas_pavanii,GC_Content,66.0,68.0
-Stenotrophomonas_pavanii,Completeness,99.0,
+Stenotrophomonas_pavanii,Completeness,98.0,
 Stenotrophomonas_pavanii,Contamination,,2.0
 Stenotrophomonas_pavanii,Total_Coding_Sequences,3800.0,4600.0
 Stenotrophomonas_pavanii,Genome_Size,4300000.0,4900000.0
@@ -23,7 +23,7 @@ Stenotrophomonas_geniculata,Genome_Size,4400000.0,5300000.0
 Stenotrophomonas_maltophilia,N50,23000.0,
 Stenotrophomonas_maltophilia,no_of_contigs,,410.0
 Stenotrophomonas_maltophilia,GC_Content,65.0,68.0
-Stenotrophomonas_maltophilia,Completeness,95.0,
+Stenotrophomonas_maltophilia,Completeness,94.0,
 Stenotrophomonas_maltophilia,Contamination,,5.0
 Stenotrophomonas_maltophilia,Total_Coding_Sequences,3700.0,4900.0
 Stenotrophomonas_maltophilia,Genome_Size,4100000.0,5300000.0

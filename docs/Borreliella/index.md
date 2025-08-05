@@ -9,9 +9,9 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                 |   original_count |   filtered_out_count |   final_count |
 |:------------------------|-----------------:|---------------------:|--------------:|
-| Borreliella_burgdorferi |              636 |                   67 |           569 |
+| Borreliella_burgdorferi |              636 |                   65 |           571 |
 | Borreliella_garinii     |              214 |                   13 |           201 |
-| Borreliella_afzelii     |              152 |                   10 |           142 |
+| Borreliella_afzelii     |              152 |                    7 |           145 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -23,21 +23,21 @@ This section provides a summary of the metrics for the genus:
 | Borreliella_garinii     | N50                    |          12000 |      nan       |
 | Borreliella_garinii     | no_of_contigs          |            nan |      450       |
 | Borreliella_garinii     | GC_Content             |             27 |       29       |
-| Borreliella_garinii     | Completeness           |             79 |      nan       |
+| Borreliella_garinii     | Completeness           |             78 |      nan       |
 | Borreliella_garinii     | Contamination          |            nan |        3       |
 | Borreliella_garinii     | Total_Coding_Sequences |            800 |     1800       |
 | Borreliella_garinii     | Genome_Size            |         800000 |        1.5e+06 |
 | Borreliella_burgdorferi | N50                    |           2000 |      nan       |
 | Borreliella_burgdorferi | no_of_contigs          |            nan |     1030       |
 | Borreliella_burgdorferi | GC_Content             |             27 |       33       |
-| Borreliella_burgdorferi | Completeness           |             85 |      nan       |
+| Borreliella_burgdorferi | Completeness           |             84 |      nan       |
 | Borreliella_burgdorferi | Contamination          |            nan |        9       |
 | Borreliella_burgdorferi | Total_Coding_Sequences |            800 |     2000       |
 | Borreliella_burgdorferi | Genome_Size            |         900000 |        1.7e+06 |
 | Borreliella_afzelii     | N50                    |          12000 |      nan       |
 | Borreliella_afzelii     | no_of_contigs          |            nan |      430       |
 | Borreliella_afzelii     | GC_Content             |             27 |       29       |
-| Borreliella_afzelii     | Completeness           |             96 |      nan       |
+| Borreliella_afzelii     | Completeness           |             95 |      nan       |
 | Borreliella_afzelii     | Contamination          |            nan |        2       |
 | Borreliella_afzelii     | Total_Coding_Sequences |            800 |     1700       |
 

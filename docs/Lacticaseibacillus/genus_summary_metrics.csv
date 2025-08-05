@@ -2,14 +2,14 @@ species,metric,lower_bounds,upper_bounds
 Lacticaseibacillus_paracasei,N50,29000.0,
 Lacticaseibacillus_paracasei,no_of_contigs,,320.0
 Lacticaseibacillus_paracasei,GC_Content,46.0,47.0
-Lacticaseibacillus_paracasei,Completeness,86.0,
+Lacticaseibacillus_paracasei,Completeness,85.0,
 Lacticaseibacillus_paracasei,Contamination,,14.0
 Lacticaseibacillus_paracasei,Total_Coding_Sequences,2500.0,3400.0
 Lacticaseibacillus_paracasei,Genome_Size,2600000.0,3500000.0
 Lacticaseibacillus_rhamnosus,N50,50000.0,
 Lacticaseibacillus_rhamnosus,no_of_contigs,,190.0
 Lacticaseibacillus_rhamnosus,GC_Content,46.0,47.0
-Lacticaseibacillus_rhamnosus,Completeness,97.0,
+Lacticaseibacillus_rhamnosus,Completeness,96.0,
 Lacticaseibacillus_rhamnosus,Contamination,,3.0
 Lacticaseibacillus_rhamnosus,Total_Coding_Sequences,2600.0,3100.0
 Lacticaseibacillus_rhamnosus,Genome_Size,2800000.0,3300000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Corynebacterium_jeikeium,N50,77000.0,
 Corynebacterium_jeikeium,no_of_contigs,,130.0
 Corynebacterium_jeikeium,GC_Content,61.0,63.0
-Corynebacterium_jeikeium,Completeness,96.0,
+Corynebacterium_jeikeium,Completeness,95.0,
 Corynebacterium_jeikeium,Contamination,,3.0
 Corynebacterium_jeikeium,Total_Coding_Sequences,1900.0,2300.0
 Corynebacterium_jeikeium,Genome_Size,2200000.0,2600000.0

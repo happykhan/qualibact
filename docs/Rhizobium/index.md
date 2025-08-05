@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Rhizobium_leguminosarum | N50                    |   170000       |      nan       |
 | Rhizobium_leguminosarum | no_of_contigs          |      nan       |      250       |
 | Rhizobium_leguminosarum | GC_Content             |       60       |       62       |
-| Rhizobium_leguminosarum | Completeness           |       96       |      nan       |
+| Rhizobium_leguminosarum | Completeness           |       95       |      nan       |
 | Rhizobium_leguminosarum | Contamination          |      nan       |        7       |
 | Rhizobium_leguminosarum | Total_Coding_Sequences |     6500       |     8900       |
 | Rhizobium_leguminosarum | Genome_Size            |        6.7e+06 |        8.8e+06 |

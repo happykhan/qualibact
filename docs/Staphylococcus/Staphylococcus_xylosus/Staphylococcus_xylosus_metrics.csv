@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_xylosus,N50,31000.0,
 Staphylococcus_xylosus,no_of_contigs,,230.0
 Staphylococcus_xylosus,GC_Content,32.0,33.0
-Staphylococcus_xylosus,Completeness,98.0,
+Staphylococcus_xylosus,Completeness,97.0,
 Staphylococcus_xylosus,Contamination,,2.0
 Staphylococcus_xylosus,Total_Coding_Sequences,2500.0,2900.0
 Staphylococcus_xylosus,Genome_Size,2700000.0,3000000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Campylobacter_hyointestinalis,N50,49000.0,
 Campylobacter_hyointestinalis,no_of_contigs,,90.0
 Campylobacter_hyointestinalis,GC_Content,33.0,35.0
-Campylobacter_hyointestinalis,Completeness,100.0,
+Campylobacter_hyointestinalis,Completeness,99.0,
 Campylobacter_hyointestinalis,Contamination,,2.0
 Campylobacter_hyointestinalis,Total_Coding_Sequences,1700.0,2100.0
 Campylobacter_hyointestinalis,Genome_Size,1600000.0,2000000.0

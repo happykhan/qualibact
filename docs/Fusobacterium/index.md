@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Fusobacterium_necrophorum | N50                    |    38000       |      nan       |
 | Fusobacterium_necrophorum | no_of_contigs          |      nan       |      150       |
 | Fusobacterium_necrophorum | GC_Content             |       34       |       36       |
-| Fusobacterium_necrophorum | Completeness           |       93       |      nan       |
+| Fusobacterium_necrophorum | Completeness           |       92       |      nan       |
 | Fusobacterium_necrophorum | Contamination          |      nan       |        5       |
 | Fusobacterium_necrophorum | Total_Coding_Sequences |     1800       |     2500       |
 | Fusobacterium_necrophorum | Genome_Size            |        1.9e+06 |        2.4e+06 |

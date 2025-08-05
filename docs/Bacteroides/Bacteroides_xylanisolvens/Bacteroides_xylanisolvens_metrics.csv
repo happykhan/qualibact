@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacteroides_xylanisolvens,N50,16000.0,
 Bacteroides_xylanisolvens,no_of_contigs,,980.0
 Bacteroides_xylanisolvens,GC_Content,41.0,43.0
-Bacteroides_xylanisolvens,Completeness,95.0,
+Bacteroides_xylanisolvens,Completeness,94.0,
 Bacteroides_xylanisolvens,Contamination,,9.0
 Bacteroides_xylanisolvens,Total_Coding_Sequences,4400.0,6000.0
 Bacteroides_xylanisolvens,Genome_Size,5600000.0,7000000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_salivarius,N50,55000.0,
 Streptococcus_salivarius,no_of_contigs,,110.0
 Streptococcus_salivarius,GC_Content,39.0,41.0
-Streptococcus_salivarius,Completeness,94.0,
+Streptococcus_salivarius,Completeness,93.0,
 Streptococcus_salivarius,Contamination,,8.0
 Streptococcus_salivarius,Total_Coding_Sequences,1800.0,2400.0
 Streptococcus_salivarius,Genome_Size,1900000.0,2500000.0

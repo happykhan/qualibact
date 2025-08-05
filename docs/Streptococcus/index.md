@@ -37,7 +37,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Streptococcus_salivarius       |              181 |                    5 |           176 |
 | Streptococcus_parasanguinis    |              134 |                    9 |           125 |
 | Streptococcus_canis            |              132 |                   16 |           116 |
-| Streptococcus_gordonii         |              102 |                   35 |            67 |
+| Streptococcus_gordonii         |              102 |                   10 |            92 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -49,21 +49,21 @@ This section provides a summary of the metrics for the genus:
 | Streptococcus_agalactiae | N50                    |    36000       |      nan       |
 | Streptococcus_agalactiae | no_of_contigs          |      nan       |      140       |
 | Streptococcus_agalactiae | GC_Content             |       35       |       37       |
-| Streptococcus_agalactiae | Completeness           |       96       |      nan       |
+| Streptococcus_agalactiae | Completeness           |       95       |      nan       |
 | Streptococcus_agalactiae | Contamination          |      nan       |        3       |
 | Streptococcus_agalactiae | Total_Coding_Sequences |     1900       |     2400       |
 | Streptococcus_agalactiae | Genome_Size            |        1.9e+06 |        2.4e+06 |
 | Streptococcus_equi       | N50                    |    24000       |      nan       |
 | Streptococcus_equi       | no_of_contigs          |      nan       |      210       |
 | Streptococcus_equi       | GC_Content             |       40       |       42       |
-| Streptococcus_equi       | Completeness           |       98       |      nan       |
+| Streptococcus_equi       | Completeness           |       97       |      nan       |
 | Streptococcus_equi       | Contamination          |      nan       |        2       |
 | Streptococcus_equi       | Total_Coding_Sequences |     1800       |     2300       |
 | Streptococcus_equi       | Genome_Size            |        1.9e+06 |        2.3e+06 |
 | Streptococcus_suis       | N50                    |    20000       |      nan       |
 | Streptococcus_suis       | no_of_contigs          |      nan       |      290       |
 | Streptococcus_suis       | GC_Content             |       39       |       44       |
-| Streptococcus_suis       | Completeness           |       94       |      nan       |
+| Streptococcus_suis       | Completeness           |       93       |      nan       |
 | Streptococcus_suis       | Contamination          |      nan       |        5       |
 | Streptococcus_suis       | Total_Coding_Sequences |     1800       |     2700       |
 

@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Moraxella_catarrhalis | N50                    |   134000       |      nan       |
 | Moraxella_catarrhalis | no_of_contigs          |      nan       |       70       |
 | Moraxella_catarrhalis | GC_Content             |       41       |       42       |
-| Moraxella_catarrhalis | Completeness           |       99       |      nan       |
+| Moraxella_catarrhalis | Completeness           |       98       |      nan       |
 | Moraxella_catarrhalis | Contamination          |      nan       |        1       |
 | Moraxella_catarrhalis | Total_Coding_Sequences |     1600       |     2000       |
 | Moraxella_catarrhalis | Genome_Size            |        1.8e+06 |        2.1e+06 |
 | Moraxella_bovoculi    | N50                    |    55000       |      nan       |
 | Moraxella_bovoculi    | no_of_contigs          |      nan       |      110       |
 | Moraxella_bovoculi    | GC_Content             |       45       |       46       |
-| Moraxella_bovoculi    | Completeness           |       96       |      nan       |
+| Moraxella_bovoculi    | Completeness           |       95       |      nan       |
 | Moraxella_bovoculi    | Contamination          |      nan       |        2       |
 | Moraxella_bovoculi    | Total_Coding_Sequences |     1800       |     2500       |
 | Moraxella_bovoculi    | Genome_Size            |        1.9e+06 |        2.5e+06 |

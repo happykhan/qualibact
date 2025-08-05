@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Francisella_tularensis | N50                    |    19000       |      nan       |
 | Francisella_tularensis | no_of_contigs          |      nan       |      180       |
 | Francisella_tularensis | GC_Content             |       32       |       33       |
-| Francisella_tularensis | Completeness           |       93       |      nan       |
+| Francisella_tularensis | Completeness           |       92       |      nan       |
 | Francisella_tularensis | Contamination          |      nan       |        4       |
 | Francisella_tularensis | Total_Coding_Sequences |     1800       |     2100       |
 | Francisella_tularensis | Genome_Size            |        1.7e+06 |        2.1e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Janthinobacterium_lividum,N50,14000.0,
 Janthinobacterium_lividum,no_of_contigs,,860.0
 Janthinobacterium_lividum,GC_Content,62.0,63.0
-Janthinobacterium_lividum,Completeness,100.0,
+Janthinobacterium_lividum,Completeness,99.0,
 Janthinobacterium_lividum,Contamination,,9.0
 Janthinobacterium_lividum,Total_Coding_Sequences,5300.0,6100.0
 Janthinobacterium_lividum,Genome_Size,6000000.0,6800000.0

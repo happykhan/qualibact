@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Xylella_fastidiosa,N50,42000.0,
 Xylella_fastidiosa,no_of_contigs,,330.0
 Xylella_fastidiosa,GC_Content,51.0,53.0
-Xylella_fastidiosa,Completeness,94.0,
+Xylella_fastidiosa,Completeness,93.0,
 Xylella_fastidiosa,Contamination,,3.0
 Xylella_fastidiosa,Total_Coding_Sequences,2100.0,2900.0
 Xylella_fastidiosa,Genome_Size,2400000.0,2900000.0

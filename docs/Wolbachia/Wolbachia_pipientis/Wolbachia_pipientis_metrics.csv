@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Wolbachia_pipientis,N50,13000.0,
 Wolbachia_pipientis,no_of_contigs,,230.0
 Wolbachia_pipientis,GC_Content,33.0,36.0
-Wolbachia_pipientis,Completeness,98.0,
+Wolbachia_pipientis,Completeness,97.0,
 Wolbachia_pipientis,Contamination,,2.0
 Wolbachia_pipientis,Total_Coding_Sequences,1100.0,1700.0
 Wolbachia_pipientis,Genome_Size,1100000.0,1800000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_equorum,N50,244000.0,
 Staphylococcus_equorum,no_of_contigs,,60.0
 Staphylococcus_equorum,GC_Content,32.0,34.0
-Staphylococcus_equorum,Completeness,97.0,
+Staphylococcus_equorum,Completeness,96.0,
 Staphylococcus_equorum,Contamination,,2.0
 Staphylococcus_equorum,Total_Coding_Sequences,2500.0,3000.0
 Staphylococcus_equorum,Genome_Size,2600000.0,3000000.0

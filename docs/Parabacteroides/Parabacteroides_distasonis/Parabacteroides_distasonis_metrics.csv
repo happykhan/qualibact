@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Parabacteroides_distasonis,N50,28000.0,
 Parabacteroides_distasonis,no_of_contigs,,410.0
 Parabacteroides_distasonis,GC_Content,44.0,46.0
-Parabacteroides_distasonis,Completeness,92.0,
+Parabacteroides_distasonis,Completeness,91.0,
 Parabacteroides_distasonis,Contamination,,5.0
 Parabacteroides_distasonis,Total_Coding_Sequences,3900.0,5000.0
 Parabacteroides_distasonis,Genome_Size,4700000.0,5700000.0

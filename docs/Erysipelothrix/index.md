@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Erysipelothrix_rhusiopathiae | N50                    |    22000       |        nan     |
 | Erysipelothrix_rhusiopathiae | no_of_contigs          |      nan       |        140     |
 | Erysipelothrix_rhusiopathiae | GC_Content             |       36       |         37     |
-| Erysipelothrix_rhusiopathiae | Completeness           |       90       |        nan     |
+| Erysipelothrix_rhusiopathiae | Completeness           |       89       |        nan     |
 | Erysipelothrix_rhusiopathiae | Contamination          |      nan       |          4     |
 | Erysipelothrix_rhusiopathiae | Total_Coding_Sequences |     1600       |       2000     |
 | Erysipelothrix_rhusiopathiae | Genome_Size            |        1.7e+06 |          2e+06 |

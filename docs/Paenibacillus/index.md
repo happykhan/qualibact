@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Paenibacillus_larvae | N50                    |    21000       |      nan       |
 | Paenibacillus_larvae | no_of_contigs          |      nan       |      800       |
 | Paenibacillus_larvae | GC_Content             |       43       |       46       |
-| Paenibacillus_larvae | Completeness           |       86       |      nan       |
+| Paenibacillus_larvae | Completeness           |       85       |      nan       |
 | Paenibacillus_larvae | Contamination          |      nan       |        4       |
 | Paenibacillus_larvae | Total_Coding_Sequences |     3800       |     5300       |
 | Paenibacillus_larvae | Genome_Size            |        3.6e+06 |        4.8e+06 |

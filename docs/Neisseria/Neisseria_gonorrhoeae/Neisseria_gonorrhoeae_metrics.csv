@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Neisseria_gonorrhoeae,N50,28000.0,
 Neisseria_gonorrhoeae,no_of_contigs,,230.0
 Neisseria_gonorrhoeae,GC_Content,52.0,53.0
-Neisseria_gonorrhoeae,Completeness,98.0,
+Neisseria_gonorrhoeae,Completeness,97.0,
 Neisseria_gonorrhoeae,Contamination,,3.0
 Neisseria_gonorrhoeae,Total_Coding_Sequences,2000.0,2500.0
 Neisseria_gonorrhoeae,Genome_Size,2000000.0,2400000.0

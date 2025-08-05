@@ -7,7 +7,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species            |   original_count |   filtered_out_count |   final_count |
 |:-------------------|-----------------:|---------------------:|--------------:|
-| Treponema_pallidum |              654 |                   88 |           566 |
+| Treponema_pallidum |              654 |                   86 |           568 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Treponema_pallidum | N50                    |           3000 |      nan       |
 | Treponema_pallidum | no_of_contigs          |            nan |      690       |
 | Treponema_pallidum | GC_Content             |             51 |       53       |
-| Treponema_pallidum | Completeness           |             72 |      nan       |
+| Treponema_pallidum | Completeness           |             71 |      nan       |
 | Treponema_pallidum | Contamination          |            nan |        3       |
 | Treponema_pallidum | Total_Coding_Sequences |            900 |     1600       |
 | Treponema_pallidum | Genome_Size            |         900000 |        1.5e+06 |

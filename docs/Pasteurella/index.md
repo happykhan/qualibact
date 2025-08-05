@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Pasteurella_multocida | N50                    |    26000       |      nan       |
 | Pasteurella_multocida | no_of_contigs          |      nan       |      180       |
 | Pasteurella_multocida | GC_Content             |       40       |       41       |
-| Pasteurella_multocida | Completeness           |       91       |      nan       |
+| Pasteurella_multocida | Completeness           |       90       |      nan       |
 | Pasteurella_multocida | Contamination          |      nan       |        3       |
 | Pasteurella_multocida | Total_Coding_Sequences |     2000       |     2900       |
 | Pasteurella_multocida | Genome_Size            |        2.1e+06 |        2.8e+06 |

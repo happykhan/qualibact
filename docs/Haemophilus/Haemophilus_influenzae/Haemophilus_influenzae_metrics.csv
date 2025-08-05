@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Haemophilus_influenzae,N50,28000.0,
 Haemophilus_influenzae,no_of_contigs,,140.0
 Haemophilus_influenzae,GC_Content,37.0,39.0
-Haemophilus_influenzae,Completeness,94.0,
+Haemophilus_influenzae,Completeness,93.0,
 Haemophilus_influenzae,Contamination,,3.0
 Haemophilus_influenzae,Total_Coding_Sequences,1600.0,2200.0
 Haemophilus_influenzae,Genome_Size,1700000.0,2200000.0

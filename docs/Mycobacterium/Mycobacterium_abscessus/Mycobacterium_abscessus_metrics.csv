@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycobacterium_abscessus,N50,74000.0,
 Mycobacterium_abscessus,no_of_contigs,,180.0
 Mycobacterium_abscessus,GC_Content,63.0,65.0
-Mycobacterium_abscessus,Completeness,96.0,
+Mycobacterium_abscessus,Completeness,95.0,
 Mycobacterium_abscessus,Contamination,,3.0
 Mycobacterium_abscessus,Total_Coding_Sequences,4600.0,5800.0
 Mycobacterium_abscessus,Genome_Size,4600000.0,5600000.0

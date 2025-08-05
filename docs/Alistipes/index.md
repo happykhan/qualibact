@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Alistipes_onderdonkii | N50                    |    82000       |        nan     |
 | Alistipes_onderdonkii | no_of_contigs          |      nan       |        240     |
 | Alistipes_onderdonkii | GC_Content             |       57       |         59     |
-| Alistipes_onderdonkii | Completeness           |       99       |        nan     |
+| Alistipes_onderdonkii | Completeness           |       98       |        nan     |
 | Alistipes_onderdonkii | Contamination          |      nan       |          2     |
 | Alistipes_onderdonkii | Total_Coding_Sequences |     2700       |       3500     |
 | Alistipes_onderdonkii | Genome_Size            |        3.3e+06 |          4e+06 |

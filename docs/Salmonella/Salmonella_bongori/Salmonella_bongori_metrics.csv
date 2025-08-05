@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Salmonella_bongori,N50,33000.0,
 Salmonella_bongori,no_of_contigs,,270.0
 Salmonella_bongori,GC_Content,51.0,52.0
-Salmonella_bongori,Completeness,98.0,
+Salmonella_bongori,Completeness,97.0,
 Salmonella_bongori,Contamination,,2.0
 Salmonella_bongori,Total_Coding_Sequences,3900.0,4700.0
 Salmonella_bongori,Genome_Size,4300000.0,4900000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_simulans,N50,17000.0,
 Staphylococcus_simulans,no_of_contigs,,340.0
 Staphylococcus_simulans,GC_Content,35.0,37.0
-Staphylococcus_simulans,Completeness,99.0,
+Staphylococcus_simulans,Completeness,98.0,
 Staphylococcus_simulans,Contamination,,2.0
 Staphylococcus_simulans,Total_Coding_Sequences,2300.0,2800.0
 Staphylococcus_simulans,Genome_Size,2500000.0,2900000.0

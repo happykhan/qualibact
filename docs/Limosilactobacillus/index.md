@@ -23,21 +23,21 @@ This section provides a summary of the metrics for the genus:
 | Limosilactobacillus_reuteri   | N50                    |    15000       |      nan       |
 | Limosilactobacillus_reuteri   | no_of_contigs          |      nan       |      380       |
 | Limosilactobacillus_reuteri   | GC_Content             |       38       |       40       |
-| Limosilactobacillus_reuteri   | Completeness           |       92       |      nan       |
+| Limosilactobacillus_reuteri   | Completeness           |       91       |      nan       |
 | Limosilactobacillus_reuteri   | Contamination          |      nan       |        5       |
 | Limosilactobacillus_reuteri   | Total_Coding_Sequences |     1700       |     2800       |
 | Limosilactobacillus_reuteri   | Genome_Size            |        1.8e+06 |        2.7e+06 |
 | Limosilactobacillus_fermentum | N50                    |    25000       |      nan       |
 | Limosilactobacillus_fermentum | no_of_contigs          |      nan       |      360       |
 | Limosilactobacillus_fermentum | GC_Content             |       50       |       53       |
-| Limosilactobacillus_fermentum | Completeness           |       86       |      nan       |
+| Limosilactobacillus_fermentum | Completeness           |       85       |      nan       |
 | Limosilactobacillus_fermentum | Contamination          |      nan       |       11       |
 | Limosilactobacillus_fermentum | Total_Coding_Sequences |     1900       |     2500       |
 | Limosilactobacillus_fermentum | Genome_Size            |        1.8e+06 |        2.4e+06 |
 | Limosilactobacillus_mucosae   | N50                    |    70000       |      nan       |
 | Limosilactobacillus_mucosae   | no_of_contigs          |      nan       |      110       |
 | Limosilactobacillus_mucosae   | GC_Content             |       46       |       47       |
-| Limosilactobacillus_mucosae   | Completeness           |       98       |      nan       |
+| Limosilactobacillus_mucosae   | Completeness           |       97       |      nan       |
 | Limosilactobacillus_mucosae   | Contamination          |      nan       |        1       |
 | Limosilactobacillus_mucosae   | Total_Coding_Sequences |     1700       |     2400       |
 

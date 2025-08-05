@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Helicobacter_pylori | N50                    |    32000       |      nan       |
 | Helicobacter_pylori | no_of_contigs          |      nan       |      130       |
 | Helicobacter_pylori | GC_Content             |       38       |       40       |
-| Helicobacter_pylori | Completeness           |       96       |      nan       |
+| Helicobacter_pylori | Completeness           |       95       |      nan       |
 | Helicobacter_pylori | Contamination          |      nan       |        2       |
 | Helicobacter_pylori | Total_Coding_Sequences |     1400       |     1700       |
 | Helicobacter_pylori | Genome_Size            |        1.5e+06 |        1.8e+06 |

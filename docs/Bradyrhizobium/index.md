@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Bradyrhizobium_diazoefficiens | N50                    |    55000       |      nan       |
 | Bradyrhizobium_diazoefficiens | no_of_contigs          |      nan       |      370       |
 | Bradyrhizobium_diazoefficiens | GC_Content             |       63       |       65       |
-| Bradyrhizobium_diazoefficiens | Completeness           |       98       |      nan       |
+| Bradyrhizobium_diazoefficiens | Completeness           |       97       |      nan       |
 | Bradyrhizobium_diazoefficiens | Contamination          |      nan       |        1       |
 | Bradyrhizobium_diazoefficiens | Total_Coding_Sequences |     6600       |     9100       |
 | Bradyrhizobium_diazoefficiens | Genome_Size            |        7.1e+06 |        9.6e+06 |

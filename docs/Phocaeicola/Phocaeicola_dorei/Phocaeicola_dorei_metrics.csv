@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Phocaeicola_dorei,N50,30000.0,
 Phocaeicola_dorei,no_of_contigs,,510.0
 Phocaeicola_dorei,GC_Content,41.0,43.0
-Phocaeicola_dorei,Completeness,99.0,
+Phocaeicola_dorei,Completeness,98.0,
 Phocaeicola_dorei,Contamination,,5.0
 Phocaeicola_dorei,Total_Coding_Sequences,3900.0,5400.0
 Phocaeicola_dorei,Genome_Size,4900000.0,6100000.0

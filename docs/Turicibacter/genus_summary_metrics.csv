@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Turicibacter_sanguinis,N50,11000.0,
 Turicibacter_sanguinis,no_of_contigs,,560.0
 Turicibacter_sanguinis,GC_Content,34.0,35.0
-Turicibacter_sanguinis,Completeness,96.0,
+Turicibacter_sanguinis,Completeness,95.0,
 Turicibacter_sanguinis,Contamination,,4.0
 Turicibacter_sanguinis,Total_Coding_Sequences,2700.0,3200.0
 Turicibacter_sanguinis,Genome_Size,2800000.0,3300000.0

@@ -16,14 +16,14 @@ Breakdown of genomes filtered and retained by using these metrics:
 | species                    |   original_count |   filtered_out_count |   final_count |
 |:---------------------------|-----------------:|---------------------:|--------------:|
 | Enterococcus_faecium       |            36574 |                 1084 |         35490 |
-| Enterococcus_faecalis      |             9673 |                  255 |          9418 |
+| Enterococcus_faecalis      |             9673 |                  254 |          9419 |
 | Enterococcus_lactis        |             1293 |                   49 |          1244 |
 | Enterococcus_hirae         |              995 |                   38 |           957 |
 | Enterococcus_gallinarum    |              305 |                   12 |           293 |
 | Enterococcus_durans        |              289 |                    8 |           281 |
 | Enterococcus_cecorum       |              264 |                   12 |           252 |
 | Enterococcus_casseliflavus |              118 |                    4 |           114 |
-| Enterococcus_avium         |              108 |                    5 |           103 |
+| Enterococcus_avium         |              108 |                    4 |           104 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -35,21 +35,21 @@ This section provides a summary of the metrics for the genus:
 | Enterococcus_gallinarum | N50                    |    76000       |      nan       |
 | Enterococcus_gallinarum | no_of_contigs          |      nan       |      180       |
 | Enterococcus_gallinarum | GC_Content             |       39       |       41       |
-| Enterococcus_gallinarum | Completeness           |       91       |      nan       |
+| Enterococcus_gallinarum | Completeness           |       90       |      nan       |
 | Enterococcus_gallinarum | Contamination          |      nan       |       12       |
 | Enterococcus_gallinarum | Total_Coding_Sequences |     2900       |     3800       |
 | Enterococcus_gallinarum | Genome_Size            |        3.1e+06 |        3.8e+06 |
 | Enterococcus_hirae      | N50                    |    38000       |      nan       |
 | Enterococcus_hirae      | no_of_contigs          |      nan       |      210       |
 | Enterococcus_hirae      | GC_Content             |       36       |       38       |
-| Enterococcus_hirae      | Completeness           |       93       |      nan       |
+| Enterococcus_hirae      | Completeness           |       92       |      nan       |
 | Enterococcus_hirae      | Contamination          |      nan       |        2       |
 | Enterococcus_hirae      | Total_Coding_Sequences |     2400       |     3200       |
 | Enterococcus_hirae      | Genome_Size            |        2.6e+06 |        3.3e+06 |
 | Enterococcus_faecalis   | N50                    |    46000       |      nan       |
 | Enterococcus_faecalis   | no_of_contigs          |      nan       |      230       |
 | Enterococcus_faecalis   | GC_Content             |       36       |       38       |
-| Enterococcus_faecalis   | Completeness           |       97       |      nan       |
+| Enterococcus_faecalis   | Completeness           |       96       |      nan       |
 | Enterococcus_faecalis   | Contamination          |      nan       |        3       |
 | Enterococcus_faecalis   | Total_Coding_Sequences |     2400       |     3600       |
 

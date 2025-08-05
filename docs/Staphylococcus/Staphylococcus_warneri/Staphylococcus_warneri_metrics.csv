@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_warneri,N50,25000.0,
 Staphylococcus_warneri,no_of_contigs,,200.0
 Staphylococcus_warneri,GC_Content,32.0,33.0
-Staphylococcus_warneri,Completeness,97.0,
+Staphylococcus_warneri,Completeness,96.0,
 Staphylococcus_warneri,Contamination,,1.0
 Staphylococcus_warneri,Total_Coding_Sequences,2200.0,2800.0
 Staphylococcus_warneri,Genome_Size,2300000.0,2800000.0

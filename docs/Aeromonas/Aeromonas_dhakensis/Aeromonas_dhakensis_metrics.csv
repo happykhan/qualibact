@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Aeromonas_dhakensis,N50,61000.0,
 Aeromonas_dhakensis,no_of_contigs,,180.0
 Aeromonas_dhakensis,GC_Content,60.0,62.0
-Aeromonas_dhakensis,Completeness,97.0,
+Aeromonas_dhakensis,Completeness,96.0,
 Aeromonas_dhakensis,Contamination,,1.0
 Aeromonas_dhakensis,Total_Coding_Sequences,4100.0,4700.0
 Aeromonas_dhakensis,Genome_Size,4600000.0,5100000.0

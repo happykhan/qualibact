@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Elizabethkingia_anophelis | N50                    |   116000       |      nan       |
 | Elizabethkingia_anophelis | no_of_contigs          |      nan       |      110       |
 | Elizabethkingia_anophelis | GC_Content             |       35       |       36       |
-| Elizabethkingia_anophelis | Completeness           |       95       |      nan       |
+| Elizabethkingia_anophelis | Completeness           |       94       |      nan       |
 | Elizabethkingia_anophelis | Contamination          |      nan       |        6       |
 | Elizabethkingia_anophelis | Total_Coding_Sequences |     3400       |     4200       |
 | Elizabethkingia_anophelis | Genome_Size            |        3.8e+06 |        4.4e+06 |

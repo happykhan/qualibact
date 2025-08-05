@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Legionella_pneumophila | N50                    |    48000       |      nan       |
 | Legionella_pneumophila | no_of_contigs          |      nan       |      230       |
 | Legionella_pneumophila | GC_Content             |       38       |       39       |
-| Legionella_pneumophila | Completeness           |       96       |      nan       |
+| Legionella_pneumophila | Completeness           |       95       |      nan       |
 | Legionella_pneumophila | Contamination          |      nan       |        3       |
 | Legionella_pneumophila | Total_Coding_Sequences |     2800       |     3500       |
 | Legionella_pneumophila | Genome_Size            |        3.2e+06 |        3.8e+06 |
 | Legionella_longbeachae | N50                    |    32000       |      nan       |
 | Legionella_longbeachae | no_of_contigs          |      nan       |      260       |
 | Legionella_longbeachae | GC_Content             |       37       |       38       |
-| Legionella_longbeachae | Completeness           |       96       |      nan       |
+| Legionella_longbeachae | Completeness           |       95       |      nan       |
 | Legionella_longbeachae | Contamination          |      nan       |        8       |
 | Legionella_longbeachae | Total_Coding_Sequences |     3400       |     3900       |
 | Legionella_longbeachae | Genome_Size            |        3.9e+06 |        4.4e+06 |

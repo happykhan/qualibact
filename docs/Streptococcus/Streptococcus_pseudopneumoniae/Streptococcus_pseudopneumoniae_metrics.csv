@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_pseudopneumoniae,N50,28000.0,
 Streptococcus_pseudopneumoniae,no_of_contigs,,260.0
 Streptococcus_pseudopneumoniae,GC_Content,39.0,40.0
-Streptococcus_pseudopneumoniae,Completeness,99.0,
+Streptococcus_pseudopneumoniae,Completeness,98.0,
 Streptococcus_pseudopneumoniae,Contamination,,1.0
 Streptococcus_pseudopneumoniae,Total_Coding_Sequences,1800.0,2500.0
 Streptococcus_pseudopneumoniae,Genome_Size,1900000.0,2400000.0

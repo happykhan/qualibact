@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Chlamydophila_pecorum,N50,0.0,
 Chlamydophila_pecorum,no_of_contigs,,12570.0
 Chlamydophila_pecorum,GC_Content,40.0,47.0
-Chlamydophila_pecorum,Completeness,53.0,
+Chlamydophila_pecorum,Completeness,52.0,
 Chlamydophila_pecorum,Contamination,,6.0
 Chlamydophila_pecorum,Total_Coding_Sequences,900.0,13100.0
 Chlamydophila_pecorum,Genome_Size,1000000.0,5300000.0

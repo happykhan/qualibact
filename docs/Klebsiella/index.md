@@ -16,7 +16,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | species                    |   original_count |   filtered_out_count |   final_count |
 |:---------------------------|-----------------:|---------------------:|--------------:|
 | Klebsiella_pneumoniae      |            72964 |                 2230 |         70734 |
-| Klebsiella_quasipneumoniae |             3657 |                  121 |          3536 |
+| Klebsiella_quasipneumoniae |             3657 |                  120 |          3537 |
 | Klebsiella_variicola       |             2995 |                  120 |          2875 |
 | Klebsiella_michiganensis   |             1884 |                   79 |          1805 |
 | Klebsiella_aerogenes       |             1619 |                   66 |          1553 |
@@ -35,21 +35,21 @@ This section provides a summary of the metrics for the genus:
 | Klebsiella_ornithinolytica | N50                    |    83000       |      nan       |
 | Klebsiella_ornithinolytica | no_of_contigs          |      nan       |      350       |
 | Klebsiella_ornithinolytica | GC_Content             |       54       |       58       |
-| Klebsiella_ornithinolytica | Completeness           |       97       |      nan       |
+| Klebsiella_ornithinolytica | Completeness           |       96       |      nan       |
 | Klebsiella_ornithinolytica | Contamination          |      nan       |        4       |
 | Klebsiella_ornithinolytica | Total_Coding_Sequences |     4800       |     6300       |
 | Klebsiella_ornithinolytica | Genome_Size            |        5.3e+06 |        6.6e+06 |
 | Klebsiella_variicola       | N50                    |    67000       |      nan       |
 | Klebsiella_variicola       | no_of_contigs          |      nan       |      350       |
 | Klebsiella_variicola       | GC_Content             |       56       |       58       |
-| Klebsiella_variicola       | Completeness           |       99       |      nan       |
+| Klebsiella_variicola       | Completeness           |       98       |      nan       |
 | Klebsiella_variicola       | Contamination          |      nan       |        3       |
 | Klebsiella_variicola       | Total_Coding_Sequences |     4900       |     6500       |
 | Klebsiella_variicola       | Genome_Size            |        5.2e+06 |        6.5e+06 |
 | Klebsiella_pneumoniae      | N50                    |    54000       |      nan       |
 | Klebsiella_pneumoniae      | no_of_contigs          |      nan       |      390       |
 | Klebsiella_pneumoniae      | GC_Content             |       56       |       59       |
-| Klebsiella_pneumoniae      | Completeness           |       96       |      nan       |
+| Klebsiella_pneumoniae      | Completeness           |       95       |      nan       |
 | Klebsiella_pneumoniae      | Contamination          |      nan       |        5       |
 | Klebsiella_pneumoniae      | Total_Coding_Sequences |     4700       |     6500       |
 

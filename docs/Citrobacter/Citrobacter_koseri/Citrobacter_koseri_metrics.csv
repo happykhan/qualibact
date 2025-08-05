@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Citrobacter_koseri,N50,80000.0,
 Citrobacter_koseri,no_of_contigs,,180.0
 Citrobacter_koseri,GC_Content,53.0,54.0
-Citrobacter_koseri,Completeness,99.0,
+Citrobacter_koseri,Completeness,98.0,
 Citrobacter_koseri,Contamination,,2.0
 Citrobacter_koseri,Total_Coding_Sequences,4100.0,5200.0
 Citrobacter_koseri,Genome_Size,4500000.0,5300000.0

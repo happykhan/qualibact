@@ -23,7 +23,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Vibrio_mediterranei     |              217 |                   14 |           203 |
 | Vibrio_metschnikovii    |              163 |                    8 |           155 |
 | Vibrio_anguillarum      |              146 |                   11 |           135 |
-| Vibrio_diabolicus       |              145 |                   11 |           134 |
+| Vibrio_diabolicus       |              145 |                   10 |           135 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -35,21 +35,21 @@ This section provides a summary of the metrics for the genus:
 | Vibrio_metschnikovii | N50                    |    74000       |      nan       |
 | Vibrio_metschnikovii | no_of_contigs          |      nan       |      460       |
 | Vibrio_metschnikovii | GC_Content             |       43       |       45       |
-| Vibrio_metschnikovii | Completeness           |       96       |      nan       |
+| Vibrio_metschnikovii | Completeness           |       95       |      nan       |
 | Vibrio_metschnikovii | Contamination          |      nan       |        2       |
 | Vibrio_metschnikovii | Total_Coding_Sequences |     3200       |     3800       |
 | Vibrio_metschnikovii | Genome_Size            |        3.6e+06 |        4.1e+06 |
 | Vibrio_alginolyticus | N50                    |    68000       |      nan       |
 | Vibrio_alginolyticus | no_of_contigs          |      nan       |      220       |
 | Vibrio_alginolyticus | GC_Content             |       44       |       45       |
-| Vibrio_alginolyticus | Completeness           |       96       |      nan       |
+| Vibrio_alginolyticus | Completeness           |       95       |      nan       |
 | Vibrio_alginolyticus | Contamination          |      nan       |        4       |
 | Vibrio_alginolyticus | Total_Coding_Sequences |     4400       |     5300       |
 | Vibrio_alginolyticus | Genome_Size            |        4.8e+06 |        5.8e+06 |
 | Vibrio_vulnificus    | N50                    |    64000       |      nan       |
 | Vibrio_vulnificus    | no_of_contigs          |      nan       |      310       |
 | Vibrio_vulnificus    | GC_Content             |       45       |       47       |
-| Vibrio_vulnificus    | Completeness           |       98       |      nan       |
+| Vibrio_vulnificus    | Completeness           |       97       |      nan       |
 | Vibrio_vulnificus    | Contamination          |      nan       |        6       |
 | Vibrio_vulnificus    | Total_Coding_Sequences |     4200       |     5800       |
 

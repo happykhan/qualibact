@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Burkholderia_gladioli,N50,60000.0,
 Burkholderia_gladioli,no_of_contigs,,350.0
 Burkholderia_gladioli,GC_Content,67.0,69.0
-Burkholderia_gladioli,Completeness,92.0,
+Burkholderia_gladioli,Completeness,91.0,
 Burkholderia_gladioli,Contamination,,5.0
 Burkholderia_gladioli,Total_Coding_Sequences,6600.0,8100.0
 Burkholderia_gladioli,Genome_Size,7600000.0,9100000.0

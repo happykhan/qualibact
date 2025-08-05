@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_bombysepticus,N50,16000.0,
 Bacillus_bombysepticus,no_of_contigs,,2350.0
 Bacillus_bombysepticus,GC_Content,34.0,36.0
-Bacillus_bombysepticus,Completeness,100.0,
+Bacillus_bombysepticus,Completeness,99.0,
 Bacillus_bombysepticus,Contamination,,1.0
 Bacillus_bombysepticus,Total_Coding_Sequences,5200.0,7700.0
 Bacillus_bombysepticus,Genome_Size,5200000.0,6900000.0

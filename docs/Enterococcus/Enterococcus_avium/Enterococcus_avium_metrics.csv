@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterococcus_avium,N50,24000.0,
 Enterococcus_avium,no_of_contigs,,390.0
 Enterococcus_avium,GC_Content,38.0,40.0
-Enterococcus_avium,Completeness,94.0,
+Enterococcus_avium,Completeness,93.0,
 Enterococcus_avium,Contamination,,11.0
 Enterococcus_avium,Total_Coding_Sequences,3700.0,4900.0
 Enterococcus_avium,Genome_Size,3700000.0,4900000.0

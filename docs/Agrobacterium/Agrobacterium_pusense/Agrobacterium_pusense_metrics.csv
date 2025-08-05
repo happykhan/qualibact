@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Agrobacterium_pusense,N50,177000.0,
 Agrobacterium_pusense,no_of_contigs,,230.0
 Agrobacterium_pusense,GC_Content,59.0,60.0
-Agrobacterium_pusense,Completeness,99.0,
+Agrobacterium_pusense,Completeness,98.0,
 Agrobacterium_pusense,Contamination,,6.0
 Agrobacterium_pusense,Total_Coding_Sequences,4600.0,6300.0
 Agrobacterium_pusense,Genome_Size,4900000.0,6400000.0

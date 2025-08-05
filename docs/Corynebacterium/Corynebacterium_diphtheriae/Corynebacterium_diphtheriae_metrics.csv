@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Corynebacterium_diphtheriae,N50,62000.0,
 Corynebacterium_diphtheriae,no_of_contigs,,110.0
 Corynebacterium_diphtheriae,GC_Content,53.0,54.0
-Corynebacterium_diphtheriae,Completeness,96.0,
+Corynebacterium_diphtheriae,Completeness,95.0,
 Corynebacterium_diphtheriae,Contamination,,2.0
 Corynebacterium_diphtheriae,Total_Coding_Sequences,2100.0,2600.0
 Corynebacterium_diphtheriae,Genome_Size,2300000.0,2600000.0

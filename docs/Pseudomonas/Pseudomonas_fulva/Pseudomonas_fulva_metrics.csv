@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_fulva,N50,122000.0,
 Pseudomonas_fulva,no_of_contigs,,210.0
 Pseudomonas_fulva,GC_Content,60.0,65.0
-Pseudomonas_fulva,Completeness,96.0,
+Pseudomonas_fulva,Completeness,95.0,
 Pseudomonas_fulva,Contamination,,10.0
 Pseudomonas_fulva,Total_Coding_Sequences,4200.0,5500.0
 Pseudomonas_fulva,Genome_Size,4700000.0,5800000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mesomycoplasma_hyopneumoniae,N50,40000.0,
 Mesomycoplasma_hyopneumoniae,no_of_contigs,,100.0
 Mesomycoplasma_hyopneumoniae,GC_Content,28.0,29.0
-Mesomycoplasma_hyopneumoniae,Completeness,95.0,
+Mesomycoplasma_hyopneumoniae,Completeness,94.0,
 Mesomycoplasma_hyopneumoniae,Contamination,,3.0
 Mesomycoplasma_hyopneumoniae,Total_Coding_Sequences,600.0,800.0
 Mesomycoplasma_hyopneumoniae,Genome_Size,800000.0,1000000.0

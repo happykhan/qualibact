@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycobacterium_chelonae,N50,80000.0,
 Mycobacterium_chelonae,no_of_contigs,,180.0
 Mycobacterium_chelonae,GC_Content,63.0,65.0
-Mycobacterium_chelonae,Completeness,99.0,
+Mycobacterium_chelonae,Completeness,98.0,
 Mycobacterium_chelonae,Contamination,,2.0
 Mycobacterium_chelonae,Total_Coding_Sequences,4700.0,6000.0
 Mycobacterium_chelonae,Genome_Size,4900000.0,5900000.0

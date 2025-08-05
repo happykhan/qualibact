@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Phocaeicola_dorei    | N50                    |    30000       |      nan       |
 | Phocaeicola_dorei    | no_of_contigs          |      nan       |      510       |
 | Phocaeicola_dorei    | GC_Content             |       41       |       43       |
-| Phocaeicola_dorei    | Completeness           |       99       |      nan       |
+| Phocaeicola_dorei    | Completeness           |       98       |      nan       |
 | Phocaeicola_dorei    | Contamination          |      nan       |        5       |
 | Phocaeicola_dorei    | Total_Coding_Sequences |     3900       |     5400       |
 | Phocaeicola_dorei    | Genome_Size            |        4.9e+06 |        6.1e+06 |
 | Phocaeicola_vulgatus | N50                    |    30000       |      nan       |
 | Phocaeicola_vulgatus | no_of_contigs          |      nan       |      590       |
 | Phocaeicola_vulgatus | GC_Content             |       41       |       43       |
-| Phocaeicola_vulgatus | Completeness           |       98       |      nan       |
+| Phocaeicola_vulgatus | Completeness           |       97       |      nan       |
 | Phocaeicola_vulgatus | Contamination          |      nan       |        3       |
 | Phocaeicola_vulgatus | Total_Coding_Sequences |     3800       |     5400       |
 | Phocaeicola_vulgatus | Genome_Size            |        4.5e+06 |        5.8e+06 |

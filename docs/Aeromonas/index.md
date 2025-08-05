@@ -27,21 +27,21 @@ This section provides a summary of the metrics for the genus:
 | Aeromonas_veronii     | N50                    |    32000       |      nan       |
 | Aeromonas_veronii     | no_of_contigs          |      nan       |      540       |
 | Aeromonas_veronii     | GC_Content             |       58       |       61       |
-| Aeromonas_veronii     | Completeness           |       91       |      nan       |
+| Aeromonas_veronii     | Completeness           |       90       |      nan       |
 | Aeromonas_veronii     | Contamination          |      nan       |       11       |
 | Aeromonas_veronii     | Total_Coding_Sequences |     3900       |     5000       |
 | Aeromonas_veronii     | Genome_Size            |        4.3e+06 |        5.2e+06 |
 | Aeromonas_salmonicida | N50                    |    25000       |      nan       |
 | Aeromonas_salmonicida | no_of_contigs          |      nan       |      490       |
 | Aeromonas_salmonicida | GC_Content             |       58       |       60       |
-| Aeromonas_salmonicida | Completeness           |       95       |      nan       |
+| Aeromonas_salmonicida | Completeness           |       94       |      nan       |
 | Aeromonas_salmonicida | Contamination          |      nan       |        2       |
 | Aeromonas_salmonicida | Total_Coding_Sequences |     4200       |     5000       |
 | Aeromonas_salmonicida | Genome_Size            |        4.3e+06 |        5.2e+06 |
 | Aeromonas_hydrophila  | N50                    |    27000       |      nan       |
 | Aeromonas_hydrophila  | no_of_contigs          |      nan       |      500       |
 | Aeromonas_hydrophila  | GC_Content             |       60       |       62       |
-| Aeromonas_hydrophila  | Completeness           |       91       |      nan       |
+| Aeromonas_hydrophila  | Completeness           |       90       |      nan       |
 | Aeromonas_hydrophila  | Contamination          |      nan       |        8       |
 | Aeromonas_hydrophila  | Total_Coding_Sequences |     4100       |     5400       |
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bradyrhizobium_diazoefficiens,N50,55000.0,
 Bradyrhizobium_diazoefficiens,no_of_contigs,,370.0
 Bradyrhizobium_diazoefficiens,GC_Content,63.0,65.0
-Bradyrhizobium_diazoefficiens,Completeness,98.0,
+Bradyrhizobium_diazoefficiens,Completeness,97.0,
 Bradyrhizobium_diazoefficiens,Contamination,,1.0
 Bradyrhizobium_diazoefficiens,Total_Coding_Sequences,6600.0,9100.0
 Bradyrhizobium_diazoefficiens,Genome_Size,7100000.0,9600000.0

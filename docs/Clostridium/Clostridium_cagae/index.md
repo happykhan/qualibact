@@ -1,6 +1,6 @@
 # *Clostridium cagae*
 
-This is the GenomeQC page for *Clostridium cagae*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
+This is the QualiBact page for *Clostridium cagae*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -8,7 +8,7 @@ The suggested thresholds are:
 | N50                    | 26000.0        |                |
 | no_of_contigs          |                | 300.0          |
 | GC_Content             | 27.0           | 27.0           |
-| Completeness           | 100.0          |                |
+| Completeness           | 99.0           |                |
 | Contamination          |                | 1.0            |
 | Total_Coding_Sequences | 3300.0         | 4000.0         |
 | Genome_Size            | 3600000.0      | 4100000.0      |
@@ -18,7 +18,7 @@ The suggested thresholds are:
 
 These thresholds are based on **0** genomes from RefSeq and **107** genomes from ATB / SRA.
 
-These thresholds were applied to all the bacteria dataset, which resulted in removing **76** and retaining **31**.
+These thresholds were applied to all the bacteria dataset, which resulted in removing **8** and retaining **99**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.
 
 [Download high quality genomes list](Clostridium_cagae_high_quality_genomes.csv.xz)
@@ -35,8 +35,13 @@ These tables provide a summary of the distribution of each metric, including SDe
 
 [Download simple summary tables](selected_summary.csv)
 
+This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
+
+![CDS vs Genome Size](Clostridium cagae_CDS_vs_Genome_Size.png)
+
 ## Illustrating the filtering process
-These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
+These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to all metrics, we will demonstrate using total assembly length and N50.
+
 N50 vs total length for all genomes in the dataset.
 
 ![ALL Total Length vs N50](Clostridium_cagae_all_total_length_N50.png)

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_velezensis,N50,145000.0,
 Bacillus_velezensis,no_of_contigs,,120.0
 Bacillus_velezensis,GC_Content,45.0,47.0
-Bacillus_velezensis,Completeness,97.0,
+Bacillus_velezensis,Completeness,96.0,
 Bacillus_velezensis,Contamination,,2.0
 Bacillus_velezensis,Total_Coding_Sequences,3600.0,4500.0
 Bacillus_velezensis,Genome_Size,3700000.0,4400000.0

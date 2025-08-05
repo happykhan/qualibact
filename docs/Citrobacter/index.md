@@ -19,7 +19,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Citrobacter_freundii      |             2203 |                   67 |          2136 |
 | Citrobacter_portucalensis |              437 |                   19 |           418 |
 | Citrobacter_braakii       |              351 |                   13 |           338 |
-| Citrobacter_rodentium     |              350 |                   67 |           283 |
+| Citrobacter_rodentium     |              350 |                   66 |           284 |
 | Citrobacter_koseri        |              322 |                   17 |           305 |
 | Citrobacter_werkmanii     |              264 |                   12 |           252 |
 | Citrobacter_amalonaticus  |              219 |                    7 |           212 |
@@ -37,21 +37,21 @@ This section provides a summary of the metrics for the genus:
 | Citrobacter_koseri  | N50                    |    80000       |      nan       |
 | Citrobacter_koseri  | no_of_contigs          |      nan       |      180       |
 | Citrobacter_koseri  | GC_Content             |       53       |       54       |
-| Citrobacter_koseri  | Completeness           |       99       |      nan       |
+| Citrobacter_koseri  | Completeness           |       98       |      nan       |
 | Citrobacter_koseri  | Contamination          |      nan       |        2       |
 | Citrobacter_koseri  | Total_Coding_Sequences |     4100       |     5200       |
 | Citrobacter_koseri  | Genome_Size            |        4.5e+06 |        5.3e+06 |
 | Citrobacter_farmeri | N50                    |    54000       |      nan       |
 | Citrobacter_farmeri | no_of_contigs          |      nan       |      290       |
 | Citrobacter_farmeri | GC_Content             |       52       |       54       |
-| Citrobacter_farmeri | Completeness           |       99       |      nan       |
+| Citrobacter_farmeri | Completeness           |       98       |      nan       |
 | Citrobacter_farmeri | Contamination          |      nan       |        6       |
 | Citrobacter_farmeri | Total_Coding_Sequences |     4500       |     5900       |
 | Citrobacter_farmeri | Genome_Size            |        4.9e+06 |        6e+06   |
 | Citrobacter_braakii | N50                    |    77000       |      nan       |
 | Citrobacter_braakii | no_of_contigs          |      nan       |      280       |
 | Citrobacter_braakii | GC_Content             |       51       |       53       |
-| Citrobacter_braakii | Completeness           |       98       |      nan       |
+| Citrobacter_braakii | Completeness           |       97       |      nan       |
 | Citrobacter_braakii | Contamination          |      nan       |        6       |
 | Citrobacter_braakii | Total_Coding_Sequences |     4400       |     6200       |
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterobacter_bugandensis,N50,87000.0,
 Enterobacter_bugandensis,no_of_contigs,,180.0
 Enterobacter_bugandensis,GC_Content,55.0,57.0
-Enterobacter_bugandensis,Completeness,100.0,
+Enterobacter_bugandensis,Completeness,99.0,
 Enterobacter_bugandensis,Contamination,,1.0
 Enterobacter_bugandensis,Total_Coding_Sequences,4200.0,5200.0
 Enterobacter_bugandensis,Genome_Size,4500000.0,5400000.0

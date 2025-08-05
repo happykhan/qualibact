@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterobacter_roggenkampii,N50,46000.0,
 Enterobacter_roggenkampii,no_of_contigs,,590.0
 Enterobacter_roggenkampii,GC_Content,55.0,57.0
-Enterobacter_roggenkampii,Completeness,95.0,
+Enterobacter_roggenkampii,Completeness,94.0,
 Enterobacter_roggenkampii,Contamination,,2.0
 Enterobacter_roggenkampii,Total_Coding_Sequences,4100.0,5700.0
 Enterobacter_roggenkampii,Genome_Size,4500000.0,5700000.0

@@ -1,9 +1,9 @@
 species,original_count,filtered_out_count,final_count
-Bacteroides_fragilis,1390,85,1305
+Bacteroides_fragilis,1390,84,1306
 Bacteroides_uniformis,1328,89,1239
 Bacteroides_thetaiotaomicron,785,79,706
 Bacteroides_ovatus,635,38,597
-Bacteroides_xylanisolvens,424,38,386
+Bacteroides_xylanisolvens,424,36,388
 Bacteroides_caccae,420,26,394
-Bacteroides_cellulosilyticus,217,203,14
+Bacteroides_cellulosilyticus,217,12,205
 Bacteroides_stercoris,178,12,166

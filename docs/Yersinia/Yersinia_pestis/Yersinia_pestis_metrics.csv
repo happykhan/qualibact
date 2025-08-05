@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Yersinia_pestis,N50,17000.0,
 Yersinia_pestis,no_of_contigs,,540.0
 Yersinia_pestis,GC_Content,47.0,48.0
-Yersinia_pestis,Completeness,95.0,
+Yersinia_pestis,Completeness,94.0,
 Yersinia_pestis,Contamination,,2.0
 Yersinia_pestis,Total_Coding_Sequences,3900.0,4600.0
 Yersinia_pestis,Genome_Size,4400000.0,5000000.0

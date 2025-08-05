@@ -13,7 +13,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | species                |   original_count |   filtered_out_count |   final_count |
 |:-----------------------|-----------------:|---------------------:|--------------:|
 | Serratia_marcescens    |             1431 |                   49 |          1382 |
-| Serratia_nevei         |              957 |                   47 |           910 |
+| Serratia_nevei         |              957 |                   41 |           916 |
 | Serratia_ureilytica    |              455 |                   22 |           433 |
 | Serratia_bockelmannii  |              300 |                   19 |           281 |
 | Serratia_nematodiphila |              294 |                   24 |           270 |
@@ -29,21 +29,21 @@ This section provides a summary of the metrics for the genus:
 | Serratia_ureilytica    | N50                    |    59000       |      nan       |
 | Serratia_ureilytica    | no_of_contigs          |      nan       |      190       |
 | Serratia_ureilytica    | GC_Content             |       59       |       60       |
-| Serratia_ureilytica    | Completeness           |       97       |      nan       |
+| Serratia_ureilytica    | Completeness           |       96       |      nan       |
 | Serratia_ureilytica    | Contamination          |      nan       |        2       |
 | Serratia_ureilytica    | Total_Coding_Sequences |     4500       |     5300       |
 | Serratia_ureilytica    | Genome_Size            |        4.6e+06 |        5.5e+06 |
 | Serratia_nematodiphila | N50                    |    20000       |      nan       |
 | Serratia_nematodiphila | no_of_contigs          |      nan       |      580       |
 | Serratia_nematodiphila | GC_Content             |       59       |       60       |
-| Serratia_nematodiphila | Completeness           |       97       |      nan       |
+| Serratia_nematodiphila | Completeness           |       96       |      nan       |
 | Serratia_nematodiphila | Contamination          |      nan       |        1       |
 | Serratia_nematodiphila | Total_Coding_Sequences |     4600       |     5400       |
 | Serratia_nematodiphila | Genome_Size            |        4.9e+06 |        5.4e+06 |
 | Serratia_nevei         | N50                    |    48000       |      nan       |
 | Serratia_nevei         | no_of_contigs          |      nan       |      420       |
 | Serratia_nevei         | GC_Content             |       58       |       61       |
-| Serratia_nevei         | Completeness           |      100       |      nan       |
+| Serratia_nevei         | Completeness           |       99       |      nan       |
 | Serratia_nevei         | Contamination          |      nan       |        3       |
 | Serratia_nevei         | Total_Coding_Sequences |     4500       |     5900       |
 

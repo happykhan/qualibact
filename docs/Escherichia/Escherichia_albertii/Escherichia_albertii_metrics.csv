@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Escherichia_albertii,N50,27000.0,
 Escherichia_albertii,no_of_contigs,,470.0
 Escherichia_albertii,GC_Content,49.0,51.0
-Escherichia_albertii,Completeness,98.0,
+Escherichia_albertii,Completeness,97.0,
 Escherichia_albertii,Contamination,,2.0
 Escherichia_albertii,Total_Coding_Sequences,4100.0,5500.0
 Escherichia_albertii,Genome_Size,4300000.0,5400000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Neisseria_bergeri,N50,97000.0,
 Neisseria_bergeri,no_of_contigs,,100.0
 Neisseria_bergeri,GC_Content,52.0,52.0
-Neisseria_bergeri,Completeness,100.0,
+Neisseria_bergeri,Completeness,99.0,
 Neisseria_bergeri,Contamination,,1.0
 Neisseria_bergeri,Total_Coding_Sequences,1800.0,2200.0
 Neisseria_bergeri,Genome_Size,1900000.0,2300000.0

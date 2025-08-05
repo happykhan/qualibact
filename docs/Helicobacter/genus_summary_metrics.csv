@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Helicobacter_pylori,N50,32000.0,
 Helicobacter_pylori,no_of_contigs,,130.0
 Helicobacter_pylori,GC_Content,38.0,40.0
-Helicobacter_pylori,Completeness,96.0,
+Helicobacter_pylori,Completeness,95.0,
 Helicobacter_pylori,Contamination,,2.0
 Helicobacter_pylori,Total_Coding_Sequences,1400.0,1700.0
 Helicobacter_pylori,Genome_Size,1500000.0,1800000.0

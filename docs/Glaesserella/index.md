@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Glaesserella_parasuis | N50                    |    16000       |      nan       |
 | Glaesserella_parasuis | no_of_contigs          |      nan       |      340       |
 | Glaesserella_parasuis | GC_Content             |       39       |       41       |
-| Glaesserella_parasuis | Completeness           |       86       |      nan       |
+| Glaesserella_parasuis | Completeness           |       85       |      nan       |
 | Glaesserella_parasuis | Contamination          |      nan       |        7       |
 | Glaesserella_parasuis | Total_Coding_Sequences |     2000       |     2600       |
 | Glaesserella_parasuis | Genome_Size            |        2.1e+06 |        2.6e+06 |

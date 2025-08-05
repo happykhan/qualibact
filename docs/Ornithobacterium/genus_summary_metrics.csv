@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Ornithobacterium_rhinotracheale,N50,29000.0,
 Ornithobacterium_rhinotracheale,no_of_contigs,,210.0
 Ornithobacterium_rhinotracheale,GC_Content,37.0,39.0
-Ornithobacterium_rhinotracheale,Completeness,88.0,
+Ornithobacterium_rhinotracheale,Completeness,87.0,
 Ornithobacterium_rhinotracheale,Contamination,,6.0
 Ornithobacterium_rhinotracheale,Total_Coding_Sequences,2100.0,2400.0
 Ornithobacterium_rhinotracheale,Genome_Size,2200000.0,2500000.0

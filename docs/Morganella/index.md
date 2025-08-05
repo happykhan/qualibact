@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Morganella_morganii | N50                    |    44000       |      nan       |
 | Morganella_morganii | no_of_contigs          |      nan       |      240       |
 | Morganella_morganii | GC_Content             |       50       |       52       |
-| Morganella_morganii | Completeness           |       85       |      nan       |
+| Morganella_morganii | Completeness           |       84       |      nan       |
 | Morganella_morganii | Contamination          |      nan       |       21       |
 | Morganella_morganii | Total_Coding_Sequences |     3400       |     4400       |
 | Morganella_morganii | Genome_Size            |        3.6e+06 |        4.5e+06 |

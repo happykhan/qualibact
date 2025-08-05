@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Klebsiella_pneumoniae,N50,54000.0,
 Klebsiella_pneumoniae,no_of_contigs,,390.0
 Klebsiella_pneumoniae,GC_Content,56.0,59.0
-Klebsiella_pneumoniae,Completeness,96.0,
+Klebsiella_pneumoniae,Completeness,95.0,
 Klebsiella_pneumoniae,Contamination,,5.0
 Klebsiella_pneumoniae,Total_Coding_Sequences,4700.0,6500.0
 Klebsiella_pneumoniae,Genome_Size,4900000.0,6400000.0

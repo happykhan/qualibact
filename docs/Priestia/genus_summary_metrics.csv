@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Priestia_megaterium,N50,182000.0,
 Priestia_megaterium,no_of_contigs,,200.0
 Priestia_megaterium,GC_Content,36.0,39.0
-Priestia_megaterium,Completeness,93.0,
+Priestia_megaterium,Completeness,92.0,
 Priestia_megaterium,Contamination,,13.0
 Priestia_megaterium,Total_Coding_Sequences,5100.0,7300.0
 Priestia_megaterium,Genome_Size,5000000.0,6900000.0

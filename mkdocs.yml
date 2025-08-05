@@ -1,5 +1,5 @@
-site_name: GenomeQC
-site_url: https://happykhan.github.io/genomeqc/    
+site_name: QualiBact
+site_url: https://happykhan.github.io/qualibact/    
 theme:
   name: material
   features:

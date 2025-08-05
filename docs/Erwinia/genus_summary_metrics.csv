@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Erwinia_amylovora,N50,45000.0,
 Erwinia_amylovora,no_of_contigs,,200.0
 Erwinia_amylovora,GC_Content,53.0,54.0
-Erwinia_amylovora,Completeness,96.0,
+Erwinia_amylovora,Completeness,95.0,
 Erwinia_amylovora,Contamination,,1.0
 Erwinia_amylovora,Total_Coding_Sequences,3400.0,3600.0
 Erwinia_amylovora,Genome_Size,3700000.0,4000000.0

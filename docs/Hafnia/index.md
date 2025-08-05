@@ -7,7 +7,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species         |   original_count |   filtered_out_count |   final_count |
 |:----------------|-----------------:|---------------------:|--------------:|
-| Hafnia_paralvei |              233 |                   16 |           217 |
+| Hafnia_paralvei |              233 |                   15 |           218 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Hafnia_paralvei | N50                    |    79000       |      nan       |
 | Hafnia_paralvei | no_of_contigs          |      nan       |      180       |
 | Hafnia_paralvei | GC_Content             |       47       |       49       |
-| Hafnia_paralvei | Completeness           |      100       |      nan       |
+| Hafnia_paralvei | Completeness           |       99       |      nan       |
 | Hafnia_paralvei | Contamination          |      nan       |        1       |
 | Hafnia_paralvei | Total_Coding_Sequences |     3900       |     4800       |
 | Hafnia_paralvei | Genome_Size            |        4.4e+06 |        5.1e+06 |

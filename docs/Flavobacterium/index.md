@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Flavobacterium_psychrophilum | N50                    |    44000       |      nan       |
 | Flavobacterium_psychrophilum | no_of_contigs          |      nan       |      470       |
 | Flavobacterium_psychrophilum | GC_Content             |       32       |       33       |
-| Flavobacterium_psychrophilum | Completeness           |       93       |      nan       |
+| Flavobacterium_psychrophilum | Completeness           |       92       |      nan       |
 | Flavobacterium_psychrophilum | Contamination          |      nan       |        1       |
 | Flavobacterium_psychrophilum | Total_Coding_Sequences |     2300       |     3000       |
 | Flavobacterium_psychrophilum | Genome_Size            |        2.6e+06 |        3.3e+06 |

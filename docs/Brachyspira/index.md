@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Brachyspira_hyodysenteriae | N50                    |    11000       |      nan       |
 | Brachyspira_hyodysenteriae | no_of_contigs          |      nan       |      460       |
 | Brachyspira_hyodysenteriae | GC_Content             |       26       |       28       |
-| Brachyspira_hyodysenteriae | Completeness           |       94       |      nan       |
+| Brachyspira_hyodysenteriae | Completeness           |       93       |      nan       |
 | Brachyspira_hyodysenteriae | Contamination          |      nan       |        2       |
 | Brachyspira_hyodysenteriae | Total_Coding_Sequences |     2500       |     3000       |
 | Brachyspira_hyodysenteriae | Genome_Size            |        2.9e+06 |        3.3e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Xanthomonas_arboricola,N50,53000.0,
 Xanthomonas_arboricola,no_of_contigs,,230.0
 Xanthomonas_arboricola,GC_Content,65.0,66.0
-Xanthomonas_arboricola,Completeness,98.0,
+Xanthomonas_arboricola,Completeness,97.0,
 Xanthomonas_arboricola,Contamination,,3.0
 Xanthomonas_arboricola,Total_Coding_Sequences,3900.0,4700.0
 Xanthomonas_arboricola,Genome_Size,4700000.0,5400000.0

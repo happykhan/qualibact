@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Haemophilus_haemolyticus,N50,46000.0,
 Haemophilus_haemolyticus,no_of_contigs,,110.0
 Haemophilus_haemolyticus,GC_Content,38.0,39.0
-Haemophilus_haemolyticus,Completeness,95.0,
+Haemophilus_haemolyticus,Completeness,94.0,
 Haemophilus_haemolyticus,Contamination,,2.0
 Haemophilus_haemolyticus,Total_Coding_Sequences,1700.0,2000.0
 Haemophilus_haemolyticus,Genome_Size,1800000.0,2100000.0

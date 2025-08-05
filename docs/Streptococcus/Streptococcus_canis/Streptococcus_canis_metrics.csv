@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_canis,N50,45000.0,
 Streptococcus_canis,no_of_contigs,,150.0
 Streptococcus_canis,GC_Content,39.0,40.0
-Streptococcus_canis,Completeness,100.0,
+Streptococcus_canis,Completeness,99.0,
 Streptococcus_canis,Contamination,,2.0
 Streptococcus_canis,Total_Coding_Sequences,1700.0,2300.0
 Streptococcus_canis,Genome_Size,1800000.0,2300000.0

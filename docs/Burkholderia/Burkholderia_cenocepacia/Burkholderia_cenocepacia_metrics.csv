@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Burkholderia_cenocepacia,N50,23000.0,
 Burkholderia_cenocepacia,no_of_contigs,,730.0
 Burkholderia_cenocepacia,GC_Content,66.0,68.0
-Burkholderia_cenocepacia,Completeness,93.0,
+Burkholderia_cenocepacia,Completeness,92.0,
 Burkholderia_cenocepacia,Contamination,,5.0
 Burkholderia_cenocepacia,Total_Coding_Sequences,6200.0,8200.0
 Burkholderia_cenocepacia,Genome_Size,6700000.0,8800000.0

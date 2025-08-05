@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Hungateiclostridium_thermocellum | N50                    |    77000       |        nan     |
 | Hungateiclostridium_thermocellum | no_of_contigs          |      nan       |        210     |
 | Hungateiclostridium_thermocellum | GC_Content             |       38       |         40     |
-| Hungateiclostridium_thermocellum | Completeness           |       98       |        nan     |
+| Hungateiclostridium_thermocellum | Completeness           |       97       |        nan     |
 | Hungateiclostridium_thermocellum | Contamination          |      nan       |          4     |
 | Hungateiclostridium_thermocellum | Total_Coding_Sequences |     3000       |       3500     |
 | Hungateiclostridium_thermocellum | Genome_Size            |        3.4e+06 |          4e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacteroides_uniformis,N50,25000.0,
 Bacteroides_uniformis,no_of_contigs,,470.0
 Bacteroides_uniformis,GC_Content,45.0,47.0
-Bacteroides_uniformis,Completeness,92.0,
+Bacteroides_uniformis,Completeness,91.0,
 Bacteroides_uniformis,Contamination,,9.0
 Bacteroides_uniformis,Total_Coding_Sequences,3400.0,4900.0
 Bacteroides_uniformis,Genome_Size,4200000.0,5500000.0

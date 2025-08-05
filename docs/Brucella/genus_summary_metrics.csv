@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Brucella_melitensis,N50,81000.0,
 Brucella_melitensis,no_of_contigs,,90.0
 Brucella_melitensis,GC_Content,57.0,58.0
-Brucella_melitensis,Completeness,96.0,
+Brucella_melitensis,Completeness,95.0,
 Brucella_melitensis,Contamination,,1.0
 Brucella_melitensis,Total_Coding_Sequences,3000.0,3300.0
 Brucella_melitensis,Genome_Size,3200000.0,3400000.0

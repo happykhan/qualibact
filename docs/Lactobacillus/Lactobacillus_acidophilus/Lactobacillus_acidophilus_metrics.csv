@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Lactobacillus_acidophilus,N50,115000.0,
 Lactobacillus_acidophilus,no_of_contigs,,60.0
 Lactobacillus_acidophilus,GC_Content,34.0,35.0
-Lactobacillus_acidophilus,Completeness,93.0,
+Lactobacillus_acidophilus,Completeness,92.0,
 Lactobacillus_acidophilus,Contamination,,2.0
 Lactobacillus_acidophilus,Total_Coding_Sequences,1800.0,2100.0
 Lactobacillus_acidophilus,Genome_Size,1900000.0,2100000.0

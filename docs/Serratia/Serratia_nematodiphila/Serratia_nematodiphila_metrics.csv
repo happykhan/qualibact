@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Serratia_nematodiphila,N50,20000.0,
 Serratia_nematodiphila,no_of_contigs,,580.0
 Serratia_nematodiphila,GC_Content,59.0,60.0
-Serratia_nematodiphila,Completeness,97.0,
+Serratia_nematodiphila,Completeness,96.0,
 Serratia_nematodiphila,Contamination,,1.0
 Serratia_nematodiphila,Total_Coding_Sequences,4600.0,5400.0
 Serratia_nematodiphila,Genome_Size,4900000.0,5400000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Lactobacillus_crispatus,N50,10000.0,
 Lactobacillus_crispatus,no_of_contigs,,450.0
 Lactobacillus_crispatus,GC_Content,36.0,38.0
-Lactobacillus_crispatus,Completeness,94.0,
+Lactobacillus_crispatus,Completeness,93.0,
 Lactobacillus_crispatus,Contamination,,9.0
 Lactobacillus_crispatus,Total_Coding_Sequences,1800.0,2900.0
 Lactobacillus_crispatus,Genome_Size,1900000.0,2900000.0

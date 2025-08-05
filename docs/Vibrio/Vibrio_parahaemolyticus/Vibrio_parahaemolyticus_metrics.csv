@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Vibrio_parahaemolyticus,N50,93000.0,
 Vibrio_parahaemolyticus,no_of_contigs,,180.0
 Vibrio_parahaemolyticus,GC_Content,44.0,46.0
-Vibrio_parahaemolyticus,Completeness,96.0,
+Vibrio_parahaemolyticus,Completeness,95.0,
 Vibrio_parahaemolyticus,Contamination,,7.0
 Vibrio_parahaemolyticus,Total_Coding_Sequences,4400.0,5900.0
 Vibrio_parahaemolyticus,Genome_Size,4900000.0,6100000.0

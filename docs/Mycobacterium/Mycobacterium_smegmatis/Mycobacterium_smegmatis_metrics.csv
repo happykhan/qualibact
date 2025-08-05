@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycobacterium_smegmatis,N50,61000.0,
 Mycobacterium_smegmatis,no_of_contigs,,290.0
 Mycobacterium_smegmatis,GC_Content,67.0,68.0
-Mycobacterium_smegmatis,Completeness,98.0,
+Mycobacterium_smegmatis,Completeness,97.0,
 Mycobacterium_smegmatis,Contamination,,5.0
 Mycobacterium_smegmatis,Total_Coding_Sequences,6500.0,6900.0
 Mycobacterium_smegmatis,Genome_Size,6800000.0,7200000.0

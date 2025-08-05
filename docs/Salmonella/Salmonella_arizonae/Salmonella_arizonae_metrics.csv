@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Salmonella_arizonae,N50,69000.0,
 Salmonella_arizonae,no_of_contigs,,210.0
 Salmonella_arizonae,GC_Content,51.0,52.0
-Salmonella_arizonae,Completeness,98.0,
+Salmonella_arizonae,Completeness,97.0,
 Salmonella_arizonae,Contamination,,7.0
 Salmonella_arizonae,Total_Coding_Sequences,4100.0,5500.0
 Salmonella_arizonae,Genome_Size,4400000.0,5600000.0

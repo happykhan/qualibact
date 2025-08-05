@@ -27,21 +27,21 @@ This section provides a summary of the metrics for the genus:
 | Lactobacillus_paragasseri | N50                    |    41000       |      nan       |
 | Lactobacillus_paragasseri | no_of_contigs          |      nan       |      160       |
 | Lactobacillus_paragasseri | GC_Content             |       34       |       36       |
-| Lactobacillus_paragasseri | Completeness           |       98       |      nan       |
+| Lactobacillus_paragasseri | Completeness           |       97       |      nan       |
 | Lactobacillus_paragasseri | Contamination          |      nan       |        1       |
 | Lactobacillus_paragasseri | Total_Coding_Sequences |     1700       |     2200       |
 | Lactobacillus_paragasseri | Genome_Size            |        1.8e+06 |        2.2e+06 |
 | Lactobacillus_johnsonii   | N50                    |    31000       |      nan       |
 | Lactobacillus_johnsonii   | no_of_contigs          |      nan       |      160       |
 | Lactobacillus_johnsonii   | GC_Content             |       34       |       36       |
-| Lactobacillus_johnsonii   | Completeness           |       91       |      nan       |
+| Lactobacillus_johnsonii   | Completeness           |       90       |      nan       |
 | Lactobacillus_johnsonii   | Contamination          |      nan       |        6       |
 | Lactobacillus_johnsonii   | Total_Coding_Sequences |     1700       |     2300       |
 | Lactobacillus_johnsonii   | Genome_Size            |        1.7e+06 |        2.3e+06 |
 | Lactobacillus_acidophilus | N50                    |   115000       |      nan       |
 | Lactobacillus_acidophilus | no_of_contigs          |      nan       |       60       |
 | Lactobacillus_acidophilus | GC_Content             |       34       |       35       |
-| Lactobacillus_acidophilus | Completeness           |       93       |      nan       |
+| Lactobacillus_acidophilus | Completeness           |       92       |      nan       |
 | Lactobacillus_acidophilus | Contamination          |      nan       |        2       |
 | Lactobacillus_acidophilus | Total_Coding_Sequences |     1800       |     2100       |
 

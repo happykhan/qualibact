@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Clostridium_difficile,N50,8000.0,
 Clostridium_difficile,no_of_contigs,,800.0
 Clostridium_difficile,GC_Content,28.0,30.0
-Clostridium_difficile,Completeness,95.0,
+Clostridium_difficile,Completeness,94.0,
 Clostridium_difficile,Contamination,,4.0
 Clostridium_difficile,Total_Coding_Sequences,3400.0,4300.0
 Clostridium_difficile,Genome_Size,3800000.0,4600000.0

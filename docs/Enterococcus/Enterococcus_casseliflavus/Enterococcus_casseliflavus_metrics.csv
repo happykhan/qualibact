@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterococcus_casseliflavus,N50,82000.0,
 Enterococcus_casseliflavus,no_of_contigs,,150.0
 Enterococcus_casseliflavus,GC_Content,41.0,43.0
-Enterococcus_casseliflavus,Completeness,96.0,
+Enterococcus_casseliflavus,Completeness,95.0,
 Enterococcus_casseliflavus,Contamination,,12.0
 Enterococcus_casseliflavus,Total_Coding_Sequences,3100.0,3800.0
 Enterococcus_casseliflavus,Genome_Size,3300000.0,3900000.0

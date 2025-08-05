@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Burkholderia_mallei,N50,24000.0,
 Burkholderia_mallei,no_of_contigs,,690.0
 Burkholderia_mallei,GC_Content,67.0,69.0
-Burkholderia_mallei,Completeness,95.0,
+Burkholderia_mallei,Completeness,94.0,
 Burkholderia_mallei,Contamination,,6.0
 Burkholderia_mallei,Total_Coding_Sequences,4700.0,6500.0
 Burkholderia_mallei,Genome_Size,5200000.0,7500000.0

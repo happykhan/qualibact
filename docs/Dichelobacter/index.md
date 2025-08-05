@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Dichelobacter_nodosus | N50                    |    61000       |      nan       |
 | Dichelobacter_nodosus | no_of_contigs          |      nan       |      100       |
 | Dichelobacter_nodosus | GC_Content             |       43       |       45       |
-| Dichelobacter_nodosus | Completeness           |      100       |      nan       |
+| Dichelobacter_nodosus | Completeness           |       99       |      nan       |
 | Dichelobacter_nodosus | Contamination          |      nan       |        5       |
 | Dichelobacter_nodosus | Total_Coding_Sequences |     1200       |     1500       |
 | Dichelobacter_nodosus | Genome_Size            |        1.2e+06 |        1.5e+06 |

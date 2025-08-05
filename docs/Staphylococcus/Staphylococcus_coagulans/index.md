@@ -1,6 +1,6 @@
 # *Staphylococcus coagulans*
 
-This is the GenomeQC page for *Staphylococcus coagulans*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
+This is the QualiBact page for *Staphylococcus coagulans*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -8,7 +8,7 @@ The suggested thresholds are:
 | N50                    | 71000.0        |                |
 | no_of_contigs          |                | 120.0          |
 | GC_Content             | 36.0           | 36.0           |
-| Completeness           | 100.0          |                |
+| Completeness           | 99.0           |                |
 | Contamination          |                | 1.0            |
 | Total_Coding_Sequences | 2000.0         | 2500.0         |
 | Genome_Size            | 2200000.0      | 2600000.0      |
@@ -18,7 +18,7 @@ The suggested thresholds are:
 
 These thresholds are based on **0** genomes from RefSeq and **103** genomes from ATB / SRA.
 
-These thresholds were applied to all the bacteria dataset, which resulted in removing **88** and retaining **15**.
+These thresholds were applied to all the bacteria dataset, which resulted in removing **9** and retaining **94**.
 The list of genomes retained (i.e. high quality) and the list of genomes rejected (filtered) can be downloaded below. These files are in `.xz` format. The rejected genomes file, also includes the reason why.
 
 [Download high quality genomes list](Staphylococcus_coagulans_high_quality_genomes.csv.xz)
@@ -35,8 +35,13 @@ These tables provide a summary of the distribution of each metric, including SDe
 
 [Download simple summary tables](selected_summary.csv)
 
+This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
+
+![CDS vs Genome Size](Staphylococcus coagulans_CDS_vs_Genome_Size.png)
+
 ## Illustrating the filtering process
-These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
+These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to all metrics, we will demonstrate using total assembly length and N50.
+
 N50 vs total length for all genomes in the dataset.
 
 ![ALL Total Length vs N50](Staphylococcus_coagulans_all_total_length_N50.png)

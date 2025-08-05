@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Aliarcobacter_butzleri | N50                    |      27000     |      nan       |
 | Aliarcobacter_butzleri | no_of_contigs          |        nan     |      200       |
 | Aliarcobacter_butzleri | GC_Content             |         26     |       28       |
-| Aliarcobacter_butzleri | Completeness           |         94     |      nan       |
+| Aliarcobacter_butzleri | Completeness           |         93     |      nan       |
 | Aliarcobacter_butzleri | Contamination          |        nan     |       10       |
 | Aliarcobacter_butzleri | Total_Coding_Sequences |       2000     |     2700       |
 | Aliarcobacter_butzleri | Genome_Size            |          2e+06 |        2.6e+06 |

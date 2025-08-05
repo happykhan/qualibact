@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Clostridium_cagae,N50,26000.0,
 Clostridium_cagae,no_of_contigs,,300.0
 Clostridium_cagae,GC_Content,27.0,27.0
-Clostridium_cagae,Completeness,100.0,
+Clostridium_cagae,Completeness,99.0,
 Clostridium_cagae,Contamination,,1.0
 Clostridium_cagae,Total_Coding_Sequences,3300.0,4000.0
 Clostridium_cagae,Genome_Size,3600000.0,4100000.0

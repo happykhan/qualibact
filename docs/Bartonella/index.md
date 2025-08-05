@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Bartonella_krasnovii | N50                    |      60000     |      nan       |
 | Bartonella_krasnovii | no_of_contigs          |        nan     |      290       |
 | Bartonella_krasnovii | GC_Content             |         37     |       39       |
-| Bartonella_krasnovii | Completeness           |         95     |      nan       |
+| Bartonella_krasnovii | Completeness           |         94     |      nan       |
 | Bartonella_krasnovii | Contamination          |        nan     |        2       |
 | Bartonella_krasnovii | Total_Coding_Sequences |       1600     |     2100       |
 | Bartonella_krasnovii | Genome_Size            |          2e+06 |        2.3e+06 |

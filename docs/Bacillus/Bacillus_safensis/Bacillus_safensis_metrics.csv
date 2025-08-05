@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_safensis,N50,175000.0,
 Bacillus_safensis,no_of_contigs,,100.0
 Bacillus_safensis,GC_Content,41.0,42.0
-Bacillus_safensis,Completeness,97.0,
+Bacillus_safensis,Completeness,96.0,
 Bacillus_safensis,Contamination,,1.0
 Bacillus_safensis,Total_Coding_Sequences,3600.0,4400.0
 Bacillus_safensis,Genome_Size,3600000.0,4200000.0

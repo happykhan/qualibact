@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycoplasmoides_pneumoniae,N50,30000.0,
 Mycoplasmoides_pneumoniae,no_of_contigs,,100.0
 Mycoplasmoides_pneumoniae,GC_Content,39.0,41.0
-Mycoplasmoides_pneumoniae,Completeness,97.0,
+Mycoplasmoides_pneumoniae,Completeness,96.0,
 Mycoplasmoides_pneumoniae,Contamination,,7.0
 Mycoplasmoides_pneumoniae,Total_Coding_Sequences,700.0,900.0
 Mycoplasmoides_pneumoniae,Genome_Size,700000.0,900000.0

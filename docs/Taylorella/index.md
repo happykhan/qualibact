@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Taylorella_equigenitalis | N50                    |   143000       |      nan       |
 | Taylorella_equigenitalis | no_of_contigs          |      nan       |       50       |
 | Taylorella_equigenitalis | GC_Content             |       37       |       38       |
-| Taylorella_equigenitalis | Completeness           |       94       |      nan       |
+| Taylorella_equigenitalis | Completeness           |       93       |      nan       |
 | Taylorella_equigenitalis | Contamination          |      nan       |        9       |
 | Taylorella_equigenitalis | Total_Coding_Sequences |     1400       |     1700       |
 | Taylorella_equigenitalis | Genome_Size            |        1.6e+06 |        1.8e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Staphylococcus_chromogenes,N50,76000.0,
 Staphylococcus_chromogenes,no_of_contigs,,110.0
 Staphylococcus_chromogenes,GC_Content,36.0,37.0
-Staphylococcus_chromogenes,Completeness,98.0,
+Staphylococcus_chromogenes,Completeness,97.0,
 Staphylococcus_chromogenes,Contamination,,2.0
 Staphylococcus_chromogenes,Total_Coding_Sequences,2100.0,2500.0
 Staphylococcus_chromogenes,Genome_Size,2200000.0,2500000.0

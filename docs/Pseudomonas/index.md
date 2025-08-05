@@ -20,20 +20,20 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                 |   original_count |   filtered_out_count |   final_count |
 |:------------------------|-----------------:|---------------------:|--------------:|
-| Pseudomonas_aeruginosa  |            43394 |                 1464 |         41930 |
+| Pseudomonas_aeruginosa  |            43394 |                 1459 |         41935 |
 | Pseudomonas_marginalis  |             1077 |                   51 |          1026 |
-| Pseudomonas_alloputida  |              697 |                   43 |           654 |
-| Pseudomonas_avellanae   |              453 |                   18 |           435 |
+| Pseudomonas_alloputida  |              697 |                   41 |           656 |
+| Pseudomonas_avellanae   |              453 |                   17 |           436 |
 | Pseudomonas_paracarnis  |              442 |                   30 |           412 |
 | Pseudomonas_glycinae    |              206 |                   13 |           193 |
-| Pseudomonas_syringae    |              200 |                   18 |           182 |
+| Pseudomonas_syringae    |              200 |                   17 |           183 |
 | Pseudomonas_protegens   |              199 |                   14 |           185 |
 | Pseudomonas_asiatica    |              198 |                   12 |           186 |
 | Pseudomonas_putida      |              169 |                   10 |           159 |
 | Pseudomonas_monteilii   |              129 |                    9 |           120 |
 | Pseudomonas_fulva       |              117 |                    9 |           108 |
 | Pseudomonas_fluorescens |              108 |                    7 |           101 |
-| Pseudomonas_juntendi    |              103 |                   63 |            40 |
+| Pseudomonas_juntendi    |              103 |                   11 |            92 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -45,21 +45,21 @@ This section provides a summary of the metrics for the genus:
 | Pseudomonas_juntendi   | N50                    |    45000       |      nan       |
 | Pseudomonas_juntendi   | no_of_contigs          |      nan       |      360       |
 | Pseudomonas_juntendi   | GC_Content             |       61       |       63       |
-| Pseudomonas_juntendi   | Completeness           |      100       |      nan       |
+| Pseudomonas_juntendi   | Completeness           |       99       |      nan       |
 | Pseudomonas_juntendi   | Contamination          |      nan       |        2       |
 | Pseudomonas_juntendi   | Total_Coding_Sequences |     4900       |     5900       |
 | Pseudomonas_juntendi   | Genome_Size            |        5.3e+06 |        6.2e+06 |
 | Pseudomonas_paracarnis | N50                    |    54000       |      nan       |
 | Pseudomonas_paracarnis | no_of_contigs          |      nan       |      260       |
 | Pseudomonas_paracarnis | GC_Content             |       59       |       61       |
-| Pseudomonas_paracarnis | Completeness           |      100       |      nan       |
+| Pseudomonas_paracarnis | Completeness           |       99       |      nan       |
 | Pseudomonas_paracarnis | Contamination          |      nan       |        1       |
 | Pseudomonas_paracarnis | Total_Coding_Sequences |     5200       |     6100       |
 | Pseudomonas_paracarnis | Genome_Size            |        5.8e+06 |        6.6e+06 |
 | Pseudomonas_fulva      | N50                    |   122000       |      nan       |
 | Pseudomonas_fulva      | no_of_contigs          |      nan       |      210       |
 | Pseudomonas_fulva      | GC_Content             |       60       |       65       |
-| Pseudomonas_fulva      | Completeness           |       96       |      nan       |
+| Pseudomonas_fulva      | Completeness           |       95       |      nan       |
 | Pseudomonas_fulva      | Contamination          |      nan       |       10       |
 | Pseudomonas_fulva      | Total_Coding_Sequences |     4200       |     5500       |
 

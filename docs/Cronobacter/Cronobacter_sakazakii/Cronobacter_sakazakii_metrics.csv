@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Cronobacter_sakazakii,N50,92000.0,
 Cronobacter_sakazakii,no_of_contigs,,140.0
 Cronobacter_sakazakii,GC_Content,56.0,58.0
-Cronobacter_sakazakii,Completeness,97.0,
+Cronobacter_sakazakii,Completeness,96.0,
 Cronobacter_sakazakii,Contamination,,4.0
 Cronobacter_sakazakii,Total_Coding_Sequences,3900.0,4800.0
 Cronobacter_sakazakii,Genome_Size,4200000.0,5000000.0

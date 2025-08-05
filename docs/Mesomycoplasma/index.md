@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Mesomycoplasma_hyopneumoniae | N50                    |          40000 |        nan     |
 | Mesomycoplasma_hyopneumoniae | no_of_contigs          |            nan |        100     |
 | Mesomycoplasma_hyopneumoniae | GC_Content             |             28 |         29     |
-| Mesomycoplasma_hyopneumoniae | Completeness           |             95 |        nan     |
+| Mesomycoplasma_hyopneumoniae | Completeness           |             94 |        nan     |
 | Mesomycoplasma_hyopneumoniae | Contamination          |            nan |          3     |
 | Mesomycoplasma_hyopneumoniae | Total_Coding_Sequences |            600 |        800     |
 | Mesomycoplasma_hyopneumoniae | Genome_Size            |         800000 |          1e+06 |

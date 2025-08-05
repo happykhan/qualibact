@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pectobacterium_brasiliense,N50,131000.0,
 Pectobacterium_brasiliense,no_of_contigs,,130.0
 Pectobacterium_brasiliense,GC_Content,51.0,53.0
-Pectobacterium_brasiliense,Completeness,96.0,
+Pectobacterium_brasiliense,Completeness,95.0,
 Pectobacterium_brasiliense,Contamination,,2.0
 Pectobacterium_brasiliense,Total_Coding_Sequences,4100.0,4600.0
 Pectobacterium_brasiliense,Genome_Size,4600000.0,5200000.0

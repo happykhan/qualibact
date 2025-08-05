@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Aerococcus_urinae,N50,59000.0,
 Aerococcus_urinae,no_of_contigs,,110.0
 Aerococcus_urinae,GC_Content,41.0,43.0
-Aerococcus_urinae,Completeness,98.0,
+Aerococcus_urinae,Completeness,97.0,
 Aerococcus_urinae,Contamination,,3.0
 Aerococcus_urinae,Total_Coding_Sequences,1700.0,2000.0
 Aerococcus_urinae,Genome_Size,1900000.0,2200000.0

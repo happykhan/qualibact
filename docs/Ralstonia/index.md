@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Ralstonia_pseudosolanacearum | N50                    |    34000       |      nan       |
 | Ralstonia_pseudosolanacearum | no_of_contigs          |      nan       |      450       |
 | Ralstonia_pseudosolanacearum | GC_Content             |       66       |       68       |
-| Ralstonia_pseudosolanacearum | Completeness           |       97       |      nan       |
+| Ralstonia_pseudosolanacearum | Completeness           |       96       |      nan       |
 | Ralstonia_pseudosolanacearum | Contamination          |      nan       |        3       |
 | Ralstonia_pseudosolanacearum | Total_Coding_Sequences |     4700       |     5600       |
 | Ralstonia_pseudosolanacearum | Genome_Size            |        5.3e+06 |        6.2e+06 |
 | Ralstonia_solanacearum       | N50                    |    36000       |      nan       |
 | Ralstonia_solanacearum       | no_of_contigs          |      nan       |      380       |
 | Ralstonia_solanacearum       | GC_Content             |       66       |       67       |
-| Ralstonia_solanacearum       | Completeness           |       91       |      nan       |
+| Ralstonia_solanacearum       | Completeness           |       90       |      nan       |
 | Ralstonia_solanacearum       | Contamination          |      nan       |        5       |
 | Ralstonia_solanacearum       | Total_Coding_Sequences |     4300       |     5300       |
 | Ralstonia_solanacearum       | Genome_Size            |        5e+06   |        5.9e+06 |

@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Leptospira_borgpetersenii | N50                    |    32000       |      nan       |
 | Leptospira_borgpetersenii | no_of_contigs          |      nan       |      400       |
 | Leptospira_borgpetersenii | GC_Content             |       40       |       41       |
-| Leptospira_borgpetersenii | Completeness           |       70       |      nan       |
+| Leptospira_borgpetersenii | Completeness           |       69       |      nan       |
 | Leptospira_borgpetersenii | Contamination          |      nan       |        9       |
 | Leptospira_borgpetersenii | Total_Coding_Sequences |     3300       |     3700       |
 | Leptospira_borgpetersenii | Genome_Size            |        3.7e+06 |        4.1e+06 |
 | Leptospira_interrogans    | N50                    |    11000       |      nan       |
 | Leptospira_interrogans    | no_of_contigs          |      nan       |      850       |
 | Leptospira_interrogans    | GC_Content             |       34       |       36       |
-| Leptospira_interrogans    | Completeness           |       74       |      nan       |
+| Leptospira_interrogans    | Completeness           |       73       |      nan       |
 | Leptospira_interrogans    | Contamination          |      nan       |       13       |
 | Leptospira_interrogans    | Total_Coding_Sequences |     3600       |     4800       |
 | Leptospira_interrogans    | Genome_Size            |        4.3e+06 |        5.6e+06 |

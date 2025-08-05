@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Priestia_megaterium | N50                    |     182000     |      nan       |
 | Priestia_megaterium | no_of_contigs          |        nan     |      200       |
 | Priestia_megaterium | GC_Content             |         36     |       39       |
-| Priestia_megaterium | Completeness           |         93     |      nan       |
+| Priestia_megaterium | Completeness           |         92     |      nan       |
 | Priestia_megaterium | Contamination          |        nan     |       13       |
 | Priestia_megaterium | Total_Coding_Sequences |       5100     |     7300       |
 | Priestia_megaterium | Genome_Size            |          5e+06 |        6.9e+06 |

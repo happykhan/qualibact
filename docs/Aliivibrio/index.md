@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Aliivibrio_fischeri | N50                    |       8000     |      nan       |
 | Aliivibrio_fischeri | no_of_contigs          |        nan     |      800       |
 | Aliivibrio_fischeri | GC_Content             |         38     |       39       |
-| Aliivibrio_fischeri | Completeness           |         94     |      nan       |
+| Aliivibrio_fischeri | Completeness           |         93     |      nan       |
 | Aliivibrio_fischeri | Contamination          |        nan     |       12       |
 | Aliivibrio_fischeri | Total_Coding_Sequences |       3600     |     4400       |
 | Aliivibrio_fischeri | Genome_Size            |          4e+06 |        4.6e+06 |

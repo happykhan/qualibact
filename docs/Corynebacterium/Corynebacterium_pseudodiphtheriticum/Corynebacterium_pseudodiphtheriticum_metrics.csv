@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Corynebacterium_pseudodiphtheriticum,N50,105000.0,
 Corynebacterium_pseudodiphtheriticum,no_of_contigs,,80.0
 Corynebacterium_pseudodiphtheriticum,GC_Content,55.0,56.0
-Corynebacterium_pseudodiphtheriticum,Completeness,99.0,
+Corynebacterium_pseudodiphtheriticum,Completeness,98.0,
 Corynebacterium_pseudodiphtheriticum,Contamination,,1.0
 Corynebacterium_pseudodiphtheriticum,Total_Coding_Sequences,2000.0,2300.0
 Corynebacterium_pseudodiphtheriticum,Genome_Size,2200000.0,2500000.0

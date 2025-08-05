@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Providencia_rettgeri,N50,14000.0,
 Providencia_rettgeri,no_of_contigs,,600.0
 Providencia_rettgeri,GC_Content,40.0,44.0
-Providencia_rettgeri,Completeness,96.0,
+Providencia_rettgeri,Completeness,95.0,
 Providencia_rettgeri,Contamination,,6.0
 Providencia_rettgeri,Total_Coding_Sequences,3700.0,4900.0
 Providencia_rettgeri,Genome_Size,4000000.0,5100000.0

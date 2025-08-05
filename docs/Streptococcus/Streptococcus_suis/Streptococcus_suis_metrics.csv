@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_suis,N50,20000.0,
 Streptococcus_suis,no_of_contigs,,290.0
 Streptococcus_suis,GC_Content,39.0,44.0
-Streptococcus_suis,Completeness,94.0,
+Streptococcus_suis,Completeness,93.0,
 Streptococcus_suis,Contamination,,5.0
 Streptococcus_suis,Total_Coding_Sequences,1800.0,2700.0
 Streptococcus_suis,Genome_Size,1800000.0,2700000.0

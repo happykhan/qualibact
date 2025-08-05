@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Neisseria_meningitidis,N50,18000.0,
 Neisseria_meningitidis,no_of_contigs,,310.0
 Neisseria_meningitidis,GC_Content,51.0,53.0
-Neisseria_meningitidis,Completeness,98.0,
+Neisseria_meningitidis,Completeness,97.0,
 Neisseria_meningitidis,Contamination,,3.0
 Neisseria_meningitidis,Total_Coding_Sequences,1900.0,2500.0
 Neisseria_meningitidis,Genome_Size,2000000.0,2400000.0

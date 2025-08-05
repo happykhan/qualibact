@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Orientia_tsutsugamushi,N50,0.0,
 Orientia_tsutsugamushi,no_of_contigs,,3340.0
 Orientia_tsutsugamushi,GC_Content,29.0,45.0
-Orientia_tsutsugamushi,Completeness,5.0,
+Orientia_tsutsugamushi,Completeness,4.0,
 Orientia_tsutsugamushi,Contamination,,9.0
 Orientia_tsutsugamushi,Total_Coding_Sequences,200.0,4900.0
 Orientia_tsutsugamushi,Genome_Size,100000.0,2600000.0

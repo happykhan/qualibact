@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Pectobacterium_brasiliense | N50                    |   131000       |      nan       |
 | Pectobacterium_brasiliense | no_of_contigs          |      nan       |      130       |
 | Pectobacterium_brasiliense | GC_Content             |       51       |       53       |
-| Pectobacterium_brasiliense | Completeness           |       96       |      nan       |
+| Pectobacterium_brasiliense | Completeness           |       95       |      nan       |
 | Pectobacterium_brasiliense | Contamination          |      nan       |        2       |
 | Pectobacterium_brasiliense | Total_Coding_Sequences |     4100       |     4600       |
 | Pectobacterium_brasiliense | Genome_Size            |        4.6e+06 |        5.2e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Moraxella_bovoculi,N50,55000.0,
 Moraxella_bovoculi,no_of_contigs,,110.0
 Moraxella_bovoculi,GC_Content,45.0,46.0
-Moraxella_bovoculi,Completeness,96.0,
+Moraxella_bovoculi,Completeness,95.0,
 Moraxella_bovoculi,Contamination,,2.0
 Moraxella_bovoculi,Total_Coding_Sequences,1800.0,2500.0
 Moraxella_bovoculi,Genome_Size,1900000.0,2500000.0

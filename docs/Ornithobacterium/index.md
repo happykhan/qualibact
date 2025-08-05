@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Ornithobacterium_rhinotracheale | N50                    |    29000       |      nan       |
 | Ornithobacterium_rhinotracheale | no_of_contigs          |      nan       |      210       |
 | Ornithobacterium_rhinotracheale | GC_Content             |       37       |       39       |
-| Ornithobacterium_rhinotracheale | Completeness           |       88       |      nan       |
+| Ornithobacterium_rhinotracheale | Completeness           |       87       |      nan       |
 | Ornithobacterium_rhinotracheale | Contamination          |      nan       |        6       |
 | Ornithobacterium_rhinotracheale | Total_Coding_Sequences |     2100       |     2400       |
 | Ornithobacterium_rhinotracheale | Genome_Size            |        2.2e+06 |        2.5e+06 |

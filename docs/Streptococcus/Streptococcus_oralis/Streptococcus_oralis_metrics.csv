@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_oralis,N50,54000.0,
 Streptococcus_oralis,no_of_contigs,,130.0
 Streptococcus_oralis,GC_Content,39.0,42.0
-Streptococcus_oralis,Completeness,97.0,
+Streptococcus_oralis,Completeness,96.0,
 Streptococcus_oralis,Contamination,,2.0
 Streptococcus_oralis,Total_Coding_Sequences,1700.0,2200.0
 Streptococcus_oralis,Genome_Size,1700000.0,2200000.0

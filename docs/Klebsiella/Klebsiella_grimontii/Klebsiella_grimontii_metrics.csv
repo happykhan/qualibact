@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Klebsiella_grimontii,N50,93000.0,
 Klebsiella_grimontii,no_of_contigs,,320.0
 Klebsiella_grimontii,GC_Content,54.0,57.0
-Klebsiella_grimontii,Completeness,98.0,
+Klebsiella_grimontii,Completeness,97.0,
 Klebsiella_grimontii,Contamination,,2.0
 Klebsiella_grimontii,Total_Coding_Sequences,5100.0,6700.0
 Klebsiella_grimontii,Genome_Size,5600000.0,6800000.0

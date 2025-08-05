@@ -9,7 +9,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species             |   original_count |   filtered_out_count |   final_count |
 |:--------------------|-----------------:|---------------------:|--------------:|
-| Salmonella_enterica |           644703 |                21042 |        623661 |
+| Salmonella_enterica |           644703 |                21033 |        623670 |
 | Salmonella_arizonae |             1902 |                   55 |          1847 |
 | Salmonella_bongori  |              170 |                   11 |           159 |
 
@@ -23,21 +23,21 @@ This section provides a summary of the metrics for the genus:
 | Salmonella_arizonae | N50                    |    69000       |      nan       |
 | Salmonella_arizonae | no_of_contigs          |      nan       |      210       |
 | Salmonella_arizonae | GC_Content             |       51       |       52       |
-| Salmonella_arizonae | Completeness           |       98       |      nan       |
+| Salmonella_arizonae | Completeness           |       97       |      nan       |
 | Salmonella_arizonae | Contamination          |      nan       |        7       |
 | Salmonella_arizonae | Total_Coding_Sequences |     4100       |     5500       |
 | Salmonella_arizonae | Genome_Size            |        4.4e+06 |        5.6e+06 |
 | Salmonella_enterica | N50                    |    62000       |      nan       |
 | Salmonella_enterica | no_of_contigs          |      nan       |      200       |
 | Salmonella_enterica | GC_Content             |       51       |       53       |
-| Salmonella_enterica | Completeness           |       97       |      nan       |
+| Salmonella_enterica | Completeness           |       96       |      nan       |
 | Salmonella_enterica | Contamination          |      nan       |        8       |
 | Salmonella_enterica | Total_Coding_Sequences |     4100       |     6000       |
 | Salmonella_enterica | Genome_Size            |        4.4e+06 |        5.9e+06 |
 | Salmonella_bongori  | N50                    |    33000       |      nan       |
 | Salmonella_bongori  | no_of_contigs          |      nan       |      270       |
 | Salmonella_bongori  | GC_Content             |       51       |       52       |
-| Salmonella_bongori  | Completeness           |       98       |      nan       |
+| Salmonella_bongori  | Completeness           |       97       |      nan       |
 | Salmonella_bongori  | Contamination          |      nan       |        2       |
 | Salmonella_bongori  | Total_Coding_Sequences |     3900       |     4700       |
 

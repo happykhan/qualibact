@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacteroides_cellulosilyticus,N50,50000.0,
 Bacteroides_cellulosilyticus,no_of_contigs,,500.0
 Bacteroides_cellulosilyticus,GC_Content,42.0,44.0
-Bacteroides_cellulosilyticus,Completeness,100.0,
+Bacteroides_cellulosilyticus,Completeness,99.0,
 Bacteroides_cellulosilyticus,Contamination,,4.0
 Bacteroides_cellulosilyticus,Total_Coding_Sequences,4900.0,6100.0
 Bacteroides_cellulosilyticus,Genome_Size,6500000.0,7700000.0

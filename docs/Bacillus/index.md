@@ -25,7 +25,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Bacillus_subtilis          |             2197 |                  143 |          2054 |
 | Bacillus_anthracis         |             1648 |                   97 |          1551 |
 | Bacillus_paranthracis      |              797 |                   44 |           753 |
-| Bacillus_bombysepticus     |              615 |                   60 |           555 |
+| Bacillus_bombysepticus     |              615 |                   58 |           557 |
 | Bacillus_thuringiensis     |              516 |                   36 |           480 |
 | Bacillus_cereus            |              465 |                   20 |           445 |
 | Bacillus_velezensis        |              292 |                   19 |           273 |
@@ -49,21 +49,21 @@ This section provides a summary of the metrics for the genus:
 | Bacillus_licheniformis | N50                    |    84000       |      nan       |
 | Bacillus_licheniformis | no_of_contigs          |      nan       |      170       |
 | Bacillus_licheniformis | GC_Content             |       45       |       47       |
-| Bacillus_licheniformis | Completeness           |       93       |      nan       |
+| Bacillus_licheniformis | Completeness           |       92       |      nan       |
 | Bacillus_licheniformis | Contamination          |      nan       |        6       |
 | Bacillus_licheniformis | Total_Coding_Sequences |     4100       |     5100       |
 | Bacillus_licheniformis | Genome_Size            |        4e+06   |        4.9e+06 |
 | Bacillus_subtilis      | N50                    |    23000       |      nan       |
 | Bacillus_subtilis      | no_of_contigs          |      nan       |      470       |
 | Bacillus_subtilis      | GC_Content             |       42       |       45       |
-| Bacillus_subtilis      | Completeness           |       93       |      nan       |
+| Bacillus_subtilis      | Completeness           |       92       |      nan       |
 | Bacillus_subtilis      | Contamination          |      nan       |       12       |
 | Bacillus_subtilis      | Total_Coding_Sequences |     3800       |     5000       |
 | Bacillus_subtilis      | Genome_Size            |        3.6e+06 |        4.6e+06 |
 | Bacillus_bombysepticus | N50                    |    16000       |      nan       |
 | Bacillus_bombysepticus | no_of_contigs          |      nan       |     2350       |
 | Bacillus_bombysepticus | GC_Content             |       34       |       36       |
-| Bacillus_bombysepticus | Completeness           |      100       |      nan       |
+| Bacillus_bombysepticus | Completeness           |       99       |      nan       |
 | Bacillus_bombysepticus | Contamination          |      nan       |        1       |
 | Bacillus_bombysepticus | Total_Coding_Sequences |     5200       |     7700       |
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Aliivibrio_fischeri,N50,8000.0,
 Aliivibrio_fischeri,no_of_contigs,,800.0
 Aliivibrio_fischeri,GC_Content,38.0,39.0
-Aliivibrio_fischeri,Completeness,94.0,
+Aliivibrio_fischeri,Completeness,93.0,
 Aliivibrio_fischeri,Contamination,,12.0
 Aliivibrio_fischeri,Total_Coding_Sequences,3600.0,4400.0
 Aliivibrio_fischeri,Genome_Size,4000000.0,4600000.0

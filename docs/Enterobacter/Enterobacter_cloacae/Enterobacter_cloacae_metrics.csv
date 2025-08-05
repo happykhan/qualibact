@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterobacter_cloacae,N50,41000.0,
 Enterobacter_cloacae,no_of_contigs,,420.0
 Enterobacter_cloacae,GC_Content,52.0,57.0
-Enterobacter_cloacae,Completeness,91.0,
+Enterobacter_cloacae,Completeness,90.0,
 Enterobacter_cloacae,Contamination,,4.0
 Enterobacter_cloacae,Total_Coding_Sequences,4300.0,5900.0
 Enterobacter_cloacae,Genome_Size,4600000.0,5800000.0

@@ -1,4 +1,4 @@
-# GenomeQC
+# QualiBact
 
 A Python script for analyzing microbial genome assembly statistics across multiple species. It compares allthebacteria assemblies to NCBI RefSeq assemblies and generates detailed statistics, outlier detection with **Isolation Forest**, and visualizations.
 

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_monteilii,N50,42000.0,
 Pseudomonas_monteilii,no_of_contigs,,360.0
 Pseudomonas_monteilii,GC_Content,61.0,63.0
-Pseudomonas_monteilii,Completeness,92.0,
+Pseudomonas_monteilii,Completeness,91.0,
 Pseudomonas_monteilii,Contamination,,6.0
 Pseudomonas_monteilii,Total_Coding_Sequences,5000.0,6500.0
 Pseudomonas_monteilii,Genome_Size,5500000.0,6900000.0

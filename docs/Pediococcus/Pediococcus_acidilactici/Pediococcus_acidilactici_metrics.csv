@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pediococcus_acidilactici,N50,125000.0,
 Pediococcus_acidilactici,no_of_contigs,,60.0
 Pediococcus_acidilactici,GC_Content,41.0,43.0
-Pediococcus_acidilactici,Completeness,91.0,
+Pediococcus_acidilactici,Completeness,90.0,
 Pediococcus_acidilactici,Contamination,,7.0
 Pediococcus_acidilactici,Total_Coding_Sequences,1700.0,2300.0
 Pediococcus_acidilactici,Genome_Size,1700000.0,2300000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Serratia_liquefaciens,N50,59000.0,
 Serratia_liquefaciens,no_of_contigs,,310.0
 Serratia_liquefaciens,GC_Content,54.0,56.0
-Serratia_liquefaciens,Completeness,100.0,
+Serratia_liquefaciens,Completeness,99.0,
 Serratia_liquefaciens,Contamination,,3.0
 Serratia_liquefaciens,Total_Coding_Sequences,4600.0,5800.0
 Serratia_liquefaciens,Genome_Size,5100000.0,6000000.0

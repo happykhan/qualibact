@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Stutzerimonas_stutzeri | N50                    |    63000       |      nan       |
 | Stutzerimonas_stutzeri | no_of_contigs          |      nan       |      610       |
 | Stutzerimonas_stutzeri | GC_Content             |       59       |       65       |
-| Stutzerimonas_stutzeri | Completeness           |       96       |      nan       |
+| Stutzerimonas_stutzeri | Completeness           |       95       |      nan       |
 | Stutzerimonas_stutzeri | Contamination          |      nan       |        3       |
 | Stutzerimonas_stutzeri | Total_Coding_Sequences |     3900       |     4900       |
 | Stutzerimonas_stutzeri | Genome_Size            |        4.2e+06 |        5.2e+06 |

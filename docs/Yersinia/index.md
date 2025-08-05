@@ -25,21 +25,21 @@ This section provides a summary of the metrics for the genus:
 | Yersinia_pestis         | N50                    |    17000       |      nan       |
 | Yersinia_pestis         | no_of_contigs          |      nan       |      540       |
 | Yersinia_pestis         | GC_Content             |       47       |       48       |
-| Yersinia_pestis         | Completeness           |       95       |      nan       |
+| Yersinia_pestis         | Completeness           |       94       |      nan       |
 | Yersinia_pestis         | Contamination          |      nan       |        2       |
 | Yersinia_pestis         | Total_Coding_Sequences |     3900       |     4600       |
 | Yersinia_pestis         | Genome_Size            |        4.4e+06 |        5e+06   |
 | Yersinia_enterocolitica | N50                    |    34000       |      nan       |
 | Yersinia_enterocolitica | no_of_contigs          |      nan       |      330       |
 | Yersinia_enterocolitica | GC_Content             |       46       |       48       |
-| Yersinia_enterocolitica | Completeness           |       92       |      nan       |
+| Yersinia_enterocolitica | Completeness           |       91       |      nan       |
 | Yersinia_enterocolitica | Contamination          |      nan       |        5       |
 | Yersinia_enterocolitica | Total_Coding_Sequences |     4000       |     5000       |
 | Yersinia_enterocolitica | Genome_Size            |        4.3e+06 |        5.2e+06 |
 | Yersinia_intermedia     | N50                    |    52000       |      nan       |
 | Yersinia_intermedia     | no_of_contigs          |      nan       |      310       |
 | Yersinia_intermedia     | GC_Content             |       47       |       48       |
-| Yersinia_intermedia     | Completeness           |       99       |      nan       |
+| Yersinia_intermedia     | Completeness           |       98       |      nan       |
 | Yersinia_intermedia     | Contamination          |      nan       |        3       |
 | Yersinia_intermedia     | Total_Coding_Sequences |     4100       |     5100       |
 

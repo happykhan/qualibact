@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Lactococcus_lactis,N50,15000.0,
 Lactococcus_lactis,no_of_contigs,,280.0
 Lactococcus_lactis,GC_Content,34.0,36.0
-Lactococcus_lactis,Completeness,95.0,
+Lactococcus_lactis,Completeness,94.0,
 Lactococcus_lactis,Contamination,,5.0
 Lactococcus_lactis,Total_Coding_Sequences,2100.0,3100.0
 Lactococcus_lactis,Genome_Size,2200000.0,3000000.0

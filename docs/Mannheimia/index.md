@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Mannheimia_haemolytica | N50                    |    26000       |      nan       |
 | Mannheimia_haemolytica | no_of_contigs          |      nan       |      230       |
 | Mannheimia_haemolytica | GC_Content             |       40       |       42       |
-| Mannheimia_haemolytica | Completeness           |       88       |      nan       |
+| Mannheimia_haemolytica | Completeness           |       87       |      nan       |
 | Mannheimia_haemolytica | Contamination          |      nan       |        7       |
 | Mannheimia_haemolytica | Total_Coding_Sequences |     2200       |     3000       |
 | Mannheimia_haemolytica | Genome_Size            |        2.3e+06 |        2.9e+06 |

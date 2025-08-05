@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Caulobacter_vibrioides,N50,4000.0,
 Caulobacter_vibrioides,no_of_contigs,,1310.0
 Caulobacter_vibrioides,GC_Content,66.0,68.0
-Caulobacter_vibrioides,Completeness,89.0,
+Caulobacter_vibrioides,Completeness,88.0,
 Caulobacter_vibrioides,Contamination,,6.0
 Caulobacter_vibrioides,Total_Coding_Sequences,3600.0,4700.0
 Caulobacter_vibrioides,Genome_Size,3800000.0,4200000.0

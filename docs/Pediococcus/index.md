@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Pediococcus_acidilactici | N50                    |   125000       |      nan       |
 | Pediococcus_acidilactici | no_of_contigs          |      nan       |       60       |
 | Pediococcus_acidilactici | GC_Content             |       41       |       43       |
-| Pediococcus_acidilactici | Completeness           |       91       |      nan       |
+| Pediococcus_acidilactici | Completeness           |       90       |      nan       |
 | Pediococcus_acidilactici | Contamination          |      nan       |        7       |
 | Pediococcus_acidilactici | Total_Coding_Sequences |     1700       |     2300       |
 | Pediococcus_acidilactici | Genome_Size            |        1.7e+06 |        2.3e+06 |
 | Pediococcus_pentosaceus  | N50                    |   209000       |      nan       |
 | Pediococcus_pentosaceus  | no_of_contigs          |      nan       |       50       |
 | Pediococcus_pentosaceus  | GC_Content             |       37       |       38       |
-| Pediococcus_pentosaceus  | Completeness           |       85       |      nan       |
+| Pediococcus_pentosaceus  | Completeness           |       84       |      nan       |
 | Pediococcus_pentosaceus  | Contamination          |      nan       |        9       |
 | Pediococcus_pentosaceus  | Total_Coding_Sequences |     1600       |     2200       |
 | Pediococcus_pentosaceus  | Genome_Size            |        1.6e+06 |        2.1e+06 |

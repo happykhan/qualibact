@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bifidobacterium_pseudocatenulatum,N50,58000.0,
 Bifidobacterium_pseudocatenulatum,no_of_contigs,,90.0
 Bifidobacterium_pseudocatenulatum,GC_Content,56.0,57.0
-Bifidobacterium_pseudocatenulatum,Completeness,94.0,
+Bifidobacterium_pseudocatenulatum,Completeness,93.0,
 Bifidobacterium_pseudocatenulatum,Contamination,,2.0
 Bifidobacterium_pseudocatenulatum,Total_Coding_Sequences,1600.0,2300.0
 Bifidobacterium_pseudocatenulatum,Genome_Size,2100000.0,2600000.0

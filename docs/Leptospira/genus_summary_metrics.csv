@@ -2,14 +2,14 @@ species,metric,lower_bounds,upper_bounds
 Leptospira_borgpetersenii,N50,32000.0,
 Leptospira_borgpetersenii,no_of_contigs,,400.0
 Leptospira_borgpetersenii,GC_Content,40.0,41.0
-Leptospira_borgpetersenii,Completeness,70.0,
+Leptospira_borgpetersenii,Completeness,69.0,
 Leptospira_borgpetersenii,Contamination,,9.0
 Leptospira_borgpetersenii,Total_Coding_Sequences,3300.0,3700.0
 Leptospira_borgpetersenii,Genome_Size,3700000.0,4100000.0
 Leptospira_interrogans,N50,11000.0,
 Leptospira_interrogans,no_of_contigs,,850.0
 Leptospira_interrogans,GC_Content,34.0,36.0
-Leptospira_interrogans,Completeness,74.0,
+Leptospira_interrogans,Completeness,73.0,
 Leptospira_interrogans,Contamination,,13.0
 Leptospira_interrogans,Total_Coding_Sequences,3600.0,4800.0
 Leptospira_interrogans,Genome_Size,4300000.0,5600000.0

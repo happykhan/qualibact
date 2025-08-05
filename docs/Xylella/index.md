@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Xylella_fastidiosa | N50                    |    42000       |      nan       |
 | Xylella_fastidiosa | no_of_contigs          |      nan       |      330       |
 | Xylella_fastidiosa | GC_Content             |       51       |       53       |
-| Xylella_fastidiosa | Completeness           |       94       |      nan       |
+| Xylella_fastidiosa | Completeness           |       93       |      nan       |
 | Xylella_fastidiosa | Contamination          |      nan       |        3       |
 | Xylella_fastidiosa | Total_Coding_Sequences |     2100       |     2900       |
 | Xylella_fastidiosa | Genome_Size            |        2.4e+06 |        2.9e+06 |

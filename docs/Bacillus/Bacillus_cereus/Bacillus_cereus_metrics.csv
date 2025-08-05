@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_cereus,N50,10000.0,
 Bacillus_cereus,no_of_contigs,,1140.0
 Bacillus_cereus,GC_Content,34.0,36.0
-Bacillus_cereus,Completeness,96.0,
+Bacillus_cereus,Completeness,95.0,
 Bacillus_cereus,Contamination,,6.0
 Bacillus_cereus,Total_Coding_Sequences,5000.0,7100.0
 Bacillus_cereus,Genome_Size,4900000.0,6800000.0

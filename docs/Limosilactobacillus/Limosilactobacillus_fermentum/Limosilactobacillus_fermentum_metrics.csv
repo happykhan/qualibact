@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Limosilactobacillus_fermentum,N50,25000.0,
 Limosilactobacillus_fermentum,no_of_contigs,,360.0
 Limosilactobacillus_fermentum,GC_Content,50.0,53.0
-Limosilactobacillus_fermentum,Completeness,86.0,
+Limosilactobacillus_fermentum,Completeness,85.0,
 Limosilactobacillus_fermentum,Contamination,,11.0
 Limosilactobacillus_fermentum,Total_Coding_Sequences,1900.0,2500.0
 Limosilactobacillus_fermentum,Genome_Size,1800000.0,2400000.0

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bifidobacterium_breve,N50,11000.0,
 Bifidobacterium_breve,no_of_contigs,,410.0
 Bifidobacterium_breve,GC_Content,58.0,60.0
-Bifidobacterium_breve,Completeness,95.0,
+Bifidobacterium_breve,Completeness,94.0,
 Bifidobacterium_breve,Contamination,,13.0
 Bifidobacterium_breve,Total_Coding_Sequences,1800.0,2400.0
 Bifidobacterium_breve,Genome_Size,2200000.0,2600000.0

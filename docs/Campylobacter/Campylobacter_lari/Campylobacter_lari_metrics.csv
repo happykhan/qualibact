@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Campylobacter_lari,N50,32000.0,
 Campylobacter_lari,no_of_contigs,,130.0
 Campylobacter_lari,GC_Content,29.0,31.0
-Campylobacter_lari,Completeness,96.0,
+Campylobacter_lari,Completeness,95.0,
 Campylobacter_lari,Contamination,,3.0
 Campylobacter_lari,Total_Coding_Sequences,1400.0,1900.0
 Campylobacter_lari,Genome_Size,1400000.0,1800000.0

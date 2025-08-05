@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Vibrio_alginolyticus,N50,68000.0,
 Vibrio_alginolyticus,no_of_contigs,,220.0
 Vibrio_alginolyticus,GC_Content,44.0,45.0
-Vibrio_alginolyticus,Completeness,96.0,
+Vibrio_alginolyticus,Completeness,95.0,
 Vibrio_alginolyticus,Contamination,,4.0
 Vibrio_alginolyticus,Total_Coding_Sequences,4400.0,5300.0
 Vibrio_alginolyticus,Genome_Size,4800000.0,5800000.0

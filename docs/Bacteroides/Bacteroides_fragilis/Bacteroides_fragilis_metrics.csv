@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacteroides_fragilis,N50,22000.0,
 Bacteroides_fragilis,no_of_contigs,,500.0
 Bacteroides_fragilis,GC_Content,43.0,44.0
-Bacteroides_fragilis,Completeness,98.0,
+Bacteroides_fragilis,Completeness,97.0,
 Bacteroides_fragilis,Contamination,,7.0
 Bacteroides_fragilis,Total_Coding_Sequences,3900.0,5100.0
 Bacteroides_fragilis,Genome_Size,4800000.0,5800000.0

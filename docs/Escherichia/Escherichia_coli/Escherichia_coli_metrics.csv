@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Escherichia_coli,N50,20000.0,
 Escherichia_coli,no_of_contigs,,700.0
 Escherichia_coli,GC_Content,50.0,52.0
-Escherichia_coli,Completeness,96.0,
+Escherichia_coli,Completeness,95.0,
 Escherichia_coli,Contamination,,16.0
 Escherichia_coli,Total_Coding_Sequences,3900.0,6500.0
 Escherichia_coli,Genome_Size,4100000.0,6300000.0

@@ -7,7 +7,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                   |   original_count |   filtered_out_count |   final_count |
 |:--------------------------|-----------------:|---------------------:|--------------:|
-| Mycoplasmoides_pneumoniae |              274 |                   22 |           252 |
+| Mycoplasmoides_pneumoniae |              274 |                   15 |           259 |
 
 
 [📊 Download species counts table](species_counts.csv){.md-button}
@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Mycoplasmoides_pneumoniae | N50                    |          30000 |            nan |
 | Mycoplasmoides_pneumoniae | no_of_contigs          |            nan |            100 |
 | Mycoplasmoides_pneumoniae | GC_Content             |             39 |             41 |
-| Mycoplasmoides_pneumoniae | Completeness           |             97 |            nan |
+| Mycoplasmoides_pneumoniae | Completeness           |             96 |            nan |
 | Mycoplasmoides_pneumoniae | Contamination          |            nan |              7 |
 | Mycoplasmoides_pneumoniae | Total_Coding_Sequences |            700 |            900 |
 | Mycoplasmoides_pneumoniae | Genome_Size            |         700000 |         900000 |

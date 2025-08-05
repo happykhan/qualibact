@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Mycobacterium_intracellulare,N50,35000.0,
 Mycobacterium_intracellulare,no_of_contigs,,430.0
 Mycobacterium_intracellulare,GC_Content,67.0,69.0
-Mycobacterium_intracellulare,Completeness,95.0,
+Mycobacterium_intracellulare,Completeness,94.0,
 Mycobacterium_intracellulare,Contamination,,13.0
 Mycobacterium_intracellulare,Total_Coding_Sequences,4900.0,7100.0
 Mycobacterium_intracellulare,Genome_Size,5200000.0,7300000.0

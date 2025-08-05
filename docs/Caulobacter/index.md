@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Caulobacter_vibrioides | N50                    |     4000       |      nan       |
 | Caulobacter_vibrioides | no_of_contigs          |      nan       |     1310       |
 | Caulobacter_vibrioides | GC_Content             |       66       |       68       |
-| Caulobacter_vibrioides | Completeness           |       89       |      nan       |
+| Caulobacter_vibrioides | Completeness           |       88       |      nan       |
 | Caulobacter_vibrioides | Contamination          |      nan       |        6       |
 | Caulobacter_vibrioides | Total_Coding_Sequences |     3600       |     4700       |
 | Caulobacter_vibrioides | Genome_Size            |        3.8e+06 |        4.2e+06 |

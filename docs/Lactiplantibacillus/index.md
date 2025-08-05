@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Lactiplantibacillus_plantarum | N50                    |    53000       |      nan       |
 | Lactiplantibacillus_plantarum | no_of_contigs          |      nan       |      270       |
 | Lactiplantibacillus_plantarum | GC_Content             |       44       |       46       |
-| Lactiplantibacillus_plantarum | Completeness           |       98       |      nan       |
+| Lactiplantibacillus_plantarum | Completeness           |       97       |      nan       |
 | Lactiplantibacillus_plantarum | Contamination          |      nan       |        4       |
 | Lactiplantibacillus_plantarum | Total_Coding_Sequences |     2700       |     3700       |
 | Lactiplantibacillus_plantarum | Genome_Size            |        2.8e+06 |        3.7e+06 |

@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Burkholderia_multivorans,N50,22000.0,
 Burkholderia_multivorans,no_of_contigs,,710.0
 Burkholderia_multivorans,GC_Content,66.0,68.0
-Burkholderia_multivorans,Completeness,97.0,
+Burkholderia_multivorans,Completeness,96.0,
 Burkholderia_multivorans,Contamination,,4.0
 Burkholderia_multivorans,Total_Coding_Sequences,5300.0,6700.0
 Burkholderia_multivorans,Genome_Size,6000000.0,7300000.0

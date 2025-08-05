@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Curtobacterium_flaccumfaciens | N50                    |    38000       |        nan     |
 | Curtobacterium_flaccumfaciens | no_of_contigs          |      nan       |        210     |
 | Curtobacterium_flaccumfaciens | GC_Content             |       70       |         72     |
-| Curtobacterium_flaccumfaciens | Completeness           |       90       |        nan     |
+| Curtobacterium_flaccumfaciens | Completeness           |       89       |        nan     |
 | Curtobacterium_flaccumfaciens | Contamination          |      nan       |         10     |
 | Curtobacterium_flaccumfaciens | Total_Coding_Sequences |     3400       |       3900     |
 | Curtobacterium_flaccumfaciens | Genome_Size            |        3.6e+06 |          4e+06 |

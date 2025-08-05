@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Streptococcus_parasanguinis,N50,59000.0,
 Streptococcus_parasanguinis,no_of_contigs,,90.0
 Streptococcus_parasanguinis,GC_Content,41.0,43.0
-Streptococcus_parasanguinis,Completeness,98.0,
+Streptococcus_parasanguinis,Completeness,97.0,
 Streptococcus_parasanguinis,Contamination,,2.0
 Streptococcus_parasanguinis,Total_Coding_Sequences,1900.0,2200.0
 Streptococcus_parasanguinis,Genome_Size,2000000.0,2300000.0

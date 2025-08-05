@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Curtobacterium_flaccumfaciens,N50,38000.0,
 Curtobacterium_flaccumfaciens,no_of_contigs,,210.0
 Curtobacterium_flaccumfaciens,GC_Content,70.0,72.0
-Curtobacterium_flaccumfaciens,Completeness,90.0,
+Curtobacterium_flaccumfaciens,Completeness,89.0,
 Curtobacterium_flaccumfaciens,Contamination,,10.0
 Curtobacterium_flaccumfaciens,Total_Coding_Sequences,3400.0,3900.0
 Curtobacterium_flaccumfaciens,Genome_Size,3600000.0,4000000.0

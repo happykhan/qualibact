@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Sinorhizobium_meliloti | N50                    |    34000       |      nan       |
 | Sinorhizobium_meliloti | no_of_contigs          |      nan       |      510       |
 | Sinorhizobium_meliloti | GC_Content             |       61       |       63       |
-| Sinorhizobium_meliloti | Completeness           |       97       |      nan       |
+| Sinorhizobium_meliloti | Completeness           |       96       |      nan       |
 | Sinorhizobium_meliloti | Contamination          |      nan       |        3       |
 | Sinorhizobium_meliloti | Total_Coding_Sequences |     5800       |     7600       |
 | Sinorhizobium_meliloti | Genome_Size            |        6.1e+06 |        7.7e+06 |
 | Sinorhizobium_medicae  | N50                    |    31000       |      nan       |
 | Sinorhizobium_medicae  | no_of_contigs          |      nan       |      490       |
 | Sinorhizobium_medicae  | GC_Content             |       60       |       62       |
-| Sinorhizobium_medicae  | Completeness           |       88       |      nan       |
+| Sinorhizobium_medicae  | Completeness           |       87       |      nan       |
 | Sinorhizobium_medicae  | Contamination          |      nan       |        6       |
 | Sinorhizobium_medicae  | Total_Coding_Sequences |     6100       |     7700       |
 | Sinorhizobium_medicae  | Genome_Size            |        6.4e+06 |        7.8e+06 |

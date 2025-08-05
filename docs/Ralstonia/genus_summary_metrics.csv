@@ -2,14 +2,14 @@ species,metric,lower_bounds,upper_bounds
 Ralstonia_pseudosolanacearum,N50,34000.0,
 Ralstonia_pseudosolanacearum,no_of_contigs,,450.0
 Ralstonia_pseudosolanacearum,GC_Content,66.0,68.0
-Ralstonia_pseudosolanacearum,Completeness,97.0,
+Ralstonia_pseudosolanacearum,Completeness,96.0,
 Ralstonia_pseudosolanacearum,Contamination,,3.0
 Ralstonia_pseudosolanacearum,Total_Coding_Sequences,4700.0,5600.0
 Ralstonia_pseudosolanacearum,Genome_Size,5300000.0,6200000.0
 Ralstonia_solanacearum,N50,36000.0,
 Ralstonia_solanacearum,no_of_contigs,,380.0
 Ralstonia_solanacearum,GC_Content,66.0,67.0
-Ralstonia_solanacearum,Completeness,91.0,
+Ralstonia_solanacearum,Completeness,90.0,
 Ralstonia_solanacearum,Contamination,,5.0
 Ralstonia_solanacearum,Total_Coding_Sequences,4300.0,5300.0
 Ralstonia_solanacearum,Genome_Size,5000000.0,5900000.0

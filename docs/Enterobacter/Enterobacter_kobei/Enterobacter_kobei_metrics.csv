@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterobacter_kobei,N50,60000.0,
 Enterobacter_kobei,no_of_contigs,,330.0
 Enterobacter_kobei,GC_Content,54.0,56.0
-Enterobacter_kobei,Completeness,95.0,
+Enterobacter_kobei,Completeness,94.0,
 Enterobacter_kobei,Contamination,,3.0
 Enterobacter_kobei,Total_Coding_Sequences,4200.0,5700.0
 Enterobacter_kobei,Genome_Size,4600000.0,5800000.0

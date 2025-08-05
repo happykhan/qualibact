@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Enterobacter_hormaechei,N50,63000.0,
 Enterobacter_hormaechei,no_of_contigs,,270.0
 Enterobacter_hormaechei,GC_Content,54.0,56.0
-Enterobacter_hormaechei,Completeness,98.0,
+Enterobacter_hormaechei,Completeness,97.0,
 Enterobacter_hormaechei,Contamination,,4.0
 Enterobacter_hormaechei,Total_Coding_Sequences,4100.0,5700.0
 Enterobacter_hormaechei,Genome_Size,4500000.0,5700000.0

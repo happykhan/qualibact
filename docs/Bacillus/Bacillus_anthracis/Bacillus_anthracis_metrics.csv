@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Bacillus_anthracis,N50,14000.0,
 Bacillus_anthracis,no_of_contigs,,750.0
 Bacillus_anthracis,GC_Content,35.0,36.0
-Bacillus_anthracis,Completeness,95.0,
+Bacillus_anthracis,Completeness,94.0,
 Bacillus_anthracis,Contamination,,4.0
 Bacillus_anthracis,Total_Coding_Sequences,5200.0,6100.0
 Bacillus_anthracis,Genome_Size,5100000.0,5900000.0

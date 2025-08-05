@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Lactococcus_lactis | N50                    |    15000       |        nan     |
 | Lactococcus_lactis | no_of_contigs          |      nan       |        280     |
 | Lactococcus_lactis | GC_Content             |       34       |         36     |
-| Lactococcus_lactis | Completeness           |       95       |        nan     |
+| Lactococcus_lactis | Completeness           |       94       |        nan     |
 | Lactococcus_lactis | Contamination          |      nan       |          5     |
 | Lactococcus_lactis | Total_Coding_Sequences |     2100       |       3100     |
 | Lactococcus_lactis | Genome_Size            |        2.2e+06 |          3e+06 |

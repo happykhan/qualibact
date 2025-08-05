@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Deinococcus_radiodurans,N50,14000.0,
 Deinococcus_radiodurans,no_of_contigs,,470.0
 Deinococcus_radiodurans,GC_Content,66.0,67.0
-Deinococcus_radiodurans,Completeness,92.0,
+Deinococcus_radiodurans,Completeness,91.0,
 Deinococcus_radiodurans,Contamination,,2.0
 Deinococcus_radiodurans,Total_Coding_Sequences,3000.0,3500.0
 Deinococcus_radiodurans,Genome_Size,3100000.0,3400000.0

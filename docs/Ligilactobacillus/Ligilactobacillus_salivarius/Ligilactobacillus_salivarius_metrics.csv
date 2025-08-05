@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Ligilactobacillus_salivarius,N50,16000.0,
 Ligilactobacillus_salivarius,no_of_contigs,,260.0
 Ligilactobacillus_salivarius,GC_Content,32.0,34.0
-Ligilactobacillus_salivarius,Completeness,93.0,
+Ligilactobacillus_salivarius,Completeness,92.0,
 Ligilactobacillus_salivarius,Contamination,,4.0
 Ligilactobacillus_salivarius,Total_Coding_Sequences,1700.0,2400.0
 Ligilactobacillus_salivarius,Genome_Size,1800000.0,2400000.0

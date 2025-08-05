@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Ligilactobacillus_salivarius | N50                    |    16000       |      nan       |
 | Ligilactobacillus_salivarius | no_of_contigs          |      nan       |      260       |
 | Ligilactobacillus_salivarius | GC_Content             |       32       |       34       |
-| Ligilactobacillus_salivarius | Completeness           |       93       |      nan       |
+| Ligilactobacillus_salivarius | Completeness           |       92       |      nan       |
 | Ligilactobacillus_salivarius | Contamination          |      nan       |        4       |
 | Ligilactobacillus_salivarius | Total_Coding_Sequences |     1700       |     2400       |
 | Ligilactobacillus_salivarius | Genome_Size            |        1.8e+06 |        2.4e+06 |

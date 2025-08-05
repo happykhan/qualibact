@@ -14,7 +14,7 @@ Here are the first few rows of the quality metrics:
 | Xanthomonas_euvesica | N50 | 52000.0 |  |
 | Xanthomonas_euvesica | no_of_contigs |  | 270.0 |
 | Xanthomonas_euvesica | GC_Content | 64.0 | 66.0 |
-| Xanthomonas_euvesica | Completeness | 97.0 |  |
+| Xanthomonas_euvesica | Completeness | 96.0 |  |
 | Xanthomonas_euvesica | Contamination |  | 3.0 |
 
 Showing 5 of 2128 rows.
@@ -29,9 +29,9 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species | original_count | filtered_out_count | final_count |
 |---|---|---|---|
-| Salmonella enterica | 644703 | 21042 | 623661 |
-| Escherichia coli | 399884 | 11452 | 388432 |
-| Mycobacterium tuberculosis | 180095 | 8818 | 171277 |
+| Salmonella enterica | 644703 | 21033 | 623670 |
+| Escherichia coli | 399884 | 11441 | 388443 |
+| Mycobacterium tuberculosis | 180095 | 8811 | 171284 |
 | Staphylococcus aureus | 121428 | 4269 | 117159 |
 | Streptococcus pneumoniae | 121054 | 3349 | 117705 |
 | Campylobacter jejuni | 94890 | 3463 | 91427 |
@@ -39,16 +39,16 @@ Breakdown of genomes filtered and retained by using these metrics:
 | Listeria monocytogenes | 66720 | 2606 | 64114 |
 | Neisseria gonorrhoeae | 57364 | 1905 | 55459 |
 | Streptococcus pyogenes | 45861 | 1751 | 44110 |
-| Pseudomonas aeruginosa | 43394 | 1464 | 41930 |
+| Pseudomonas aeruginosa | 43394 | 1459 | 41935 |
 | Streptococcus agalactiae | 37375 | 1109 | 36266 |
 | Enterococcus faecium | 36574 | 1084 | 35490 |
-| Neisseria meningitidis | 35852 | 1500 | 34352 |
+| Neisseria meningitidis | 35852 | 1499 | 34353 |
 | Campylobacter coli | 35173 | 1220 | 33953 |
-| Clostridium difficile | 29278 | 1148 | 28130 |
+| Clostridium difficile | 29278 | 1146 | 28132 |
 | Acinetobacter baumannii | 28284 | 918 | 27366 |
 | Vibrio cholerae | 13069 | 527 | 12542 |
-| Haemophilus influenzae | 12553 | 523 | 12030 |
-| Enterococcus faecalis | 9673 | 255 | 9418 |
+| Haemophilus influenzae | 12553 | 522 | 12031 |
+| Enterococcus faecalis | 9673 | 254 | 9419 |
 | ... and 284 more rows | | |
 
 [📊 Download complete species counts table](summary/species_counts.csv){.md-button}

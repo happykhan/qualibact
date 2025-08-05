@@ -21,14 +21,14 @@ This section provides a summary of the metrics for the genus:
 | Cronobacter_sakazakii  | N50                    |    92000       |      nan       |
 | Cronobacter_sakazakii  | no_of_contigs          |      nan       |      140       |
 | Cronobacter_sakazakii  | GC_Content             |       56       |       58       |
-| Cronobacter_sakazakii  | Completeness           |       97       |      nan       |
+| Cronobacter_sakazakii  | Completeness           |       96       |      nan       |
 | Cronobacter_sakazakii  | Contamination          |      nan       |        4       |
 | Cronobacter_sakazakii  | Total_Coding_Sequences |     3900       |     4800       |
 | Cronobacter_sakazakii  | Genome_Size            |        4.2e+06 |        5e+06   |
 | Cronobacter_turicensis | N50                    |   194000       |      nan       |
 | Cronobacter_turicensis | no_of_contigs          |      nan       |      110       |
 | Cronobacter_turicensis | GC_Content             |       56       |       58       |
-| Cronobacter_turicensis | Completeness           |       99       |      nan       |
+| Cronobacter_turicensis | Completeness           |       98       |      nan       |
 | Cronobacter_turicensis | Contamination          |      nan       |        2       |
 | Cronobacter_turicensis | Total_Coding_Sequences |     3900       |     4500       |
 | Cronobacter_turicensis | Genome_Size            |        4.3e+06 |        4.9e+06 |

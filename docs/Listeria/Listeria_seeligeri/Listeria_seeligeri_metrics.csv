@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Listeria_seeligeri,N50,91000.0,
 Listeria_seeligeri,no_of_contigs,,100.0
 Listeria_seeligeri,GC_Content,37.0,38.0
-Listeria_seeligeri,Completeness,99.0,
+Listeria_seeligeri,Completeness,98.0,
 Listeria_seeligeri,Contamination,,1.0
 Listeria_seeligeri,Total_Coding_Sequences,2600.0,3100.0
 Listeria_seeligeri,Genome_Size,2700000.0,3100000.0

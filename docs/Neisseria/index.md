@@ -14,9 +14,9 @@ Breakdown of genomes filtered and retained by using these metrics:
 | species                 |   original_count |   filtered_out_count |   final_count |
 |:------------------------|-----------------:|---------------------:|--------------:|
 | Neisseria_gonorrhoeae   |            57364 |                 1905 |         55459 |
-| Neisseria_meningitidis  |            35852 |                 1500 |         34352 |
+| Neisseria_meningitidis  |            35852 |                 1499 |         34353 |
 | Neisseria_lactamica     |             1424 |                   40 |          1384 |
-| Neisseria_bergeri       |              132 |                  111 |            21 |
+| Neisseria_bergeri       |              132 |                    7 |           125 |
 | Neisseria_flavescens    |              128 |                    8 |           120 |
 | Neisseria_polysaccharea |              115 |                    8 |           107 |
 | Neisseria_perflava      |              105 |                    4 |           101 |
@@ -31,21 +31,21 @@ This section provides a summary of the metrics for the genus:
 | Neisseria_polysaccharea | N50                    |    76000       |      nan       |
 | Neisseria_polysaccharea | no_of_contigs          |      nan       |       80       |
 | Neisseria_polysaccharea | GC_Content             |       51       |       53       |
-| Neisseria_polysaccharea | Completeness           |       99       |      nan       |
+| Neisseria_polysaccharea | Completeness           |       98       |      nan       |
 | Neisseria_polysaccharea | Contamination          |      nan       |        1       |
 | Neisseria_polysaccharea | Total_Coding_Sequences |     1800       |     2200       |
 | Neisseria_polysaccharea | Genome_Size            |        1.9e+06 |        2.2e+06 |
 | Neisseria_perflava      | N50                    |   137000       |      nan       |
 | Neisseria_perflava      | no_of_contigs          |      nan       |       70       |
 | Neisseria_perflava      | GC_Content             |       48       |       50       |
-| Neisseria_perflava      | Completeness           |      100       |      nan       |
+| Neisseria_perflava      | Completeness           |       99       |      nan       |
 | Neisseria_perflava      | Contamination          |      nan       |        2       |
 | Neisseria_perflava      | Total_Coding_Sequences |     2000       |     2400       |
 | Neisseria_perflava      | Genome_Size            |        2.1e+06 |        2.5e+06 |
 | Neisseria_bergeri       | N50                    |    97000       |      nan       |
 | Neisseria_bergeri       | no_of_contigs          |      nan       |      100       |
 | Neisseria_bergeri       | GC_Content             |       52       |       52       |
-| Neisseria_bergeri       | Completeness           |      100       |      nan       |
+| Neisseria_bergeri       | Completeness           |       99       |      nan       |
 | Neisseria_bergeri       | Contamination          |      nan       |        1       |
 | Neisseria_bergeri       | Total_Coding_Sequences |     1800       |     2200       |
 

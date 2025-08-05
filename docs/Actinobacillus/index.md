@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Actinobacillus_lignieresii | N50                    |    31000       |      nan       |
 | Actinobacillus_lignieresii | no_of_contigs          |      nan       |      170       |
 | Actinobacillus_lignieresii | GC_Content             |       41       |       42       |
-| Actinobacillus_lignieresii | Completeness           |       94       |      nan       |
+| Actinobacillus_lignieresii | Completeness           |       93       |      nan       |
 | Actinobacillus_lignieresii | Contamination          |      nan       |        1       |
 | Actinobacillus_lignieresii | Total_Coding_Sequences |     2000       |     2400       |
 | Actinobacillus_lignieresii | Genome_Size            |        2.1e+06 |        2.4e+06 |

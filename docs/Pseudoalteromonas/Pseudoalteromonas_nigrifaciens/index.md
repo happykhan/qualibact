@@ -1,6 +1,6 @@
 # *Pseudoalteromonas nigrifaciens*
 
-This is the GenomeQC page for *Pseudoalteromonas nigrifaciens*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
+This is the QualiBact page for *Pseudoalteromonas nigrifaciens*. For detailed methods on how these thresholds were calculated, please see [Methods](../../methods.md).
 The suggested thresholds are: 
 
 | metric                 | lower_bounds   | upper_bounds   |
@@ -8,7 +8,7 @@ The suggested thresholds are:
 | N50                    | 413000.0       |                |
 | no_of_contigs          |                | 70.0           |
 | GC_Content             | 39.0           | 41.0           |
-| Completeness           | 100.0          |                |
+| Completeness           | 99.0           |                |
 | Contamination          |                | 1.0            |
 | Total_Coding_Sequences | 3400.0         | 4000.0         |
 | Genome_Size            | 3800000.0      | 4300000.0      |
@@ -37,8 +37,6 @@ These tables provide a summary of the distribution of each metric, including SDe
 
 ## Plots and Visualizations
 
-![Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
-
 This plot is a histogram comparing genome sizes between the SRA and RefSeq datasets. Each bar represents the density of genomes within a specific size range for both datasets. By comparing the shapes and positions of the bars, you can identify differences in genome size distributions, such as shifts, peaks, or outliers. This visualization helps reveal whether one dataset tends to have larger or smaller genomes, or if there are notable differences in variability or coverage between SRA and RefSeq.
 
 ![Genome Size Distribution](Genome_Size_refseq_histogram_kde.png)
@@ -46,6 +44,10 @@ This plot is a histogram comparing genome sizes between the SRA and RefSeq datas
 This plot is a QQ (quantile-quantile) plot, which compares the distribution of the SRA data with RefSeq. Points falling along the diagonal line indicate that the data follows the expected distribution. Deviations from the line suggest departures from normality, such as skewness or outliers. This helps assess whether the dataset is consistently distributed or if there are systematic differences.
 
 ![Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
+
+This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
+
+![CDS vs Genome Size](Pseudoalteromonas nigrifaciens_CDS_vs_Genome_Size.png)
 
 ### Additional Plots
 
@@ -58,7 +60,8 @@ These plots provide additional insights into the genome characteristics:
 - [Genome Size Histogram](Genome_Size_refseq_histogram_kde.png)
 - [Genome Size QQ Plot](Genome_Size_refseq_qqplot.png)
 ## Illustrating the filtering process
-These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to metric, we will demonstrate using total assembly length and N50.
+These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to all metrics, we will demonstrate using total assembly length and N50.
+
 N50 vs total length for all genomes in the dataset.
 
 ![ALL Total Length vs N50](Pseudoalteromonas_nigrifaciens_all_total_length_N50.png)

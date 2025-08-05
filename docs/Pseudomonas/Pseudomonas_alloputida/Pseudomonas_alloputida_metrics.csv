@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Pseudomonas_alloputida,N50,52000.0,
 Pseudomonas_alloputida,no_of_contigs,,330.0
 Pseudomonas_alloputida,GC_Content,61.0,63.0
-Pseudomonas_alloputida,Completeness,100.0,
+Pseudomonas_alloputida,Completeness,99.0,
 Pseudomonas_alloputida,Contamination,,2.0
 Pseudomonas_alloputida,Total_Coding_Sequences,5100.0,6400.0
 Pseudomonas_alloputida,Genome_Size,5600000.0,6800000.0

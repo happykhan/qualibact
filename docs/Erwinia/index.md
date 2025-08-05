@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Erwinia_amylovora | N50                    |    45000       |        nan     |
 | Erwinia_amylovora | no_of_contigs          |      nan       |        200     |
 | Erwinia_amylovora | GC_Content             |       53       |         54     |
-| Erwinia_amylovora | Completeness           |       96       |        nan     |
+| Erwinia_amylovora | Completeness           |       95       |        nan     |
 | Erwinia_amylovora | Contamination          |      nan       |          1     |
 | Erwinia_amylovora | Total_Coding_Sequences |     3400       |       3600     |
 | Erwinia_amylovora | Genome_Size            |        3.7e+06 |          4e+06 |

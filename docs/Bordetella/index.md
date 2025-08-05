@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Bordetella_pertussis | N50                    |    11000       |      nan       |
 | Bordetella_pertussis | no_of_contigs          |      nan       |      550       |
 | Bordetella_pertussis | GC_Content             |       67       |       68       |
-| Bordetella_pertussis | Completeness           |       92       |      nan       |
+| Bordetella_pertussis | Completeness           |       91       |      nan       |
 | Bordetella_pertussis | Contamination          |      nan       |        8       |
 | Bordetella_pertussis | Total_Coding_Sequences |     3600       |     4300       |
 | Bordetella_pertussis | Genome_Size            |        3.7e+06 |        4.4e+06 |

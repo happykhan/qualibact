@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Mammaliicoccus_sciuri | N50                    |    52000       |      nan       |
 | Mammaliicoccus_sciuri | no_of_contigs          |      nan       |      320       |
 | Mammaliicoccus_sciuri | GC_Content             |       32       |       33       |
-| Mammaliicoccus_sciuri | Completeness           |       97       |      nan       |
+| Mammaliicoccus_sciuri | Completeness           |       96       |      nan       |
 | Mammaliicoccus_sciuri | Contamination          |      nan       |        5       |
 | Mammaliicoccus_sciuri | Total_Coding_Sequences |     2600       |     3200       |
 | Mammaliicoccus_sciuri | Genome_Size            |        2.5e+06 |        3.2e+06 |

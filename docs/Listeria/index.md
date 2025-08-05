@@ -13,7 +13,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 |:-----------------------|-----------------:|---------------------:|--------------:|
 | Listeria_monocytogenes |            66720 |                 2606 |         64114 |
 | Listeria_innocua       |             1770 |                   95 |          1675 |
-| Listeria_welshimeri    |              379 |                  374 |             5 |
+| Listeria_welshimeri    |              379 |                   17 |           362 |
 | Listeria_seeligeri     |              277 |                    9 |           268 |
 | Listeria_grayi         |              126 |                   12 |           114 |
 
@@ -27,21 +27,21 @@ This section provides a summary of the metrics for the genus:
 | Listeria_grayi      | N50                    |   144000       |      nan       |
 | Listeria_grayi      | no_of_contigs          |      nan       |       90       |
 | Listeria_grayi      | GC_Content             |       41       |       42       |
-| Listeria_grayi      | Completeness           |       84       |      nan       |
+| Listeria_grayi      | Completeness           |       83       |      nan       |
 | Listeria_grayi      | Contamination          |      nan       |        7       |
 | Listeria_grayi      | Total_Coding_Sequences |     2500       |     2900       |
 | Listeria_grayi      | Genome_Size            |        2.5e+06 |        2.9e+06 |
 | Listeria_welshimeri | N50                    |    79000       |      nan       |
 | Listeria_welshimeri | no_of_contigs          |      nan       |      110       |
 | Listeria_welshimeri | GC_Content             |       36       |       37       |
-| Listeria_welshimeri | Completeness           |      100       |      nan       |
+| Listeria_welshimeri | Completeness           |       99       |      nan       |
 | Listeria_welshimeri | Contamination          |      nan       |        3       |
 | Listeria_welshimeri | Total_Coding_Sequences |     2600       |     3100       |
 | Listeria_welshimeri | Genome_Size            |        2.6e+06 |        3e+06   |
 | Listeria_innocua    | N50                    |    48000       |      nan       |
 | Listeria_innocua    | no_of_contigs          |      nan       |      180       |
 | Listeria_innocua    | GC_Content             |       37       |       38       |
-| Listeria_innocua    | Completeness           |       96       |      nan       |
+| Listeria_innocua    | Completeness           |       95       |      nan       |
 | Listeria_innocua    | Contamination          |      nan       |        2       |
 | Listeria_innocua    | Total_Coding_Sequences |     2700       |     3300       |
 

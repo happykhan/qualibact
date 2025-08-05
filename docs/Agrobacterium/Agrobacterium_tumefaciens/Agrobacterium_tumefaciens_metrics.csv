@@ -2,7 +2,7 @@ species,metric,lower_bounds,upper_bounds
 Agrobacterium_tumefaciens,N50,161000.0,
 Agrobacterium_tumefaciens,no_of_contigs,,130.0
 Agrobacterium_tumefaciens,GC_Content,57.0,61.0
-Agrobacterium_tumefaciens,Completeness,89.0,
+Agrobacterium_tumefaciens,Completeness,88.0,
 Agrobacterium_tumefaciens,Contamination,,16.0
 Agrobacterium_tumefaciens,Total_Coding_Sequences,4300.0,6200.0
 Agrobacterium_tumefaciens,Genome_Size,4600000.0,6500000.0

@@ -2,14 +2,14 @@ species,metric,lower_bounds,upper_bounds
 Sinorhizobium_meliloti,N50,34000.0,
 Sinorhizobium_meliloti,no_of_contigs,,510.0
 Sinorhizobium_meliloti,GC_Content,61.0,63.0
-Sinorhizobium_meliloti,Completeness,97.0,
+Sinorhizobium_meliloti,Completeness,96.0,
 Sinorhizobium_meliloti,Contamination,,3.0
 Sinorhizobium_meliloti,Total_Coding_Sequences,5800.0,7600.0
 Sinorhizobium_meliloti,Genome_Size,6100000.0,7700000.0
 Sinorhizobium_medicae,N50,31000.0,
 Sinorhizobium_medicae,no_of_contigs,,490.0
 Sinorhizobium_medicae,GC_Content,60.0,62.0
-Sinorhizobium_medicae,Completeness,88.0,
+Sinorhizobium_medicae,Completeness,87.0,
 Sinorhizobium_medicae,Contamination,,6.0
 Sinorhizobium_medicae,Total_Coding_Sequences,6100.0,7700.0
 Sinorhizobium_medicae,Genome_Size,6400000.0,7800000.0

@@ -8,7 +8,7 @@ Breakdown of genomes filtered and retained by using these metrics:
 
 | species                    |   original_count |   filtered_out_count |   final_count |
 |:---------------------------|-----------------:|---------------------:|--------------:|
-| Streptomyces_albidoflavus  |              197 |                   19 |           178 |
+| Streptomyces_albidoflavus  |              197 |                   17 |           180 |
 | Streptomyces_anthocyanicus |              136 |                   13 |           123 |
 
 
@@ -28,7 +28,7 @@ This section provides a summary of the metrics for the genus:
 | Streptomyces_albidoflavus  | N50                    |     6000       |      nan       |
 | Streptomyces_albidoflavus  | no_of_contigs          |      nan       |     1550       |
 | Streptomyces_albidoflavus  | GC_Content             |       72       |       74       |
-| Streptomyces_albidoflavus  | Completeness           |       96       |      nan       |
+| Streptomyces_albidoflavus  | Completeness           |       95       |      nan       |
 | Streptomyces_albidoflavus  | Contamination          |      nan       |        2       |
 | Streptomyces_albidoflavus  | Total_Coding_Sequences |     5700       |     7400       |
 | Streptomyces_albidoflavus  | Genome_Size            |        6.3e+06 |        7.8e+06 |

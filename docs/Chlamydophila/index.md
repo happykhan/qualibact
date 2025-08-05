@@ -19,7 +19,7 @@ This section provides a summary of the metrics for the genus:
 | Chlamydophila_pecorum | N50                    |          0     |      nan       |
 | Chlamydophila_pecorum | no_of_contigs          |        nan     |    12570       |
 | Chlamydophila_pecorum | GC_Content             |         40     |       47       |
-| Chlamydophila_pecorum | Completeness           |         53     |      nan       |
+| Chlamydophila_pecorum | Completeness           |         52     |      nan       |
 | Chlamydophila_pecorum | Contamination          |        nan     |        6       |
 | Chlamydophila_pecorum | Total_Coding_Sequences |        900     |    13100       |
 | Chlamydophila_pecorum | Genome_Size            |          1e+06 |        5.3e+06 |
