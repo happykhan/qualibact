@@ -37,7 +37,7 @@ These tables provide a summary of the distribution of each metric, including SDe
 
 This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
 
-![CDS vs Genome Size](Serratia bockelmannii_CDS_vs_Genome_Size.png)
+![CDS vs Genome Size](Serratia_bockelmannii_CDS_vs_Genome_Size.png)
 
 ## Illustrating the filtering process
 These plots illustrate the data, pre and post filtering to demostrate what type of outliers have been removed. While this was applied to all metrics, we will demonstrate using total assembly length and N50.

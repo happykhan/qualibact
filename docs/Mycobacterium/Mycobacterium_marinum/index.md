@@ -47,7 +47,7 @@ This plot is a QQ (quantile-quantile) plot, which compares the distribution of t
 
 This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. 
 
-![CDS vs Genome Size](Mycobacterium marinum_CDS_vs_Genome_Size.png)
+![CDS vs Genome Size](Mycobacterium_marinum_CDS_vs_Genome_Size.png)
 
 ### Additional Plots
 

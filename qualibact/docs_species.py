@@ -98,7 +98,7 @@ def create_species_page(species_dir: Path, output_dir: Path, species_safe_name: 
             f.write(f"![Genome Size QQ Plot]({genome_size_qq_plot.name})\n\n")
         if os.path.exists(cds_plot):
             f.write("This plot shows the relationship between the number of coding sequences (CDS) and genome size. It helps to visualize how genome size correlates with the number of genes. This should be linear - as the genome size increases, the number of coding sequences should also increase. Any secondary trend lines or non-linear behaviour indicates bone fide seperate populations within the retained genomes, or some remaining contaminant. \n\n")
-            f.write(f"![CDS vs Genome Size]({cds_plot.name})\n\n")
+            f.write(f"![CDS vs Genome Size]({species_safe_name}_CDS_vs_Genome_Size.png)\n\n")
         if os.path.exists(species_dir / "GC_Content_refseq_histogram_kde.png"):
             # Add Links to remaining plots
             f.write("### Additional Plots\n\n")
