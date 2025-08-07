@@ -22,8 +22,6 @@ Please provide the following files for each dataset:
 3. **Genome assembly stats** TSV file with genome assembly stats, like N50. 
 4. **CheckM2 results** (TSV format, compressed as .xz or .gz) - This is optional. 
 
-You can email links to these files to: **nabil.alikhan@cgps.group**
-
 **File Naming Convention**
 
 - **Nucleotide counts**: `nucleotide_counts_[dataset_name].tsv.xz`
@@ -31,15 +29,17 @@ You can email links to these files to: **nabil.alikhan@cgps.group**
 - **Assembly stats**: `assembly_stats_[dataset_name].tsv.xz`
 - **CheckM2 results**: `checkm2_results_[dataset_name].tsv.xz`
 
+You can email links to these files to: **nabil.alikhan@cgps.group**
+
 ## Metadata Requirements
 Please include the following information in your metadata file:
 - Assembly software/pipeline and version
 - Assembly parameters used
-- Sequencing platform and technology
+- Sequencing platform and instrument
 - Species name
 - Data source and accession numbers (if applicable)
 
-That would be another csv file like:
+That would be a csv file like:
 ```
 filename            platform    instrument     species               accession       software    version    custom_parameters    Notes
 SAMN40089455.fa     Illumina    NextSeq550     Salmonella enterica   SAMN40089455    SKESA       1.1        None                 SKESA, default parameters
@@ -69,10 +69,10 @@ We require the following metrics:
 | `N90`          | Contig length such that 90% of the assembly is in contigs ≥ this size |
 | `N90n`         | Number of contigs ≥ N90 in length                                     |
 
-DO NOT APPLY A MINIMUM CONTIG SIZE FILTER. 
+**DO NOT APPLY A MINIMUM CONTIG SIZE FILTER.**
 
 For the sake of consistency, please use `assembly-stats` as described by [AllTheBacteria](https://github.com/AllTheBacteria/AllTheBacteria/tree/main/reproducibility/All-samples/assembly-stats).
-Assembly-stats is available on conda and biocontainers, you can also [download the source from GitHub](https://github.com/sanger-pathogens/assembly-stats) and compile it yourself. 
+Assembly-stats is available on [conda](https://anaconda.org/bioconda/assembly-stats) and [biocontainers](https://biocontainers.pro/tools/assembly-stats), you can also [download the source from GitHub](https://github.com/sanger-pathogens/assembly-stats) and compile it yourself. 
 It is very easy to use, this will run on all files in the folder matching the wildcard:
 
 ```
@@ -141,7 +141,7 @@ END {
 
 ## Running CheckM2 - Optional
 
-I am aware that CheckM2 can be a tall order, with thousands of genomes, and hence for the sake of submission this is an option inclusion. 
+I am aware that CheckM2 can be a tall order with thousands of genomes, and hence for the sake of submission this is an optional inclusion. 
 
 To ensure consistency with existing analyses, please follow the same protocol used by [AllTheBacteria](https://github.com/AllTheBacteria/AllTheBacteria/tree/main/reproducibility/All-samples/checkm2):
 
@@ -149,20 +149,23 @@ To ensure consistency with existing analyses, please follow the same protocol us
 - **CheckM2 version 1.0.1**
 - **CheckM2 database**: uniref100.KO.1.dmnd
 
-### Singularity Container
 We recommend using the same singularity container used by AllTheBacteria:
 
 **Container download:**
+
+- **Source**: https://osf.io/7vpy3
+
 ```bash
 wget -O checkm2.1.0.1--pyh7cba7a3_0.img https://osf.io/download/7vpy3/
 ```
-- **Source**: https://osf.io/7vpy3
 
 **CheckM2 database download:**
+
+- **Source**: https://osf.io/x5vtj
+
 ```bash
 wget -O uniref100.KO.1.dmnd https://osf.io/download/x5vtj/
 ```
-- **Source**: https://osf.io/x5vtj
 
 ### Example CheckM2 Command
 ```bash
@@ -176,6 +179,14 @@ FASTA="$WORKDIR/path/to/assembly.fa"
 # Set up the CheckM2 command
 singularity exec --bind $WORKDIR $IMG checkm2 predict --allmodels --lowmem --database_path $DB --remove_intermediates --force  -i "$FASTA"  --threads 4 -o $OUTDIR
 ```
+
+The output from CheckM2 will look like: 
+
+```
+Name    Completeness_General    Contamination   Completeness_Specific   Completeness_Model_Used Translation_Table_Used  Coding_Density  Contig_N50      Average_Gene_Length     Genome_Size     GC_Content      Total_Coding_Sequences  Additional_Notes
+SAMD00127152    100.0   0.09    100.0   Neural Network (Specific Model) 11      0.875   143489  303.8069048574869       5180815 0.5     4982    None
+```
+
 
 ## Getting Help
 
