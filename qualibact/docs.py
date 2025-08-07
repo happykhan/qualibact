@@ -158,6 +158,16 @@ def create_genus_plots(metrics_df, plot_dir):
     for metric in DEF_METRIC_LIST + ['Genome_Size', 'Total_Coding_Sequences']:
         plot_summary_plot(metric, metrics_df, plot_dir)       
 
+def create_contributing_page(docs_dir: Path):
+    """Create a contributing page"""
+    output_path = docs_dir / "contributing.md"
+    # copy from qualibact/CONTIBUTING.md
+    with open("CONTRIBUTING.md", "r") as src:
+        lines = src.readlines()
+    with open(output_path, "w") as f:
+        f.writelines(lines)
+    print(f"[bold green]Created contributing page: {output_path}[/bold green]")
+
 def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
     """Generate documentation structure"""
     species_dirs = [Path(d) for d in Path(calculate_dir).iterdir() if d.is_dir() and d.name != "all_summary"]
@@ -171,7 +181,7 @@ def generate_docs(calculate_dir, docs_dir: Path = Path("docs")):
     create_index_page(docs_dir)
     print("[bold cyan]📋 Creating methods page...[/bold cyan]")
     create_methods_page(docs_dir)
-
+    create_contributing_page(Path(docs_dir))
     # Group species into genera
     genera_dict = {}
     for species_dir in species_dirs:

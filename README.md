@@ -6,20 +6,20 @@ Website: https://happykhan.github.io/qualibact/
 
 This is the criteria used in Speccheck: https://github.com/happykhan/speccheck
 
+**Contributing to QualiBact**
+
+We welcome contributions to QualiBact! Major contributions to source code, manuscript development, metric validation and adoption, and providing additional data for calibrating quality thresholds will be granted authorship on publications. Pull requests are welcome through GitHub.
+
+Please Read [CONTRIBUTING](CONTRIBUTING.md)
 
 ## 📊 Features
 
 - **Genome Assembly Analysis**: Parses genome assembly statistics across multiple species
 - **Comparative Analysis**: Compares allthebacteria assemblies to NCBI RefSeq assemblies
-- **Outlier Detection**: Uses Isolation Forest and DBSCAN algorithms for anomaly detection
+- **Outlier Detection**: Uses Isolation Forest for anomaly detection
 - **Data Visualization**: Generates comprehensive plots and statistics
 - **Data Processing**: Includes utilities for merging and processing TSV files
-- **Generates**:
-  - Histograms with KDE
-  - Q-Q plots
-  - Joint distribution plots
-  - Anomaly score visualizations
-  - Summary CSVs for each species
+- **Web content**: Produces markdown files for publishing to the website (https://happykhan.github.io/qualibact/)
 
 ## 🚀 Usage
 
@@ -32,17 +32,6 @@ python qualibact-run.py \
     --min_genome_count <min_count>
 ```
 
-### Merging TSV Files
-
-The repository includes a utility script `make_copy.sh` for merging multiple TSV files:
-
-```bash
-# Merge all TSV files in current directory
-./make_copy.sh
-
-# The script combines all .tsv files and adds a filename column to track data source
-# Output is saved as merged.tsv
-```
 
 ## 📤 Output
 
