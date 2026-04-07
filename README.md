@@ -2,7 +2,7 @@
 
 Source code for QualiBact. Analyzing microbial genome assembly statistics across multiple species. It compares allthebacteria assemblies to NCBI RefSeq assemblies and generates detailed statistics, outlier detection with **Isolation Forest**, and visualizations.
 
-Website: https://happykhan.github.io/qualibact/
+Website: [https://happykhan.github.io/qualibact/](https://qualibact.org)
 
 This is the criteria used in Speccheck: https://github.com/happykhan/speccheck
 
@@ -19,7 +19,7 @@ Please Read [CONTRIBUTING](CONTRIBUTING.md)
 - **Outlier Detection**: Uses Isolation Forest for anomaly detection
 - **Data Visualization**: Generates comprehensive plots and statistics
 - **Data Processing**: Includes utilities for merging and processing TSV files
-- **Web content**: Produces markdown files for publishing to the website (https://happykhan.github.io/qualibact/)
+- **Web content**: Produces markdown files for publishing to the website ([https://happykhan.github.io/qualibact/](https://qualibact.org))
 
 ## 🚀 Usage
 
