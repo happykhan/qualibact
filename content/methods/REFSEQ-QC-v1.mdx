@@ -1,0 +1,34 @@
+Reference genome quality control was carried out with [qualibact-ref-qc](https://github.com/happykhan/qualibact-ref-qc), a Nextflow (DSL2) pipeline that assesses the quality of reference-grade bacterial genome assemblies before they are used to set quality thresholds for clinical and comparative genomic work. The pipeline takes a CSV samplesheet listing sample identifiers and FASTA assembly paths, then runs the following steps in parallel for each sample.
+
+### 1. Input Preparation (`PREPARE_FASTA`)
+
+Each input FASTA was validated and normalised into a consistently named working copy. Gzip-compressed inputs were transparently decompressed; uncompressed files were copied or symlinked as required. This step ensures all downstream processes operate on unambiguous, canonical file paths regardless of the original input format.
+
+
+### 2. Read Simulation (`SIMULATE_ART`; optional)
+
+When the `simulate` parameter was enabled, paired-end Illumina short reads were simulated *in silico* from each reference assembly using ART (v2016.06.05) with the HiSeq 2500 (`HS25`) error profile. Reads of 150 bp were generated at a uniform 40× fold coverage, with a mean insert size of 350 bp (standard deviation 50 bp) and a fixed random seed (42) for reproducibility. This mode enables evaluation of assembly quality as would be obtained from typical short-read sequencing of a reference strain—that is, assessing how faithfully a short-read assembly reconstitutes the reference.
+
+### 3. Short-Read Assembly (`ASSEMBLY_SHOVILL`; conditional)
+
+Simulated read pairs were assembled using Shovill (v1.1.0), a wrapper around the SPAdes assembler optimised for bacterial genomes. Contigs shorter than a configurable minimum length (default: 500 bp) were discarded. This step was executed only when read simulation was active; when providing pre-assembled genomes directly, this step was bypassed and assemblies were used as supplied.
+
+### 4. Assembly Statistics (`ASSEMBLY_STATS`)
+
+Contig-level assembly statistics were computed for each assembly (either the input reference or the Shovill-reconstructed assembly) using assembly-stats (v1.0.1). The tool produces a tab-delimited report including total assembly length, contig count, mean contig length, longest and shortest contig, N50, N70, N90 (with corresponding contig counts), gap count, and N-base count. These metrics collectively characterise assembly contiguity and completeness at the sequence level.
+
+### 5. Genome Completeness and Contamination (`CONTAMINATION_CHECKM`)
+
+Genome completeness and contamination were estimated using CheckM2 (v0.1.0), a machine-learning-based approach that does not rely on taxon-specific marker gene sets, thereby enabling consistent quality estimation across diverse bacterial taxa. For each assembly, CheckM2 predicted completeness (both general and taxon-specific where available), contamination level, estimated genome size, GC content, and total number of predicted coding sequences (CDS). Processes were allocated up to 6 CPUs and 8 GB RAM.
+
+### 6. Base Composition (`BASE_COMPOSITION`)
+
+Nucleotide base composition (counts of A, T, G, C, N, and ambiguous bases) was tabulated for each assembly using a custom awk-based script (`count_bases.sh`). The GC fraction was subsequently derived as (G + C) / (A + T + G + C), providing an independent estimate of GC content from raw sequence data to cross-validate the CheckM2-reported value.
+
+### 7. Metric Aggregation and Threshold Derivation (`MERGE_METRICS`)
+
+Per-sample outputs from steps 4–6 were aggregated by a custom Python script (`merge_metrics.py`). For each metric—genome size, GC content, CDS count, completeness, and contamination—the empirical distribution across all assemblies was characterised by computing the mean, standard deviation, median, Q1, Q3, and IQR. The distribution was classified as either approximately normal (if |mean − median| ≤ 0.1 × SD) or non-normal. Acceptable-value bounds were then derived accordingly: under normality, bounds were set at mean ± 3 SD; under non-normality, at Q1 − 1.5 × IQR and Q3 + 1.5 × IQR (equivalent to the Tukey fence criterion). Where NCBI RefSeq assembly metadata was available (parsed from `assembly_data_report.json`), the same summary statistics were computed for the corresponding RefSeq population and reported in parallel for cross-reference. Final outputs included a per-sample merged metrics table (`merged_metrics.tsv`), a per-species summary with distribution classification and derived QC bounds (`summary.csv`, `selected_summary.csv`), a species-level metrics file, genome-size histogram data, and a CDS count versus genome size scatter table.
+
+### Pipeline Infrastructure
+
+The pipeline was implemented in Nextflow DSL2 and executed on the Oxford Biomedical Research Computing (BMRC) SLURM cluster via the `bmrc` profile. Container images were managed using Apptainer (formerly Singularity), with per-process images pulled from Quay.io and Docker Hub. Processes were configured to retry automatically on memory or signal errors (exit codes 130–145, 104), with up to five retries on the BMRC cluster. Resource allocations were scaled with attempt number: `process_mini` tasks used 1 CPU / 1 GB RAM / 20 min; `process_medium` tasks used 6 CPUs / 8 GB RAM / 4 h; a maximum of 16 GB RAM and 8 CPUs was enforced globally. Pipeline execution metadata, including duration, Nextflow and pipeline versions, and exit status, were logged on completion.

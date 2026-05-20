@@ -1,0 +1,339 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── GenomicX design tokens (inlined from @genomicx/ui v0.9.0) ─────
+   Source: https://github.com/genomicx/ui/blob/main/src/styles/tokens.css
+   Bump manually when upstream changes. QualiBact-specific deviation:
+   default theme is LIGHT (the fleet defaults to dark) — see
+   WORKPLAN.md §2 and memory:styling-decisions for the reasoning. */
+
+:root {
+  /* Shared (theme-independent) */
+  --gx-indigo:       #6366F1;
+  --gx-success:      #16a34a;
+  --gx-warning:      #F59E0B;
+  --gx-error:        #EF4444;
+  --gx-info:         #2563eb;
+
+  --gx-radius:       8px;
+  --gx-radius-lg:    12px;
+  --gx-radius-sm:    4px;
+  --gx-radius-pill:  999px;
+  --gx-transition:   0.2s ease;
+  --gx-max-width:    1080px;
+  --gx-nav-height:   60px;
+
+  --gx-space-1:  0.25rem;
+  --gx-space-2:  0.5rem;
+  --gx-space-3:  0.75rem;
+  --gx-space-4:  1rem;
+  --gx-space-6:  1.5rem;
+  --gx-space-8:  2rem;
+
+  /* Light theme (default) */
+  --gx-bg:            #f8fafc;
+  --gx-bg-alt:        #f1f5f9;
+  --gx-surface:       #ffffff;
+  --gx-surface-hover: #f1f5f9;
+  --gx-border:        #e2e8f0;
+  --gx-text:          #0f172a;
+  --gx-text-muted:    #64748b;
+  --gx-text-inverted: #ffffff;
+  --gx-accent:        #0d9488;
+  --gx-accent-hover:  #0f766e;
+
+  --gx-bg-elevated:   var(--gx-surface);
+  --gx-text-bright:   var(--gx-text);
+  --gx-accent-dim:    rgba(13, 148, 136, 0.08);
+  --gx-accent-15:     rgba(13, 148, 136, 0.12);
+  --gx-indigo-dim:    rgba(99, 102, 241, 0.08);
+  --gx-nav-bg:        rgba(255, 255, 255, 0.9);
+  --gx-code-bg:       #f1f5f9;
+  --gx-shadow:        0 1px 3px rgba(0, 0, 0, 0.08);
+  --gx-shadow-md:     0 4px 12px rgba(0, 0, 0, 0.1);
+  --gx-tag-bg:        #f0fdfa;
+  --gx-tag-text:      #115e59;
+  --gx-tag-border:    #99f6e4;
+  --gx-gradient:      linear-gradient(135deg, #0d9488 0%, #06b6d4 100%);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --gx-bg:            #0f172a;
+  --gx-bg-alt:        #1e293b;
+  --gx-surface:       #1e293b;
+  --gx-surface-hover: #334155;
+  --gx-border:        #334155;
+  --gx-text:          #f1f5f9;
+  --gx-text-muted:    #94a3b8;
+  --gx-text-inverted: #0f172a;
+  --gx-accent:        #2dd4bf;
+  --gx-accent-hover:  #14b8a6;
+
+  --gx-success:       #22c55e;
+  --gx-warning:       #fbbf24;
+  --gx-error:         #f87171;
+  --gx-info:          #60a5fa;
+
+  --gx-bg-elevated:   var(--gx-surface);
+  --gx-text-bright:   var(--gx-text);
+  --gx-accent-dim:    rgba(45, 212, 191, 0.1);
+  --gx-accent-15:     rgba(45, 212, 191, 0.15);
+  --gx-indigo-dim:    rgba(99, 102, 241, 0.1);
+  --gx-nav-bg:        rgba(15, 23, 42, 0.9);
+  --gx-code-bg:       #0f172a;
+  --gx-shadow:        0 1px 3px rgba(0, 0, 0, 0.3);
+  --gx-shadow-md:     0 4px 12px rgba(0, 0, 0, 0.4);
+  --gx-tag-bg:        #0d2d2a;
+  --gx-tag-text:      #5eead4;
+  --gx-tag-border:    #134e4a;
+  --gx-gradient:      linear-gradient(135deg, #2dd4bf 0%, #22d3ee 100%);
+  color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--gx-bg);
+  color: var(--gx-text);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color var(--gx-transition), color var(--gx-transition);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  color: var(--gx-text);
+}
+
+code, kbd, pre, tt, samp {
+  font-family: var(--font-mono), 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, monospace;
+}
+code, kbd, tt, samp {
+  background: var(--gx-code-bg);
+  border-radius: var(--gx-radius-sm);
+  padding: 0.1em 0.35em;
+  font-size: 0.92em;
+}
+
+/* Scrollbar (light/dark token-aware) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--gx-bg); }
+::-webkit-scrollbar-thumb { background: var(--gx-border); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gx-text-muted); }
+
+/* ── Component primitives (inlined from @genomicx/ui components.css) ── */
+
+.card {
+  background: var(--gx-surface);
+  border: 1px solid var(--gx-border);
+  border-radius: var(--gx-radius-lg);
+  box-shadow: var(--gx-shadow);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--gx-space-2) var(--gx-space-4);
+  border-radius: var(--gx-radius);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color var(--gx-transition), color var(--gx-transition), border-color var(--gx-transition);
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--gx-accent);
+  color: var(--gx-text-inverted);
+}
+.btn-primary:hover {
+  background: var(--gx-accent-hover);
+  color: var(--gx-text-inverted);
+}
+
+.btn-ghost {
+  background: var(--gx-surface);
+  color: var(--gx-text);
+  border-color: var(--gx-border);
+}
+.btn-ghost:hover {
+  background: var(--gx-surface-hover);
+  color: var(--gx-text);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--gx-space-2) var(--gx-space-3);
+  border-radius: var(--gx-radius-pill);
+  border: 1px solid var(--gx-border);
+  background: var(--gx-surface);
+  color: var(--gx-text);
+  transition: background-color var(--gx-transition);
+  text-decoration: none;
+}
+.pill:hover {
+  background: var(--gx-surface-hover);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background: var(--gx-tag-bg);
+  color: var(--gx-tag-text);
+  border: 1px solid var(--gx-tag-border);
+  border-radius: var(--gx-radius-pill);
+  padding: var(--gx-space-1) var(--gx-space-3);
+  font-size: 0.8rem;
+}
+
+/* ── NavBar (gx-nav-*; mirrors @genomicx/ui/components.css) ───── */
+
+.gx-nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--gx-nav-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--gx-border);
+}
+
+.gx-nav-inner {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media (min-width: 640px)  { .gx-nav-inner { padding: 0 1.5rem; } }
+@media (min-width: 1024px) { .gx-nav-inner { padding: 0 2rem; } }
+
+.gx-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--gx-nav-height);
+  gap: 1rem;
+}
+
+.gx-nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--gx-text);
+  text-decoration: none;
+  transition: opacity var(--gx-transition);
+}
+.gx-nav-logo:hover { opacity: 0.85; color: var(--gx-text); }
+
+.gx-nav-logo-icon { width: 26px; height: 26px; flex-shrink: 0; }
+
+.gx-nav-logo-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gx-text);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.gx-nav-desktop {
+  display: none;
+  align-items: center;
+  gap: 1.15rem;
+}
+@media (min-width: 900px) { .gx-nav-desktop { display: flex; } }
+
+.gx-nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gx-text-muted);
+  text-decoration: none;
+  transition: color var(--gx-transition);
+  white-space: nowrap;
+}
+.gx-nav-link:hover { color: var(--gx-text); }
+.gx-nav-link[aria-current="page"] { color: var(--gx-accent); }
+
+.gx-nav-mobile-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media (min-width: 900px) { .gx-nav-mobile-toggle { display: none; } }
+
+.gx-nav-iconbtn {
+  background: none;
+  border: 1px solid var(--gx-border);
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: var(--gx-radius);
+  color: var(--gx-text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--gx-transition), background-color var(--gx-transition), border-color var(--gx-transition);
+}
+.gx-nav-iconbtn:hover {
+  color: var(--gx-text);
+  background: var(--gx-surface-hover);
+}
+
+.gx-nav-dropdown {
+  display: block;
+  padding: 0.5rem 1rem 1rem;
+  border-top: 1px solid var(--gx-border);
+  background: var(--gx-nav-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+@media (min-width: 900px) { .gx-nav-dropdown { display: none; } }
+
+.gx-nav-dropdown-link {
+  display: block;
+  font-size: 0.95rem;
+  padding: 0.55rem 0.25rem;
+  color: var(--gx-text-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gx-border);
+  transition: color var(--gx-transition);
+}
+.gx-nav-dropdown-link:last-child { border-bottom: none; }
+.gx-nav-dropdown-link:hover { color: var(--gx-text); }
+.gx-nav-dropdown-link[aria-current="page"] { color: var(--gx-accent); }
+
+/* ── Footer ──────────────────────────────────── */
+
+.gx-footer {
+  background: var(--gx-bg-alt);
+  border-top: 1px solid var(--gx-border);
+  color: var(--gx-text-muted);
+  margin-top: auto;
+}
+.gx-footer-inner {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+@media (min-width: 640px)  { .gx-footer-inner { padding: 2rem 1.5rem; } }
+@media (min-width: 1024px) { .gx-footer-inner { padding: 2rem 2rem; } }
+.gx-footer h3 {
+  color: var(--gx-text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+.gx-footer a { color: var(--gx-accent); text-decoration: none; }
+.gx-footer a:hover { color: var(--gx-accent-hover); }
+
+/* ── Prose-only link styling (don't bleed into nav/UI) ─────────
+   Tailwind typography handles most of this, but anchors inside
+   markdown content should pick up the accent colour. */
+
+.prose a { color: var(--gx-accent); }
+.prose a:hover { color: var(--gx-accent-hover); }

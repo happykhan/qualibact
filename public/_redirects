@@ -1,0 +1,4 @@
+# Legacy aggregate endpoints — see /api/v2/
+/static/summary/filtered_metrics.csv   /api/v2/thresholds.csv   301
+/static/api/v1/thresholds.json         /api/v2/thresholds.json  301
+/static/api/v1/index.json              /api/v2/index.json       301

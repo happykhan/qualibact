@@ -1,0 +1,142 @@
+# Rationale notes for hand-pinned threshold values.
+#
+# As of 2026-05 the actual override mechanism lives in the engine:
+# {Species}_metrics.csv ships a `source: pinned` column flagging
+# bounds that bypass the engine's automatic derivation. This file
+# is the *audit trail* — it records who asked for a particular value
+# and why, so the methods page and reviewers can see the rationale.
+# It is NO LONGER read by any pipeline step; it is documentation
+# rendered on /methods/qualibact-v1.1/ by ThresholdRationaleTable
+# (v1.0 ships raw engine output with no overrides; v1.1 is where
+# every expert-requested pin lives).
+#
+# Schema (unchanged):
+#   overrides:
+#     - species: Genus_species
+#       scheme:  qualibact-v1.1
+#       metric:  Genome_Size
+#       lower:   1500000
+#       upper:   2100000
+#       reason:  "Why this value, who asked for it, when."
+
+overrides:
+  - species: Campylobacter_jejuni
+    scheme:  qualibact-v1.1
+    metric:  Genome_Size
+    upper:   2100000
+    reason:  "Nov 2025 expert survey — Alexandra Nunes & Mónica Oleastro (INSA Lisboa) advised that 2.0 Mb was too restrictive and excluded a small number of well-supported high-quality genomes from a diverse human/food/animal/environmental isolate set. The +10% regen buffer would push this to 2.14 Mb; lock at the specific value the experts asked for."
+
+  - species: Neisseria_meningitidis
+    scheme:  qualibact-v1.1
+    metric:  Genome_Size
+    upper:   2300000
+    reason:  "Nov 2025 expert survey — Alexandra Nunes & Célia Bettencourt (INSA Lisboa) advised that their N. meningitidis dataset is consistently below 2.3 Mb and a tighter upper bound is appropriate to flag potentially contaminated or chimeric assemblies. The +10% regen buffer would push this to 2.67 Mb; lock at the requested 2.3 Mb."
+
+  # The five Neisseria commensal entries below all came from the same
+  # respondent group (N. gonorrhoeae subgroup, citing Sheeba Basil's
+  # Neisseria commensal dataset analysis). They asked for Contamination
+  # upper = 3.0 as a more general threshold applicable across commensal
+  # Neisseria species. Engine output for these species after v1.0-rev2
+  # lands between 1 and 4; this pin records the expert-recommended value.
+
+  - species: Neisseria_bergeri
+    scheme:  qualibact-v1.1
+    metric:  Contamination
+    upper:   3.0
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+
+  - species: Neisseria_flavescens
+    scheme:  qualibact-v1.1
+    metric:  Contamination
+    upper:   3.0
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 4.0; pinned here at the requested value."
+
+  - species: Neisseria_lactamica
+    scheme:  qualibact-v1.1
+    metric:  Contamination
+    upper:   3.0
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+
+  - species: Neisseria_perflava
+    scheme:  qualibact-v1.1
+    metric:  Contamination
+    upper:   3.0
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Pinned here at the requested value."
+
+  - species: Neisseria_polysaccharea
+    scheme:  qualibact-v1.1
+    metric:  Contamination
+    upper:   3.0
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+
+  - species: Campylobacter_fetus
+    scheme:  qualibact-v1.1
+    metric:  GC_Content
+    lower:   32
+    reason:  "Nov 2025 expert survey — Campylobacter fetus subgroup (Birgitta Duim, Utrecht University) advised that C. fetus subsp. venerealis carries a large accessory genome that can pull GC content below the engine's v1.0 lower bound. Engine v1.0-rev2 emits 32.99; pinned at 32 to retain venerealis isolates."
+
+  - species: Neisseria_gonorrhoeae
+    scheme:  qualibact-v1.1
+    metric:  N50
+    lower:   25000
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup advised the engine's N50 lower (≈23000) was a bit tight; recommended ≥25000 looking at the distribution of their data."
+
+  - species: Neisseria_gonorrhoeae
+    scheme:  qualibact-v1.1
+    metric:  Total_Coding_Sequences
+    lower:   1900
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended TCS lower of 1900 based on the WHO reference genomes; engine v1.0 emits 1800."
+
+  - species: Neisseria_polysaccharea
+    scheme:  qualibact-v1.1
+    metric:  Completeness_Specific
+    lower:   99
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Completeness lower ≥ 99 as a more general threshold applicable across commensal Neisseria. Engine v1.0-rev2 emits 98."
+
+  - species: Neisseria_flavescens
+    scheme:  qualibact-v1.1
+    metric:  Completeness_Specific
+    lower:   99
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Completeness lower ≥ 99. Engine v1.0-rev2 emits 94; pinned at 99 for consistency across the commensal group."
+
+  - species: Neisseria_lactamica
+    scheme:  qualibact-v1.1
+    metric:  Total_Coding_Sequences
+    lower:   1800
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup advised the TCS lower could be loosened to 1800 to accommodate species diversity. Engine v1.0-rev2 emits 1900."
+
+  - species: Neisseria_lactamica
+    scheme:  qualibact-v1.1
+    metric:  Total_Coding_Sequences
+    upper:   2800
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup advised the TCS upper could be loosened to 2800 to accommodate species diversity. Engine v1.0-rev2 emits 2300."
+
+  - species: Neisseria_lactamica
+    scheme:  qualibact-v1.1
+    metric:  Genome_Size
+    upper:   2400000
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup advised the assembly-size upper should be raised to 2.4 Mb to accommodate species diversity. Engine v1.0-rev2 emits 2.3 Mb."
+
+  - species: Haemophilus_influenzae
+    scheme:  qualibact-v1.1
+    metric:  no_of_contigs
+    upper:   100
+    reason:  "Nov 2025 expert survey — Margo Diricks (FZ Borstel) advised that assemblies with >100 contigs are most often contamination. Engine v1.0-rev2 emits 140; pinned at 100."
+
+  - species: Haemophilus_influenzae
+    scheme:  qualibact-v1.1
+    metric:  Genome_Size
+    upper:   2000000
+    reason:  "Nov 2025 expert survey — Margo Diricks (FZ Borstel) advised that genomes >2 Mbp are most often contamination. The reference genomes GCF_002985465.2 and GCF_002984345.2 pushed the engine's automatic upper bound up; ANI checks against H. influenzae are inconclusive (~94% fastANI), suggesting these aren't H. influenzae. Engine v1.0-rev2 emits 2.2 Mb; pinned at 2.0 Mb."
+
+  - species: Haemophilus_haemolyticus
+    scheme:  qualibact-v1.1
+    metric:  no_of_contigs
+    upper:   100
+    reason:  "Nov 2025 expert survey — Margo Diricks (FZ Borstel) advised that assemblies with >100 contigs are often related to contamination. Engine v1.0-rev2 emits 110; pinned at 100."
+
+  - species: Haemophilus_haemolyticus
+    scheme:  qualibact-v1.1
+    metric:  Genome_Size
+    upper:   1750000
+    reason:  "Nov 2025 expert survey — Margo Diricks (FZ Borstel) proposed lowering the assembly-size upper to 1.75 Mb. Engine v1.0-rev2 emits 2.1 Mb. Note: 1.75 Mb sits below the engine's lower bound for this species (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert."

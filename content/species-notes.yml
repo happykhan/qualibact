@@ -1,0 +1,31 @@
+# Free-text per-species warning notes shown below the threshold-quality
+# warnings on the species page. Add an entry here when a species has a
+# caveat that doesn't fit one of the boolean flags in the manifest
+# (low_genome_warning, species_separation_warning).
+#
+# Schema:
+#   - species: Genus_species   (matches the directory name in
+#                                public/static/species/)
+#     scheme:  qualibact-v1.0  (optional; omit to apply across all schemes)
+#     note:    "Free text. Markdown not parsed; keep plain."
+#
+# Sourced from the Nov 2025 expert-feedback survey unless noted.
+
+notes:
+  - species: Bordetella_pertussis
+    note: "The CheckM reference database does not separate Bordetella species cleanly. Completeness and Contamination scores for B. pertussis here may be unreliable — interpret with caution and confirm species identification with an alternative tool before trusting QC flags."
+
+  - species: Klebsiella_grimontii
+    note: "The K. grimontii reference dataset has been flagged as potentially containing misclassified K. pasteurii genomes (Klebsiella oxytoca complex group, Nov 2025 feedback survey). Thresholds will be revised once the dataset has been re-curated."
+
+  - species: Serratia_nevei
+    note: "The N50 versus total length distribution for the reference dataset shows patchiness, which may indicate underlying heterogeneity in the included sequences (different assembly strategies, sub-clades, etc.). Thresholds for this species may be less reliable than for species with cleaner reference distributions."
+
+  - species: Serratia_ureilytica
+    note: "The N50 versus total length distribution for the reference dataset shows a bimodal pattern, suggesting taxonomic heterogeneity or differences in assembly strategies across the included genomes (Nov 2025 feedback survey). N50 thresholds may be less reliable than for species with unimodal reference distributions."
+
+  - species: Serratia_marcescens
+    note: "The Nov 2025 feedback survey flagged that the Completeness distribution for S. marcescens is lower than the rest of the genus — interpret the Completeness lower bound with that context."
+
+  - species: Neisseria_meningitidis
+    note: "Survey respondents flagged uncertainty about the no_of_contigs upper bound — some high-quality genomes in their dataset are excluded by the current threshold (Nov 2025 feedback survey). Pending follow-up before any revision."

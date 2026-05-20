@@ -1,0 +1,121 @@
+# WHO Bacterial Priority Pathogens List (BPPL) source data for the
+# /priority-pathogens/ landing page.
+#
+# Entry shape:
+#   name: verbatim WHO entry (e.g. "Acinetobacter baumannii, carbapenem-resistant")
+#   resistance: shorthand resistance qualifier
+#   species: (optional) Genus_species key matching public/website_summary.json
+#   genusGroup: (optional) list of genera to expand for family-level entries
+#   note: (optional) caveat shown in the card
+
+lists:
+  - year: 2024
+    citation: "World Health Organization. WHO Bacterial Priority Pathogens List, 2024."
+    citationUrl: "https://www.who.int/publications/i/item/9789240093461"
+    tiers:
+      - name: Critical
+        entries:
+          - name: "Acinetobacter baumannii, carbapenem-resistant"
+            resistance: carbapenem-resistant
+            species: Acinetobacter_baumannii
+          - name: "Enterobacterales, third-generation cephalosporin-resistant"
+            resistance: third-generation cephalosporin-resistant
+            genusGroup: [Escherichia, Klebsiella, Enterobacter, Citrobacter, Salmonella, Serratia, Proteus, Morganella]
+          - name: "Enterobacterales, carbapenem-resistant"
+            resistance: carbapenem-resistant
+            genusGroup: [Escherichia, Klebsiella, Enterobacter, Citrobacter, Salmonella, Serratia, Proteus, Morganella]
+          - name: "Mycobacterium tuberculosis, rifampicin-resistant"
+            resistance: rifampicin-resistant
+            species: Mycobacterium_tuberculosis
+            note: "Tuberculosis is treated separately in the WHO TB programme; included here for completeness."
+      - name: High
+        entries:
+          - name: "Salmonella enterica serotype Typhi, fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            species: Salmonella_enterica
+            note: "Typhi is a serotype of S. enterica; thresholds shown are for the species as a whole."
+          - name: "Shigella spp., fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            proxySpecies: Escherichia_coli
+            note: "Shigella is phylogenetically nested within Escherichia coli; E. coli thresholds are the closest available proxy until Shigella-specific thresholds are added."
+          - name: "Enterococcus faecium, vancomycin-resistant"
+            resistance: vancomycin-resistant
+            species: Enterococcus_faecium
+          - name: "Pseudomonas aeruginosa, carbapenem-resistant"
+            resistance: carbapenem-resistant
+            species: Pseudomonas_aeruginosa
+          - name: "Non-typhoidal Salmonella, fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            species: Salmonella_enterica
+            note: "All S. enterica serotypes except Typhi."
+          - name: "Neisseria gonorrhoeae, third-generation cephalosporin- and fluoroquinolone-resistant"
+            resistance: third-generation cephalosporin- and fluoroquinolone-resistant
+            species: Neisseria_gonorrhoeae
+          - name: "Staphylococcus aureus, meticillin-resistant"
+            resistance: meticillin-resistant
+            species: Staphylococcus_aureus
+      - name: Medium
+        entries:
+          - name: "Group A streptococci, macrolide-resistant"
+            resistance: macrolide-resistant
+            species: Streptococcus_pyogenes
+          - name: "Streptococcus pneumoniae, macrolide-resistant"
+            resistance: macrolide-resistant
+            species: Streptococcus_pneumoniae
+          - name: "Haemophilus influenzae, ampicillin-resistant"
+            resistance: ampicillin-resistant
+            species: Haemophilus_influenzae
+          - name: "Group B streptococci, penicillin-resistant"
+            resistance: penicillin-resistant
+            species: Streptococcus_agalactiae
+
+  - year: 2017
+    citation: "World Health Organization. Global priority list of antibiotic-resistant bacteria to guide research, discovery, and development of new antibiotics, 2017."
+    citationUrl: "https://www.who.int/publications/i/item/WHO-EMP-IAU-2017.12"
+    tiers:
+      - name: Critical
+        entries:
+          - name: "Acinetobacter baumannii, carbapenem-resistant"
+            resistance: carbapenem-resistant
+            species: Acinetobacter_baumannii
+          - name: "Pseudomonas aeruginosa, carbapenem-resistant"
+            resistance: carbapenem-resistant
+            species: Pseudomonas_aeruginosa
+          - name: "Enterobacteriaceae, carbapenem-resistant, third-generation cephalosporin-resistant"
+            resistance: carbapenem-resistant, third-generation cephalosporin-resistant
+            genusGroup: [Escherichia, Klebsiella, Enterobacter, Citrobacter, Salmonella, Serratia, Proteus]
+      - name: High
+        entries:
+          - name: "Enterococcus faecium, vancomycin-resistant"
+            resistance: vancomycin-resistant
+            species: Enterococcus_faecium
+          - name: "Staphylococcus aureus, meticillin-resistant, vancomycin intermediate and resistant"
+            resistance: meticillin-resistant, vancomycin intermediate / resistant
+            species: Staphylococcus_aureus
+          - name: "Helicobacter pylori, clarithromycin-resistant"
+            resistance: clarithromycin-resistant
+            species: Helicobacter_pylori
+          - name: "Campylobacter spp., fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            genusGroup: [Campylobacter]
+          - name: "Salmonellae, fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            species: Salmonella_enterica
+          - name: "Neisseria gonorrhoeae, cephalosporin-resistant, fluoroquinolone-resistant"
+            resistance: cephalosporin-resistant, fluoroquinolone-resistant
+            species: Neisseria_gonorrhoeae
+          - name: "Providencia species, third-generation cephalosporin-resistant"
+            resistance: third-generation cephalosporin-resistant
+            genusGroup: [Providencia]
+      - name: Medium
+        entries:
+          - name: "Streptococcus pneumoniae, penicillin non-susceptible"
+            resistance: penicillin non-susceptible
+            species: Streptococcus_pneumoniae
+          - name: "Haemophilus influenzae, ampicillin-resistant"
+            resistance: ampicillin-resistant
+            species: Haemophilus_influenzae
+          - name: "Shigella spp., fluoroquinolone-resistant"
+            resistance: fluoroquinolone-resistant
+            proxySpecies: Escherichia_coli
+            note: "Shigella is phylogenetically nested within Escherichia coli; E. coli thresholds are the closest available proxy until Shigella-specific thresholds are added."

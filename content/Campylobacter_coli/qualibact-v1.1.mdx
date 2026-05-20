@@ -1,0 +1,16 @@
+---
+title: "Campylobacter coli — QC Scheme qualibact-v1.1"
+generated_by: qualibact-to-nextjs
+---
+
+QualiBact `qualibact-v1.1` thresholds for *Campylobacter coli*, derived from a curated reference set (98 ATB assemblies + 92 RefSeq references) rather than the full AllTheBacteria-2024-08 distribution used for [v1.0](./qualibact-v1.0/).
+
+Compared with v1.0, the tighter reference set pulls a number of bounds inward — most visibly:
+
+- **N50 lower** raised from 25 kb (v1.0) to **31 kb** (v1.1).
+- **Contig-count upper** tightened from 180 (v1.0) to **120** (v1.1).
+- **GC content** narrowed: the v1.1 FINAL band is 30 – 32 % with WARN locked at 31 % (vs. 30.66 – 31.51 % FINAL / 30.96 – 31.43 % WARN in v1.0).
+- **Total coding sequences (WARN upper)** tightened from 2100 to **2000**.
+- **Genome size (WARN upper)** tightened from 1.9 Mb to **1.8 Mb**.
+
+The underlying engine pipeline, outlier detection, and PASS / WARN / FAIL verdict logic are unchanged from v1.0. See the [methods page for qualibact-v1.1](/methods/qualibact-v1.1/) for details on how the v1.1 thresholds are derived and which species are part of the v1.1 track.

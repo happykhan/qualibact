@@ -1,0 +1,13 @@
+---
+title: "Haemophilus influenzae — QC Scheme qualibact-v1.1"
+generated_by: qualibact-to-nextjs
+---
+
+QualiBact `qualibact-v1.1` thresholds for *Haemophilus influenzae*, refined from v1.0 based on the expert-feedback survey (Nov 2025) submitted by the *H. influenzae* subgroup.
+
+Two pins on the recommendation of the subgroup:
+
+- **No. of contigs upper pinned at 100** (engine v1.0-rev2 emits 140). Assemblies with >100 contigs are most often associated with contamination.
+- **Genome_Size upper pinned at 2.0 Mb** (engine v1.0-rev2 emits 2.2 Mb). Genomes >2 Mbp are most often contamination. The engine's auto-derived upper was pulled up by two reference assemblies (GCF_002985465.2 and GCF_002984345.2) which on independent ANI checks are inconclusive against *H. influenzae* (~94% fastANI to other H. influenzae genomes) and are probably not the species at all.
+
+All other thresholds inherit unchanged from v1.0. WARN tier preserves the engine's tighter values. See the [methods page for qualibact-v1.1](/methods/qualibact-v1.1/) for the full pipeline.

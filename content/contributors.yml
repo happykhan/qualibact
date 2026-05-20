@@ -1,0 +1,113 @@
+# QualiBact contributor registry.
+#
+# Anyone who provided expert input (threshold values, dataset re-curation,
+# species-specific rationale) on a (species, scheme) pair gets a record
+# here so we can credit them on the species page and on the
+# /contributors/ landing page.
+#
+# Entry shapes:
+#
+#   contributors[].id           — short kebab-case slug, used in attributions
+#   contributors[].name         — display name
+#   contributors[].affiliation  — institution
+#   contributors[].country      — optional
+#   contributors[].orcid        — optional ORCID iD (URL or 0000-... form)
+#
+#   funding[].id     — short slug, used in attributions
+#   funding[].name   — funding source / project name
+#   funding[].note   — optional context (programme, grant number, ...)
+#   funding[].country — optional
+#
+#   attributions[]   — one entry per (species, scheme) acknowledged
+#     species        — Genus_species
+#     scheme         — qualibact-v1.0 | qualibact-v1.1 | REFSEQ-QC-v1
+#     contributors   — list of contributor ids
+#     funding        — list of funding ids (optional)
+#     note           — free-text caveat shown alongside the names (optional)
+
+contributors:
+  - id: m-oleastro
+    name: Mónica Oleastro
+    affiliation: Instituto Nacional de Saúde Doutor Ricardo Jorge
+    country: Portugal
+  - id: a-nunes
+    name: Alexandra Nunes
+    affiliation: Instituto Nacional de Saúde Doutor Ricardo Jorge
+    country: Portugal
+  - id: h-johansen
+    name: Helle K. Johansen
+    affiliation: Department of Clinical Microbiology, Rigshospitalet
+    country: Denmark
+  - id: r-marvig
+    name: Rasmus L. Marvig
+    affiliation: Department of Genomic Medicine, Rigshospitalet
+    country: Denmark
+  - id: c-michael
+    name: Charlotte Michael
+    affiliation: Department of Microbiology and Infection Control, Universitair Ziekenhuis Brussel
+    country: Belgium
+  - id: m-gabrielaite
+    name: Migle Gabrielaite
+    affiliation: Institute of Biotechnology, Vilnius University
+    country: Lithuania
+  - id: b-duim
+    name: Birgitta Duim
+    affiliation: Utrecht University
+    country: Netherlands
+  - id: b-iorga
+    name: Bogdan Iorga
+    affiliation: Affiliation TBD
+  - id: m-lisowska
+    name: Małgorzata Lisowska
+    affiliation: Affiliation TBD
+  - id: b-lopes
+    name: Bruno Lopes
+    affiliation: Affiliation TBD
+  - id: s-banerji
+    name: Sangeeta Banerji
+    affiliation: Affiliation TBD
+  - id: m-diricks
+    name: Margo Diricks
+    affiliation: Forschungszentrum Borstel
+    country: Germany
+  - id: a-rokney
+    name: Assaf Rokney
+    affiliation: Ministry of Health
+    country: Israel
+  - id: d-sarovich
+    name: Derek Sarovich
+    affiliation: University of the Sunshine Coast
+    country: Australia
+
+funding:
+  - id: insa
+    name: Instituto Nacional de Saúde Doutor Ricardo Jorge
+    country: Portugal
+  - id: geneo
+    name: GENEO project
+    note: "Project No. 101113460; co-funded by the European Union under the EU4Health Programme (EU4H)"
+
+attributions:
+  - species: Campylobacter_coli
+    scheme: qualibact-v1.1
+    contributors: [m-oleastro, a-nunes]
+    funding: [insa, geneo]
+  - species: Campylobacter_jejuni
+    scheme: qualibact-v1.1
+    contributors: [m-oleastro, a-nunes]
+    funding: [insa, geneo]
+  - species: Achromobacter_xylosoxidans
+    scheme: qualibact-v1.1
+    contributors: [h-johansen, r-marvig, c-michael, m-gabrielaite]
+  - species: Campylobacter_fetus
+    scheme: qualibact-v1.1
+    contributors: [b-duim, b-iorga, m-oleastro, m-lisowska, b-lopes, s-banerji]
+    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey."
+  - species: Haemophilus_influenzae
+    scheme: qualibact-v1.1
+    contributors: [m-diricks, a-rokney, d-sarovich]
+    note: "H. influenzae subgroup of the Nov 2025 expert-feedback survey."
+  - species: Haemophilus_haemolyticus
+    scheme: qualibact-v1.1
+    contributors: [m-diricks]
+    note: "H. haemolyticus review from the Nov 2025 expert-feedback survey."
