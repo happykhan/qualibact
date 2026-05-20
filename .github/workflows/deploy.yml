@@ -1,0 +1,47 @@
+name: Publish redirect-only site to GitHub Pages
+
+# The GitHub Pages site at https://happykhan.github.io/qualibact/ is a
+# legacy URL that has been superseded by https://qualibact.org/ (hosted
+# on Cloudflare Pages). This workflow publishes a tiny redirect-only
+# site so any deep link on the old domain forwards to qualibact.org and
+# tells search engines to drop the old domain from results.
+#
+# DO NOT re-add a full Next.js build here; the production deploy is
+# Cloudflare Pages, not GitHub Pages. See WORKPLAN.md §1.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload redirect site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.github/pages
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

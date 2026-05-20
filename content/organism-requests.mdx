@@ -1,0 +1,40 @@
+# Requests
+
+We track requests for QualiBact in two buckets: **organisms** to add to the catalogue, and **metrics or features** to add to the QC framework. Each is listed below with a short status note so users can see what's in flight, what's parked, and what we've decided not to do.
+
+## Organism requests
+
+We maintain a running list of organisms that are frequently requested or in progress for QualiBact coverage. If you are evaluating the catalogue and notice that a species you rely on is missing, this page should help you understand whether it is already queued or how to get it added.
+
+### How to request a new organism
+
+- Check the list below to confirm whether your species is already planned.
+- If it is missing, send a note to `nabil.alikhan@cgps.group` with the organism name(s), any relevant strain or dataset details, and your intended use so we can prioritize appropriately.
+- Please review the [contribution guidelines](/contributing) for details on data requirements so we can evaluate your submission quickly.
+
+### Current request queue
+
+The following organisms have been requested and are either being processed or waiting for additional metadata. Order does not necessarily reflect priority.
+
+- *Burkholderia seminalis*
+- *Serratia sarumannii*
+- *Salmonella enterica* serovar Typhi
+- *Mycobacterium xenopi*
+
+We will update this page as organisms move through the queue or as new requests arrive.
+
+## Metric and feature requests
+
+Suggestions we've received about the QualiBact framework itself.
+
+| Request | Status | Notes |
+|---|---|---|
+| Ns per 100 kbp | **Future release** | Counting ambiguous bases needs a re-pass over the ~1.2 million reference assemblies and a new engine field. Scheduled for the next major engine refresh. |
+| BUSCO completeness as an extra metric | **Declined** | Marginal value over CheckM-based completeness; not worth re-running BUSCO across the reference set. |
+| Read-level QC (depth, base-quality, etc.) | **Declined** | Out of scope. Read information isn't recoverable from a static assembly. We recommend [bactscout](https://github.com/cgps-group/bactscout) as a companion tool for read-level checks. |
+| Identify the contaminating organism per assembly | **Declined** | A per-sample, per-lab question. QualiBact publishes the contamination *threshold*; identification of the contaminant belongs in the downstream QC tool (SpecCheck, CheckM2, sylph). |
+| ≥1 kb minimum contig length for `no_of_contigs` / `total_length` | **Declined** | QualiBact counts all contigs by design. This is the output as it comes from the assembly pipeline. |
+
+## How to request a metric or feature
+
+Send a note to `nabil.alikhan@cgps.group` with what you're proposing, which species or use case it would benefit, and any references. Concrete proposals (with example data or threshold suggestions) are easier to action than open-ended asks. Thanks for helping us expand QualiBact!

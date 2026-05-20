@@ -1,0 +1,2441 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-20T15:15:04+00:00",
+  "species": {
+    "Achromobacter_xylosoxidans": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Acinetobacter_baumannii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_baylyi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_johnsonii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_nosocomialis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_pittii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_radioresistens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Acinetobacter_ursingii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Actinobacillus_lignieresii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aerococcus_urinae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aeromonas_caviae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aeromonas_dhakensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aeromonas_hydrophila": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aeromonas_salmonicida": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aeromonas_veronii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Agrobacterium_fabacearum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Agrobacterium_pusense": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Agrobacterium_tumefaciens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aliarcobacter_butzleri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Aliivibrio_fischeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Alistipes_onderdonkii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_altitudinis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_anthracis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_bombysepticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_cereus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_licheniformis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_mobilis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_mycoides": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_paralicheniformis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_paranthracis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_pumilus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_safensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_spizizenii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_subtilis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_thuringiensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_toyonensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_velezensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacillus_wiedmannii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_caccae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_cellulosilyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_fragilis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_ovatus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_stercoris": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_thetaiotaomicron": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_uniformis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bacteroides_xylanisolvens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bartonella_krasnovii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_adolescentis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_animalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_bifidum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_breve": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_dentium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_longum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bifidobacterium_pseudocatenulatum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bordetella_pertussis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Borreliella_afzelii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Borreliella_burgdorferi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Borreliella_garinii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Brachyspira_hyodysenteriae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Bradyrhizobium_diazoefficiens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Brucella_melitensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_cenocepacia": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_cepacia": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_contaminans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_dolosa": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_gladioli": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_mallei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_multivorans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_orbicola": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_seminalis": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Burkholderia_stagnalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_ubonensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Burkholderia_vietnamiensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Campylobacter_coli": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Campylobacter_concheus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Campylobacter_fetus": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Campylobacter_hyointestinalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Campylobacter_jejuni": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Campylobacter_lari": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Campylobacter_upsaliensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Candida_auris": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Caulobacter_vibrioides": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Chlamydia_trachomatis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_amalonaticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_braakii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_farmeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_freundii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_koseri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_portucalensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_rodentium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_sedlakii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_werkmanii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Citrobacter_youngae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_beijerinckii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_botulinum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_cagae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_difficile": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_innocuum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Clostridium_tetani": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_diphtheriae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_glutamicum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_jeikeium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_pseudodiphtheriticum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_striatum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Corynebacterium_ulcerans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Cronobacter_sakazakii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Cronobacter_turicensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Curtobacterium_flaccumfaciens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Cutibacterium_acnes": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Deinococcus_radiodurans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Dichelobacter_nodosus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Elizabethkingia_anophelis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_asburiae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_bugandensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_cloacae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_hormaechei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_kobei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_ludwigii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterobacter_roggenkampii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_avium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_casseliflavus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_cecorum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_durans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_faecalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_faecium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_gallinarum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_hirae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Enterococcus_lactis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Erwinia_amylovora": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Erysipelothrix_rhusiopathiae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Escherichia_albertii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Escherichia_coli": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Escherichia_fergusonii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Escherichia_marmotae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Escherichia_ruysiae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Flavobacterium_psychrophilum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Francisella_tularensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Fusobacterium_necrophorum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Glaesserella_parasuis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Haemophilus_haemolyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Haemophilus_influenzae": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Haemophilus_parainfluenzae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Hafnia_paralvei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Helicobacter_pylori": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Hungateiclostridium_thermocellum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Janthinobacterium_lividum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_aerogenes": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_africana": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Klebsiella_grimontii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_huaxiensis": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Klebsiella_michiganensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_ornithinolytica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_oxytoca": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_pasteurii": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Klebsiella_planticola": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_pneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Klebsiella_quasipneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Klebsiella_quasivariicola": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Klebsiella_spallanzanii": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Klebsiella_variicola": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Lacticaseibacillus_paracasei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lacticaseibacillus_rhamnosus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactiplantibacillus_plantarum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactobacillus_acidophilus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactobacillus_crispatus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactobacillus_gasseri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactobacillus_johnsonii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactobacillus_paragasseri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Lactococcus_lactis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Legionella_fraseri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Legionella_longbeachae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Legionella_pneumophila": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Leptospira_borgpetersenii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Leptospira_interrogans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Ligilactobacillus_salivarius": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Limosilactobacillus_fermentum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Limosilactobacillus_mucosae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Limosilactobacillus_reuteri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Listeria_grayi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Listeria_innocua": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Listeria_monocytogenes": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Listeria_seeligeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Listeria_welshimeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mammaliicoccus_sciuri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mannheimia_haemolytica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mesomycoplasma_hyopneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Micrococcus_luteus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Moraxella_bovoculi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Moraxella_catarrhalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Morganella_morganii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_abscessus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_avium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_chelonae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_intracellulare": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_kansasii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_marinum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_smegmatis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_tuberculosis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycobacterium_xenopi": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Mycoplasma_capri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycoplasmoides_pneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Mycoplasmopsis_bovis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Neisseria_bergeri": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_flavescens": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_gonorrhoeae": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_lactamica": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_meningitidis": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_perflava": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Neisseria_polysaccharea": {
+      "qc_schemes": [
+        "qualibact-v1.0",
+        "qualibact-v1.1"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.1"
+    },
+    "Oenococcus_oeni": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Ornithobacterium_rhinotracheale": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Paenibacillus_larvae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Parabacteroides_distasonis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Parabacteroides_goldsteinii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Parabacteroides_merdae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pasteurella_multocida": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pectobacterium_brasiliense": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pediococcus_acidilactici": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pediococcus_pentosaceus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Phocaeicola_dorei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Phocaeicola_vulgatus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Priestia_megaterium": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Proteus_mirabilis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Providencia_rettgeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Providencia_stuartii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudoalteromonas_nigrifaciens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_aeruginosa": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_alloputida": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_asiatica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_avellanae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_fluorescens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_fulva": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_glycinae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_juntendi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_marginalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_monteilii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_paracarnis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_protegens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_putida": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Pseudomonas_syringae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Ralstonia_pseudosolanacearum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Ralstonia_solanacearum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Renibacterium_salmoninarum": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Rhizobium_leguminosarum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Salmonella_arizonae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Salmonella_bongori": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Salmonella_enterica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Serratia_bockelmannii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Serratia_marcescens": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Serratia_nematodiphila": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Serratia_nevei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Serratia_sarumannii": {
+      "qc_schemes": [
+        "REFSEQ-QC-v1"
+      ],
+      "preferred_qc_scheme": "REFSEQ-QC-v1"
+    },
+    "Serratia_ureilytica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Sinorhizobium_medicae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Sinorhizobium_meliloti": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_argenteus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_aureus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_capitis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_chromogenes": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_coagulans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_epidermidis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_equorum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_haemolyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_hominis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_lugdunensis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_pseudintermedius": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_saprophyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_simulans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_warneri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Staphylococcus_xylosus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Stenotrophomonas_geniculata": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Stenotrophomonas_maltophilia": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Stenotrophomonas_pavanii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Stenotrophomonas_sepilia": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_agalactiae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_anginosus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_canis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_dysgalactiae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_equi": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_gordonii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_mitis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_mutans": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_oralis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_parasanguinis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_pneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_pseudopneumoniae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_pyogenes": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_salivarius": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_suis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptococcus_uberis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptomyces_albidoflavus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Streptomyces_anthocyanicus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Stutzerimonas_stutzeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Taylorella_equigenitalis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Treponema_pallidum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Turicibacter_sanguinis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_alginolyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_anguillarum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_cholerae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_diabolicus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_fluvialis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_mediterranei": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_metschnikovii": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_parahaemolyticus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Vibrio_vulnificus": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Wolbachia_pipientis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_arboricola": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_campestris": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_cissicola": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_euvesicatoria": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_hortorum": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xanthomonas_oryzae": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Xylella_fastidiosa": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Yersinia_enterocolitica": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Yersinia_intermedia": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Yersinia_pestis": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    },
+    "Yersinia_ruckeri": {
+      "qc_schemes": [
+        "qualibact-v1.0"
+      ],
+      "preferred_qc_scheme": "qualibact-v1.0"
+    }
+  },
+  "genera": {
+    "Acinetobacter": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Aeromonas": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Agrobacterium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Bacillus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Bacteroides": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Bifidobacterium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Borreliella": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Burkholderia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Campylobacter": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Citrobacter": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Clostridium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Corynebacterium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Cronobacter": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Enterobacter": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Enterococcus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Escherichia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Haemophilus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Klebsiella": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Lacticaseibacillus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Lactobacillus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Legionella": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Leptospira": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Limosilactobacillus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Listeria": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Moraxella": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Mycobacterium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Neisseria": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Parabacteroides": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Pediococcus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Phocaeicola": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Providencia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Pseudomonas": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Ralstonia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Salmonella": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Serratia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Sinorhizobium": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Staphylococcus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Stenotrophomonas": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Streptococcus": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Streptomyces": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Vibrio": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Xanthomonas": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    },
+    "Yersinia": {
+      "plots": [
+        "metric_range_Completeness_Specific.png",
+        "metric_range_Contamination.png",
+        "metric_range_GC_Content.png",
+        "metric_range_Genome_Size.png",
+        "metric_range_N50.png",
+        "metric_range_Total_Coding_Sequences.png",
+        "metric_range_longest.png",
+        "metric_range_number.png"
+      ]
+    }
+  }
+}

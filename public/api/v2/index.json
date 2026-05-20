@@ -1,0 +1,3559 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-20T15:15:04+00:00",
+  "species_count": 317,
+  "endpoints": {
+    "thresholds_csv": "/api/v2/thresholds.csv",
+    "thresholds_json": "/api/v2/thresholds.json",
+    "per_species_manifest": "/static/species/{species}/{scheme}/manifest.json"
+  },
+  "species": [
+    {
+      "species": "Achromobacter_xylosoxidans",
+      "name": "Achromobacter xylosoxidans",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Achromobacter_xylosoxidans/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Achromobacter_xylosoxidans/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_baumannii",
+      "name": "Acinetobacter baumannii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_baumannii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_baylyi",
+      "name": "Acinetobacter baylyi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_baylyi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_johnsonii",
+      "name": "Acinetobacter johnsonii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_johnsonii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_nosocomialis",
+      "name": "Acinetobacter nosocomialis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_nosocomialis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_pittii",
+      "name": "Acinetobacter pittii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_pittii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_radioresistens",
+      "name": "Acinetobacter radioresistens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_radioresistens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Acinetobacter_ursingii",
+      "name": "Acinetobacter ursingii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Acinetobacter_ursingii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Actinobacillus_lignieresii",
+      "name": "Actinobacillus lignieresii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Actinobacillus_lignieresii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aerococcus_urinae",
+      "name": "Aerococcus urinae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aerococcus_urinae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aeromonas_caviae",
+      "name": "Aeromonas caviae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aeromonas_caviae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aeromonas_dhakensis",
+      "name": "Aeromonas dhakensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aeromonas_dhakensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aeromonas_hydrophila",
+      "name": "Aeromonas hydrophila",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aeromonas_hydrophila/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aeromonas_salmonicida",
+      "name": "Aeromonas salmonicida",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aeromonas_salmonicida/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aeromonas_veronii",
+      "name": "Aeromonas veronii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aeromonas_veronii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Agrobacterium_fabacearum",
+      "name": "Agrobacterium fabacearum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Agrobacterium_fabacearum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Agrobacterium_pusense",
+      "name": "Agrobacterium pusense",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Agrobacterium_pusense/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Agrobacterium_tumefaciens",
+      "name": "Agrobacterium tumefaciens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Agrobacterium_tumefaciens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aliarcobacter_butzleri",
+      "name": "Aliarcobacter butzleri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aliarcobacter_butzleri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Aliivibrio_fischeri",
+      "name": "Aliivibrio fischeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Aliivibrio_fischeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Alistipes_onderdonkii",
+      "name": "Alistipes onderdonkii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Alistipes_onderdonkii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_altitudinis",
+      "name": "Bacillus altitudinis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_altitudinis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_anthracis",
+      "name": "Bacillus anthracis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_anthracis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_bombysepticus",
+      "name": "Bacillus bombysepticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_bombysepticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_cereus",
+      "name": "Bacillus cereus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_cereus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_licheniformis",
+      "name": "Bacillus licheniformis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_licheniformis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_mobilis",
+      "name": "Bacillus mobilis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_mobilis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_mycoides",
+      "name": "Bacillus mycoides",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_mycoides/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_paralicheniformis",
+      "name": "Bacillus paralicheniformis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_paralicheniformis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_paranthracis",
+      "name": "Bacillus paranthracis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_paranthracis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_pumilus",
+      "name": "Bacillus pumilus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_pumilus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_safensis",
+      "name": "Bacillus safensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_safensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_spizizenii",
+      "name": "Bacillus spizizenii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_spizizenii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_subtilis",
+      "name": "Bacillus subtilis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_subtilis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_thuringiensis",
+      "name": "Bacillus thuringiensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_thuringiensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_toyonensis",
+      "name": "Bacillus toyonensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_toyonensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_velezensis",
+      "name": "Bacillus velezensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_velezensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_wiedmannii",
+      "name": "Bacillus wiedmannii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacillus_wiedmannii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_caccae",
+      "name": "Bacteroides caccae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_caccae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_cellulosilyticus",
+      "name": "Bacteroides cellulosilyticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_cellulosilyticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_fragilis",
+      "name": "Bacteroides fragilis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_fragilis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_ovatus",
+      "name": "Bacteroides ovatus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_ovatus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_stercoris",
+      "name": "Bacteroides stercoris",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_stercoris/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_thetaiotaomicron",
+      "name": "Bacteroides thetaiotaomicron",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_thetaiotaomicron/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_uniformis",
+      "name": "Bacteroides uniformis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_uniformis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacteroides_xylanisolvens",
+      "name": "Bacteroides xylanisolvens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bacteroides_xylanisolvens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bartonella_krasnovii",
+      "name": "Bartonella krasnovii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bartonella_krasnovii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_adolescentis",
+      "name": "Bifidobacterium adolescentis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_adolescentis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_animalis",
+      "name": "Bifidobacterium animalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_animalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_bifidum",
+      "name": "Bifidobacterium bifidum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_bifidum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_breve",
+      "name": "Bifidobacterium breve",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_breve/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_dentium",
+      "name": "Bifidobacterium dentium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_dentium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_longum",
+      "name": "Bifidobacterium longum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_longum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bifidobacterium_pseudocatenulatum",
+      "name": "Bifidobacterium pseudocatenulatum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bifidobacterium_pseudocatenulatum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bordetella_pertussis",
+      "name": "Bordetella pertussis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bordetella_pertussis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Borreliella_afzelii",
+      "name": "Borreliella afzelii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Borreliella_afzelii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Borreliella_burgdorferi",
+      "name": "Borreliella burgdorferi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Borreliella_burgdorferi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Borreliella_garinii",
+      "name": "Borreliella garinii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Borreliella_garinii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Brachyspira_hyodysenteriae",
+      "name": "Brachyspira hyodysenteriae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Brachyspira_hyodysenteriae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bradyrhizobium_diazoefficiens",
+      "name": "Bradyrhizobium diazoefficiens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Bradyrhizobium_diazoefficiens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Brucella_melitensis",
+      "name": "Brucella melitensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Brucella_melitensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_cenocepacia",
+      "name": "Burkholderia cenocepacia",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_cenocepacia/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_cepacia",
+      "name": "Burkholderia cepacia",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_cepacia/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_contaminans",
+      "name": "Burkholderia contaminans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_contaminans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_dolosa",
+      "name": "Burkholderia dolosa",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_dolosa/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_gladioli",
+      "name": "Burkholderia gladioli",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_gladioli/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_mallei",
+      "name": "Burkholderia mallei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_mallei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_multivorans",
+      "name": "Burkholderia multivorans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_multivorans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_orbicola",
+      "name": "Burkholderia orbicola",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_orbicola/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_seminalis",
+      "name": "Burkholderia seminalis",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Burkholderia_seminalis/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_stagnalis",
+      "name": "Burkholderia stagnalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_stagnalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_ubonensis",
+      "name": "Burkholderia ubonensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_ubonensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Burkholderia_vietnamiensis",
+      "name": "Burkholderia vietnamiensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Burkholderia_vietnamiensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_coli",
+      "name": "Campylobacter coli",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_coli/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Campylobacter_coli/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_concheus",
+      "name": "Campylobacter concheus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_concheus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_fetus",
+      "name": "Campylobacter fetus",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_fetus/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Campylobacter_fetus/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_hyointestinalis",
+      "name": "Campylobacter hyointestinalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_hyointestinalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_jejuni",
+      "name": "Campylobacter jejuni",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_jejuni/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Campylobacter_jejuni/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_lari",
+      "name": "Campylobacter lari",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_lari/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Campylobacter_upsaliensis",
+      "name": "Campylobacter upsaliensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Campylobacter_upsaliensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Candida_auris",
+      "name": "Candida auris",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Candida_auris/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Caulobacter_vibrioides",
+      "name": "Caulobacter vibrioides",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Caulobacter_vibrioides/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Chlamydia_trachomatis",
+      "name": "Chlamydia trachomatis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Chlamydia_trachomatis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_amalonaticus",
+      "name": "Citrobacter amalonaticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_amalonaticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_braakii",
+      "name": "Citrobacter braakii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_braakii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_farmeri",
+      "name": "Citrobacter farmeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_farmeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_freundii",
+      "name": "Citrobacter freundii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_freundii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_koseri",
+      "name": "Citrobacter koseri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_koseri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_portucalensis",
+      "name": "Citrobacter portucalensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_portucalensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_rodentium",
+      "name": "Citrobacter rodentium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_rodentium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_sedlakii",
+      "name": "Citrobacter sedlakii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_sedlakii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_werkmanii",
+      "name": "Citrobacter werkmanii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_werkmanii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Citrobacter_youngae",
+      "name": "Citrobacter youngae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Citrobacter_youngae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_beijerinckii",
+      "name": "Clostridium beijerinckii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_beijerinckii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_botulinum",
+      "name": "Clostridium botulinum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_botulinum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_cagae",
+      "name": "Clostridium cagae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_cagae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_difficile",
+      "name": "Clostridium difficile",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_difficile/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_innocuum",
+      "name": "Clostridium innocuum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_innocuum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_tetani",
+      "name": "Clostridium tetani",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Clostridium_tetani/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_diphtheriae",
+      "name": "Corynebacterium diphtheriae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_diphtheriae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_glutamicum",
+      "name": "Corynebacterium glutamicum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_glutamicum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_jeikeium",
+      "name": "Corynebacterium jeikeium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_jeikeium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_pseudodiphtheriticum",
+      "name": "Corynebacterium pseudodiphtheriticum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_pseudodiphtheriticum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_striatum",
+      "name": "Corynebacterium striatum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_striatum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Corynebacterium_ulcerans",
+      "name": "Corynebacterium ulcerans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Corynebacterium_ulcerans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Cronobacter_sakazakii",
+      "name": "Cronobacter sakazakii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Cronobacter_sakazakii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Cronobacter_turicensis",
+      "name": "Cronobacter turicensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Cronobacter_turicensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Curtobacterium_flaccumfaciens",
+      "name": "Curtobacterium flaccumfaciens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Curtobacterium_flaccumfaciens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Cutibacterium_acnes",
+      "name": "Cutibacterium acnes",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Cutibacterium_acnes/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Deinococcus_radiodurans",
+      "name": "Deinococcus radiodurans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Deinococcus_radiodurans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Dichelobacter_nodosus",
+      "name": "Dichelobacter nodosus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Dichelobacter_nodosus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Elizabethkingia_anophelis",
+      "name": "Elizabethkingia anophelis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Elizabethkingia_anophelis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_asburiae",
+      "name": "Enterobacter asburiae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_asburiae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_bugandensis",
+      "name": "Enterobacter bugandensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_bugandensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_cloacae",
+      "name": "Enterobacter cloacae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_cloacae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_hormaechei",
+      "name": "Enterobacter hormaechei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_hormaechei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_kobei",
+      "name": "Enterobacter kobei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_kobei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_ludwigii",
+      "name": "Enterobacter ludwigii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_ludwigii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterobacter_roggenkampii",
+      "name": "Enterobacter roggenkampii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterobacter_roggenkampii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_avium",
+      "name": "Enterococcus avium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_avium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_casseliflavus",
+      "name": "Enterococcus casseliflavus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_casseliflavus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_cecorum",
+      "name": "Enterococcus cecorum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_cecorum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_durans",
+      "name": "Enterococcus durans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_durans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_faecalis",
+      "name": "Enterococcus faecalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_faecalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_faecium",
+      "name": "Enterococcus faecium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_faecium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_gallinarum",
+      "name": "Enterococcus gallinarum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_gallinarum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_hirae",
+      "name": "Enterococcus hirae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_hirae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Enterococcus_lactis",
+      "name": "Enterococcus lactis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Enterococcus_lactis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Erwinia_amylovora",
+      "name": "Erwinia amylovora",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Erwinia_amylovora/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Erysipelothrix_rhusiopathiae",
+      "name": "Erysipelothrix rhusiopathiae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Erysipelothrix_rhusiopathiae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_albertii",
+      "name": "Escherichia albertii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Escherichia_albertii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_coli",
+      "name": "Escherichia coli",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Escherichia_coli/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_fergusonii",
+      "name": "Escherichia fergusonii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Escherichia_fergusonii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_marmotae",
+      "name": "Escherichia marmotae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Escherichia_marmotae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_ruysiae",
+      "name": "Escherichia ruysiae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Escherichia_ruysiae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Flavobacterium_psychrophilum",
+      "name": "Flavobacterium psychrophilum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Flavobacterium_psychrophilum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Francisella_tularensis",
+      "name": "Francisella tularensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Francisella_tularensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Fusobacterium_necrophorum",
+      "name": "Fusobacterium necrophorum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Fusobacterium_necrophorum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Glaesserella_parasuis",
+      "name": "Glaesserella parasuis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Glaesserella_parasuis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Haemophilus_haemolyticus",
+      "name": "Haemophilus haemolyticus",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Haemophilus_haemolyticus/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Haemophilus_haemolyticus/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Haemophilus_influenzae",
+      "name": "Haemophilus influenzae",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Haemophilus_influenzae/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Haemophilus_influenzae/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Haemophilus_parainfluenzae",
+      "name": "Haemophilus parainfluenzae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Haemophilus_parainfluenzae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Hafnia_paralvei",
+      "name": "Hafnia paralvei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Hafnia_paralvei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Helicobacter_pylori",
+      "name": "Helicobacter pylori",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Helicobacter_pylori/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Hungateiclostridium_thermocellum",
+      "name": "Hungateiclostridium thermocellum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Hungateiclostridium_thermocellum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Janthinobacterium_lividum",
+      "name": "Janthinobacterium lividum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Janthinobacterium_lividum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_aerogenes",
+      "name": "Klebsiella aerogenes",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_aerogenes/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_africana",
+      "name": "Klebsiella africana",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Klebsiella_africana/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_grimontii",
+      "name": "Klebsiella grimontii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_grimontii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_huaxiensis",
+      "name": "Klebsiella huaxiensis",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Klebsiella_huaxiensis/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_michiganensis",
+      "name": "Klebsiella michiganensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_michiganensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_ornithinolytica",
+      "name": "Klebsiella ornithinolytica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_ornithinolytica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_oxytoca",
+      "name": "Klebsiella oxytoca",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_oxytoca/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_pasteurii",
+      "name": "Klebsiella pasteurii",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Klebsiella_pasteurii/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_planticola",
+      "name": "Klebsiella planticola",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_planticola/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_pneumoniae",
+      "name": "Klebsiella pneumoniae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_pneumoniae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_quasipneumoniae",
+      "name": "Klebsiella quasipneumoniae",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_quasipneumoniae/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Klebsiella_quasipneumoniae/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_quasivariicola",
+      "name": "Klebsiella quasivariicola",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Klebsiella_quasivariicola/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_spallanzanii",
+      "name": "Klebsiella spallanzanii",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Klebsiella_spallanzanii/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_variicola",
+      "name": "Klebsiella variicola",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Klebsiella_variicola/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Klebsiella_variicola/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lacticaseibacillus_paracasei",
+      "name": "Lacticaseibacillus paracasei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lacticaseibacillus_paracasei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lacticaseibacillus_rhamnosus",
+      "name": "Lacticaseibacillus rhamnosus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lacticaseibacillus_rhamnosus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactiplantibacillus_plantarum",
+      "name": "Lactiplantibacillus plantarum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactiplantibacillus_plantarum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactobacillus_acidophilus",
+      "name": "Lactobacillus acidophilus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactobacillus_acidophilus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactobacillus_crispatus",
+      "name": "Lactobacillus crispatus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactobacillus_crispatus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactobacillus_gasseri",
+      "name": "Lactobacillus gasseri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactobacillus_gasseri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactobacillus_johnsonii",
+      "name": "Lactobacillus johnsonii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactobacillus_johnsonii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactobacillus_paragasseri",
+      "name": "Lactobacillus paragasseri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactobacillus_paragasseri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Lactococcus_lactis",
+      "name": "Lactococcus lactis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Lactococcus_lactis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Legionella_fraseri",
+      "name": "Legionella fraseri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Legionella_fraseri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Legionella_longbeachae",
+      "name": "Legionella longbeachae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Legionella_longbeachae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Legionella_pneumophila",
+      "name": "Legionella pneumophila",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Legionella_pneumophila/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Leptospira_borgpetersenii",
+      "name": "Leptospira borgpetersenii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Leptospira_borgpetersenii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Leptospira_interrogans",
+      "name": "Leptospira interrogans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Leptospira_interrogans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Ligilactobacillus_salivarius",
+      "name": "Ligilactobacillus salivarius",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Ligilactobacillus_salivarius/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Limosilactobacillus_fermentum",
+      "name": "Limosilactobacillus fermentum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Limosilactobacillus_fermentum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Limosilactobacillus_mucosae",
+      "name": "Limosilactobacillus mucosae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Limosilactobacillus_mucosae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Limosilactobacillus_reuteri",
+      "name": "Limosilactobacillus reuteri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Limosilactobacillus_reuteri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_grayi",
+      "name": "Listeria grayi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Listeria_grayi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_innocua",
+      "name": "Listeria innocua",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Listeria_innocua/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_monocytogenes",
+      "name": "Listeria monocytogenes",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Listeria_monocytogenes/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_seeligeri",
+      "name": "Listeria seeligeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Listeria_seeligeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_welshimeri",
+      "name": "Listeria welshimeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Listeria_welshimeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mammaliicoccus_sciuri",
+      "name": "Mammaliicoccus sciuri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mammaliicoccus_sciuri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mannheimia_haemolytica",
+      "name": "Mannheimia haemolytica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mannheimia_haemolytica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mesomycoplasma_hyopneumoniae",
+      "name": "Mesomycoplasma hyopneumoniae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mesomycoplasma_hyopneumoniae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Micrococcus_luteus",
+      "name": "Micrococcus luteus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Micrococcus_luteus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Moraxella_bovoculi",
+      "name": "Moraxella bovoculi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Moraxella_bovoculi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Moraxella_catarrhalis",
+      "name": "Moraxella catarrhalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Moraxella_catarrhalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Morganella_morganii",
+      "name": "Morganella morganii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Morganella_morganii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_abscessus",
+      "name": "Mycobacterium abscessus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_abscessus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_avium",
+      "name": "Mycobacterium avium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_avium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_chelonae",
+      "name": "Mycobacterium chelonae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_chelonae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_intracellulare",
+      "name": "Mycobacterium intracellulare",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_intracellulare/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_kansasii",
+      "name": "Mycobacterium kansasii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_kansasii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_marinum",
+      "name": "Mycobacterium marinum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_marinum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_smegmatis",
+      "name": "Mycobacterium smegmatis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_smegmatis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_tuberculosis",
+      "name": "Mycobacterium tuberculosis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycobacterium_tuberculosis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_xenopi",
+      "name": "Mycobacterium xenopi",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Mycobacterium_xenopi/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycoplasma_capri",
+      "name": "Mycoplasma capri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycoplasma_capri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycoplasmoides_pneumoniae",
+      "name": "Mycoplasmoides pneumoniae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycoplasmoides_pneumoniae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycoplasmopsis_bovis",
+      "name": "Mycoplasmopsis bovis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Mycoplasmopsis_bovis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_bergeri",
+      "name": "Neisseria bergeri",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_bergeri/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_bergeri/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_flavescens",
+      "name": "Neisseria flavescens",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_flavescens/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_flavescens/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_gonorrhoeae",
+      "name": "Neisseria gonorrhoeae",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_gonorrhoeae/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_gonorrhoeae/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_lactamica",
+      "name": "Neisseria lactamica",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_lactamica/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_lactamica/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_meningitidis",
+      "name": "Neisseria meningitidis",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_meningitidis/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_meningitidis/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_perflava",
+      "name": "Neisseria perflava",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_perflava/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_perflava/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_polysaccharea",
+      "name": "Neisseria polysaccharea",
+      "preferred_scheme": "qualibact-v1.1",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Neisseria_polysaccharea/qualibact-v1.0/manifest.json"
+        },
+        {
+          "scheme": "qualibact-v1.1",
+          "manifest_url": "/static/species/Neisseria_polysaccharea/qualibact-v1.1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Oenococcus_oeni",
+      "name": "Oenococcus oeni",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Oenococcus_oeni/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Ornithobacterium_rhinotracheale",
+      "name": "Ornithobacterium rhinotracheale",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Ornithobacterium_rhinotracheale/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Paenibacillus_larvae",
+      "name": "Paenibacillus larvae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Paenibacillus_larvae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Parabacteroides_distasonis",
+      "name": "Parabacteroides distasonis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Parabacteroides_distasonis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Parabacteroides_goldsteinii",
+      "name": "Parabacteroides goldsteinii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Parabacteroides_goldsteinii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Parabacteroides_merdae",
+      "name": "Parabacteroides merdae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Parabacteroides_merdae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pasteurella_multocida",
+      "name": "Pasteurella multocida",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pasteurella_multocida/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pectobacterium_brasiliense",
+      "name": "Pectobacterium brasiliense",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pectobacterium_brasiliense/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pediococcus_acidilactici",
+      "name": "Pediococcus acidilactici",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pediococcus_acidilactici/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pediococcus_pentosaceus",
+      "name": "Pediococcus pentosaceus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pediococcus_pentosaceus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Phocaeicola_dorei",
+      "name": "Phocaeicola dorei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Phocaeicola_dorei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Phocaeicola_vulgatus",
+      "name": "Phocaeicola vulgatus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Phocaeicola_vulgatus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Priestia_megaterium",
+      "name": "Priestia megaterium",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Priestia_megaterium/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Proteus_mirabilis",
+      "name": "Proteus mirabilis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Proteus_mirabilis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Providencia_rettgeri",
+      "name": "Providencia rettgeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Providencia_rettgeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Providencia_stuartii",
+      "name": "Providencia stuartii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Providencia_stuartii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudoalteromonas_nigrifaciens",
+      "name": "Pseudoalteromonas nigrifaciens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudoalteromonas_nigrifaciens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_aeruginosa",
+      "name": "Pseudomonas aeruginosa",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_aeruginosa/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_alloputida",
+      "name": "Pseudomonas alloputida",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_alloputida/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_asiatica",
+      "name": "Pseudomonas asiatica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_asiatica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_avellanae",
+      "name": "Pseudomonas avellanae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_avellanae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_fluorescens",
+      "name": "Pseudomonas fluorescens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_fluorescens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_fulva",
+      "name": "Pseudomonas fulva",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_fulva/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_glycinae",
+      "name": "Pseudomonas glycinae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_glycinae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_juntendi",
+      "name": "Pseudomonas juntendi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_juntendi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_marginalis",
+      "name": "Pseudomonas marginalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_marginalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_monteilii",
+      "name": "Pseudomonas monteilii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_monteilii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_paracarnis",
+      "name": "Pseudomonas paracarnis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_paracarnis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_protegens",
+      "name": "Pseudomonas protegens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_protegens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_putida",
+      "name": "Pseudomonas putida",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_putida/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_syringae",
+      "name": "Pseudomonas syringae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Pseudomonas_syringae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Ralstonia_pseudosolanacearum",
+      "name": "Ralstonia pseudosolanacearum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Ralstonia_pseudosolanacearum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Ralstonia_solanacearum",
+      "name": "Ralstonia solanacearum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Ralstonia_solanacearum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Renibacterium_salmoninarum",
+      "name": "Renibacterium salmoninarum",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Renibacterium_salmoninarum/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Rhizobium_leguminosarum",
+      "name": "Rhizobium leguminosarum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Rhizobium_leguminosarum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_arizonae",
+      "name": "Salmonella arizonae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Salmonella_arizonae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_bongori",
+      "name": "Salmonella bongori",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Salmonella_bongori/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_enterica",
+      "name": "Salmonella enterica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Salmonella_enterica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_bockelmannii",
+      "name": "Serratia bockelmannii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Serratia_bockelmannii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_marcescens",
+      "name": "Serratia marcescens",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Serratia_marcescens/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_nematodiphila",
+      "name": "Serratia nematodiphila",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Serratia_nematodiphila/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_nevei",
+      "name": "Serratia nevei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Serratia_nevei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_sarumannii",
+      "name": "Serratia sarumannii",
+      "preferred_scheme": "REFSEQ-QC-v1",
+      "schemes": [
+        {
+          "scheme": "REFSEQ-QC-v1",
+          "manifest_url": "/static/species/Serratia_sarumannii/REFSEQ-QC-v1/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Serratia_ureilytica",
+      "name": "Serratia ureilytica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Serratia_ureilytica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Sinorhizobium_medicae",
+      "name": "Sinorhizobium medicae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Sinorhizobium_medicae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Sinorhizobium_meliloti",
+      "name": "Sinorhizobium meliloti",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Sinorhizobium_meliloti/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_argenteus",
+      "name": "Staphylococcus argenteus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_argenteus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_aureus",
+      "name": "Staphylococcus aureus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_aureus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_capitis",
+      "name": "Staphylococcus capitis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_capitis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_chromogenes",
+      "name": "Staphylococcus chromogenes",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_chromogenes/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_coagulans",
+      "name": "Staphylococcus coagulans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_coagulans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_epidermidis",
+      "name": "Staphylococcus epidermidis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_epidermidis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_equorum",
+      "name": "Staphylococcus equorum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_equorum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_haemolyticus",
+      "name": "Staphylococcus haemolyticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_haemolyticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_hominis",
+      "name": "Staphylococcus hominis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_hominis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_lugdunensis",
+      "name": "Staphylococcus lugdunensis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_lugdunensis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_pseudintermedius",
+      "name": "Staphylococcus pseudintermedius",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_pseudintermedius/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_saprophyticus",
+      "name": "Staphylococcus saprophyticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_saprophyticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_simulans",
+      "name": "Staphylococcus simulans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_simulans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_warneri",
+      "name": "Staphylococcus warneri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_warneri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Staphylococcus_xylosus",
+      "name": "Staphylococcus xylosus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Staphylococcus_xylosus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Stenotrophomonas_geniculata",
+      "name": "Stenotrophomonas geniculata",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Stenotrophomonas_geniculata/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Stenotrophomonas_maltophilia",
+      "name": "Stenotrophomonas maltophilia",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Stenotrophomonas_maltophilia/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Stenotrophomonas_pavanii",
+      "name": "Stenotrophomonas pavanii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Stenotrophomonas_pavanii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Stenotrophomonas_sepilia",
+      "name": "Stenotrophomonas sepilia",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Stenotrophomonas_sepilia/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_agalactiae",
+      "name": "Streptococcus agalactiae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_agalactiae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_anginosus",
+      "name": "Streptococcus anginosus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_anginosus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_canis",
+      "name": "Streptococcus canis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_canis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_dysgalactiae",
+      "name": "Streptococcus dysgalactiae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_dysgalactiae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_equi",
+      "name": "Streptococcus equi",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_equi/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_gordonii",
+      "name": "Streptococcus gordonii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_gordonii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_mitis",
+      "name": "Streptococcus mitis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_mitis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_mutans",
+      "name": "Streptococcus mutans",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_mutans/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_oralis",
+      "name": "Streptococcus oralis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_oralis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_parasanguinis",
+      "name": "Streptococcus parasanguinis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_parasanguinis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pneumoniae",
+      "name": "Streptococcus pneumoniae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_pneumoniae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pseudopneumoniae",
+      "name": "Streptococcus pseudopneumoniae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_pseudopneumoniae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pyogenes",
+      "name": "Streptococcus pyogenes",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_pyogenes/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_salivarius",
+      "name": "Streptococcus salivarius",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_salivarius/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_suis",
+      "name": "Streptococcus suis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_suis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_uberis",
+      "name": "Streptococcus uberis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptococcus_uberis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptomyces_albidoflavus",
+      "name": "Streptomyces albidoflavus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptomyces_albidoflavus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptomyces_anthocyanicus",
+      "name": "Streptomyces anthocyanicus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Streptomyces_anthocyanicus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Stutzerimonas_stutzeri",
+      "name": "Stutzerimonas stutzeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Stutzerimonas_stutzeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Taylorella_equigenitalis",
+      "name": "Taylorella equigenitalis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Taylorella_equigenitalis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Treponema_pallidum",
+      "name": "Treponema pallidum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Treponema_pallidum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Turicibacter_sanguinis",
+      "name": "Turicibacter sanguinis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Turicibacter_sanguinis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_alginolyticus",
+      "name": "Vibrio alginolyticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_alginolyticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_anguillarum",
+      "name": "Vibrio anguillarum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_anguillarum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_cholerae",
+      "name": "Vibrio cholerae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_cholerae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_diabolicus",
+      "name": "Vibrio diabolicus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_diabolicus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_fluvialis",
+      "name": "Vibrio fluvialis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_fluvialis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_mediterranei",
+      "name": "Vibrio mediterranei",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_mediterranei/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_metschnikovii",
+      "name": "Vibrio metschnikovii",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_metschnikovii/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_parahaemolyticus",
+      "name": "Vibrio parahaemolyticus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_parahaemolyticus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_vulnificus",
+      "name": "Vibrio vulnificus",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Vibrio_vulnificus/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Wolbachia_pipientis",
+      "name": "Wolbachia pipientis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Wolbachia_pipientis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_arboricola",
+      "name": "Xanthomonas arboricola",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_arboricola/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_campestris",
+      "name": "Xanthomonas campestris",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_campestris/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_cissicola",
+      "name": "Xanthomonas cissicola",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_cissicola/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_euvesicatoria",
+      "name": "Xanthomonas euvesicatoria",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_euvesicatoria/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_hortorum",
+      "name": "Xanthomonas hortorum",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_hortorum/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_oryzae",
+      "name": "Xanthomonas oryzae",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xanthomonas_oryzae/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xylella_fastidiosa",
+      "name": "Xylella fastidiosa",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Xylella_fastidiosa/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_enterocolitica",
+      "name": "Yersinia enterocolitica",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Yersinia_enterocolitica/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_intermedia",
+      "name": "Yersinia intermedia",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Yersinia_intermedia/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_pestis",
+      "name": "Yersinia pestis",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Yersinia_pestis/qualibact-v1.0/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_ruckeri",
+      "name": "Yersinia ruckeri",
+      "preferred_scheme": "qualibact-v1.0",
+      "schemes": [
+        {
+          "scheme": "qualibact-v1.0",
+          "manifest_url": "/static/species/Yersinia_ruckeri/qualibact-v1.0/manifest.json"
+        }
+      ]
+    }
+  ]
+}

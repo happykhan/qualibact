@@ -1,0 +1,75 @@
+`qualibact-v1.1` is the active refinement track on top of [`qualibact-v1.0`](/methods/qualibact-v1.0/). The underlying engine, dataset, outlier detection, and statistical pipeline are identical to v1.0; v1.1 only captures **per-species refinements** layered on top — either additional reference genomes brought in beyond AllTheBacteria, or specific threshold revisions requested by subject-area experts after the Nov 2025 QualiBact assessment survey.
+
+For the engine pipeline, dataset construction, outlier filtering, statistical comparisons, threshold-selection logic, and the PASS / WARN / FAIL verdict model the website applies to every scheme, see the [qualibact-v1.0 methods page](/methods/qualibact-v1.0/).
+
+A species page falls back to its v1.0 thresholds whenever no v1.1 row is published for that species — so v1.1 only needs to ship rows for species where the bounds actually change.
+
+## Per-species refinements
+
+### *Achromobacter xylosoxidans*
+
+The qualibact-v1.1 thresholds for *A. xylosoxidans* incorporate **441 additional genomes** beyond the AllTheBacteria-2024-08 set used for v1.0: 171 from BioProject PRJNA1234112 and 76 from PRJNA1148967 (both 2025, not yet in AllTheBacteria), 108 not yet publicly released, and 69 assemblies pulled directly from NCBI. Curated with the Rigshospitalet (Helle K. Johansen, Rasmus L. Marvig), UZ Brussel (Charlotte Michael), and Vilnius University (Migle Gabrielaite) groups.
+
+### *Campylobacter coli*
+
+Re-run through `qualibact-engine` on a curated reference set (98 ATB assemblies + 92 RefSeq references). The v1.1 thresholds for *C. coli* are noticeably tighter than v1.0: N50 lower raised from 25 kb to 31 kb, contig-count upper tightened from 180 to 120, and GC-content / TCS / assembly-size bands all narrowed. The species page calls out where the bounds differ from v1.0.
+
+### *Klebsiella variicola*
+
+Re-run through `qualibact-engine` on a v1.1-specific reference set with ML-adjusted (`FINAL_LOWER` / `FINAL_UPPER`) bounds. Same methodology as v1.0; the species page calls out where the bounds differ from v1.0.
+
+### *Klebsiella quasipneumoniae*
+
+K. quasipneumoniae v1.1 currently inherits its reference distribution from an earlier engine run (the legacy ESGEM-AMR-v1 dataset) and is queued for a fresh engine re-run. The species page renders an amber banner noting this. Once the re-run lands, the thresholds will be derived consistently with the rest of v1.1.
+
+## Expert-feedback survey adjustments
+
+The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 respondents across 37 species. Overall confidence was high (median 9 / 10), but a number of species drew specific revision requests. Every adjustment below is implemented as a `source: pinned` override on top of the v1.0-rev2 engine output; the full audit trail (who asked for what, when, why) is the **Hand-pinned threshold rationale** table rendered at the bottom of this page.
+
+### Assembly size
+
+- ***Campylobacter jejuni*** — upper raised from 2.0 Mb to **2.1 Mb** (Alexandra Nunes & Mónica Oleastro, INSA Lisboa, plus collaborators). 2.0 Mb was excluding a small number of well-supported, high-quality genomes drawn from a diverse human / food / animal / environmental isolate set.
+- ***Neisseria meningitidis*** — upper tightened from 2.4 Mb to **2.3 Mb** (Alexandra Nunes & Célia Bettencourt, INSA Lisboa). The reference dataset is consistently below 2.3 Mb; the tighter bound flags potentially contaminated or chimeric assemblies that the looser v1.0 bound passed.
+- ***Neisseria lactamica*** — upper loosened from 2.3 Mb to **2.4 Mb** to accommodate species diversity (N. gonorrhoeae subgroup, citing Sheeba Basil's Neisseria commensal data).
+- ***Haemophilus influenzae*** — upper tightened from 2.2 Mb to **2.0 Mb** (Margo Diricks, FZ Borstel). Two RefSeq references (GCF_002985465.2, GCF_002984345.2) pushed the engine's automatic bound up despite inconclusive ANI (~94%) against *H. influenzae*; pinned at 2.0 Mb to flag those and any future contamination.
+- ***Haemophilus haemolyticus*** — upper proposed at **1.75 Mb** (Margo Diricks, FZ Borstel). Note: 1.75 Mb currently sits below the engine's lower bound (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert before publication.
+
+### GC content
+
+- ***Campylobacter fetus*** — lower loosened to **32 %** (Birgitta Duim, Utrecht University). *C. fetus* subsp. *venerealis* carries a large accessory genome that can pull GC below the engine's v1.0-rev2 lower of 32.99 %; the pin retains venerealis isolates.
+
+### Contamination
+
+- ***Neisseria bergeri***, ***N. flavescens***, ***N. lactamica***, ***N. perflava***, ***N. polysaccharea*** — upper pinned at **3.0** as a general threshold across commensal *Neisseria* (N. gonorrhoeae subgroup, citing Sheeba Basil's commensal dataset analysis). Engine v1.0-rev2 emitted values between 1 and 4 across the group; 3.0 keeps the band consistent.
+
+### N50 / contig count
+
+- ***Neisseria gonorrhoeae*** — N50 lower raised from ≈23 kb to **25 kb** (N. gonorrhoeae subgroup, based on the distribution of their data).
+- ***Haemophilus influenzae***, ***H. haemolyticus*** — contig-count upper pinned at **100** (Margo Diricks, FZ Borstel). Assemblies with >100 contigs are most often contaminated; engine v1.0-rev2 emitted 140 and 110 respectively.
+
+### Coding-sequence count
+
+- ***Neisseria gonorrhoeae*** — TCS lower raised from 1800 to **1900** (N. gonorrhoeae subgroup, based on the WHO reference genomes).
+- ***Neisseria lactamica*** — TCS band widened to **1800 – 2800** (engine emitted 1900 – 2300) to accommodate species diversity (N. gonorrhoeae subgroup).
+
+### Completeness
+
+- ***Neisseria flavescens***, ***Neisseria polysaccharea*** — Completeness lower pinned at **≥ 99** (N. gonorrhoeae subgroup, citing Sheeba Basil's commensal data). Engine v1.0-rev2 emitted 94 and 98; pinned at 99 for consistency across the commensal group.
+
+Further per-species adjustments are tracked as additional respondents return specific values.
+
+## Input data for v1.1
+
+Each per-species threshold draws on:
+
+1. The aggregated AllTheBacteria assembly stats and RefSeq reference reports that `qualibact-v1.0-rev2` ingests (see the [v1.0 methods page](/methods/qualibact-v1.0/) for the dataset construction).
+2. A per-species `*_refseq_genomes.csv.xz` (BioSample, assembly accession, ANI, annotation info) — the public copy lives under `/static/species/{Species}/qualibact-v1.1/`.
+3. A per-species `*_assembly_stats.csv.gz` containing the per-assembly inputs (sample, sylph species call, N50, contig count, longest, total length, completeness, contamination, TCS, genome size, GC) that the engine used to derive the v1.1 distribution. The public copy lives alongside the refseq CSV.
+
+## Acknowledgements
+
+The QualiBact assessment survey was answered by experts across 15 genera. The full list of contributors for each per-species adjustment is shown on the relevant species pages and aggregated on the [contributors page](/contributors/).
+
+## Source code
+
+[github.com/cgps-group/qualibact](https://github.com/cgps-group/qualibact) (website) and [github.com/cgps-group/qualibact-engine](https://github.com/cgps-group/qualibact-engine) (engine).

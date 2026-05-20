@@ -1,0 +1,114 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import {
+  getContributors,
+  contributionsByContributor,
+  type Contributor,
+  type Attribution,
+} from './lib';
+
+export const metadata: Metadata = {
+  title: 'Contributors',
+  description:
+    'Domain experts who have contributed thresholds, dataset re-curation, or species-specific rationale to QualiBact.',
+};
+
+function speciesHref(species: string): string {
+  const [genus] = species.split('_');
+  return `/${genus}/${species}`;
+}
+
+interface CardProps {
+  contributor: Contributor;
+  contributions: Attribution[];
+}
+
+function ContributorCard({ contributor, contributions }: CardProps) {
+  return (
+    <div className="card p-4 space-y-3">
+      <div>
+        <h3 className="font-semibold font-header text-neutral-900 dark:text-neutral-100">
+          {contributor.name}
+        </h3>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          {contributor.affiliation}
+          {contributor.country ? `, ${contributor.country}` : ''}
+        </p>
+      </div>
+      {contributions.length > 0 && (
+        <div className="space-y-1">
+          <p className="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-500 font-medium">
+            Contributions
+          </p>
+          <ul className="space-y-1">
+            {contributions.map((a, i) => (
+              <li key={`${a.species}-${a.scheme}-${i}`} className="text-sm">
+                <a
+                  href={speciesHref(a.species)}
+                  className="text-brand-700 dark:text-brand-300 underline underline-offset-2 hover:text-brand-900 dark:hover:text-brand-200"
+                >
+                  <em>{a.species.replace(/_/g, ' ')}</em>
+                </a>
+                <span className="text-neutral-500 dark:text-neutral-500"> · {a.scheme}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function ContributorsPage() {
+  const contributors = getContributors();
+  const reverse = contributionsByContributor();
+  const sorted = [...contributors].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }),
+  );
+
+  return (
+    <div className="py-8">
+      <div className="space-y-8">
+        <header className="space-y-3">
+          <h1 className="text-3xl font-bold font-header text-neutral-900 dark:text-neutral-100">
+            Contributors
+          </h1>
+          <p className="text-neutral-700 dark:text-neutral-300">
+            QualiBact thresholds are refined by an open community of domain
+            experts. The people listed below have contributed threshold
+            values, dataset re-curation, or species-specific rationale to
+            specific (species, scheme) pairs — each name links to the
+            species page where their input is published.
+          </p>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            Are you missing from this list? Contributions land via the
+            expert-feedback survey or direct correspondence — see the{' '}
+            <Link
+              href="/requests"
+              className="underline underline-offset-2 hover:text-neutral-800 dark:hover:text-neutral-200"
+            >
+              requests page
+            </Link>{' '}
+            for how to get involved.
+          </p>
+        </header>
+
+        {sorted.length === 0 ? (
+          <p className="text-neutral-500 dark:text-neutral-400">
+            No contributors recorded yet.
+          </p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {sorted.map((c) => (
+              <ContributorCard
+                key={c.id}
+                contributor={c}
+                contributions={reverse[c.id] ?? []}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
