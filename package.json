@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build-manifests": "python3 scripts/build_manifests.py",
-    "prebuild": "python3 scripts/build_manifests.py && python3 scripts/check_thresholds.py verify || true",
+    "prebuild": "if [ -n \"$CF_PAGES\" ] || [ -n \"$SKIP_PREBUILD\" ]; then echo 'skipping prebuild (CF_PAGES / SKIP_PREBUILD set) — manifests are read from committed tree'; else python3 scripts/build_manifests.py && (python3 scripts/check_thresholds.py verify || true); fi",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

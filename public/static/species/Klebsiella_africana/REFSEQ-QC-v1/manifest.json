@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "species": "Klebsiella_africana",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 6,
+    "refseq_count": 6,
+    "final_count": 6,
+    "filtered_out_count": 0,
+    "pass_count": 0,
+    "warn_count": 0,
+    "fail_count": 99
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 5200000.0,
+      "upper": 5400000.0,
+      "final_lower": 5200000.0,
+      "final_upper": 5400000.0,
+      "warn_lower": 5200000.0,
+      "warn_upper": 5400000.0,
+      "source": "computed",
+      "ml_lower": 5217793.0,
+      "ml_upper": 5398309.0,
+      "auto_lower": 5217793.0,
+      "auto_upper": 5398309.0,
+      "refseq_lower": 5268423.0,
+      "refseq_upper": 5443802.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 56.72,
+      "upper": 57.24,
+      "final_lower": 56.72,
+      "final_upper": 57.24,
+      "warn_lower": 56.72,
+      "warn_upper": 57.24,
+      "source": "computed",
+      "ml_lower": 56.7216,
+      "ml_upper": 57.2322,
+      "auto_lower": 56.72157707163484,
+      "auto_upper": 57.23218609860529,
+      "refseq_lower": 56.697,
+      "refseq_upper": 57.2147
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 4800.0,
+      "upper": 5100.0,
+      "final_lower": 4800.0,
+      "final_upper": 5100.0,
+      "warn_lower": 4800.0,
+      "warn_upper": 5100.0,
+      "source": "computed",
+      "ml_lower": 4821.0,
+      "ml_upper": 5018.0,
+      "auto_lower": 4821.0,
+      "auto_upper": 5018.0,
+      "refseq_lower": 5025.625,
+      "refseq_upper": 5250.775
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 100.0,
+      "upper": null,
+      "final_lower": 100.0,
+      "final_upper": null,
+      "warn_lower": 100.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 100.0,
+      "ml_upper": 100.0,
+      "auto_lower": 100.0,
+      "auto_upper": 100.0,
+      "refseq_lower": 98.77,
+      "refseq_upper": 99.06
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 1.0,
+      "final_lower": null,
+      "final_upper": 1.0,
+      "warn_lower": 0.04,
+      "warn_upper": 1.0,
+      "source": "computed",
+      "ml_lower": 0.04,
+      "ml_upper": 0.09,
+      "auto_lower": 0.04,
+      "auto_upper": 0.09,
+      "refseq_lower": 0.68,
+      "refseq_upper": 1.02
+    },
+    {
+      "metric": "N50",
+      "lower": 281000.0,
+      "upper": null,
+      "final_lower": 281000.0,
+      "final_upper": null,
+      "warn_lower": 281000.0,
+      "warn_upper": 291469.0,
+      "source": "computed",
+      "ml_lower": 281432.0,
+      "ml_upper": 291469.0,
+      "auto_lower": 281432.0,
+      "auto_upper": 291469.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 60.0,
+      "final_lower": null,
+      "final_upper": 60.0,
+      "warn_lower": 44.0,
+      "warn_upper": 60.0,
+      "source": "computed",
+      "ml_lower": 44.0,
+      "ml_upper": 58.0,
+      "auto_lower": 44.0,
+      "auto_upper": 58.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 551773.0,
+      "warn_upper": 903172.0,
+      "source": "computed",
+      "ml_lower": 551773.0,
+      "ml_upper": 903172.0,
+      "auto_lower": 551773.0,
+      "auto_upper": 903172.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Klebsiella_africana/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_africana/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Klebsiella_africana/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_africana/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Klebsiella_africana/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_africana/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Klebsiella_africana/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_africana/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Klebsiella_africana/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_africana/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Klebsiella_africana/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_metrics.csv",
+    "refseq_archive": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_assembly_stats.csv.gz",
+    "atb_pass_archive": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_atb_pass.csv.gz",
+    "atb_warn_archive": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_atb_warn.csv.gz",
+    "atb_fail_archive": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana_atb_fail.csv.gz",
+    "species_json": "Klebsiella_africana/REFSEQ-QC-v1/Klebsiella_africana.json"
+  },
+  "mdx_path": "content/Klebsiella_africana/REFSEQ-QC-v1.mdx"
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "species": "Renibacterium_salmoninarum",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 6,
+    "refseq_count": 6,
+    "final_count": 6,
+    "filtered_out_count": 0,
+    "pass_count": 0,
+    "warn_count": 0,
+    "fail_count": 42
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 3000000.0,
+      "upper": 3100000.0,
+      "final_lower": 3000000.0,
+      "final_upper": 3100000.0,
+      "warn_lower": 3000000.0,
+      "warn_upper": 3100000.0,
+      "source": "computed",
+      "ml_lower": 3060847.0,
+      "ml_upper": 3061134.0,
+      "auto_lower": 3060847.025,
+      "auto_upper": 3061134.0,
+      "refseq_lower": 3155228.0,
+      "refseq_upper": 3155332.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 56.25,
+      "upper": 56.26,
+      "final_lower": 56.25,
+      "final_upper": 56.26,
+      "warn_lower": 56.25,
+      "warn_upper": 56.26,
+      "source": "computed",
+      "ml_lower": 56.2573,
+      "ml_upper": 56.2581,
+      "auto_lower": 56.257319608105114,
+      "auto_upper": 56.258069301857326,
+      "refseq_lower": 56.2706,
+      "refseq_upper": 56.2713
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 3400.0,
+      "upper": 3500.0,
+      "final_lower": 3400.0,
+      "final_upper": 3500.0,
+      "warn_lower": 3400.0,
+      "warn_upper": 3500.0,
+      "source": "computed",
+      "ml_lower": 3401.0,
+      "ml_upper": 3413.0,
+      "auto_lower": 3401.075,
+      "auto_upper": 3412.975,
+      "refseq_lower": 3327.03,
+      "refseq_upper": 3554.58
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 99.0,
+      "upper": null,
+      "final_lower": 99.0,
+      "final_upper": null,
+      "warn_lower": 99.0,
+      "warn_upper": 99.97,
+      "source": "computed",
+      "ml_lower": 99.95,
+      "ml_upper": 99.97,
+      "auto_lower": 99.95,
+      "auto_upper": 99.97,
+      "refseq_lower": 96.85,
+      "refseq_upper": 96.85
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 2.0,
+      "final_lower": null,
+      "final_upper": 2.0,
+      "warn_lower": 1.2,
+      "warn_upper": 2.0,
+      "source": "computed",
+      "ml_lower": 1.2,
+      "ml_upper": 1.24,
+      "auto_lower": 1.2,
+      "auto_upper": 1.24,
+      "refseq_lower": 0.46,
+      "refseq_upper": 0.46
+    },
+    {
+      "metric": "N50",
+      "lower": 68000.0,
+      "upper": null,
+      "final_lower": 68000.0,
+      "final_upper": null,
+      "warn_lower": 68000.0,
+      "warn_upper": 68762.0,
+      "source": "computed",
+      "ml_lower": 68762.0,
+      "ml_upper": 68762.0,
+      "auto_lower": 68762.0,
+      "auto_upper": 68762.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 90.0,
+      "final_lower": null,
+      "final_upper": 90.0,
+      "warn_lower": 86.0,
+      "warn_upper": 90.0,
+      "source": "computed",
+      "ml_lower": 86.0,
+      "ml_upper": 88.0,
+      "auto_lower": 86.0,
+      "auto_upper": 88.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 203861.0,
+      "warn_upper": 203869.0,
+      "source": "computed",
+      "ml_lower": 203861.0,
+      "ml_upper": 203869.0,
+      "auto_lower": 203861.0,
+      "auto_upper": 203869.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Renibacterium_salmoninarum/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Renibacterium_salmoninarum/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Renibacterium_salmoninarum/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_metrics.csv",
+    "refseq_archive": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_assembly_stats.csv.gz",
+    "atb_pass_archive": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_atb_pass.csv.gz",
+    "atb_warn_archive": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_atb_warn.csv.gz",
+    "atb_fail_archive": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum_atb_fail.csv.gz",
+    "species_json": "Renibacterium_salmoninarum/REFSEQ-QC-v1/Renibacterium_salmoninarum.json"
+  },
+  "mdx_path": "content/Renibacterium_salmoninarum/REFSEQ-QC-v1.mdx"
+}
