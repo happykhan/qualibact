@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "species": "Candida_auris",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 59,
+    "refseq_count": 59,
+    "final_count": 59,
+    "filtered_out_count": 0
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": [
+        {
+          "signal": "frac_high_contamination",
+          "flag": "error",
+          "fraction": 1.0,
+          "count": 59,
+          "n": 59,
+          "interpretation": null
+        }
+      ]
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 12000000.0,
+      "upper": 12400000.0,
+      "final_lower": 12000000.0,
+      "final_upper": 12400000.0,
+      "warn_lower": 12000000.0,
+      "warn_upper": 12400000.0,
+      "source": "computed",
+      "ml_lower": 12037629.0,
+      "ml_upper": 12374235.0,
+      "auto_lower": 12038417.22,
+      "auto_upper": 12371245.1,
+      "refseq_lower": 12071378.88,
+      "refseq_upper": 12526836.7
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 45.14,
+      "upper": 45.33,
+      "final_lower": 45.14,
+      "final_upper": 45.33,
+      "warn_lower": 45.15,
+      "warn_upper": 45.32,
+      "source": "computed",
+      "ml_lower": 45.1499,
+      "ml_upper": 45.3203,
+      "auto_lower": 45.15074045189098,
+      "auto_upper": 45.32034416058017,
+      "refseq_lower": 45.195145000000004,
+      "refseq_upper": 45.3289
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 10300.0,
+      "upper": 12000.0,
+      "final_lower": 10300.0,
+      "final_upper": 12000.0,
+      "warn_lower": 10400.0,
+      "warn_upper": 11500.0,
+      "source": "computed",
+      "ml_lower": 10359.0,
+      "ml_upper": 11929.0,
+      "auto_lower": 10367.12,
+      "auto_upper": 11815.03,
+      "refseq_lower": 4910.14,
+      "refseq_upper": 5672.87
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 100.0,
+      "upper": null,
+      "final_lower": 100.0,
+      "final_upper": null,
+      "warn_lower": 100.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 100.0,
+      "ml_upper": 100.0,
+      "auto_lower": 100.0,
+      "auto_upper": 100.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 93.0,
+      "final_lower": null,
+      "final_upper": 93.0,
+      "warn_lower": 77.7,
+      "warn_upper": 92.0,
+      "source": "computed",
+      "ml_lower": 77.7,
+      "ml_upper": 92.17,
+      "auto_lower": 78.9528,
+      "auto_upper": 91.92060000000001,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "N50",
+      "lower": 435000.0,
+      "upper": null,
+      "final_lower": 435000.0,
+      "final_upper": null,
+      "warn_lower": 449000.0,
+      "warn_upper": 1330311.0,
+      "source": "computed",
+      "ml_lower": 435929.0,
+      "ml_upper": 1330311.0,
+      "auto_lower": 437414.67,
+      "auto_upper": 1330269.82,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 110.0,
+      "final_lower": null,
+      "final_upper": 110.0,
+      "warn_lower": 25.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 25.0,
+      "ml_upper": 101.0,
+      "auto_lower": 25.29,
+      "auto_upper": 100.71000000000001,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 825256.0,
+      "warn_upper": 3253709.0,
+      "source": "computed",
+      "ml_lower": 825256.0,
+      "ml_upper": 3253709.0,
+      "auto_lower": 825461.03,
+      "auto_upper": 2977441.080000001,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Candida_auris/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Candida_auris/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Candida_auris/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Candida_auris/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Candida_auris/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Candida_auris/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Candida_auris/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Candida_auris/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Candida_auris/REFSEQ-QC-v1/Candida_auris_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Candida_auris/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Candida_auris/REFSEQ-QC-v1/Candida_auris_metrics.csv",
+    "refseq_archive": "Candida_auris/REFSEQ-QC-v1/Candida_auris_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Candida_auris/REFSEQ-QC-v1/Candida_auris_assembly_stats.csv.gz",
+    "atb_pass_archive": null,
+    "atb_warn_archive": null,
+    "atb_fail_archive": null,
+    "species_json": "Candida_auris/REFSEQ-QC-v1/Candida_auris.json"
+  },
+  "mdx_path": "content/Candida_auris/REFSEQ-QC-v1.mdx"
+}

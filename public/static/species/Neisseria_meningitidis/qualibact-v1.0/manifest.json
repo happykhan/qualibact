@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "species": "Neisseria_meningitidis",
+  "scheme": "qualibact-v1.0",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 31977,
+    "refseq_count": 139,
+    "final_count": 31977,
+    "filtered_out_count": 0,
+    "pass_count": 30660,
+    "warn_count": 3279,
+    "fail_count": 1877
+  },
+  "warnings": {
+    "low_genome": false,
+    "species_separation": false,
+    "notes": [
+      "Survey respondents flagged uncertainty about the no_of_contigs upper bound \u2014 some high-quality genomes in their dataset are excluded by the current threshold (Nov 2025 feedback survey). Pending follow-up before any revision."
+    ],
+    "engine": {
+      "severity": "warn",
+      "low_count_flag": null,
+      "fired_signals": [
+        {
+          "signal": "final_bound_dragged",
+          "flag": "warn",
+          "fraction": null,
+          "count": null,
+          "n": null,
+          "interpretation": "FINAL band is dragged far beyond the species WARN band by a small number of extreme outliers (either in the submitted species data, or in the RefSeq reference set)."
+        }
+      ]
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 2000000.0,
+      "upper": 2400000.0,
+      "final_lower": 2000000.0,
+      "final_upper": 2400000.0,
+      "warn_lower": 2000000.0,
+      "warn_upper": 2300000.0,
+      "source": "computed",
+      "ml_lower": 2032579.16,
+      "ml_upper": 2397461.0,
+      "auto_lower": 2032579.16,
+      "auto_upper": 2248260.44,
+      "refseq_lower": 2139084.46,
+      "refseq_upper": 2347340.0900000003
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 51.05,
+      "upper": 52.15,
+      "final_lower": 51.05,
+      "final_upper": 52.15,
+      "warn_lower": 51.42,
+      "warn_upper": 52.08,
+      "source": "computed",
+      "ml_lower": 51.0506,
+      "ml_upper": 52.143,
+      "auto_lower": 51.303188,
+      "auto_upper": 52.143036,
+      "refseq_lower": 51.198398000000005,
+      "refseq_upper": 51.953431
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 1900.0,
+      "upper": 2500.0,
+      "final_lower": 1900.0,
+      "final_upper": 2500.0,
+      "warn_lower": 1900.0,
+      "warn_upper": 2200.0,
+      "source": "computed",
+      "ml_lower": 1925.0,
+      "ml_upper": 2423.0,
+      "auto_lower": 1925.0,
+      "auto_upper": 2199.0,
+      "refseq_lower": 2137.83,
+      "refseq_upper": 2356.07
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 97.0,
+      "upper": null,
+      "final_lower": 97.0,
+      "final_upper": null,
+      "warn_lower": 99.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 97.33,
+      "ml_upper": 100.0,
+      "auto_lower": 99.97,
+      "auto_upper": 100.0,
+      "refseq_lower": 97.5094,
+      "refseq_upper": 99.4955
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 3.0,
+      "final_lower": null,
+      "final_upper": 3.0,
+      "warn_lower": 0.0,
+      "warn_upper": 1.0,
+      "source": "computed",
+      "ml_lower": 0.0,
+      "ml_upper": 2.47,
+      "auto_lower": 0.0,
+      "auto_upper": 0.12,
+      "refseq_lower": 0.15,
+      "refseq_upper": 1.4488000000000034
+    },
+    {
+      "metric": "N50",
+      "lower": 19000.0,
+      "upper": null,
+      "final_lower": 19000.0,
+      "final_upper": null,
+      "warn_lower": 23000.0,
+      "warn_upper": 79132.0,
+      "source": "computed",
+      "ml_lower": 19859.2,
+      "ml_upper": 79132.0,
+      "auto_lower": 19859.2,
+      "auto_upper": 79132.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 310.0,
+      "final_lower": null,
+      "final_upper": 310.0,
+      "warn_lower": 99.0,
+      "warn_upper": 270.0,
+      "source": "computed",
+      "ml_lower": 99.0,
+      "ml_upper": 302.0,
+      "auto_lower": 99.0,
+      "auto_upper": 302.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 67968.0,
+      "warn_upper": 273518.68,
+      "source": "computed",
+      "ml_lower": 67968.0,
+      "ml_upper": 273518.68,
+      "auto_lower": 67968.0,
+      "auto_upper": 273518.68,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Neisseria_meningitidis/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Neisseria_meningitidis/qualibact-v1.0/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Neisseria_meningitidis/qualibact-v1.0/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Neisseria_meningitidis/qualibact-v1.0/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Neisseria_meningitidis/qualibact-v1.0/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Neisseria_meningitidis/qualibact-v1.0/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Neisseria_meningitidis/qualibact-v1.0/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Neisseria_meningitidis/qualibact-v1.0/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Neisseria_meningitidis/qualibact-v1.0/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Neisseria_meningitidis/qualibact-v1.0/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [
+    "Neisseria_meningitidis_all_N50_Completeness_Specific.png",
+    "Neisseria_meningitidis_all_N50_Contamination.png",
+    "Neisseria_meningitidis_all_N50_longest.png",
+    "Neisseria_meningitidis_all_N50_number.png",
+    "Neisseria_meningitidis_all_longest_Completeness_Specific.png",
+    "Neisseria_meningitidis_all_longest_Contamination.png",
+    "Neisseria_meningitidis_all_number_Completeness_Specific.png",
+    "Neisseria_meningitidis_all_number_Contamination.png",
+    "Neisseria_meningitidis_all_number_longest.png",
+    "Neisseria_meningitidis_all_total_length_Completeness_Specific.png",
+    "Neisseria_meningitidis_all_total_length_Contamination.png",
+    "Neisseria_meningitidis_all_total_length_GC_Content.png",
+    "Neisseria_meningitidis_all_total_length_N50.png",
+    "Neisseria_meningitidis_all_total_length_longest.png",
+    "Neisseria_meningitidis_all_total_length_number.png",
+    "Neisseria_meningitidis_filt_N50_Completeness_Specific.png",
+    "Neisseria_meningitidis_filt_N50_Contamination.png",
+    "Neisseria_meningitidis_filt_N50_longest.png",
+    "Neisseria_meningitidis_filt_N50_number.png",
+    "Neisseria_meningitidis_filt_longest_Completeness_Specific.png",
+    "Neisseria_meningitidis_filt_longest_Contamination.png",
+    "Neisseria_meningitidis_filt_number_Completeness_Specific.png",
+    "Neisseria_meningitidis_filt_number_Contamination.png",
+    "Neisseria_meningitidis_filt_number_longest.png",
+    "Neisseria_meningitidis_filt_total_length_Completeness_Specific.png",
+    "Neisseria_meningitidis_filt_total_length_Contamination.png",
+    "Neisseria_meningitidis_filt_total_length_GC_Content.png",
+    "Neisseria_meningitidis_filt_total_length_N50.png",
+    "Neisseria_meningitidis_filt_total_length_longest.png",
+    "Neisseria_meningitidis_filt_total_length_number.png",
+    "Neisseria_meningitidis_sample_N50_Completeness_Specific.png",
+    "Neisseria_meningitidis_sample_N50_Contamination.png",
+    "Neisseria_meningitidis_sample_N50_longest.png",
+    "Neisseria_meningitidis_sample_N50_number.png",
+    "Neisseria_meningitidis_sample_longest_Completeness_Specific.png",
+    "Neisseria_meningitidis_sample_longest_Contamination.png",
+    "Neisseria_meningitidis_sample_number_Completeness_Specific.png",
+    "Neisseria_meningitidis_sample_number_Contamination.png",
+    "Neisseria_meningitidis_sample_number_longest.png",
+    "Neisseria_meningitidis_sample_total_length_Completeness_Specific.png",
+    "Neisseria_meningitidis_sample_total_length_Contamination.png",
+    "Neisseria_meningitidis_sample_total_length_GC_Content.png",
+    "Neisseria_meningitidis_sample_total_length_N50.png",
+    "Neisseria_meningitidis_sample_total_length_longest.png",
+    "Neisseria_meningitidis_sample_total_length_number.png"
+  ],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Neisseria_meningitidis/qualibact-v1.0/summary.csv",
+    "metrics_csv": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_metrics.csv",
+    "refseq_archive": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_refseq_genomes.csv.xz",
+    "assembly_stats_archive": null,
+    "atb_pass_archive": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_atb_pass.csv.gz",
+    "atb_warn_archive": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_atb_warn.csv.gz",
+    "atb_fail_archive": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis_atb_fail.csv.gz",
+    "species_json": "Neisseria_meningitidis/qualibact-v1.0/Neisseria_meningitidis.json"
+  },
+  "mdx_path": "content/Neisseria_meningitidis/qualibact-v1.0.mdx"
+}

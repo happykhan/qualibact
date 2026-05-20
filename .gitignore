@@ -16,8 +16,25 @@ input/
 /genomicx-frontend-styling-guide.md
 /tests/fixtures/
 
-# Static assets (hosted on Cloudflare R2)
-public/static/
+# Static assets (hosted on Cloudflare R2) — but build-time data files that
+# Next.js reads via fs.readFileSync must live in git so Cloudflare Pages
+# can build. Bulk assets (PNGs, atb CSVs, refseq xz, assembly stats)
+# stay R2-only. The exceptions below cover only what the build actually
+# reads.
+public/static/*
+!public/static/species/
+public/static/species/*
+!public/static/species/*/
+public/static/species/*/*
+!public/static/species/*/*/
+public/static/species/*/*/*
+!public/static/species/*/*/manifest.json
+!public/static/species/*/*/summary.csv
+# /summary/ page reads these via fs.readFileSync at build time. Genus
+# and priority-pathogens rollups are referenced via staticUrl() (R2),
+# never fs-read, so they stay R2-only.
+!public/static/summary/
+public/static/summary/*.png
 
 # dependencies
 /node_modules

@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "species": "Serratia_sarumannii",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 19,
+    "refseq_count": 19,
+    "final_count": 19,
+    "filtered_out_count": 0
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 5000000.0,
+      "upper": 5400000.0,
+      "final_lower": 5000000.0,
+      "final_upper": 5400000.0,
+      "warn_lower": 5000000.0,
+      "warn_upper": 5400000.0,
+      "source": "computed",
+      "ml_lower": 5055011.0,
+      "ml_upper": 5339266.0,
+      "auto_lower": 5055011.0,
+      "auto_upper": 5339266.0,
+      "refseq_lower": 5088864.0,
+      "refseq_upper": 5383144.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 59.64,
+      "upper": 60.08,
+      "final_lower": 59.64,
+      "final_upper": 60.08,
+      "warn_lower": 59.64,
+      "warn_upper": 60.08,
+      "source": "computed",
+      "ml_lower": 59.6436,
+      "ml_upper": 60.0703,
+      "auto_lower": 59.64374384172092,
+      "auto_upper": 60.07031438705079,
+      "refseq_lower": 59.6084,
+      "refseq_upper": 60.027
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 4600.0,
+      "upper": 5300.0,
+      "final_lower": 4600.0,
+      "final_upper": 5300.0,
+      "warn_lower": 4600.0,
+      "warn_upper": 5200.0,
+      "source": "computed",
+      "ml_lower": 4609.0,
+      "ml_upper": 5263.0,
+      "auto_lower": 4609.0,
+      "auto_upper": 5235.01,
+      "refseq_lower": 4822.085,
+      "refseq_upper": 5186.65
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 95.0,
+      "upper": null,
+      "final_lower": 95.0,
+      "final_upper": null,
+      "warn_lower": 97.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 95.87,
+      "ml_upper": 100.0,
+      "auto_lower": 96.24170000000001,
+      "auto_upper": 100.0,
+      "refseq_lower": 85.5,
+      "refseq_upper": 100.0
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 2.0,
+      "final_lower": null,
+      "final_upper": 2.0,
+      "warn_lower": 0.01,
+      "warn_upper": 1.0,
+      "source": "computed",
+      "ml_lower": 0.01,
+      "ml_upper": 1.54,
+      "auto_lower": 0.01,
+      "auto_upper": 1.4050000000000002,
+      "refseq_lower": 0.18,
+      "refseq_upper": 1.1
+    },
+    {
+      "metric": "N50",
+      "lower": 191000.0,
+      "upper": null,
+      "final_lower": 191000.0,
+      "final_upper": null,
+      "warn_lower": 263000.0,
+      "warn_upper": 1372682.0,
+      "source": "computed",
+      "ml_lower": 191170.0,
+      "ml_upper": 1372682.0,
+      "auto_lower": 205646.41,
+      "auto_upper": 1372682.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 50.0,
+      "final_lower": null,
+      "final_upper": 50.0,
+      "warn_lower": 22.0,
+      "warn_upper": 50.0,
+      "source": "computed",
+      "ml_lower": 22.0,
+      "ml_upper": 48.0,
+      "auto_lower": 22.0,
+      "auto_upper": 47.370000000000005,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 534075.0,
+      "warn_upper": 2122422.0,
+      "source": "computed",
+      "ml_lower": 534075.0,
+      "ml_upper": 2122422.0,
+      "auto_lower": 564538.29,
+      "auto_upper": 2122422.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Serratia_sarumannii/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Serratia_sarumannii/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Serratia_sarumannii/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Serratia_sarumannii/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Serratia_sarumannii/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Serratia_sarumannii/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Serratia_sarumannii/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Serratia_sarumannii/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Serratia_sarumannii/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Serratia_sarumannii/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Serratia_sarumannii/REFSEQ-QC-v1/Serratia_sarumannii_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Serratia_sarumannii/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Serratia_sarumannii/REFSEQ-QC-v1/Serratia_sarumannii_metrics.csv",
+    "refseq_archive": "Serratia_sarumannii/REFSEQ-QC-v1/Serratia_sarumannii_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Serratia_sarumannii/REFSEQ-QC-v1/Serratia_sarumannii_assembly_stats.csv.gz",
+    "atb_pass_archive": null,
+    "atb_warn_archive": null,
+    "atb_fail_archive": null,
+    "species_json": "Serratia_sarumannii/REFSEQ-QC-v1/Serratia_sarumannii.json"
+  },
+  "mdx_path": "content/Serratia_sarumannii/REFSEQ-QC-v1.mdx"
+}

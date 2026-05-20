@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "species": "Burkholderia_seminalis",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 4,
+    "refseq_count": 4,
+    "final_count": 4,
+    "filtered_out_count": 0,
+    "pass_count": 1,
+    "warn_count": 0,
+    "fail_count": 24
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 7600000.0,
+      "upper": 8000000.0,
+      "final_lower": 7600000.0,
+      "final_upper": 8000000.0,
+      "warn_lower": 7600000.0,
+      "warn_upper": 8000000.0,
+      "source": "computed",
+      "ml_lower": 7615815.0,
+      "ml_upper": 7983246.0,
+      "auto_lower": 7615815.0,
+      "auto_upper": 7983246.0,
+      "refseq_lower": 7648944.0,
+      "refseq_upper": 8022336.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 67.07,
+      "upper": 67.35,
+      "final_lower": 67.07,
+      "final_upper": 67.35,
+      "warn_lower": 67.07,
+      "warn_upper": 67.35,
+      "source": "computed",
+      "ml_lower": 67.0755,
+      "ml_upper": 67.3458,
+      "auto_lower": 67.07548533516317,
+      "auto_upper": 67.34580586582,
+      "refseq_lower": 67.0304,
+      "refseq_upper": 67.2978
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 6800.0,
+      "upper": 7200.0,
+      "final_lower": 6800.0,
+      "final_upper": 7200.0,
+      "warn_lower": 6800.0,
+      "warn_upper": 7200.0,
+      "source": "computed",
+      "ml_lower": 6826.0,
+      "ml_upper": 7153.0,
+      "auto_lower": 6826.0,
+      "auto_upper": 7153.0,
+      "refseq_lower": 6819.28,
+      "refseq_upper": 7290.565
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 100.0,
+      "upper": null,
+      "final_lower": 100.0,
+      "final_upper": null,
+      "warn_lower": 100.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 100.0,
+      "ml_upper": 100.0,
+      "auto_lower": 100.0,
+      "auto_upper": 100.0,
+      "refseq_lower": 99.83,
+      "refseq_upper": 99.89
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 1.0,
+      "final_lower": null,
+      "final_upper": 1.0,
+      "warn_lower": 0.01,
+      "warn_upper": 1.0,
+      "source": "computed",
+      "ml_lower": 0.01,
+      "ml_upper": 0.02,
+      "auto_lower": 0.01,
+      "auto_upper": 0.02,
+      "refseq_lower": 0.03,
+      "refseq_upper": 0.03
+    },
+    {
+      "metric": "N50",
+      "lower": 403000.0,
+      "upper": null,
+      "final_lower": 403000.0,
+      "final_upper": null,
+      "warn_lower": 403000.0,
+      "warn_upper": 558339.0,
+      "source": "computed",
+      "ml_lower": 403602.0,
+      "ml_upper": 558339.0,
+      "auto_lower": 403602.0,
+      "auto_upper": 558339.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 50.0,
+      "final_lower": null,
+      "final_upper": 50.0,
+      "warn_lower": 34.0,
+      "warn_upper": 50.0,
+      "source": "computed",
+      "ml_lower": 34.0,
+      "ml_upper": 48.0,
+      "auto_lower": 34.0,
+      "auto_upper": 48.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 662914.0,
+      "warn_upper": 896441.0,
+      "source": "computed",
+      "ml_lower": 662914.0,
+      "ml_upper": 896441.0,
+      "auto_lower": 662914.0,
+      "auto_upper": 896441.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Burkholderia_seminalis/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Burkholderia_seminalis/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Burkholderia_seminalis/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Burkholderia_seminalis/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Burkholderia_seminalis/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Burkholderia_seminalis/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Burkholderia_seminalis/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Burkholderia_seminalis/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Burkholderia_seminalis/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Burkholderia_seminalis/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Burkholderia_seminalis/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_metrics.csv",
+    "refseq_archive": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_assembly_stats.csv.gz",
+    "atb_pass_archive": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_atb_pass.csv.gz",
+    "atb_warn_archive": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_atb_warn.csv.gz",
+    "atb_fail_archive": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis_atb_fail.csv.gz",
+    "species_json": "Burkholderia_seminalis/REFSEQ-QC-v1/Burkholderia_seminalis.json"
+  },
+  "mdx_path": "content/Burkholderia_seminalis/REFSEQ-QC-v1.mdx"
+}

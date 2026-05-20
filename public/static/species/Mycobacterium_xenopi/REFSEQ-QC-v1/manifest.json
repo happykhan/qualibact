@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "species": "Mycobacterium_xenopi",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 2,
+    "refseq_count": 2,
+    "final_count": 2,
+    "filtered_out_count": 0,
+    "pass_count": 0,
+    "warn_count": 0,
+    "fail_count": 28
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 4700000.0,
+      "upper": 4800000.0,
+      "final_lower": 4700000.0,
+      "final_upper": 4800000.0,
+      "warn_lower": 4700000.0,
+      "warn_upper": 4800000.0,
+      "source": "computed",
+      "ml_lower": 4761469.0,
+      "ml_upper": 4761611.0,
+      "auto_lower": 4761469.71,
+      "auto_upper": 4761610.29,
+      "refseq_lower": 4917655.0,
+      "refseq_upper": 4917655.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 65.9,
+      "upper": 65.91,
+      "final_lower": 65.9,
+      "final_upper": 65.91,
+      "warn_lower": 65.9,
+      "warn_upper": 65.91,
+      "source": "computed",
+      "ml_lower": 65.9034,
+      "ml_upper": 65.9035,
+      "auto_lower": 65.90338017711537,
+      "auto_upper": 65.9034512251,
+      "refseq_lower": 65.9122,
+      "refseq_upper": 65.9122
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 4800.0,
+      "upper": 4900.0,
+      "final_lower": 4800.0,
+      "final_upper": 4900.0,
+      "warn_lower": 4800.0,
+      "warn_upper": 4900.0,
+      "source": "computed",
+      "ml_lower": 4814.0,
+      "ml_upper": 4814.0,
+      "auto_lower": 4814.0,
+      "auto_upper": 4814.0,
+      "refseq_lower": 4771.905,
+      "refseq_upper": 4951.095
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 99.0,
+      "upper": null,
+      "final_lower": 99.0,
+      "final_upper": null,
+      "warn_lower": 99.0,
+      "warn_upper": 99.93,
+      "source": "computed",
+      "ml_lower": 99.92,
+      "ml_upper": 99.93,
+      "auto_lower": 99.92005,
+      "auto_upper": 99.92995,
+      "refseq_lower": 91.41,
+      "refseq_upper": 91.41
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 2.0,
+      "final_lower": null,
+      "final_upper": 2.0,
+      "warn_lower": 1.19,
+      "warn_upper": 2.0,
+      "source": "computed",
+      "ml_lower": 1.19,
+      "ml_upper": 1.19,
+      "auto_lower": 1.19,
+      "auto_upper": 1.19,
+      "refseq_lower": 0.93,
+      "refseq_upper": 0.93
+    },
+    {
+      "metric": "N50",
+      "lower": 88000.0,
+      "upper": null,
+      "final_lower": 88000.0,
+      "final_upper": null,
+      "warn_lower": 88000.0,
+      "warn_upper": 88219.0,
+      "source": "computed",
+      "ml_lower": 88219.0,
+      "ml_upper": 88219.0,
+      "auto_lower": 88219.0,
+      "auto_upper": 88219.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 160.0,
+      "final_lower": null,
+      "final_upper": 160.0,
+      "warn_lower": 156.0,
+      "warn_upper": 160.0,
+      "source": "computed",
+      "ml_lower": 156.0,
+      "ml_upper": 156.0,
+      "auto_lower": 156.0,
+      "auto_upper": 156.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 364228.0,
+      "warn_upper": 364228.0,
+      "source": "computed",
+      "ml_lower": 364228.0,
+      "ml_upper": 364228.0,
+      "auto_lower": 364228.0,
+      "auto_upper": 364228.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Mycobacterium_xenopi/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Mycobacterium_xenopi/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Mycobacterium_xenopi/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Mycobacterium_xenopi/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Mycobacterium_xenopi/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Mycobacterium_xenopi/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Mycobacterium_xenopi/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Mycobacterium_xenopi/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Mycobacterium_xenopi/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Mycobacterium_xenopi/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Mycobacterium_xenopi/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_metrics.csv",
+    "refseq_archive": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_assembly_stats.csv.gz",
+    "atb_pass_archive": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_atb_pass.csv.gz",
+    "atb_warn_archive": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_atb_warn.csv.gz",
+    "atb_fail_archive": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi_atb_fail.csv.gz",
+    "species_json": "Mycobacterium_xenopi/REFSEQ-QC-v1/Mycobacterium_xenopi.json"
+  },
+  "mdx_path": "content/Mycobacterium_xenopi/REFSEQ-QC-v1.mdx"
+}

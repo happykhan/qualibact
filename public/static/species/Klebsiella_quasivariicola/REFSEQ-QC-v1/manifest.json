@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "species": "Klebsiella_quasivariicola",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 4,
+    "refseq_count": 4,
+    "final_count": 4,
+    "filtered_out_count": 0
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 5700000.0,
+      "upper": 5800000.0,
+      "final_lower": 5700000.0,
+      "final_upper": 5800000.0,
+      "warn_lower": 5700000.0,
+      "warn_upper": 5800000.0,
+      "source": "computed",
+      "ml_lower": 5751340.0,
+      "ml_upper": 5794997.0,
+      "auto_lower": 5751340.0,
+      "auto_upper": 5794993.67,
+      "refseq_lower": 5876846.0,
+      "refseq_upper": 5946706.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 56.68,
+      "upper": 56.7,
+      "final_lower": 56.68,
+      "final_upper": 56.7,
+      "warn_lower": 56.68,
+      "warn_upper": 56.7,
+      "source": "computed",
+      "ml_lower": 56.6841,
+      "ml_upper": 56.6921,
+      "auto_lower": 56.684139656830155,
+      "auto_upper": 56.692057850866064,
+      "refseq_lower": 56.6582,
+      "refseq_upper": 56.6776
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 5400.0,
+      "upper": 5600.0,
+      "final_lower": 5400.0,
+      "final_upper": 5600.0,
+      "warn_lower": 5400.0,
+      "warn_upper": 5600.0,
+      "source": "computed",
+      "ml_lower": 5444.0,
+      "ml_upper": 5560.0,
+      "auto_lower": 5444.0,
+      "auto_upper": 5559.97,
+      "refseq_lower": 5760.12,
+      "refseq_upper": 6061.855
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 100.0,
+      "upper": null,
+      "final_lower": 100.0,
+      "final_upper": null,
+      "warn_lower": 100.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 100.0,
+      "ml_upper": 100.0,
+      "auto_lower": 100.0,
+      "auto_upper": 100.0,
+      "refseq_lower": 97.92,
+      "refseq_upper": 98.67
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 1.0,
+      "final_lower": null,
+      "final_upper": 1.0,
+      "warn_lower": 0.31,
+      "warn_upper": 1.0,
+      "source": "computed",
+      "ml_lower": 0.31,
+      "ml_upper": 0.39,
+      "auto_lower": 0.31,
+      "auto_upper": 0.39,
+      "refseq_lower": 0.97,
+      "refseq_upper": 1.4
+    },
+    {
+      "metric": "N50",
+      "lower": 152000.0,
+      "upper": null,
+      "final_lower": 152000.0,
+      "final_upper": null,
+      "warn_lower": 152000.0,
+      "warn_upper": 157050.0,
+      "source": "computed",
+      "ml_lower": 152835.0,
+      "ml_upper": 157050.0,
+      "auto_lower": 152835.0,
+      "auto_upper": 157050.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 120.0,
+      "final_lower": null,
+      "final_upper": 120.0,
+      "warn_lower": 106.0,
+      "warn_upper": 120.0,
+      "source": "computed",
+      "ml_lower": 106.0,
+      "ml_upper": 118.0,
+      "auto_lower": 106.03,
+      "auto_upper": 118.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 413438.0,
+      "warn_upper": 514832.0,
+      "source": "computed",
+      "ml_lower": 413438.0,
+      "ml_upper": 514832.0,
+      "auto_lower": 413438.0,
+      "auto_upper": 514832.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Klebsiella_quasivariicola/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_quasivariicola/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Klebsiella_quasivariicola_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Klebsiella_quasivariicola/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Klebsiella_quasivariicola_metrics.csv",
+    "refseq_archive": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Klebsiella_quasivariicola_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Klebsiella_quasivariicola_assembly_stats.csv.gz",
+    "atb_pass_archive": null,
+    "atb_warn_archive": null,
+    "atb_fail_archive": null,
+    "species_json": "Klebsiella_quasivariicola/REFSEQ-QC-v1/Klebsiella_quasivariicola.json"
+  },
+  "mdx_path": "content/Klebsiella_quasivariicola/REFSEQ-QC-v1.mdx"
+}

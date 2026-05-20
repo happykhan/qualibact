@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "species": "Klebsiella_pasteurii",
+  "scheme": "REFSEQ-QC-v1",
+  "generated_at": "2026-05-20T22:24:46+00:00",
+  "counts": {
+    "genome_count": 18,
+    "refseq_count": 18,
+    "final_count": 18,
+    "filtered_out_count": 0
+  },
+  "warnings": {
+    "low_genome": true,
+    "species_separation": false,
+    "notes": [],
+    "engine": {
+      "severity": "error",
+      "low_count_flag": "error",
+      "fired_signals": []
+    }
+  },
+  "thresholds": [
+    {
+      "metric": "Genome_Size",
+      "lower": 5800000.0,
+      "upper": 6500000.0,
+      "final_lower": 5800000.0,
+      "final_upper": 6500000.0,
+      "warn_lower": 5800000.0,
+      "warn_upper": 6500000.0,
+      "source": "computed",
+      "ml_lower": 5845210.0,
+      "ml_upper": 6497593.0,
+      "auto_lower": 5845210.0,
+      "auto_upper": 6497593.0,
+      "refseq_lower": 5897538.0,
+      "refseq_upper": 6650500.0
+    },
+    {
+      "metric": "GC_Content",
+      "lower": 54.95,
+      "upper": 55.46,
+      "final_lower": 54.95,
+      "final_upper": 55.46,
+      "warn_lower": 54.95,
+      "warn_upper": 55.46,
+      "source": "computed",
+      "ml_lower": 54.9505,
+      "ml_upper": 55.4514,
+      "auto_lower": 54.95051783021805,
+      "auto_upper": 55.45136958295767,
+      "refseq_lower": 54.9089,
+      "refseq_upper": 55.44
+    },
+    {
+      "metric": "Total_Coding_Sequences",
+      "lower": 5300.0,
+      "upper": 6200.0,
+      "final_lower": 5300.0,
+      "final_upper": 6200.0,
+      "warn_lower": 5300.0,
+      "warn_upper": 6200.0,
+      "source": "computed",
+      "ml_lower": 5388.0,
+      "ml_upper": 6196.0,
+      "auto_lower": 5388.0,
+      "auto_upper": 6195.915,
+      "refseq_lower": 5521.36,
+      "refseq_upper": 6509.575
+    },
+    {
+      "metric": "Completeness_Specific",
+      "lower": 100.0,
+      "upper": null,
+      "final_lower": 100.0,
+      "final_upper": null,
+      "warn_lower": 100.0,
+      "warn_upper": 100.0,
+      "source": "computed",
+      "ml_lower": 100.0,
+      "ml_upper": 100.0,
+      "auto_lower": 100.0,
+      "auto_upper": 100.0,
+      "refseq_lower": 98.52,
+      "refseq_upper": 99.99
+    },
+    {
+      "metric": "Contamination",
+      "lower": null,
+      "upper": 2.0,
+      "final_lower": null,
+      "final_upper": 2.0,
+      "warn_lower": 0.23,
+      "warn_upper": 2.0,
+      "source": "computed",
+      "ml_lower": 0.23,
+      "ml_upper": 1.85,
+      "auto_lower": 0.23,
+      "auto_upper": 1.85,
+      "refseq_lower": 0.42,
+      "refseq_upper": 0.93
+    },
+    {
+      "metric": "N50",
+      "lower": 216000.0,
+      "upper": null,
+      "final_lower": 216000.0,
+      "final_upper": null,
+      "warn_lower": 216000.0,
+      "warn_upper": 489082.0,
+      "source": "computed",
+      "ml_lower": 216678.0,
+      "ml_upper": 489082.0,
+      "auto_lower": 216678.0,
+      "auto_upper": 489082.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "no_of_contigs",
+      "lower": null,
+      "upper": 110.0,
+      "final_lower": null,
+      "final_upper": 110.0,
+      "warn_lower": 42.0,
+      "warn_upper": 110.0,
+      "source": "computed",
+      "ml_lower": 42.0,
+      "ml_upper": 109.0,
+      "auto_lower": 42.0,
+      "auto_upper": 109.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    },
+    {
+      "metric": "longest",
+      "lower": null,
+      "upper": null,
+      "final_lower": null,
+      "final_upper": null,
+      "warn_lower": 474932.0,
+      "warn_upper": 1456430.0,
+      "source": "computed",
+      "ml_lower": 474932.0,
+      "ml_upper": 1456430.0,
+      "auto_lower": 474932.0,
+      "auto_upper": 1456430.0,
+      "refseq_lower": null,
+      "refseq_upper": null
+    }
+  ],
+  "plots": {
+    "GC_Content": {
+      "histogram_kde": "Klebsiella_pasteurii/REFSEQ-QC-v1/GC_Content_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_pasteurii/REFSEQ-QC-v1/GC_Content_refseq_qqplot.png"
+    },
+    "Completeness_Specific": {
+      "histogram_kde": "Klebsiella_pasteurii/REFSEQ-QC-v1/Completeness_Specific_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_pasteurii/REFSEQ-QC-v1/Completeness_Specific_refseq_qqplot.png"
+    },
+    "Contamination": {
+      "histogram_kde": "Klebsiella_pasteurii/REFSEQ-QC-v1/Contamination_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_pasteurii/REFSEQ-QC-v1/Contamination_refseq_qqplot.png"
+    },
+    "Genome_Size": {
+      "histogram_kde": "Klebsiella_pasteurii/REFSEQ-QC-v1/Genome_Size_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_pasteurii/REFSEQ-QC-v1/Genome_Size_refseq_qqplot.png"
+    },
+    "Total_Coding_Sequences": {
+      "histogram_kde": "Klebsiella_pasteurii/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_histogram_kde.png",
+      "qqplot": "Klebsiella_pasteurii/REFSEQ-QC-v1/Total_Coding_Sequences_refseq_qqplot.png"
+    },
+    "CDS_vs_Genome_Size": "Klebsiella_pasteurii/REFSEQ-QC-v1/Klebsiella_pasteurii_CDS_vs_Genome_Size.png"
+  },
+  "filtered_plot_files": [],
+  "has_cds_plot": true,
+  "sidecars": {
+    "summary_csv": "Klebsiella_pasteurii/REFSEQ-QC-v1/summary.csv",
+    "metrics_csv": "Klebsiella_pasteurii/REFSEQ-QC-v1/Klebsiella_pasteurii_metrics.csv",
+    "refseq_archive": "Klebsiella_pasteurii/REFSEQ-QC-v1/Klebsiella_pasteurii_refseq_genomes.csv.xz",
+    "assembly_stats_archive": "Klebsiella_pasteurii/REFSEQ-QC-v1/Klebsiella_pasteurii_assembly_stats.csv.gz",
+    "atb_pass_archive": null,
+    "atb_warn_archive": null,
+    "atb_fail_archive": null,
+    "species_json": "Klebsiella_pasteurii/REFSEQ-QC-v1/Klebsiella_pasteurii.json"
+  },
+  "mdx_path": "content/Klebsiella_pasteurii/REFSEQ-QC-v1.mdx"
+}
