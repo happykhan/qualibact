@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
+import { staticUrl } from '@/lib/static-url';
 
 interface OverrideEntry {
   species: string;
@@ -64,7 +65,7 @@ export default function ThresholdRationaleTable() {
       <p className="text-sm text-neutral-600 dark:text-neutral-400">
         Source file:{' '}
         <a
-          href="/api/v2/threshold-rationale.yml"
+          href={staticUrl('/api/v2/threshold-rationale.yml')}
           className="underline"
           download="threshold-rationale.yml"
         >
