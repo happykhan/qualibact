@@ -65,8 +65,7 @@ export default function ContributorsPage() {
             QualiBact thresholds are refined by an open community of domain
             experts. The people listed below have contributed threshold
             values, dataset re-curation, or species-specific rationale to
-            specific (species, scheme) pairs — each name links to the
-            species page where their input is published.
+            specific (species, scheme) pairs.
           </p>
           <p className="text-sm text-neutral-600 dark:text-neutral-400">
             Are you missing from this list? Contributions land via the
