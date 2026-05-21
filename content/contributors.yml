@@ -31,6 +31,13 @@
 # their technical contributions are still recorded in
 # content/threshold-rationale.yml as the audit trail for the pinned values.
 # h-johansen reinstated 2026-05-21 (permission confirmed for A. xylosoxidans).
+#
+# Also pending out-of-band reconfirmation (the Nov 2025 survey says
+# "Yes, sure" for credit but Nabil wants to verify explicitly first):
+#   - Sandra Reuter (dr.sandra.reuter@gmail.com, affiliation TBD)
+# When confirmed, add s-reuter alongside a-komorowski on the three
+# Serratia attributions below.
+# a-komorowski confirmed and added 2026-05-21.
 
 contributors:
   - id: m-oleastro
@@ -57,6 +64,11 @@ contributors:
     name: Migle Gabrielaite
     affiliation: Institute of Biotechnology, Vilnius University
     country: Lithuania
+  - id: a-komorowski
+    name: Adam S. Komorowski
+    affiliation: McMaster University
+    country: Canada
+
 funding:
   - id: insa
     name: Instituto Nacional de Saúde Doutor Ricardo Jorge
@@ -81,3 +93,15 @@ attributions:
     scheme: qualibact-v1.1
     contributors: [m-oleastro]
     note: "C. fetus subgroup of the Nov 2025 expert-feedback survey. Some respondents pending public-credit confirmation."
+  - species: Serratia_bockelmannii
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — Co-reviewer pending public-credit confirmation."
+  - species: Serratia_nevei
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution. Co-reviewer pending public-credit confirmation."
+  - species: Serratia_ureilytica
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids). Co-reviewer pending public-credit confirmation."
