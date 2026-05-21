@@ -68,7 +68,7 @@ export default function ContributorsPage() {
             specific (species, scheme) pairs.
           </p>
           <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            Are you missing from this list? Contributions land via the
+            Are you missing from this list? Contributions include the
             expert-feedback survey or direct correspondence — see the{' '}
             <Link
               href="/organism-requests/"
