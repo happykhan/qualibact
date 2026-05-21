@@ -84,7 +84,7 @@ export default function ContributorsPage() {
             Are you missing from this list? Contributions land via the
             expert-feedback survey or direct correspondence — see the{' '}
             <Link
-              href="/requests"
+              href="/organism-requests/"
               className="underline underline-offset-2 hover:text-neutral-800 dark:hover:text-neutral-200"
             >
               requests page
