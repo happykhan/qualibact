@@ -29,14 +29,14 @@ The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 re
 ### Assembly size
 
 - ***Campylobacter jejuni*** — upper raised from 2.0 Mb to **2.1 Mb** (Alexandra Nunes & Mónica Oleastro, INSA Lisboa, plus collaborators). 2.0 Mb was excluding a small number of well-supported, high-quality genomes drawn from a diverse human / food / animal / environmental isolate set.
-- ***Neisseria meningitidis*** — upper tightened from 2.4 Mb to **2.3 Mb** (Alexandra Nunes & Célia Bettencourt, INSA Lisboa). The reference dataset is consistently below 2.3 Mb; the tighter bound flags potentially contaminated or chimeric assemblies that the looser v1.0 bound passed.
+- ***Neisseria meningitidis*** — upper tightened from 2.4 Mb to **2.3 Mb** (INSA Lisboa N. meningitidis subgroup). The reference dataset is consistently below 2.3 Mb; the tighter bound flags potentially contaminated or chimeric assemblies that the looser v1.0 bound passed.
 - ***Neisseria lactamica*** — upper loosened from 2.3 Mb to **2.4 Mb** to accommodate species diversity (N. gonorrhoeae subgroup, citing Sheeba Basil's Neisseria commensal data).
-- ***Haemophilus influenzae*** — upper tightened from 2.2 Mb to **2.0 Mb** (Margo Diricks, FZ Borstel). Two RefSeq references (GCF_002985465.2, GCF_002984345.2) pushed the engine's automatic bound up despite inconclusive ANI (~94%) against *H. influenzae*; pinned at 2.0 Mb to flag those and any future contamination.
-- ***Haemophilus haemolyticus*** — upper proposed at **1.75 Mb** (Margo Diricks, FZ Borstel). Note: 1.75 Mb currently sits below the engine's lower bound (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert before publication.
+- ***Haemophilus influenzae*** — upper tightened from 2.2 Mb to **2.0 Mb** (Haemophilus subgroup). Two RefSeq references (GCF_002985465.2, GCF_002984345.2) pushed the engine's automatic bound up despite inconclusive ANI (~94%) against *H. influenzae*; pinned at 2.0 Mb to flag those and any future contamination.
+- ***Haemophilus haemolyticus*** — upper proposed at **1.75 Mb** (Haemophilus subgroup). Note: 1.75 Mb currently sits below the engine's lower bound (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert before publication.
 
 ### GC content
 
-- ***Campylobacter fetus*** — lower loosened to **32 %** (Birgitta Duim, Utrecht University). *C. fetus* subsp. *venerealis* carries a large accessory genome that can pull GC below the engine's v1.0-rev2 lower of 32.99 %; the pin retains venerealis isolates.
+- ***Campylobacter fetus*** — lower loosened to **32 %** (Campylobacter fetus subgroup). *C. fetus* subsp. *venerealis* carries a large accessory genome that can pull GC below the engine's v1.0-rev2 lower of 32.99 %; the pin retains venerealis isolates.
 
 ### Contamination
 
@@ -45,7 +45,7 @@ The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 re
 ### N50 / contig count
 
 - ***Neisseria gonorrhoeae*** — N50 lower raised from ≈23 kb to **25 kb** (N. gonorrhoeae subgroup, based on the distribution of their data).
-- ***Haemophilus influenzae***, ***H. haemolyticus*** — contig-count upper pinned at **100** (Margo Diricks, FZ Borstel). Assemblies with >100 contigs are most often contaminated; engine v1.0-rev2 emitted 140 and 110 respectively.
+- ***Haemophilus influenzae***, ***H. haemolyticus*** — contig-count upper pinned at **100** (Haemophilus subgroup). Assemblies with >100 contigs are most often contaminated; engine v1.0-rev2 emitted 140 and 110 respectively.
 
 ### Coding-sequence count
 

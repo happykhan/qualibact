@@ -96,12 +96,12 @@ attributions:
   - species: Serratia_bockelmannii
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — Sandra Reuter co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey — Co-reviewer pending public-credit confirmation."
   - species: Serratia_nevei
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution. Sandra Reuter co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution. Co-reviewer pending public-credit confirmation."
   - species: Serratia_ureilytica
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids). Sandra Reuter co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids). Co-reviewer pending public-credit confirmation."
