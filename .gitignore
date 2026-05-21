@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .claude
 input/
-
+QualiBact assessment.csv
 # Private notes / dev-only docs. Anything that should never leak to the
 # public GitHub repo lives under /private/ or matches the named patterns
 # below. Drop new internal docs in /private/ by default.
@@ -15,6 +15,10 @@ input/
 /UI-CHANGES-*.md
 /genomicx-frontend-styling-guide.md
 /tests/fixtures/
+# Survey-report output (PDF/MD/charts mailed back to respondents) lives
+# under /private/. Belt-and-braces: also block content/feedback/ since
+# scripts/survey_report.py previously wrote there.
+/content/feedback/
 
 # Static assets (hosted on Cloudflare R2) — but build-time data files that
 # Next.js reads via fs.readFileSync must live in git so Cloudflare Pages

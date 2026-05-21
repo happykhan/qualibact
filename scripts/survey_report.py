@@ -5,12 +5,13 @@ survey responses. The report is intended to go back to every
 respondent as a "thank you + here's what we heard" follow-up.
 
 Reads:  Google Forms export xlsx (rows = responses, cols = questions)
-Writes: content/feedback/survey-{label}.md
-        content/feedback/survey-{label}-charts/{ratings,confidence,agreement}.png
+Writes: private/feedback/survey-{label}.md
+        private/feedback/survey-{label}-charts/{ratings,confidence,agreement}.png
 
-The report is generic in that it does NOT include any personally
-identifying information — only aggregated counts, percentages, and
-anonymised quotes from the free-text feedback. Safe to share.
+Output lives under /private/ (gitignored, repo-private) because the PDF
+is meant to go back to respondents by email — not published to the
+website. The report itself is anonymised (aggregated counts, anonymised
+quotes), but the dir is kept off the public GitHub repo by convention.
 
 Usage:
     python3 scripts/survey_report.py \\
@@ -560,7 +561,7 @@ def main() -> int:
         print("ERROR: no responses loaded", file=sys.stderr)
         return 2
 
-    out_dir = REPO_ROOT / "content" / "feedback"
+    out_dir = REPO_ROOT / "private" / "feedback"
     out_dir.mkdir(parents=True, exist_ok=True)
     charts_dir = out_dir / f"survey-{args.label}-charts"
     charts_dir.mkdir(parents=True, exist_ok=True)
