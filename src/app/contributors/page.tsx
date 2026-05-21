@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ContributorContributions from '@/components/ContributorContributions';
 import {
   getContributors,
   contributionsByContributor,
@@ -35,26 +36,13 @@ function ContributorCard({ contributor, contributions }: CardProps) {
           {contributor.country ? `, ${contributor.country}` : ''}
         </p>
       </div>
-      {contributions.length > 0 && (
-        <div className="space-y-1">
-          <p className="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-500 font-medium">
-            Contributions
-          </p>
-          <ul className="space-y-1">
-            {contributions.map((a, i) => (
-              <li key={`${a.species}-${a.scheme}-${i}`} className="text-sm">
-                <a
-                  href={speciesHref(a.species)}
-                  className="text-brand-700 dark:text-brand-300 underline underline-offset-2 hover:text-brand-900 dark:hover:text-brand-200"
-                >
-                  <em>{a.species.replace(/_/g, ' ')}</em>
-                </a>
-                <span className="text-neutral-500 dark:text-neutral-500"> · {a.scheme}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <ContributorContributions
+        items={contributions.map((a) => ({
+          species: a.species,
+          scheme: a.scheme,
+          href: speciesHref(a.species),
+        }))}
+      />
     </div>
   );
 }

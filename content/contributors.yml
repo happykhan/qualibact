@@ -31,6 +31,15 @@
 # their technical contributions are still recorded in
 # content/threshold-rationale.yml as the audit trail for the pinned values.
 # h-johansen reinstated 2026-05-21 (permission confirmed for A. xylosoxidans).
+#
+# Also pending out-of-band reconfirmation (the Nov 2025 survey says
+# "Yes, sure" for credit but Nabil wants to verify explicitly first):
+#   - Adam S. Komorowski (komorowa@mcmaster.ca, McMaster University, Canada)
+#   - Sandra Reuter (dr.sandra.reuter@gmail.com, affiliation TBD)
+# When confirmed, add them with id slugs a-komorowski / s-reuter and create
+# attribution entries for Serratia_bockelmannii, Serratia_nevei, and
+# Serratia_ureilytica under qualibact-v1.0 (their observations already
+# drive the species-notes banners for nevei and ureilytica).
 
 contributors:
   - id: m-oleastro
