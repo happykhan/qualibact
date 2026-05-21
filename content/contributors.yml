@@ -24,6 +24,13 @@
 #     contributors   — list of contributor ids
 #     funding        — list of funding ids (optional)
 #     note           — free-text caveat shown alongside the names (optional)
+#
+# Pending public credit (permission to list on the site not yet confirmed,
+# 2026-05-21): a-rokney, b-duim, b-iorga, b-lopes, d-sarovich, m-lisowska,
+# m-diricks, s-banerji. They were removed from this file pending sign-off;
+# their technical contributions are still recorded in
+# content/threshold-rationale.yml as the audit trail for the pinned values.
+# h-johansen reinstated 2026-05-21 (permission confirmed for A. xylosoxidans).
 
 contributors:
   - id: m-oleastro
@@ -50,35 +57,6 @@ contributors:
     name: Migle Gabrielaite
     affiliation: Institute of Biotechnology, Vilnius University
     country: Lithuania
-  - id: b-duim
-    name: Birgitta Duim
-    affiliation: Utrecht University
-    country: Netherlands
-  - id: b-iorga
-    name: Bogdan Iorga
-    affiliation: Affiliation TBD
-  - id: m-lisowska
-    name: Małgorzata Lisowska
-    affiliation: Affiliation TBD
-  - id: b-lopes
-    name: Bruno Lopes
-    affiliation: Affiliation TBD
-  - id: s-banerji
-    name: Sangeeta Banerji
-    affiliation: Affiliation TBD
-  - id: m-diricks
-    name: Margo Diricks
-    affiliation: Forschungszentrum Borstel
-    country: Germany
-  - id: a-rokney
-    name: Assaf Rokney
-    affiliation: Ministry of Health
-    country: Israel
-  - id: d-sarovich
-    name: Derek Sarovich
-    affiliation: University of the Sunshine Coast
-    country: Australia
-
 funding:
   - id: insa
     name: Instituto Nacional de Saúde Doutor Ricardo Jorge
@@ -101,13 +79,5 @@ attributions:
     contributors: [h-johansen, r-marvig, c-michael, m-gabrielaite]
   - species: Campylobacter_fetus
     scheme: qualibact-v1.1
-    contributors: [b-duim, b-iorga, m-oleastro, m-lisowska, b-lopes, s-banerji]
-    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey."
-  - species: Haemophilus_influenzae
-    scheme: qualibact-v1.1
-    contributors: [m-diricks, a-rokney, d-sarovich]
-    note: "H. influenzae subgroup of the Nov 2025 expert-feedback survey."
-  - species: Haemophilus_haemolyticus
-    scheme: qualibact-v1.1
-    contributors: [m-diricks]
-    note: "H. haemolyticus review from the Nov 2025 expert-feedback survey."
+    contributors: [m-oleastro]
+    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey. Some respondents pending public-credit confirmation."

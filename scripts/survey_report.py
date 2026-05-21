@@ -5,12 +5,13 @@ survey responses. The report is intended to go back to every
 respondent as a "thank you + here's what we heard" follow-up.
 
 Reads:  Google Forms export xlsx (rows = responses, cols = questions)
-Writes: content/feedback/survey-{label}.md
-        content/feedback/survey-{label}-charts/{ratings,confidence,agreement}.png
+Writes: private/feedback/survey-{label}.md
+        private/feedback/survey-{label}-charts/{ratings,confidence,agreement}.png
 
-The report is generic in that it does NOT include any personally
-identifying information — only aggregated counts, percentages, and
-anonymised quotes from the free-text feedback. Safe to share.
+Output lives under /private/ (gitignored, repo-private) because the PDF
+is meant to go back to respondents by email — not published to the
+website. The report itself is anonymised (aggregated counts, anonymised
+quotes), but the dir is kept off the public GitHub repo by convention.
 
 Usage:
     python3 scripts/survey_report.py \\
@@ -179,6 +180,21 @@ RATING_COLS = [
 ]
 
 
+def _to_int(v) -> int | None:
+    """Coerce a cell to int. Openpyxl returns native ints from .xlsx, but
+    CSV-derived xlsx writes everything as strings — handle both."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, int):
+        return v
+    if isinstance(v, float):
+        return int(v)
+    try:
+        return int(str(v).strip())
+    except (TypeError, ValueError):
+        return None
+
+
 def _classify_agreement(cell: str | None) -> str:
     """Map a free-form cell value to one of {yes, no, no_bound_defined, other}."""
     if cell is None:
@@ -221,7 +237,7 @@ def load_responses(xlsx_path: Path) -> tuple[list[dict], tuple[str, str] | None]
                           for (m, b, ans_col, expl_col) in THRESHOLD_PAIRS
                           for label in [f"{m} {b}"]},
             "ratings": {m: row[col - 1] for m, col in RATING_COLS},
-            "confidence": row[35],
+            "confidence": _to_int(row[35]),
             "additional_metrics": row[36],
             "additional_comments": row[27],
         })
@@ -323,7 +339,7 @@ def _plot_agreement(rows: list[dict], out_path: Path) -> None:
         other.append(cnt["other"] + cnt["maybe"])
         nbd.append(cnt["no_bound_defined"])
 
-    fig, ax = plt.subplots(figsize=(13, 5))
+    fig, ax = plt.subplots(figsize=(14, 6))
     x = np.arange(len(labels))
     p1 = ax.bar(x, yes, label="Agree", color="#1a9850", edgecolor="white")
     p2 = ax.bar(x, no, bottom=yes, label="Disagree", color="#d73027", edgecolor="white")
@@ -331,8 +347,12 @@ def _plot_agreement(rows: list[dict], out_path: Path) -> None:
                 label="Other (suggested value)", color="#fdae61", edgecolor="white")
     p4 = ax.bar(x, nbd, bottom=np.array(yes) + np.array(no) + np.array(other),
                 label='"No bound defined"', color="#bdbdbd", edgecolor="white")
+    # Single-line labels (one per bar) so we can rotate them cleanly —
+    # was previously two-line with no rotation, which overlapped at this
+    # bar count.
+    flat_labels = [f"{m} {b}" for (m, b, _, _) in THRESHOLD_PAIRS]
     ax.set_xticks(x)
-    ax.set_xticklabels(labels, fontsize=8)
+    ax.set_xticklabels(flat_labels, fontsize=8, rotation=35, ha="right")
     ax.set_ylabel("Responses")
     ax.set_title(f"Per-threshold agreement  (n={len(rows)} responses)")
     ax.legend(loc="upper right", framealpha=0.95, fontsize=9)
@@ -388,30 +408,18 @@ def render(rows: list[dict], label: str, charts_rel: str,
     conf_median = sorted(conf)[len(conf) // 2] if conf else 0
     ten_count = sum(1 for c in conf if c == 10)
 
-    if window:
-        first_ts, last_ts = window
-        if first_ts == last_ts:
-            window_text = f"collected on {first_ts}"
-        else:
-            window_text = f"collected between {first_ts} and {last_ts}"
-    else:
-        window_text = ""
-
     lines: list[str] = []
-    lines.append("# QualiBact assessment survey — what the community told us\n")
-    if window_text:
-        intro = (
-            f"_Generic summary of the QualiBact threshold-assessment survey "
-            f"({window_text})._ This document is shareable with all "
-            f"respondents and contains no personally identifying information."
-        )
-    else:
-        intro = (
-            "_Generic summary of the QualiBact threshold-assessment survey._ "
-            "This document is shareable with all respondents and contains "
-            "no personally identifying information."
-        )
+    lines.append("# QualiBact assessment survey results\n")
+    intro = (
+        "_Generic summary of the QualiBact threshold-assessment survey "
+        "(collected November 2025)._ This document is shareable with all "
+        "respondents and contains no personally identifying information."
+    )
     lines.append(intro + "\n")
+    # `window` (earliest / latest response timestamps) is still parsed
+    # from the survey export — kept around in case a future caller wants
+    # to surface it; not displayed here by request.
+    _ = window
 
     lines.append("## At a glance\n")
     lines.append(f"- **{n}** responses covering **{len(species)}** species across **{len(genera)}** genera.")
@@ -493,41 +501,48 @@ def render(rows: list[dict], label: str, charts_rel: str,
     lines.append(
         "- **Adjusted thresholds where experts pointed at specific values.** "
         "Examples shipped in qualibact-v1.1: *Campylobacter jejuni* assembly "
-        "size upper raised from 2.0 Mb to 2.1 Mb (Alexandra Nunes & Mónica "
-        "Oleastro, INSA); *Neisseria meningitidis* upper tightened from 2.4 "
-        "Mb to 2.3 Mb (Alexandra Nunes & Célia Bettencourt, INSA)."
+        "size upper raised from 2.0 Mb to 2.1 Mb; *Neisseria meningitidis* "
+        "upper tightened from 2.4 Mb to 2.3 Mb."
     )
     lines.append(
-        "- **Reference-set re-curation requests.** *Klebsiella grimontii* "
-        "and *Staphylococcus coagulans* have engine re-runs queued. "
-        "Misclassified-accession lists are being collected via direct "
-        "correspondence."
+        "- **Reference-set re-curation requests.** Well-defined datasets are "
+        "needed for *Burkholderia mallei*, *Klebsiella grimontii*, and "
+        "*Staphylococcus coagulans* to address taxonomic-classification "
+        "issues."
     )
     lines.append(
         "- **Added a PASS / WARN / FAIL three-tier system.** Multiple "
-        "respondents flagged that a single FAIL boundary is too coarse. "
-        "The engine now emits a tighter WARN bound alongside the existing "
-        "FAIL bound; the species page renders both."
+        "respondents flagged that a single FAIL boundary is too coarse. We "
+        "now present a WARN bound alongside the existing FAIL bound. WARN "
+        "boundaries are the 2.5 / 97.5 percentiles of the species pool — "
+        "fairly arbitrary, but it took some re-engineering to surface the "
+        "extra WARN columns. Changing the thresholds in future releases "
+        "should be easy."
     )
     lines.append(
         "- **Surfaced engine quality flags on the species page.** When the "
         "engine detects that the reference dataset for a species itself has "
         "issues (high contamination fraction, oversized genomes, wide GC "
         "range, etc.), a coloured banner now appears at the top of the "
-        "species page with the engine's interpretation."
+        "species page with the engine's interpretation. This helps users "
+        "judge whether to trust the published thresholds for that species."
     )
     lines.append(
-        "- **Read-level QC requests parked.** Sequencing depth, "
-        "heterozygous positions, and Ns/100 kbp are out of scope for "
+        "- **Read-level QC requests are out of scope.** Sequencing depth, "
+        "heterozygous positions, and Ns / 100 kbp are out of scope for "
         "assembly-level QualiBact thresholds. We recommend "
         "[bactscout](https://github.com/cgps-group/bactscout) as the "
         "companion tool."
     )
     lines.append(
-        "- **BUSCO completeness, identity of contaminating species.** "
-        "These are out of scope for QualiBact's published thresholds, "
-        "but downstream QC tools (CheckM2, sylph, kraken2) are where "
-        "per-assembly contaminant identification belongs."
+        "- **BUSCO completeness, identity of contaminating species (within a "
+        "single sample).** Out of scope for QualiBact's published "
+        "thresholds, but downstream QC tools are where per-assembly "
+        "contaminant identification belongs."
+    )
+    lines.append(
+        "- **Ns per kbp.** Possible in principle, but would require "
+        "recomputing across all ~2M genomes — queued for a future release."
     )
     lines.append("")
 
@@ -538,10 +553,6 @@ def render(rows: list[dict], label: str, charts_rel: str,
     lines.append("- Methods: <https://qualibact.org/methods/qualibact-v1.1/>")
     lines.append("- Per-WHO-list download: <https://qualibact.org/priority-pathogens/>")
     lines.append("- Contributors (with your name when you contributed): <https://qualibact.org/contributors/>")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append(f"_Report generated {label}. Survey responses {window_text or 'date unknown'}._")
     lines.append("")
     return "\n".join(lines)
 
@@ -560,7 +571,7 @@ def main() -> int:
         print("ERROR: no responses loaded", file=sys.stderr)
         return 2
 
-    out_dir = REPO_ROOT / "content" / "feedback"
+    out_dir = REPO_ROOT / "private" / "feedback"
     out_dir.mkdir(parents=True, exist_ok=True)
     charts_dir = out_dir / f"survey-{args.label}-charts"
     charts_dir.mkdir(parents=True, exist_ok=True)
