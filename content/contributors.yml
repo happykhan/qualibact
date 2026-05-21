@@ -34,12 +34,10 @@
 #
 # Also pending out-of-band reconfirmation (the Nov 2025 survey says
 # "Yes, sure" for credit but Nabil wants to verify explicitly first):
-#   - Adam S. Komorowski (komorowa@mcmaster.ca, McMaster University, Canada)
 #   - Sandra Reuter (dr.sandra.reuter@gmail.com, affiliation TBD)
-# When confirmed, add them with id slugs a-komorowski / s-reuter and create
-# attribution entries for Serratia_bockelmannii, Serratia_nevei, and
-# Serratia_ureilytica under qualibact-v1.0 (their observations already
-# drive the species-notes banners for nevei and ureilytica).
+# When confirmed, add s-reuter alongside a-komorowski on the three
+# Serratia attributions below.
+# a-komorowski confirmed and added 2026-05-21.
 
 contributors:
   - id: m-oleastro
@@ -66,6 +64,11 @@ contributors:
     name: Migle Gabrielaite
     affiliation: Institute of Biotechnology, Vilnius University
     country: Lithuania
+  - id: a-komorowski
+    name: Adam S. Komorowski
+    affiliation: McMaster University
+    country: Canada
+
 funding:
   - id: insa
     name: Instituto Nacional de Saúde Doutor Ricardo Jorge
@@ -90,3 +93,15 @@ attributions:
     scheme: qualibact-v1.1
     contributors: [m-oleastro]
     note: "C. fetus subgroup of the Nov 2025 expert-feedback survey. Some respondents pending public-credit confirmation."
+  - species: Serratia_bockelmannii
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — Sandra Reuter co-reviewer pending public-credit confirmation."
+  - species: Serratia_nevei
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution. Sandra Reuter co-reviewer pending public-credit confirmation."
+  - species: Serratia_ureilytica
+    scheme: qualibact-v1.0
+    contributors: [a-komorowski]
+    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids). Sandra Reuter co-reviewer pending public-credit confirmation."
