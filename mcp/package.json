@@ -1,0 +1,17 @@
+{
+  "name": "qualibact-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server exposing QualiBact threshold lookups. Deploys as a Cloudflare Worker.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240712.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.0.0"
+  }
+}

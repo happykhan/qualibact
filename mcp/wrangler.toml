@@ -1,0 +1,16 @@
+name = "qualibact-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-10-01"
+compatibility_flags = ["nodejs_compat"]
+account_id = "3bd272de7abb5a9f328fbfa9afafd2a3"
+
+# Production custom domain. Set up the DNS / Pages binding in the
+# Cloudflare dashboard before deploy; mcp.qualibact.org -> this Worker.
+[[routes]]
+pattern = "mcp.qualibact.org/*"
+zone_name = "qualibact.org"
+
+# The Worker fetches data from R2-hosted /api/v2/. No state, no KV,
+# no D1 needed — it's a read-through proxy with MCP framing.
+[vars]
+QUALIBACT_API_BASE = "https://static.qualibact.org/api/v2"

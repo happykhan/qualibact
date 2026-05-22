@@ -23,6 +23,8 @@ QualiBact operates on assembled genomes. For complementary checks at the read le
 3. **Apply thresholds** using [SpecCheck](https://github.com/cgps-group/speccheck/) or in your own analysis pipeline.  
 4. **Request new species or improvements** via the [Requests page](/organism-requests).
 
+See the [changelog](/changelog) for what's new in the latest release.
+
 ## Who is QualiBact for?
 
 - Public-health laboratories performing routine bacterial genomics  

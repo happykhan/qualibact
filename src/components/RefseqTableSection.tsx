@@ -35,7 +35,7 @@ export default function RefseqTableSection({ species, preferredVersion, refseqUr
       {assemblyStatsUrl && (
         <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between border-t border-neutral-200 dark:border-neutral-700 pt-4">
           <div className="flex-1 pr-0 md:pr-4">
-            <h3 className="text-lg font-header font-semibold text-neutral-900 dark:text-neutral-100">AllTheBacteria assembly inputs</h3>
+            <h3 className="text-lg font-header font-semibold text-neutral-900 dark:text-neutral-100">Included assembly inputs</h3>
             <p className="text-neutral-700 dark:text-neutral-400 mt-1">
               Per-assembly inputs the engine used to derive the <em>{speciesLabel}</em> reference distribution for this scheme: sample, sylph species call, N50, contig count, longest contig, total length, completeness, contamination, total coding sequences, genome size, GC content. Gzipped CSV.
             </p>
