@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -59,6 +60,7 @@ export default function RootLayout({
             Skip to content
           </a>
           <NavBar />
+          <AnnouncementBanner />
           <main id="main-content" className="container py-8 flex-1">
             {children}
           </main>
