@@ -1,0 +1,87 @@
+[
+  {
+    "_comment": "Sport-check fixture — small representative slice. CI asserts each row appears unchanged in /api/v2/thresholds.json AND on the rendered species page. Bump only when a scheme version legitimately changes its numbers.",
+    "_added": "2026-05-22"
+  },
+  {
+    "label": "E. coli — flagship workhorse species, biggest reference pool",
+    "species": "Escherichia_coli",
+    "scheme": "qualibact-v1.0",
+    "metric": "N50",
+    "final_lower": 20000,
+    "warn_lower": 23000,
+    "warn_upper": 370002.96,
+    "source": "computed",
+    "page_url": "/Escherichia/Escherichia_coli/qualibact-v1.0/",
+    "page_substring": "20,000"
+  },
+  {
+    "label": "Salmonella enterica — surveillance bread-and-butter",
+    "species": "Salmonella_enterica",
+    "scheme": "qualibact-v1.0",
+    "metric": "Genome_Size",
+    "page_url": "/Salmonella/Salmonella_enterica/qualibact-v1.0/"
+  },
+  {
+    "label": "Campy jejuni v1.1 — first expert-pinned upper (2.1 Mb)",
+    "species": "Campylobacter_jejuni",
+    "scheme": "qualibact-v1.1",
+    "metric": "Genome_Size",
+    "final_upper": 2100000,
+    "source": "pinned",
+    "page_url": "/Campylobacter/Campylobacter_jejuni/qualibact-v1.1/",
+    "page_substring": "2,100,000"
+  },
+  {
+    "label": "Neisseria meningitidis v1.1 — tightened pin (2.3 Mb upper)",
+    "species": "Neisseria_meningitidis",
+    "scheme": "qualibact-v1.1",
+    "metric": "Genome_Size",
+    "final_upper": 2300000,
+    "source": "pinned"
+  },
+  {
+    "label": "Neisseria gonorrhoeae v1.1 — N50 pin from the gono subgroup",
+    "species": "Neisseria_gonorrhoeae",
+    "scheme": "qualibact-v1.1",
+    "metric": "N50",
+    "final_lower": 25000,
+    "source": "pinned"
+  },
+  {
+    "label": "Haemophilus influenzae v1.1 — pinned 100-contig cap",
+    "species": "Haemophilus_influenzae",
+    "scheme": "qualibact-v1.1",
+    "metric": "no_of_contigs",
+    "final_upper": 100,
+    "source": "pinned"
+  },
+  {
+    "label": "Campylobacter fetus v1.1 — GC lower loosened to 32%",
+    "species": "Campylobacter_fetus",
+    "scheme": "qualibact-v1.1",
+    "metric": "GC_Content",
+    "final_lower": 32,
+    "source": "pinned"
+  },
+  {
+    "label": "Klebsiella pneumoniae — sanity that the most-requested K species renders",
+    "species": "Klebsiella_pneumoniae",
+    "scheme": "qualibact-v1.0",
+    "metric": "Genome_Size",
+    "page_url": "/Klebsiella/Klebsiella_pneumoniae/qualibact-v1.0/"
+  },
+  {
+    "label": "Staphylococcus aureus — second-most-popular request",
+    "species": "Staphylococcus_aureus",
+    "scheme": "qualibact-v1.0",
+    "metric": "GC_Content",
+    "page_url": "/Staphylococcus/Staphylococcus_aureus/qualibact-v1.0/"
+  },
+  {
+    "label": "Mycobacterium tuberculosis — typical narrow-band species",
+    "species": "Mycobacterium_tuberculosis",
+    "scheme": "qualibact-v1.0",
+    "metric": "Genome_Size"
+  }
+]

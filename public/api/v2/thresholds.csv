@@ -1751,7 +1751,7 @@ Neisseria meningitidis,qualibact-v1.0,Contamination,,3,0,1,computed,warn,,3,0,2.
 Neisseria meningitidis,qualibact-v1.0,N50,19000,,23000,79132,computed,warn,19000,,19859.2,79132,19859.2,79132,,
 Neisseria meningitidis,qualibact-v1.0,no_of_contigs,,310,99,270,computed,warn,,310,99,302,99,302,,
 Neisseria meningitidis,qualibact-v1.0,longest,,,67968,273518.68,computed,warn,,,67968,273518.68,67968,273518.68,,
-Neisseria meningitidis,qualibact-v1.1,Genome_Size,1800000,2300000,2033458.67,2397461,computed,,1800000,2300000,2033458.67,2397461,2033458.67,2250575.02,2137882.42,2351698.43
+Neisseria meningitidis,qualibact-v1.1,Genome_Size,1800000,2300000,2033458.67,2397461,pinned,,1800000,2300000,2033458.67,2397461,2033458.67,2250575.02,2137882.42,2351698.43
 Neisseria meningitidis,qualibact-v1.1,GC_Content,50,54,51.05,52.14,computed,,50,54,51.05,52.14,51.291116,52.1412,51.185546,51.954637000000005
 Neisseria meningitidis,qualibact-v1.1,Total_Coding_Sequences,1700,2700,1926,2420,computed,,1700,2700,1926,2420,1926,2201,2136.15,2360.1500000000005
 Neisseria meningitidis,qualibact-v1.1,Completeness_Specific,96,,97.12,100,computed,,96,,97.12,100,99.96,100,97.2523,99.4985

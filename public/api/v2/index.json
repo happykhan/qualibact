@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-20T15:15:04+00:00",
+  "generated_at": "2026-05-22T10:00:52+00:00",
   "species_count": 317,
   "endpoints": {
     "thresholds_csv": "/api/v2/thresholds.csv",

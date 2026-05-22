@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-20T15:15:04+00:00",
+  "generated_at": "2026-05-22T10:00:52+00:00",
   "species": {
     "Achromobacter_xylosoxidans": {
       "schemes": {
@@ -34317,7 +34317,7 @@
               "final_upper": 2300000.0,
               "warn_lower": 2033458.67,
               "warn_upper": 2397461.0,
-              "source": "computed",
+              "source": "pinned",
               "ml_lower": 2033458.67,
               "ml_upper": 2397461.0,
               "auto_lower": 2033458.67,
