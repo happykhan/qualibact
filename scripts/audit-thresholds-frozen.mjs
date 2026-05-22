@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-// Sport-check that published thresholds are intact. Once a (species,
+// Spot-check that published thresholds are intact. Once a (species,
 // scheme) pair is shipped, its numbers are frozen for the life of that
 // scheme version — any change requires a new scheme version (v1.1 ->
 // v1.2 etc.). This script doesn't snapshot every row; it spot-checks a
 // hand-curated representative slice in
-// scripts/baselines/sport-check-thresholds.json and asserts:
+// scripts/baselines/spot-check-thresholds.json and asserts:
 //
 //   1. each fixture row appears in /api/v2/thresholds.json with the
 //      expected numeric / source values, AND
@@ -23,7 +23,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const FIXTURE = path.join(REPO_ROOT, 'scripts', 'baselines', 'sport-check-thresholds.json');
+const FIXTURE = path.join(REPO_ROOT, 'scripts', 'baselines', 'spot-check-thresholds.json');
 const OUT_DIR = path.join(REPO_ROOT, 'out');
 const PUBLIC_DIR = path.join(REPO_ROOT, 'public');
 
@@ -102,17 +102,17 @@ for (const f of fixtures) {
   }
 }
 
-console.log(`Sport-checked ${checked}/${fixtures.length} API row(s), ${pageChecks} rendered-page substring(s).`);
+console.log(`Spot-checked ${checked}/${fixtures.length} API row(s), ${pageChecks} rendered-page substring(s).`);
 
 if (failures.length === 0) {
-  console.log('OK: sport-check passes — published thresholds and pages render as expected.');
+  console.log('OK: spot-check passes — published thresholds and pages render as expected.');
   process.exit(0);
 }
 
-console.error(`\nFAIL: ${failures.length} sport-check violation(s):`);
+console.error(`\nFAIL: ${failures.length} spot-check violation(s):`);
 for (const f of failures) console.error(`  - ${f}`);
 console.error(
   '\nIf the change is intentional (publishing a new scheme version), update\n' +
-    'scripts/baselines/sport-check-thresholds.json with the new expected values.',
+    'scripts/baselines/spot-check-thresholds.json with the new expected values.',
 );
 process.exit(1);

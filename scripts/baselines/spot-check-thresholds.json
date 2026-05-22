@@ -1,6 +1,6 @@
 [
   {
-    "_comment": "Sport-check fixture — small representative slice. CI asserts each row appears unchanged in /api/v2/thresholds.json AND on the rendered species page. Bump only when a scheme version legitimately changes its numbers.",
+    "_comment": "Spot-check fixture — small representative slice. CI asserts each row appears unchanged in /api/v2/thresholds.json AND on the rendered species page. Bump only when a scheme version legitimately changes its numbers.",
     "_added": "2026-05-22"
   },
   {
