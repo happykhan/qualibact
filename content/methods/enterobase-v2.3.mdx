@@ -1,0 +1,57 @@
+`enterobase-v2.3` mirrors the assembly-QC cutoffs used by [EnteroBase](https://enterobase.warwick.ac.uk/) ([Zhou *et al.* 2020](https://doi.org/10.1101/gr.251678.119)) for its public-genome QA pipeline, version 2.3. We surface these alongside QualiBact's own schemes so users can compare a long-running third-party platform side-by-side with QualiBact's engine-derived numbers. It is **not** intended as a replacement for `qualibact-v1.0` / `qualibact-v1.1` — those are derived from a much wider per-species reference distribution, whereas EnteroBase publishes a single set of cutoffs for an entire genus.
+
+## What EnteroBase's QA pipeline does
+
+The EnteroBase backend pipeline ([backend documentation](https://enterobase.readthedocs.io/en/latest/pipelines/backend-pipeline-qaevaluation.html)) evaluates every public assembly against five operational criteria:
+
+1. **Total assembly length** — must fall within a species-/genus-specific min–max band.
+2. **N50** — must exceed a species-/genus-specific minimum.
+3. **Contig count** — must not exceed a species-/genus-specific maximum.
+4. **Proportion of N's** — fraction of low-quality / ambiguous sites must stay below 3–6 %.
+5. **Species-call agreement** — fraction of contigs assigned to the expected species (using Kraken; v0.10.5-beta in the EnteroBase pipeline) must exceed 65–70 %.
+
+In addition, the pipeline applies a *contig-level depth filter* before evaluation: contigs whose mean read depth is less than 20 % of the genome-wide mean are dropped, on the assumption that they represent low-level contamination.
+
+EnteroBase publishes a single set of cutoffs per genus (`Salmonella`, `Escherichia`/`Shigella`, `Yersinia`, `Klebsiella`, `Pseudomonas`, etc., plus a `default` block) — there is no per-species refinement and no WARN tier. A given assembly either meets every criterion or it fails.
+
+## What QualiBact's `enterobase-v2.3` scheme publishes
+
+For every QualiBact species in a genus EnteroBase actively curates, we copy the four metric cutoffs that map onto QualiBact's threshold table:
+
+| EnteroBase configuration key | QualiBact metric | Side |
+|---|---|---|
+| `min total bases` | `Genome_Size` | FAIL_lower |
+| `max total bases` | `Genome_Size` | FAIL_upper |
+| `min N50` | `N50` | FAIL_lower |
+| `max contig number` | `no_of_contigs` | FAIL_upper |
+
+The values are taken verbatim — no rounding, no statistical re-derivation. The published `source` flag reads `external` so it's distinguishable from QualiBact's `computed` (engine-derived) and `pinned` (expert-overridden) rows.
+
+QualiBact's WARN columns are **deliberately left blank** for this scheme — EnteroBase has only one tier (PASS / FAIL), so synthesising a borderline band would misrepresent the source.
+
+Coverage is restricted to species EnteroBase actually QCs — a species in a genus EnteroBase doesn't list (e.g. *Achromobacter xylosoxidans*) gets no `enterobase-v2.3` row, and therefore no species page under this scheme.
+
+## Where the data lives
+
+`enterobase-v2.3` is **not** included in the canonical `/api/v2/thresholds.csv` — that file is QualiBact-published thresholds only. Third-party schemes are published separately under `/api/v2/external/`:
+
+- `/api/v2/external/thresholds.csv` — flat CSV, only the rows EnteroBase actually defines.
+- `/api/v2/external/thresholds.json` — same data, nested by (species, scheme).
+- `/api/v2/external/index.json` — registry of species covered by each external scheme.
+
+This keeps a clean separation between QualiBact's official thresholds and third-party gates surfaced for comparison.
+
+## Metrics EnteroBase checks that are out of QualiBact's scope
+
+Two EnteroBase criteria are not part of QualiBact's assembly-level QC remit and therefore don't appear in the threshold table:
+
+- **Proportion of N's per assembly.** Counting ambiguous bases at the assembly level is on QualiBact's roadmap (see the [Requests page](/organism-requests)) but requires a re-pass over the ~2M-genome AllTheBacteria reference set and is not in `qualibact-v1.x`. EnteroBase's cutoff of <3–6 % is recorded in the per-species `enterobase-notes.json` sidecar for completeness.
+- **Kraken species-call agreement.** This is a species-identification metric, not an assembly metric. We recommend [bactscout](https://github.com/cgps-group/bactscout) as a companion tool for read-level / species-call QC; on the assembly side, the engine's own `severity` flag already calls out species-separation issues per species.
+
+## Why this scheme is not preferred
+
+`enterobase-v2.3` is deliberately never selected as a species' *preferred* scheme. The species page defaults to `qualibact-v1.1` (where it exists) or `qualibact-v1.0`. Users have to switch to EnteroBase explicitly via the scheme switcher to see its cutoffs side-by-side. This is to avoid implicitly endorsing a third-party, single-tier, genus-level gate as the canonical QualiBact answer.
+
+## Citation
+
+Zhou Z, Alikhan N-F, Mohamed K, *et al.* The EnteroBase user's guide, with case studies on *Salmonella* transmissions, *Yersinia pestis* phylogeny, and *Escherichia* core genomic diversity. *Genome Research* 30 (2020): 138–152. [doi:10.1101/gr.251678.119](https://doi.org/10.1101/gr.251678.119)

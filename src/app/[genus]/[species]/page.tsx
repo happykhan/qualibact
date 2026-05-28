@@ -15,10 +15,32 @@ interface IndexEntry {
   schemes: { scheme: string; manifest_url: string }[];
 }
 
-function loadIndex(): { species: IndexEntry[] } | null {
-  const p = path.join(process.cwd(), 'public', 'api', 'v2', 'index.json');
+function loadIndex(p: string): { species: IndexEntry[] } | null {
   if (!fs.existsSync(p)) return null;
   return JSON.parse(fs.readFileSync(p, 'utf8'));
+}
+
+// Combine the canonical /api/v2/index.json with /api/v2/external/index.json
+// so the scheme switcher on the species page sees both QualiBact-published
+// schemes AND third-party schemes (enterobase-v2.3 etc.).
+function loadMergedIndex(): { species: IndexEntry[] } | null {
+  const qb = loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'index.json'));
+  const ext = loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'external', 'index.json'));
+  if (!qb && !ext) return null;
+  const merged = new Map<string, IndexEntry>();
+  for (const e of qb?.species ?? []) {
+    merged.set(e.species, { ...e, schemes: [...e.schemes] });
+  }
+  for (const e of ext?.species ?? []) {
+    const existing = merged.get(e.species);
+    if (existing) {
+      const seen = new Set(existing.schemes.map((s) => s.scheme));
+      for (const s of e.schemes) if (!seen.has(s.scheme)) existing.schemes.push(s);
+    } else {
+      merged.set(e.species, { ...e, preferred_scheme: e.preferred_scheme ?? null, schemes: [...e.schemes] });
+    }
+  }
+  return { species: [...merged.values()] };
 }
 
 function loadManifest(species: string, version: string): { counts: { genome_count: number; refseq_count: number } } | null {
@@ -32,7 +54,7 @@ function loadManifest(species: string, version: string): { counts: { genome_coun
 }
 
 export async function generateStaticParams() {
-  const idx = loadIndex();
+  const idx = loadMergedIndex();
   if (!idx) return [];
   return idx.species
     .map(({ species }) => ({
@@ -53,7 +75,7 @@ export async function generateMetadata({ params }: SpeciesPageProps): Promise<Me
 
 export default async function SpeciesPage({ params }: SpeciesPageProps) {
   const { genus, species } = await params;
-  const idx = loadIndex();
+  const idx = loadMergedIndex();
   if (!idx) notFound();
 
   const entry = idx.species.find((s) => s.species === species);

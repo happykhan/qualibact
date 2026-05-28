@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "species": "Campylobacter_upsaliensis",
   "scheme": "qualibact-v1.0",
-  "generated_at": "2026-05-20T22:24:46+00:00",
+  "generated_at": "2026-05-28T11:31:10+00:00",
   "counts": {
     "genome_count": 809,
     "refseq_count": 2,

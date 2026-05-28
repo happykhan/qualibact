@@ -194,13 +194,20 @@ function DownloadButton({ href, name, label }: { href: string; name: string; lab
   );
 }
 
+// Schemes that are surfaced for side-by-side comparison only, not for
+// the cross-species summary tables / downloads on this page. EnteroBase
+// is a third-party gate with no genome counts and a different
+// methodology — including it here would make the totals misleading.
+const EXTERNAL_SCHEMES = new Set(['enterobase-v2.3']);
+
 export default function Summary() {
-  const thresholds = loadAggregateThresholds();
+  const thresholds = loadAggregateThresholds().filter((r) => !EXTERNAL_SCHEMES.has(r.scheme));
   const stats = loadStats();
-  const counts = loadCounts();
+  const counts = loadCounts().filter((r) => !EXTERNAL_SCHEMES.has(r.scheme));
   const xlsxExists = (rel: string) =>
     fs.existsSync(path.join(process.cwd(), 'public', ...rel.split('/').filter(Boolean)));
   const hasXlsx = xlsxExists('/api/v2/thresholds.xlsx');
+  const hasExternalXlsx = xlsxExists('/api/v2/external/thresholds.xlsx');
   const hasStatsXlsx = xlsxExists('/static/summary/summary_statistics.xlsx');
   const hasCountsXlsx = xlsxExists('/static/summary/species_counts.xlsx');
 
@@ -351,6 +358,12 @@ export default function Summary() {
           <code className="font-mono text-sm">/api/v2/</code> so that downstream
           tools can fetch thresholds without scraping HTML. These files are
           regenerated on every site build from the per-species manifests.
+          Third-party comparison schemes that QualiBact does not publish itself
+          (currently EnteroBase) live under{' '}
+          <code className="font-mono text-sm">/api/v2/external/</code> in the
+          same shape — kept separate so the canonical{' '}
+          <code className="font-mono text-sm">/api/v2/</code> contract only
+          carries QualiBact-published thresholds.
         </p>
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 text-sm">
@@ -416,6 +429,73 @@ export default function Summary() {
                   Per-species, per-scheme bundle: thresholds, distribution
                   summary, plot URLs, and warning flags. One file per pair —
                   the same one the per-species pages read.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 className="text-lg font-semibold font-header mt-10 mb-2">
+          External / third-party comparison schemes
+        </h3>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-3 max-w-3xl">
+          Same shape as the canonical endpoints above, but for schemes QualiBact
+          does not publish itself. Currently carries EnteroBase{' '}
+          (<code className="font-mono">enterobase-v2.3</code>) rows.
+        </p>
+        <div className="overflow-x-auto">
+          <table className="min-w-full bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 text-sm">
+            <thead>
+              <tr className="bg-neutral-50 dark:bg-neutral-700">
+                <th className="px-4 py-2 text-left border-b">Endpoint</th>
+                <th className="px-4 py-2 text-left border-b">What it is</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 border-b font-mono">
+                  <a className="text-brand-600 hover:underline" href={staticUrl('/api/v2/external/thresholds.csv')}>
+                    /api/v2/external/thresholds.csv
+                  </a>
+                </td>
+                <td className="px-4 py-2 border-b">
+                  Long-form CSV of third-party comparison thresholds, mirroring
+                  the canonical CSV shape.
+                </td>
+              </tr>
+              <tr className="bg-neutral-50 dark:bg-neutral-700">
+                <td className="px-4 py-2 border-b font-mono">
+                  <a className="text-brand-600 hover:underline" href={staticUrl('/api/v2/external/thresholds.json')}>
+                    /api/v2/external/thresholds.json
+                  </a>
+                </td>
+                <td className="px-4 py-2 border-b">
+                  Same data as the external CSV, JSON-keyed and grouped by
+                  species &amp; scheme for programmatic consumption.
+                </td>
+              </tr>
+              {hasExternalXlsx && (
+                <tr>
+                  <td className="px-4 py-2 border-b font-mono">
+                    <a className="text-brand-600 hover:underline" href={staticUrl('/api/v2/external/thresholds.xlsx')}>
+                      /api/v2/external/thresholds.xlsx
+                    </a>
+                  </td>
+                  <td className="px-4 py-2 border-b">
+                    External thresholds packaged as an Excel workbook for direct
+                    opening in spreadsheet software.
+                  </td>
+                </tr>
+              )}
+              <tr className="bg-neutral-50 dark:bg-neutral-700">
+                <td className="px-4 py-2 border-b font-mono">
+                  <a className="text-brand-600 hover:underline" href={staticUrl('/api/v2/external/index.json')}>
+                    /api/v2/external/index.json
+                  </a>
+                </td>
+                <td className="px-4 py-2 border-b">
+                  Manifest for the external endpoints: schema version, generation
+                  timestamp, species count, and the list of species covered.
                 </td>
               </tr>
             </tbody>

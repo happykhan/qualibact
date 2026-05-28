@@ -22,6 +22,9 @@ export interface ThresholdTableProps {
   rows: ThresholdRow[];
   summaryHasMy: boolean;
   metricsURL?: string;
+  /** External (third-party) schemes ship published integer cutoffs and have no
+   *  pre-rounding raw bound or WARN band — the mode toggle is meaningless. */
+  hideModeToggle?: boolean;
 }
 
 function fmt(v: number | null | undefined): string {
@@ -49,12 +52,13 @@ function isGcRoundable(metric: string, mode: 'rounded' | 'raw'): boolean {
   return mode === 'rounded' && metric === 'GC_Content';
 }
 
-export default function ThresholdTable({ rows, summaryHasMy, metricsURL }: ThresholdTableProps) {
+export default function ThresholdTable({ rows, summaryHasMy, metricsURL, hideModeToggle }: ThresholdTableProps) {
   const [mode, setMode] = useState<'rounded' | 'raw'>('rounded');
 
   return (
     <>
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        {!hideModeToggle && (
         <div className="inline-flex rounded-full border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-900 p-1">
           {(['rounded', 'raw'] as const).map((m) => (
             <button
@@ -73,14 +77,17 @@ export default function ThresholdTable({ rows, summaryHasMy, metricsURL }: Thres
             </button>
           ))}
         </div>
+        )}
+        {!hideModeToggle && (
         <p className="text-[11px] text-neutral-500 dark:text-neutral-400">
           {mode === 'rounded'
             ? 'Both Fail and Warn bands shown as the published rounded values — easier to cite and consistent across the species page, CSV downloads, and downstream QC tools.'
             : 'Both Fail and Warn bands shown as the engine’s unrounded statistical bounds, exactly as derived from the reference distribution.'}
         </p>
+        )}
       </div>
 
-      {!summaryHasMy && (
+      {!hideModeToggle && !summaryHasMy && (
         <div className="mb-4 rounded border border-amber-300 dark:border-amber-700 bg-amber-50 dark:bg-amber-950/40 px-3 py-2 text-xs text-amber-800 dark:text-amber-200">
           The reference data for this scheme is from an older engine run and doesn&apos;t carry the values needed to compute the warn / fail bands below. The engine is being re-run; bands will populate once that lands.
         </div>

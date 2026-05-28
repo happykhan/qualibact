@@ -104,6 +104,27 @@ export default async function SchemeDetails({ species, version }: Props) {
   const markdownBody = (bodyMatch ? bodyMatch[1] : rawMarkdown).trim();
   const hasAuthoredContent = markdownBody.length > 0;
 
+  // External (third-party) schemes ship an `enterobase-notes.json` (or
+  // similar) sidecar with the criteria QualiBact deliberately doesn't
+  // track in its threshold table. Pull it in so SchemeIntroBlock can
+  // surface those values on the species page.
+  let externalNotes: { matchedBlock?: string; outOfScope?: Record<string, string>; source?: string } | undefined;
+  const externalNotesPath = path.join(
+    process.cwd(), 'public', 'static', 'species', species, version, 'enterobase-notes.json'
+  );
+  if (fs.existsSync(externalNotesPath)) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(externalNotesPath, 'utf8'));
+      externalNotes = {
+        matchedBlock: raw.matched_block,
+        outOfScope: raw.out_of_scope_for_qualibact,
+        source: raw.source,
+      };
+    } catch {
+      externalNotes = undefined;
+    }
+  }
+
   // Sidecar file URLs come straight from the manifest.sidecars block;
   // values are full relative paths under public/static/species/, so we
   // just prepend /static/species/.
@@ -295,7 +316,7 @@ export default async function SchemeDetails({ species, version }: Props) {
         notes={speciesNotes}
       />
 
-      <SchemeIntroBlock species={species} scheme={version} counts={manifest.counts}>
+      <SchemeIntroBlock species={species} scheme={version} counts={manifest.counts} externalNotes={externalNotes}>
         {hasAuthoredContent && <MarkdownRenderer content={markdownBody} />}
       </SchemeIntroBlock>
 
@@ -377,6 +398,7 @@ export default async function SchemeDetails({ species, version }: Props) {
             })}
             summaryHasMy={summaryHasMy}
             metricsURL={metricsURL}
+            hideModeToggle={!!externalNotes}
           />
         </section>
       )}
@@ -401,9 +423,15 @@ export default async function SchemeDetails({ species, version }: Props) {
         </div>
       )}
 
-      <div className="card p-6">
-        <RefseqTableSection species={species} preferredVersion={version} refseqUrl={refseqUrl} jsonUrl={jsonUrl} assemblyStatsUrl={assemblyStatsPath} />
-      </div>
+      {/* RefSeq + assembly-stats downloads only make sense for QualiBact's
+          own (calibrated-from-data) schemes. External schemes like
+          enterobase-v2.3 don't ship a reference cohort, so the whole
+          card would just read "RefSeq table not available" — hide it. */}
+      {(refseqUrl || jsonUrl || assemblyStatsPath) && (
+        <div className="card p-6">
+          <RefseqTableSection species={species} preferredVersion={version} refseqUrl={refseqUrl} jsonUrl={jsonUrl} assemblyStatsUrl={assemblyStatsPath} />
+        </div>
+      )}
 
       {filteredItems.length > 0 && (
         <div className="card p-6">
