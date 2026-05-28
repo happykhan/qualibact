@@ -24,7 +24,7 @@ overrides:
     scheme:  qualibact-v1.1
     metric:  Genome_Size
     upper:   2100000
-    reason:  "Nov 2025 expert survey — Alexandra Nunes & Mónica Oleastro (INSA Lisboa) advised that 2.0 Mb was too restrictive and excluded a small number of well-supported high-quality genomes from a diverse human/food/animal/environmental isolate set. The +10% regen buffer would push this to 2.14 Mb; lock at the specific value the experts asked for."
+    reason:  "Nov 2025 expert survey — INSA Lisboa Campylobacter subgroup advised that 2.0 Mb was too restrictive and excluded a small number of well-supported high-quality genomes from a diverse human/food/animal/environmental isolate set. The +10% regen buffer would push this to 2.14 Mb; lock at the specific value the experts asked for."
 
   - species: Neisseria_meningitidis
     scheme:  qualibact-v1.1
@@ -33,8 +33,8 @@ overrides:
     reason:  "Nov 2025 expert survey — INSA Lisboa N. meningitidis subgroup advised that their reference dataset is consistently below 2.3 Mb and a tighter upper bound is appropriate to flag potentially contaminated or chimeric assemblies. The +10% regen buffer would push this to 2.67 Mb; lock at the requested 2.3 Mb."
 
   # The five Neisseria commensal entries below all came from the same
-  # respondent group (N. gonorrhoeae subgroup, citing Sheeba Basil's
-  # Neisseria commensal dataset analysis). They asked for Contamination
+  # respondent group (N. gonorrhoeae subgroup, citing the
+  # published Neisseria commensal dataset). They asked for Contamination
   # upper = 3.0 as a more general threshold applicable across commensal
   # Neisseria species. Engine output for these species after v1.0-rev2
   # lands between 1 and 4; this pin records the expert-recommended value.
@@ -43,31 +43,31 @@ overrides:
     scheme:  qualibact-v1.1
     metric:  Contamination
     upper:   3.0
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
 
   - species: Neisseria_flavescens
     scheme:  qualibact-v1.1
     metric:  Contamination
     upper:   3.0
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 4.0; pinned here at the requested value."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 4.0; pinned here at the requested value."
 
   - species: Neisseria_lactamica
     scheme:  qualibact-v1.1
     metric:  Contamination
     upper:   3.0
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
 
   - species: Neisseria_perflava
     scheme:  qualibact-v1.1
     metric:  Contamination
     upper:   3.0
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Pinned here at the requested value."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Pinned here at the requested value."
 
   - species: Neisseria_polysaccharea
     scheme:  qualibact-v1.1
     metric:  Contamination
     upper:   3.0
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Contamination upper = 3.0 as a general threshold across commensal Neisseria species. Engine v1.0-rev2 emits 1.0; pinned here for consistency across the commensal group."
 
   - species: Campylobacter_fetus
     scheme:  qualibact-v1.1
@@ -91,13 +91,13 @@ overrides:
     scheme:  qualibact-v1.1
     metric:  Completeness_Specific
     lower:   99
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Completeness lower ≥ 99 as a more general threshold applicable across commensal Neisseria. Engine v1.0-rev2 emits 98."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Completeness lower ≥ 99 as a more general threshold applicable across commensal Neisseria. Engine v1.0-rev2 emits 98."
 
   - species: Neisseria_flavescens
     scheme:  qualibact-v1.1
     metric:  Completeness_Specific
     lower:   99
-    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup (citing Sheeba Basil's Neisseria commensal data) recommended Completeness lower ≥ 99. Engine v1.0-rev2 emits 94; pinned at 99 for consistency across the commensal group."
+    reason:  "Nov 2025 expert survey — N. gonorrhoeae subgroup recommended Completeness lower ≥ 99. Engine v1.0-rev2 emits 94; pinned at 99 for consistency across the commensal group."
 
   - species: Neisseria_lactamica
     scheme:  qualibact-v1.1

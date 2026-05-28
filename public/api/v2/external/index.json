@@ -1,0 +1,1332 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-28T11:31:10+00:00",
+  "species_count": 120,
+  "endpoints": {
+    "thresholds_csv": "/api/v2/external/thresholds.csv",
+    "thresholds_json": "/api/v2/external/thresholds.json",
+    "per_species_manifest": "/static/species/{species}/{scheme}/manifest.json"
+  },
+  "species": [
+    {
+      "species": "Bacillus_altitudinis",
+      "name": "Bacillus altitudinis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_altitudinis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_anthracis",
+      "name": "Bacillus anthracis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_anthracis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_bombysepticus",
+      "name": "Bacillus bombysepticus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_bombysepticus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_cereus",
+      "name": "Bacillus cereus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_cereus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_licheniformis",
+      "name": "Bacillus licheniformis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_licheniformis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_mobilis",
+      "name": "Bacillus mobilis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_mobilis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_mycoides",
+      "name": "Bacillus mycoides",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_mycoides/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_paralicheniformis",
+      "name": "Bacillus paralicheniformis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_paralicheniformis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_paranthracis",
+      "name": "Bacillus paranthracis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_paranthracis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_pumilus",
+      "name": "Bacillus pumilus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_pumilus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_safensis",
+      "name": "Bacillus safensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_safensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_spizizenii",
+      "name": "Bacillus spizizenii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_spizizenii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_subtilis",
+      "name": "Bacillus subtilis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_subtilis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_thuringiensis",
+      "name": "Bacillus thuringiensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_thuringiensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_toyonensis",
+      "name": "Bacillus toyonensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_toyonensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_velezensis",
+      "name": "Bacillus velezensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_velezensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Bacillus_wiedmannii",
+      "name": "Bacillus wiedmannii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Bacillus_wiedmannii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_beijerinckii",
+      "name": "Clostridium beijerinckii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_beijerinckii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_botulinum",
+      "name": "Clostridium botulinum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_botulinum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_cagae",
+      "name": "Clostridium cagae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_cagae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_difficile",
+      "name": "Clostridium difficile",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_difficile/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_innocuum",
+      "name": "Clostridium innocuum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_innocuum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Clostridium_tetani",
+      "name": "Clostridium tetani",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Clostridium_tetani/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_albertii",
+      "name": "Escherichia albertii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Escherichia_albertii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_coli",
+      "name": "Escherichia coli",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Escherichia_coli/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_fergusonii",
+      "name": "Escherichia fergusonii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Escherichia_fergusonii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_marmotae",
+      "name": "Escherichia marmotae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Escherichia_marmotae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Escherichia_ruysiae",
+      "name": "Escherichia ruysiae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Escherichia_ruysiae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Helicobacter_pylori",
+      "name": "Helicobacter pylori",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Helicobacter_pylori/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_aerogenes",
+      "name": "Klebsiella aerogenes",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_aerogenes/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_africana",
+      "name": "Klebsiella africana",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_africana/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_grimontii",
+      "name": "Klebsiella grimontii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_grimontii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_huaxiensis",
+      "name": "Klebsiella huaxiensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_huaxiensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_michiganensis",
+      "name": "Klebsiella michiganensis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_michiganensis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_ornithinolytica",
+      "name": "Klebsiella ornithinolytica",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_ornithinolytica/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_oxytoca",
+      "name": "Klebsiella oxytoca",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_oxytoca/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_pasteurii",
+      "name": "Klebsiella pasteurii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_pasteurii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_planticola",
+      "name": "Klebsiella planticola",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_planticola/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_pneumoniae",
+      "name": "Klebsiella pneumoniae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_pneumoniae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_quasipneumoniae",
+      "name": "Klebsiella quasipneumoniae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_quasipneumoniae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_quasivariicola",
+      "name": "Klebsiella quasivariicola",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_quasivariicola/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_spallanzanii",
+      "name": "Klebsiella spallanzanii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_spallanzanii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Klebsiella_variicola",
+      "name": "Klebsiella variicola",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Klebsiella_variicola/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_grayi",
+      "name": "Listeria grayi",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Listeria_grayi/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_innocua",
+      "name": "Listeria innocua",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Listeria_innocua/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_monocytogenes",
+      "name": "Listeria monocytogenes",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Listeria_monocytogenes/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_seeligeri",
+      "name": "Listeria seeligeri",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Listeria_seeligeri/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Listeria_welshimeri",
+      "name": "Listeria welshimeri",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Listeria_welshimeri/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Moraxella_bovoculi",
+      "name": "Moraxella bovoculi",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Moraxella_bovoculi/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Moraxella_catarrhalis",
+      "name": "Moraxella catarrhalis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Moraxella_catarrhalis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_abscessus",
+      "name": "Mycobacterium abscessus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_abscessus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_avium",
+      "name": "Mycobacterium avium",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_avium/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_chelonae",
+      "name": "Mycobacterium chelonae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_chelonae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_intracellulare",
+      "name": "Mycobacterium intracellulare",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_intracellulare/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_kansasii",
+      "name": "Mycobacterium kansasii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_kansasii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_marinum",
+      "name": "Mycobacterium marinum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_marinum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_smegmatis",
+      "name": "Mycobacterium smegmatis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_smegmatis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_tuberculosis",
+      "name": "Mycobacterium tuberculosis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_tuberculosis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Mycobacterium_xenopi",
+      "name": "Mycobacterium xenopi",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Mycobacterium_xenopi/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_bergeri",
+      "name": "Neisseria bergeri",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_bergeri/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_flavescens",
+      "name": "Neisseria flavescens",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_flavescens/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_gonorrhoeae",
+      "name": "Neisseria gonorrhoeae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_gonorrhoeae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_lactamica",
+      "name": "Neisseria lactamica",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_lactamica/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_meningitidis",
+      "name": "Neisseria meningitidis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_meningitidis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_perflava",
+      "name": "Neisseria perflava",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_perflava/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Neisseria_polysaccharea",
+      "name": "Neisseria polysaccharea",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Neisseria_polysaccharea/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_aeruginosa",
+      "name": "Pseudomonas aeruginosa",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_aeruginosa/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_alloputida",
+      "name": "Pseudomonas alloputida",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_alloputida/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_asiatica",
+      "name": "Pseudomonas asiatica",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_asiatica/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_avellanae",
+      "name": "Pseudomonas avellanae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_avellanae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_fluorescens",
+      "name": "Pseudomonas fluorescens",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_fluorescens/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_fulva",
+      "name": "Pseudomonas fulva",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_fulva/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_glycinae",
+      "name": "Pseudomonas glycinae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_glycinae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_juntendi",
+      "name": "Pseudomonas juntendi",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_juntendi/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_marginalis",
+      "name": "Pseudomonas marginalis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_marginalis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_monteilii",
+      "name": "Pseudomonas monteilii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_monteilii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_paracarnis",
+      "name": "Pseudomonas paracarnis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_paracarnis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_protegens",
+      "name": "Pseudomonas protegens",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_protegens/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_putida",
+      "name": "Pseudomonas putida",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_putida/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Pseudomonas_syringae",
+      "name": "Pseudomonas syringae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Pseudomonas_syringae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_arizonae",
+      "name": "Salmonella arizonae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Salmonella_arizonae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_bongori",
+      "name": "Salmonella bongori",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Salmonella_bongori/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Salmonella_enterica",
+      "name": "Salmonella enterica",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Salmonella_enterica/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_agalactiae",
+      "name": "Streptococcus agalactiae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_agalactiae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_anginosus",
+      "name": "Streptococcus anginosus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_anginosus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_canis",
+      "name": "Streptococcus canis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_canis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_dysgalactiae",
+      "name": "Streptococcus dysgalactiae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_dysgalactiae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_equi",
+      "name": "Streptococcus equi",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_equi/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_gordonii",
+      "name": "Streptococcus gordonii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_gordonii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_mitis",
+      "name": "Streptococcus mitis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_mitis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_mutans",
+      "name": "Streptococcus mutans",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_mutans/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_oralis",
+      "name": "Streptococcus oralis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_oralis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_parasanguinis",
+      "name": "Streptococcus parasanguinis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_parasanguinis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pneumoniae",
+      "name": "Streptococcus pneumoniae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_pneumoniae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pseudopneumoniae",
+      "name": "Streptococcus pseudopneumoniae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_pseudopneumoniae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_pyogenes",
+      "name": "Streptococcus pyogenes",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_pyogenes/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_salivarius",
+      "name": "Streptococcus salivarius",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_salivarius/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_suis",
+      "name": "Streptococcus suis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_suis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Streptococcus_uberis",
+      "name": "Streptococcus uberis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Streptococcus_uberis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Treponema_pallidum",
+      "name": "Treponema pallidum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Treponema_pallidum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_alginolyticus",
+      "name": "Vibrio alginolyticus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_alginolyticus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_anguillarum",
+      "name": "Vibrio anguillarum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_anguillarum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_cholerae",
+      "name": "Vibrio cholerae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_cholerae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_diabolicus",
+      "name": "Vibrio diabolicus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_diabolicus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_fluvialis",
+      "name": "Vibrio fluvialis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_fluvialis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_mediterranei",
+      "name": "Vibrio mediterranei",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_mediterranei/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_metschnikovii",
+      "name": "Vibrio metschnikovii",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_metschnikovii/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_parahaemolyticus",
+      "name": "Vibrio parahaemolyticus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_parahaemolyticus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Vibrio_vulnificus",
+      "name": "Vibrio vulnificus",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Vibrio_vulnificus/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_arboricola",
+      "name": "Xanthomonas arboricola",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_arboricola/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_campestris",
+      "name": "Xanthomonas campestris",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_campestris/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_cissicola",
+      "name": "Xanthomonas cissicola",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_cissicola/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_euvesicatoria",
+      "name": "Xanthomonas euvesicatoria",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_euvesicatoria/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_hortorum",
+      "name": "Xanthomonas hortorum",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_hortorum/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xanthomonas_oryzae",
+      "name": "Xanthomonas oryzae",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xanthomonas_oryzae/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Xylella_fastidiosa",
+      "name": "Xylella fastidiosa",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Xylella_fastidiosa/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_enterocolitica",
+      "name": "Yersinia enterocolitica",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Yersinia_enterocolitica/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_intermedia",
+      "name": "Yersinia intermedia",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Yersinia_intermedia/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_pestis",
+      "name": "Yersinia pestis",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Yersinia_pestis/enterobase-v2.3/manifest.json"
+        }
+      ]
+    },
+    {
+      "species": "Yersinia_ruckeri",
+      "name": "Yersinia ruckeri",
+      "preferred_scheme": null,
+      "schemes": [
+        {
+          "scheme": "enterobase-v2.3",
+          "manifest_url": "/static/species/Yersinia_ruckeri/enterobase-v2.3/manifest.json"
+        }
+      ]
+    }
+  ]
+}

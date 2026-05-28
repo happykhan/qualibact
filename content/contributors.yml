@@ -27,17 +27,22 @@
 #
 # Pending public credit (permission to list on the site not yet confirmed,
 # 2026-05-21): a-rokney, b-duim, b-iorga, b-lopes, d-sarovich, m-lisowska,
-# m-diricks, s-banerji. They were removed from this file pending sign-off;
-# their technical contributions are still recorded in
+# s-banerji. They were removed from this file pending sign-off; their
+# technical contributions are still recorded in
 # content/threshold-rationale.yml as the audit trail for the pinned values.
 # h-johansen reinstated 2026-05-21 (permission confirmed for A. xylosoxidans).
+# a-komorowski confirmed and added 2026-05-21.
+# m-diricks confirmed and added 2026-05-28 (self-signed survey response for
+#   H. influenzae + H. haemolyticus; she CC'd Rokney + Sarovich but neither
+#   has self-confirmed so they stay pending).
+# z-dyson confirmed and added 2026-05-28 (self-signed survey response for
+#   S. enterica).
 #
 # Also pending out-of-band reconfirmation (the Nov 2025 survey says
-# "Yes, sure" for credit but Nabil wants to verify explicitly first):
+# "Yes, sure" for credit but the maintainer wants to verify explicitly):
 #   - Sandra Reuter (dr.sandra.reuter@gmail.com, affiliation TBD)
 # When confirmed, add s-reuter alongside a-komorowski on the three
 # Serratia attributions below.
-# a-komorowski confirmed and added 2026-05-21.
 
 contributors:
   - id: m-oleastro
@@ -68,6 +73,14 @@ contributors:
     name: Adam S. Komorowski
     affiliation: McMaster University
     country: Canada
+  - id: m-diricks
+    name: Margo Diricks
+    affiliation: Forschungszentrum Borstel
+    country: Germany
+  - id: z-dyson
+    name: Zoe A. Dyson
+    affiliation: London School of Hygiene & Tropical Medicine
+    country: United Kingdom
 
 funding:
   - id: insa
@@ -92,16 +105,28 @@ attributions:
   - species: Campylobacter_fetus
     scheme: qualibact-v1.1
     contributors: [m-oleastro]
-    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey. Some respondents pending public-credit confirmation."
+    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey."
   - species: Serratia_bockelmannii
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — Co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey"
   - species: Serratia_nevei
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution. Co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey — flagged the patchy N50-vs-total-length distribution"
   - species: Serratia_ureilytica
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
-    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids). Co-reviewer pending public-credit confirmation."
+    note: "Nov 2025 expert-feedback survey — flagged the bimodal N50-vs-total-length distribution (possible taxonomic heterogeneity / ICEs / plasmids)"
+  - species: Haemophilus_influenzae
+    scheme: qualibact-v1.1
+    contributors: [m-diricks]
+    note: "Nov 2025 expert-feedback survey — flagged that >100 contigs are most often contamination, and that two RefSeq references pushing the assembly-size upper bound up have inconclusive ANI (~94 %) against H. influenzae"
+  - species: Haemophilus_haemolyticus
+    scheme: qualibact-v1.1
+    contributors: [m-diricks]
+    note: "Nov 2025 expert-feedback survey — proposed the 1.75 Mb assembly-size upper and the 100-contig cap."
+  - species: Salmonella_enterica
+    scheme: qualibact-v1.0
+    contributors: [z-dyson]
+    note: "Nov 2025 expert-feedback survey — confirmed the S. enterica v1.0 bounds."

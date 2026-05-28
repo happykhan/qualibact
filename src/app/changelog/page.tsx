@@ -15,7 +15,7 @@ const content = fs.readFileSync(
 
 export default function ChangelogPage() {
   return (
-    <div className="py-8 max-w-3xl mx-auto">
+    <div className="py-8">
       <MarkdownRenderer content={content} />
     </div>
   );

@@ -15,21 +15,33 @@ interface IndexEntry {
   schemes: { scheme: string; manifest_url: string }[];
 }
 
-function loadIndex(): { species: IndexEntry[] } | null {
-  const p = path.join(process.cwd(), 'public', 'api', 'v2', 'index.json');
+function loadIndex(p: string): { species: IndexEntry[] } | null {
   if (!fs.existsSync(p)) return null;
   return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
 
+// We pre-render species pages for every (species, scheme) pair across
+// both the canonical /api/v2/index.json (QualiBact's own schemes) and
+// /api/v2/external/index.json (third-party schemes like enterobase-v2.3).
+// Without merging both, external scheme routes wouldn't get static
+// params and the build would 404 them.
 export async function generateStaticParams() {
-  const idx = loadIndex();
-  if (!idx) return [];
+  const idxs = [
+    loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'index.json')),
+    loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'external', 'index.json')),
+  ].filter((x): x is { species: IndexEntry[] } => x !== null);
+  const seen = new Set<string>();
   const params: { genus: string; species: string; version: string }[] = [];
-  for (const entry of idx.species) {
-    const genus = entry.species.split('_')[0];
-    if (!genus) continue;
-    for (const s of entry.schemes) {
-      params.push({ genus, species: entry.species, version: s.scheme });
+  for (const idx of idxs) {
+    for (const entry of idx.species) {
+      const genus = entry.species.split('_')[0];
+      if (!genus) continue;
+      for (const s of entry.schemes) {
+        const key = `${entry.species}/${s.scheme}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        params.push({ genus, species: entry.species, version: s.scheme });
+      }
     }
   }
   return params;
@@ -46,15 +58,25 @@ export async function generateMetadata({ params }: VersionPageProps): Promise<Me
 
 export default async function VersionPage({ params }: VersionPageProps) {
   const { genus, species, version } = await params;
-  const idx = loadIndex();
-  if (!idx) notFound();
+  // Look in both indices — canonical first (so the preferred-scheme
+  // hint is sourced from QualiBact's own registry), then the external
+  // registry for third-party schemes.
+  const qbIdx = loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'index.json'));
+  const extIdx = loadIndex(path.join(process.cwd(), 'public', 'api', 'v2', 'external', 'index.json'));
 
-  const entry = idx.species.find((s) => s.species === species);
-  if (!entry || !entry.schemes.find((s) => s.scheme === version)) {
-    notFound();
-  }
-  const preferredVersion = entry.preferred_scheme ?? version;
-  const allSchemes = entry.schemes.map((s) => s.scheme);
+  const qbEntry = qbIdx?.species.find((s) => s.species === species);
+  const extEntry = extIdx?.species.find((s) => s.species === species);
+  const entry = qbEntry ?? extEntry;
+  if (!entry) notFound();
+
+  const allSchemeSet = new Set<string>([
+    ...(qbEntry?.schemes.map((s) => s.scheme) ?? []),
+    ...(extEntry?.schemes.map((s) => s.scheme) ?? []),
+  ]);
+  if (!allSchemeSet.has(version)) notFound();
+
+  const preferredVersion = qbEntry?.preferred_scheme ?? version;
+  const allSchemes = [...allSchemeSet];
 
   return (
     <div className="py-8">

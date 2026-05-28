@@ -1,0 +1,63 @@
+name: CI
+
+# Runs on every PR + every push to main. Catches what Cloudflare Pages
+# would catch *after* merge, but before merge — so a broken build / dead
+# internal link / API-shape drift can't ship to prod without someone
+# explicitly overriding it.
+#
+# Stages:
+#   1. lint   — ESLint (warnings allowed, errors fail).
+#   2. build  — `next build` (static export). Same env Cloudflare uses
+#               (CF_PAGES=1 so the prebuild's Python step is skipped —
+#               the committed manifest.json / summary.csv tree is the
+#               source of truth in CI, same as on Cloudflare).
+#   3. audit-links  — walks out/, asserts every absolute <a href="/...">
+#                     resolves to a real page or file. Catches typos
+#                     like /requests vs /organism-requests/.
+#   4. audit-api    — validates /api/v2/index.json + thresholds.json
+#                     against the contract SpecCheck / Kleborate / the
+#                     MCP depend on.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build (static export)
+        env:
+          CF_PAGES: '1'
+        run: npm run build
+
+      - name: Audit internal links
+        run: node scripts/audit-internal-links.mjs
+
+      - name: Audit /api/v2/ contract
+        run: node scripts/audit-api-shape.mjs
+
+      - name: Spot-check thresholds (immutability gate)
+        run: node scripts/audit-thresholds-frozen.mjs

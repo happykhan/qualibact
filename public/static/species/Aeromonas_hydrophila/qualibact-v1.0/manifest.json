@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "species": "Aeromonas_hydrophila",
   "scheme": "qualibact-v1.0",
-  "generated_at": "2026-05-20T22:24:46+00:00",
+  "generated_at": "2026-05-28T11:31:10+00:00",
   "counts": {
     "genome_count": 161,
     "refseq_count": 75,

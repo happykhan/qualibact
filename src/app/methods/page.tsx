@@ -9,6 +9,8 @@ const SCHEME_DESCRIPTIONS: Record<string, string> = {
     'Species-specific thresholds derived from AllTheBacteria (2.4M genomes) and RefSeq complete genomes using Isolation Forest outlier detection.',
   'qualibact-v1.1':
     'Refined thresholds incorporating additional genome sets beyond AllTheBacteria, with species-specific adjustments to qualibact-v1.0 criteria.',
+  'enterobase-v2.3':
+    'Third-party assembly-QC cutoffs from the EnteroBase QA pipeline (Zhou et al., 2020). Genus-level, single-tier (FAIL only), applied only to species EnteroBase actively curates. Surfaced for side-by-side comparison; never the preferred scheme.',
 };
 
 export default function MethodsIndex() {

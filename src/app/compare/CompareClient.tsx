@@ -16,7 +16,14 @@ interface SpeciesData {
   schemes?: Record<string, { thresholds?: Threshold[] }>;
 }
 
-type Mode = 'species' | 'versions';
+type Mode = 'species' | 'versions' | 'schemes';
+
+// External / third-party schemes published alongside QualiBact's own.
+// Comparing v1.0 vs enterobase is conceptually different from v1.0 vs
+// v1.1 (the former is "us vs a third party", the latter is "us
+// across releases"), so they live in different modes.
+const EXTERNAL_SCHEMES = new Set(['enterobase-v2.3']);
+const QUALIBACT_SCHEMES = new Set(['qualibact-v1.0', 'qualibact-v1.1']);
 
 function formatBound(
   lower: string | number | null | undefined,
@@ -36,7 +43,8 @@ export default function CompareClient() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const mode: Mode = searchParams.get('mode') === 'versions' ? 'versions' : 'species';
+  const modeParam = searchParams.get('mode');
+  const mode: Mode = modeParam === 'versions' ? 'versions' : modeParam === 'schemes' ? 'schemes' : 'species';
   const selectedFromUrl = (searchParams.get('species') ?? '').split(',').filter(Boolean);
 
   const [manifestSpecies, setManifestSpecies] = useState<Record<string, SpeciesData>>({});
@@ -49,32 +57,47 @@ export default function CompareClient() {
   // rest of this component already speaks.
   useEffect(() => {
     let cancelled = false;
+    // /api/v2/ holds QualiBact-published schemes only. Third-party
+    // schemes (currently enterobase-v2.3) live under /api/v2/external/
+    // so the canonical API stays clean. Fetch both and merge.
     Promise.all([
       fetch('/api/v2/index.json').then((r) => r.json()),
       fetch('/api/v2/thresholds.json').then((r) => r.json()),
+      fetch('/api/v2/external/index.json').then((r) => r.ok ? r.json() : { species: [] }).catch(() => ({ species: [] })),
+      fetch('/api/v2/external/thresholds.json').then((r) => r.ok ? r.json() : { species: {} }).catch(() => ({ species: {} })),
     ])
-      .then(([indexJson, thresholdsJson]) => {
+      .then(([indexJson, thresholdsJson, extIndex, extThresholds]) => {
         if (cancelled) return;
         const combined: Record<string, SpeciesData> = {};
-        for (const entry of indexJson?.species ?? []) {
-          const sp: string = entry?.species;
-          if (!sp) continue;
-          const schemesList: string[] = (entry?.schemes ?? [])
-            .map((s: { scheme?: string }) => s?.scheme)
-            .filter(Boolean);
-          const thresholdSchemes: Record<string, { thresholds?: Threshold[] }> = {};
-          const thrSchemes = thresholdsJson?.species?.[sp]?.schemes ?? {};
-          for (const s of schemesList) {
-            thresholdSchemes[s] = {
-              thresholds: thrSchemes[s]?.thresholds ?? [],
-            };
+        const ingest = (
+          idx: { species?: Array<{ species?: string; preferred_scheme?: string | null; schemes?: Array<{ scheme?: string }> }> },
+          thr: { species?: Record<string, { schemes?: Record<string, { thresholds?: Threshold[] }> }> },
+        ) => {
+          for (const entry of idx?.species ?? []) {
+            const sp = entry?.species;
+            if (!sp) continue;
+            const schemesList: string[] = (entry?.schemes ?? [])
+              .map((s) => s?.scheme)
+              .filter((s): s is string => Boolean(s));
+            if (!combined[sp]) {
+              combined[sp] = {
+                preferred_qc_scheme: entry?.preferred_scheme ?? undefined,
+                qc_schemes: [],
+                schemes: {},
+              };
+            } else if (entry?.preferred_scheme && !combined[sp].preferred_qc_scheme) {
+              combined[sp].preferred_qc_scheme = entry.preferred_scheme;
+            }
+            const thrSchemes = thr?.species?.[sp]?.schemes ?? {};
+            for (const s of schemesList) {
+              combined[sp].qc_schemes = Array.from(new Set([...(combined[sp].qc_schemes ?? []), s]));
+              combined[sp].schemes = combined[sp].schemes ?? {};
+              combined[sp].schemes![s] = { thresholds: thrSchemes[s]?.thresholds ?? [] };
+            }
           }
-          combined[sp] = {
-            preferred_qc_scheme: entry?.preferred_scheme ?? undefined,
-            qc_schemes: schemesList,
-            schemes: thresholdSchemes,
-          };
-        }
+        };
+        ingest(indexJson, thresholdsJson);
+        ingest(extIndex, extThresholds);
         setManifestSpecies(combined);
       })
       .finally(() => {
@@ -111,12 +134,34 @@ export default function CompareClient() {
     [manifestSpecies]
   );
 
-  const multiSchemeSpecies = useMemo(
+  // "Compare versions" — across QualiBact releases of the same species.
+  // Only species with both v1.0 and v1.1 (or REFSEQ-QC-v1) qualify;
+  // external schemes (EnteroBase) are excluded from this list.
+  const multiVersionSpecies = useMemo(
+    () =>
+      Object.entries(manifestSpecies)
+        .filter(([, info]) => {
+          const schemes = (info.qc_schemes ?? Object.keys(info.schemes ?? {}))
+            .filter((s) => !EXTERNAL_SCHEMES.has(s));
+          return schemes.length >= 2;
+        })
+        .map(([k]) => ({ value: k, label: k.replace(/_/g, ' ') }))
+        .sort((a, b) => a.label.localeCompare(b.label)),
+    [manifestSpecies]
+  );
+
+  // "Compare schemes" — QualiBact's latest vs a third-party scheme
+  // (currently just EnteroBase) for the same species. Eligible: species
+  // that have BOTH at least one QualiBact scheme AND at least one
+  // external scheme.
+  const crossSchemeSpecies = useMemo(
     () =>
       Object.entries(manifestSpecies)
         .filter(([, info]) => {
           const schemes = info.qc_schemes ?? Object.keys(info.schemes ?? {});
-          return schemes.length >= 2;
+          const hasQb = schemes.some((s) => QUALIBACT_SCHEMES.has(s));
+          const hasExt = schemes.some((s) => EXTERNAL_SCHEMES.has(s));
+          return hasQb && hasExt;
         })
         .map(([k]) => ({ value: k, label: k.replace(/_/g, ' ') }))
         .sort((a, b) => a.label.localeCompare(b.label)),
@@ -134,7 +179,7 @@ export default function CompareClient() {
 
       {/* Mode tabs */}
       <div className="inline-flex rounded-full border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-900 p-1 mb-6">
-        {(['species', 'versions'] as const).map((m) => (
+        {(['species', 'versions', 'schemes'] as const).map((m) => (
           <button
             key={m}
             type="button"
@@ -147,7 +192,11 @@ export default function CompareClient() {
                 : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100',
             ].join(' ')}
           >
-            {m === 'species' ? 'Compare species' : 'Compare versions'}
+            {m === 'species'
+              ? 'Compare species'
+              : m === 'versions'
+              ? 'Compare versions'
+              : 'Compare schemes'}
           </button>
         ))}
       </div>
@@ -163,12 +212,25 @@ export default function CompareClient() {
           selected={selectedFromUrl}
           setSelected={setSelected}
         />
-      ) : (
+      ) : mode === 'versions' ? (
         <CompareVersionsView
-          options={multiSchemeSpecies}
+          options={multiVersionSpecies}
           manifest={manifestSpecies}
           selectedSpecies={selectedFromUrl[0] ?? ''}
           setSelectedSpecies={(s) => setSelected(s ? [s] : [])}
+          schemeFilter={(s) => !EXTERNAL_SCHEMES.has(s)}
+          headline="Compare QualiBact versions"
+          blurb="Look at how a single species's thresholds have changed across the published QualiBact releases (qualibact-v1.0 vs qualibact-v1.1 etc.). Rows where bounds differ across versions are highlighted."
+        />
+      ) : (
+        <CompareVersionsView
+          options={crossSchemeSpecies}
+          manifest={manifestSpecies}
+          selectedSpecies={selectedFromUrl[0] ?? ''}
+          setSelectedSpecies={(s) => setSelected(s ? [s] : [])}
+          schemeFilter={(s) => QUALIBACT_SCHEMES.has(s) || EXTERNAL_SCHEMES.has(s)}
+          headline="Compare QualiBact vs third-party schemes"
+          blurb="See how QualiBact's published thresholds line up against third-party QC gates (currently enterobase-v2.3) for the same species. External schemes typically check a smaller metric set, so rows they don't define show as -."
         />
       )}
     </div>
@@ -295,11 +357,18 @@ function CompareVersionsView({
   manifest,
   selectedSpecies,
   setSelectedSpecies,
+  schemeFilter,
+  headline,
+  blurb,
 }: {
   options: OptionsListItem[];
   manifest: Record<string, SpeciesData>;
   selectedSpecies: string;
   setSelectedSpecies: (s: string) => void;
+  /** Restrict the columns to a subset (e.g. internal-only or QualiBact+external). */
+  schemeFilter?: (scheme: string) => boolean;
+  headline?: string;
+  blurb?: string;
 }) {
   const speciesInfo = selectedSpecies ? manifest[selectedSpecies] : undefined;
 
@@ -308,15 +377,16 @@ function CompareVersionsView({
     // Order: preferred first, then the rest in qc_schemes order
     const preferred = speciesInfo.preferred_qc_scheme;
     const all = (speciesInfo.qc_schemes ?? Object.keys(speciesInfo.schemes ?? {})).slice();
-    if (preferred) {
-      const idx = all.indexOf(preferred);
+    const filtered = schemeFilter ? all.filter(schemeFilter) : all;
+    if (preferred && filtered.includes(preferred)) {
+      const idx = filtered.indexOf(preferred);
       if (idx > 0) {
-        all.splice(idx, 1);
-        all.unshift(preferred);
+        filtered.splice(idx, 1);
+        filtered.unshift(preferred);
       }
     }
-    return all;
-  }, [speciesInfo]);
+    return filtered;
+  }, [speciesInfo, schemeFilter]);
 
   const { metrics, byCell, diffRows } = useMemo(() => {
     if (!speciesInfo) return { metrics: [] as string[], byCell: new Map<string, Threshold>(), diffRows: new Set<string>() };
@@ -332,18 +402,39 @@ function CompareVersionsView({
     }
     const metricList = [...metricSet].sort();
     const diff = new Set<string>();
+    // A row is "changed" only when ≥2 schemes both have published values
+    // AND those values differ. Schemes that simply don't define the
+    // metric (e.g. EnteroBase doesn't constrain GC) get a "-" and are
+    // skipped from the diff check — they're scheme-specific, not a
+    // regression.
     for (const m of metricList) {
-      const formatted = schemes.map((s) => {
-        const row = cell.get(`${s}::${m}`);
-        return row ? formatBound(row.lower, row.upper) : '-';
-      });
-      if (new Set(formatted).size > 1) diff.add(m);
+      const valued = schemes
+        .map((s) => cell.get(`${s}::${m}`))
+        .filter((row): row is Threshold => {
+          if (!row) return false;
+          const has = (v: unknown) => v !== null && v !== undefined && v !== '';
+          return has(row.lower) || has(row.upper);
+        })
+        .map((row) => formatBound(row.lower, row.upper));
+      if (valued.length >= 2 && new Set(valued).size > 1) diff.add(m);
     }
     return { metrics: metricList, byCell: cell, diffRows: diff };
   }, [speciesInfo, schemes]);
 
   return (
     <>
+      {(headline || blurb) && (
+        <div className="mb-4">
+          {headline && (
+            <h2 className="text-lg font-semibold font-header text-neutral-900 dark:text-neutral-100">
+              {headline}
+            </h2>
+          )}
+          {blurb && (
+            <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">{blurb}</p>
+          )}
+        </div>
+      )}
       <div className="mb-6 max-w-xl">
         <label
           htmlFor="versions-species"

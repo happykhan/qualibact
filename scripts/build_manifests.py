@@ -340,6 +340,11 @@ def compute_warnings(scheme_data: dict, summary_bounds: dict) -> tuple[bool, boo
     legacy flags carried over in website_summary.json. REFSEQ-QC-v1 schemes
     use the refseq_genome_count field; everything else uses genome_count."""
     scheme = (scheme_data.get("scheme") or "").upper()
+    # External / third-party schemes (e.g. enterobase-v2.3) don't ship a
+    # derivation cohort, so the low-genome warning would always fire and
+    # is misleading there — they're not derived from genomes at all.
+    if scheme.startswith("ENTEROBASE"):
+        return False, False
     if scheme.startswith("REFSEQ"):
         count = scheme_data.get("refseq_genome_count") or scheme_data.get("genome_count") or 0
     else:
@@ -440,16 +445,19 @@ def build_manifest(
         # locally-computed buffer.
         warn_l = mc_row.get("warn_lower")
         warn_u = mc_row.get("warn_upper")
-        if warn_l is None:
-            warn_l = eng.get("ml_lower")
-        if warn_u is None:
-            warn_u = eng.get("ml_upper")
-        if warn_l is None and pub["lower"] is not None:
-            warn_l = _warn_from_fail_lower(metric, pub["lower"])
-        if warn_u is None and pub["upper"] is not None:
-            warn_u = _warn_from_fail_upper(metric, pub["upper"])
-
         source = mc_row.get("source", "computed")
+        # Third-party / external schemes (e.g. enterobase-v2.3) are
+        # single-FAIL — leave WARN blank verbatim, don't synthesise from
+        # the engine summary or a buffer.
+        if source != "external":
+            if warn_l is None:
+                warn_l = eng.get("ml_lower")
+            if warn_u is None:
+                warn_u = eng.get("ml_upper")
+            if warn_l is None and pub["lower"] is not None:
+                warn_l = _warn_from_fail_lower(metric, pub["lower"])
+            if warn_u is None and pub["upper"] is not None:
+                warn_u = _warn_from_fail_upper(metric, pub["upper"])
 
         threshold_rows.append({
             "metric": metric,
@@ -579,8 +587,17 @@ def write_aggregates(
     """Emit /api/v2/{thresholds.csv, thresholds.json, thresholds.xlsx, index.json}.
     Returns (csv_rows, species_count). When pairs/preferred are omitted the
     function falls back to deriving them from the manifest list — keeps
-    the test-call signature stable."""
+    the test-call signature stable.
+
+    External (third-party) schemes are filtered OUT of the canonical
+    /api/v2/ files and routed to /api/v2/external/{scheme}.json so the
+    main API stays QualiBact-published-only. The cross-scheme compare
+    view fetches the external file separately.
+    """
     API_DIR.mkdir(parents=True, exist_ok=True)
+    EXTERNAL_SCHEMES = {"enterobase-v2.3"}
+    qb_manifests = [m for m in manifests if m["scheme"] not in EXTERNAL_SCHEMES]
+    ext_manifests = [m for m in manifests if m["scheme"] in EXTERNAL_SCHEMES]
 
     # thresholds.csv — flat, four-bound aggregate. The new canonical
     # columns are FINAL_lower/FINAL_upper (FAIL boundary) +
@@ -588,56 +605,74 @@ def write_aggregates(
     # The legacy lower/upper/ml_*/auto_*/refseq_* columns are still
     # written for the transition window — consumers will be migrated
     # then the legacy columns dropped.
-    csv_path = API_DIR / "thresholds.csv"
-    csv_rows = 0
-    with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow([
-            "species", "scheme", "metric",
-            "FINAL_lower", "FINAL_upper",
-            "WARN_lower", "WARN_upper",
-            "source",
-            "engine_severity",
-            # Legacy aliases kept for the transition window:
-            "lower", "upper",
-            "ml_lower", "ml_upper",
-            "auto_lower", "auto_upper",
-            "refseq_lower", "refseq_upper",
-        ])
-        for m in manifests:
-            species_label = m["species"].replace("_", " ")
-            severity = ((m.get("warnings") or {}).get("engine") or {}).get("severity") or ""
-            for t in m["thresholds"]:
-                w.writerow([
-                    species_label, m["scheme"], t["metric"],
-                    _fmt(t["final_lower"]), _fmt(t["final_upper"]),
-                    _fmt(t["warn_lower"]), _fmt(t["warn_upper"]),
-                    t.get("source") or "computed",
-                    severity,
-                    _fmt(t["lower"]), _fmt(t["upper"]),
-                    _fmt(t["ml_lower"]), _fmt(t["ml_upper"]),
-                    _fmt(t["auto_lower"]), _fmt(t["auto_upper"]),
-                    _fmt(t["refseq_lower"]), _fmt(t["refseq_upper"]),
-                ])
-                csv_rows += 1
+    def _write_csv_and_json(target_dir: Path, ms: list[dict]) -> int:
+        target_dir.mkdir(parents=True, exist_ok=True)
+        csv_p = target_dir / "thresholds.csv"
+        rows = 0
+        with open(csv_p, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow([
+                "species", "scheme", "metric",
+                "FINAL_lower", "FINAL_upper",
+                "WARN_lower", "WARN_upper",
+                "source",
+                "engine_severity",
+                # Legacy aliases kept for the transition window:
+                "lower", "upper",
+                "ml_lower", "ml_upper",
+                "auto_lower", "auto_upper",
+                "refseq_lower", "refseq_upper",
+            ])
+            for m in ms:
+                species_label = m["species"].replace("_", " ")
+                severity = ((m.get("warnings") or {}).get("engine") or {}).get("severity") or ""
+                # External schemes: only emit rows that the upstream
+                # actually defines (i.e. have a non-null FINAL bound).
+                # No "computed" placeholders for metrics the scheme
+                # doesn't constrain.
+                is_external = m["scheme"] in EXTERNAL_SCHEMES
+                for t in m["thresholds"]:
+                    if is_external and t.get("final_lower") is None and t.get("final_upper") is None:
+                        continue
+                    w.writerow([
+                        species_label, m["scheme"], t["metric"],
+                        _fmt(t["final_lower"]), _fmt(t["final_upper"]),
+                        _fmt(t["warn_lower"]), _fmt(t["warn_upper"]),
+                        t.get("source") or "computed",
+                        severity,
+                        _fmt(t["lower"]), _fmt(t["upper"]),
+                        _fmt(t["ml_lower"]), _fmt(t["ml_upper"]),
+                        _fmt(t["auto_lower"]), _fmt(t["auto_upper"]),
+                        _fmt(t["refseq_lower"]), _fmt(t["refseq_upper"]),
+                    ])
+                    rows += 1
 
-    # thresholds.json — same data, nested
-    by_species: dict[str, dict] = {}
-    for m in manifests:
-        by_species.setdefault(m["species"], {"schemes": {}})
-        by_species[m["species"]]["schemes"][m["scheme"]] = {
-            "thresholds": m["thresholds"],
-            "counts": m["counts"],
-            "warnings": m["warnings"],
-        }
-    (API_DIR / "thresholds.json").write_text(
-        json.dumps({
-            "schema_version": SCHEMA_VERSION,
-            "generated_at": generated_at,
-            "species": by_species,
-        }, indent=2) + "\n",
-        encoding="utf-8",
-    )
+        # thresholds.json — same data, nested
+        bs: dict[str, dict] = {}
+        for m in ms:
+            is_external = m["scheme"] in EXTERNAL_SCHEMES
+            kept = [
+                t for t in m["thresholds"]
+                if not (is_external and t.get("final_lower") is None and t.get("final_upper") is None)
+            ]
+            bs.setdefault(m["species"], {"schemes": {}})
+            bs[m["species"]]["schemes"][m["scheme"]] = {
+                "thresholds": kept,
+                "counts": m["counts"],
+                "warnings": m["warnings"],
+            }
+        (target_dir / "thresholds.json").write_text(
+            json.dumps({
+                "schema_version": SCHEMA_VERSION,
+                "generated_at": generated_at,
+                "species": bs,
+            }, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return rows
+
+    csv_rows = _write_csv_and_json(API_DIR, qb_manifests)
+    ext_rows = _write_csv_and_json(API_DIR / "external", ext_manifests) if ext_manifests else 0
 
     # index.json — registry. Built from the pairs/preferred maps the
     # caller supplied (filesystem-derived) so this function doesn't
@@ -652,34 +687,47 @@ def write_aggregates(
             pairs[sp] = sorted(set(pairs[sp]))
     if preferred is None:
         preferred = {sp: infer_preferred(schemes) for sp, schemes in pairs.items()}
-    entries = []
-    species_count = 0
-    for sp in sorted(pairs):
-        species_count += 1
-        schemes = pairs[sp]
-        entries.append({
-            "species": sp,
-            "name": sp.replace("_", " "),
-            "preferred_scheme": preferred.get(sp),
-            "schemes": [
-                {"scheme": s, "manifest_url": f"/static/species/{sp}/{s}/manifest.json"}
-                for s in schemes
-            ],
-        })
-    (API_DIR / "index.json").write_text(
-        json.dumps({
-            "schema_version": SCHEMA_VERSION,
-            "generated_at": generated_at,
-            "species_count": species_count,
-            "endpoints": {
-                "thresholds_csv": "/api/v2/thresholds.csv",
-                "thresholds_json": "/api/v2/thresholds.json",
-                "per_species_manifest": "/static/species/{species}/{scheme}/manifest.json",
-            },
-            "species": entries,
-        }, indent=2) + "\n",
-        encoding="utf-8",
-    )
+
+    def _write_index(target_dir: Path, pairs_subset: dict[str, list[str]], header_prefix: str) -> int:
+        target_dir.mkdir(parents=True, exist_ok=True)
+        entries = []
+        for sp in sorted(pairs_subset):
+            schemes = pairs_subset[sp]
+            if not schemes:
+                continue
+            entries.append({
+                "species": sp,
+                "name": sp.replace("_", " "),
+                "preferred_scheme": preferred.get(sp) if header_prefix == "" else None,
+                "schemes": [
+                    {"scheme": s, "manifest_url": f"/static/species/{sp}/{s}/manifest.json"}
+                    for s in schemes
+                ],
+            })
+        (target_dir / "index.json").write_text(
+            json.dumps({
+                "schema_version": SCHEMA_VERSION,
+                "generated_at": generated_at,
+                "species_count": len(entries),
+                "endpoints": {
+                    "thresholds_csv": f"/api/v2/{header_prefix}thresholds.csv",
+                    "thresholds_json": f"/api/v2/{header_prefix}thresholds.json",
+                    "per_species_manifest": "/static/species/{species}/{scheme}/manifest.json",
+                },
+                "species": entries,
+            }, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return len(entries)
+
+    qb_pairs = {sp: [s for s in scs if s not in EXTERNAL_SCHEMES] for sp, scs in pairs.items()}
+    qb_pairs = {sp: scs for sp, scs in qb_pairs.items() if scs}
+    species_count = _write_index(API_DIR, qb_pairs, "")
+
+    if ext_manifests:
+        ext_pairs = {sp: [s for s in scs if s in EXTERNAL_SCHEMES] for sp, scs in pairs.items()}
+        ext_pairs = {sp: scs for sp, scs in ext_pairs.items() if scs}
+        _write_index(API_DIR / "external", ext_pairs, "external/")
 
     return csv_rows, species_count
 
@@ -920,7 +968,10 @@ def write_priority_pathogens_csvs(manifests: list[dict]) -> dict[int, int]:
     return rows_by_year
 
 
-VALID_SCHEMES = ("qualibact-v1.0", "qualibact-v1.1", "REFSEQ-QC-v1")
+VALID_SCHEMES = ("qualibact-v1.0", "qualibact-v1.1", "REFSEQ-QC-v1", "enterobase-v2.3")
+# `enterobase-v2.3` is deliberately NOT in PREFERRED_PRIORITY — it's a
+# third-party comparison scheme and should never be the default landing
+# scheme for a species. It still appears in the scheme switcher.
 PREFERRED_PRIORITY = ("qualibact-v1.1", "qualibact-v1.0", "REFSEQ-QC-v1")
 BANNED_SCHEMES = {"ESGEM-AMR-v1", "Klebnet-v1"}
 
@@ -1603,6 +1654,7 @@ def main() -> int:
     # missing or the library isn't installed.
     for csv_path, xlsx_path, sheet in (
         (API_DIR / "thresholds.csv",                API_DIR / "thresholds.xlsx",          "thresholds"),
+        (API_DIR / "external" / "thresholds.csv",   API_DIR / "external" / "thresholds.xlsx", "external_thresholds"),
         (SUMMARY_DIR / "summary_statistics.csv",    SUMMARY_DIR / "summary_statistics.xlsx", "summary_statistics"),
         (SUMMARY_DIR / "species_counts.csv",        SUMMARY_DIR / "species_counts.xlsx",  "species_counts"),
     ):
