@@ -8,7 +8,7 @@ A species page falls back to its v1.0 thresholds whenever no v1.1 row is publish
 
 ### *Achromobacter xylosoxidans*
 
-The qualibact-v1.1 thresholds for *A. xylosoxidans* incorporate **441 additional genomes** beyond the AllTheBacteria-2024-08 set used for v1.0: 171 from BioProject PRJNA1234112 and 76 from PRJNA1148967 (both 2025, not yet in AllTheBacteria), 108 not yet publicly released, and 69 assemblies pulled directly from NCBI. Curated with the Rigshospitalet (Helle K. Johansen, Rasmus L. Marvig), UZ Brussel (Charlotte Michael), and Vilnius University (Migle Gabrielaite) groups.
+The qualibact-v1.1 thresholds for *A. xylosoxidans* incorporate **441 additional genomes** beyond the AllTheBacteria-2024-08 set used for v1.0: 171 from BioProject PRJNA1234112 and 76 from PRJNA1148967 (both 2025, not yet in AllTheBacteria), 108 not yet publicly released, and 69 assemblies pulled directly from NCBI. Curated with the Rigshospitalet (, UZ Brussel (, and Vilnius University ( groups.
 
 ### *Campylobacter coli*
 
@@ -28,9 +28,9 @@ The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 re
 
 ### Assembly size
 
-- ***Campylobacter jejuni*** — upper raised from 2.0 Mb to **2.1 Mb** (Alexandra Nunes & Mónica Oleastro, INSA Lisboa, plus collaborators). 2.0 Mb was excluding a small number of well-supported, high-quality genomes drawn from a diverse human / food / animal / environmental isolate set.
+- ***Campylobacter jejuni*** — upper raised from 2.0 Mb to **2.1 Mb** (INSA Lisboa Campylobacter subgroup). 2.0 Mb was excluding a small number of well-supported, high-quality genomes drawn from a diverse human / food / animal / environmental isolate set.
 - ***Neisseria meningitidis*** — upper tightened from 2.4 Mb to **2.3 Mb** (INSA Lisboa N. meningitidis subgroup). The reference dataset is consistently below 2.3 Mb; the tighter bound flags potentially contaminated or chimeric assemblies that the looser v1.0 bound passed.
-- ***Neisseria lactamica*** — upper loosened from 2.3 Mb to **2.4 Mb** to accommodate species diversity (N. gonorrhoeae subgroup, citing Sheeba Basil's Neisseria commensal data).
+- ***Neisseria lactamica*** — upper loosened from 2.3 Mb to **2.4 Mb** to accommodate species diversity (N. gonorrhoeae subgroup).
 - ***Haemophilus influenzae*** — upper tightened from 2.2 Mb to **2.0 Mb** (Haemophilus subgroup). Two RefSeq references (GCF_002985465.2, GCF_002984345.2) pushed the engine's automatic bound up despite inconclusive ANI (~94%) against *H. influenzae*; pinned at 2.0 Mb to flag those and any future contamination.
 - ***Haemophilus haemolyticus*** — upper proposed at **1.75 Mb** (Haemophilus subgroup). Note: 1.75 Mb currently sits below the engine's lower bound (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert before publication.
 
@@ -40,7 +40,7 @@ The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 re
 
 ### Contamination
 
-- ***Neisseria bergeri***, ***N. flavescens***, ***N. lactamica***, ***N. perflava***, ***N. polysaccharea*** — upper pinned at **3.0** as a general threshold across commensal *Neisseria* (N. gonorrhoeae subgroup, citing Sheeba Basil's commensal dataset analysis). Engine v1.0-rev2 emitted values between 1 and 4 across the group; 3.0 keeps the band consistent.
+- ***Neisseria bergeri***, ***N. flavescens***, ***N. lactamica***, ***N. perflava***, ***N. polysaccharea*** — upper pinned at **3.0** as a general threshold across commensal *Neisseria* (N. gonorrhoeae subgroupset analysis). Engine v1.0-rev2 emitted values between 1 and 4 across the group; 3.0 keeps the band consistent.
 
 ### N50 / contig count
 
@@ -54,7 +54,7 @@ The Nov 2025 QualiBact assessment survey gathered structured feedback from 39 re
 
 ### Completeness
 
-- ***Neisseria flavescens***, ***Neisseria polysaccharea*** — Completeness lower pinned at **≥ 99** (N. gonorrhoeae subgroup, citing Sheeba Basil's commensal data). Engine v1.0-rev2 emitted 94 and 98; pinned at 99 for consistency across the commensal group.
+- ***Neisseria flavescens***, ***Neisseria polysaccharea*** — Completeness lower pinned at **≥ 99** (N. gonorrhoeae subgroup). Engine v1.0-rev2 emitted 94 and 98; pinned at 99 for consistency across the commensal group.
 
 Further per-species adjustments are tracked as additional respondents return specific values.
 
