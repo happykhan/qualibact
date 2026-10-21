@@ -138,5 +138,5 @@ overrides:
   - species: Haemophilus_haemolyticus
     scheme:  qualibact-v1.1
     metric:  Genome_Size
-    upper:   1750000
-    reason:  "Nov 2025 expert survey — Haemophilus subgroup proposed lowering the assembly-size upper to 1.75 Mb. Engine v1.0-rev2 emits 2.1 Mb. Note: 1.75 Mb sits below the engine's lower bound for this species (1.8 Mb), so the PASS band collapses; flagged for follow-up with the expert."
+    lower:   1750000
+    reason:  "Margo Diricks, Haemophilus subgroup, 14 November 2025 correspondence — the genome-length lower bound was too high; requested 1.75 Mb. The computed upper bound remains 2.1 Mb."

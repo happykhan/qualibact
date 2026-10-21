@@ -1151,7 +1151,7 @@ Haemophilus haemolyticus,qualibact-v1.0,Contamination,,2,0,1,computed,warn,,2,0,
 Haemophilus haemolyticus,qualibact-v1.0,N50,46000,,50000,377348.44,computed,warn,46000,,46476.36,377348.44,46476.36,377348.44,,
 Haemophilus haemolyticus,qualibact-v1.0,no_of_contigs,,110,18.71,100,computed,warn,,110,18.71,100.22,18.71,100.21999999999986,,
 Haemophilus haemolyticus,qualibact-v1.0,longest,,,114925.07,603463.62,computed,warn,,,114925.07,603463.62,114925.07,603463.6199999996,,
-Haemophilus haemolyticus,qualibact-v1.1,Genome_Size,1800000,1750000,1800000,1750000,pinned,warn,1800000,1750000,1804755.31,2048873.41,1804755.31,2048873.4099999997,1824387.525,1972100.575
+Haemophilus haemolyticus,qualibact-v1.1,Genome_Size,1750000,2100000,1800000,2100000,pinned,warn,1750000,2100000,1804755.31,2048873.41,1804755.31,2048873.4099999997,1824387.525,1972100.575
 Haemophilus haemolyticus,qualibact-v1.1,GC_Content,38.28,38.74,38.3,38.63,computed,warn,38.28,38.74,38.289,38.7312,38.289038999999995,38.731187999999996,38.490015,38.591719999999995
 Haemophilus haemolyticus,qualibact-v1.1,Total_Coding_Sequences,1700,2000,1700,2000,computed,warn,1700,2000,1701.13,1989.93,1701.13,1989.9299999999998,1767.1,1905.075
 Haemophilus haemolyticus,qualibact-v1.1,Completeness_Specific,94,,100,100,computed,warn,94,,94.18,100,100,100,94.18775000000001,97.298

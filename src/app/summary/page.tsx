@@ -66,8 +66,8 @@ function loadAggregateThresholds(): ThresholdRow[] {
   const iMe = ix('metric');
   const iLo = ix('lower');
   const iUp = ix('upper');
-  const iMl = ix('ml_lower');
-  const iMu = ix('ml_upper');
+  const iWarnLo = ix('WARN_lower');
+  const iWarnUp = ix('WARN_upper');
   const iEng = ix('engine_severity');
   if (iSp < 0 || iLo < 0) return [];
   return rows.map((cells) => {
@@ -80,8 +80,8 @@ function loadAggregateThresholds(): ThresholdRow[] {
       metric: (cells[iMe] ?? '').trim(),
       engine: iEng >= 0 ? (cells[iEng] ?? '').trim() : '',
       fail_below: toNum(lowerStr),
-      warn_below: lowerStr === '' ? '' : toNum((cells[iMl] ?? '').trim()),
-      warn_above: upperStr === '' ? '' : toNum((cells[iMu] ?? '').trim()),
+      warn_below: lowerStr === '' ? '' : toNum((cells[iWarnLo] ?? '').trim()),
+      warn_above: upperStr === '' ? '' : toNum((cells[iWarnUp] ?? '').trim()),
       fail_above: toNum(upperStr),
     };
   });

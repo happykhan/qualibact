@@ -1,0 +1,8 @@
+species,metric,FINAL_lower,FINAL_upper,WARN_lower,WARN_upper,source
+Haemophilus haemolyticus,Genome_Size,1750000.0,2100000.0,1800000.0,2100000.0,pinned
+Haemophilus haemolyticus,GC_Content,38.28,38.74,38.3,38.63,computed
+Haemophilus haemolyticus,Total_Coding_Sequences,1700.0,2000.0,1700.0,2000.0,computed
+Haemophilus haemolyticus,Completeness,94.0,,100.0,,computed
+Haemophilus haemolyticus,Contamination,,2.0,,1.0,computed
+Haemophilus haemolyticus,N50,46000.0,,50000.0,,computed
+Haemophilus haemolyticus,no_of_contigs,,100.0,,100.0,pinned

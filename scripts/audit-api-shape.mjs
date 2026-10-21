@@ -117,6 +117,39 @@ if (csvPath) {
   console.warn('thresholds.csv not found — skipping CSV header check.');
 }
 
+// The summary's published-criteria grid must use the canonical WARN fields,
+// preserve blank bounds, and suppress directions with no FINAL counterpart.
+const summaryPath = path.join(OUT, 'summary', 'index.html');
+if (fs.existsSync(summaryPath)) {
+  const html = fs.readFileSync(summaryPath, 'utf8');
+  const flight = [...html.matchAll(/self\.__next_f\.push\((\[[\s\S]*?\])\)<\/script>/g)]
+    .map((m) => JSON.parse(m[1]))
+    .filter((block) => block[0] === 1)
+    .map((block) => block[1]).join('').replaceAll('\\"', '"');
+  const rows = [...flight.matchAll(/\{"species":"[^"]+","scheme":"[^"]+","metric":"[^"]+"[^}]*\}/g)]
+    .map((m) => JSON.parse(m[0]));
+  const expectedCount = Object.values(t.data.species).reduce((n, sp) => n +
+    Object.values(sp.schemes).reduce((count, scheme) => count + scheme.thresholds.length, 0), 0);
+  assert(rows.length === expectedCount, `summary grid: ${rows.length} rows; API has ${expectedCount}`);
+  const mismatches = [];
+  for (const row of rows) {
+    const thresholds = t.data.species[row.species.replaceAll(' ', '_')]?.schemes[row.scheme]?.thresholds;
+    const canonical = thresholds?.find((entry) => entry.metric === row.metric);
+    if (!canonical) { mismatches.push(`${row.species}/${row.scheme}/${row.metric}: missing API row`); continue; }
+    const expected = {
+      fail_below: canonical.final_lower ?? '',
+      fail_above: canonical.final_upper ?? '',
+      warn_below: canonical.final_lower === null ? '' : (canonical.warn_lower ?? ''),
+      warn_above: canonical.final_upper === null ? '' : (canonical.warn_upper ?? ''),
+    };
+    if (Object.entries(expected).some(([key, value]) => row[key] !== value)) {
+      mismatches.push(`${row.species}/${row.scheme}/${row.metric}`);
+    }
+  }
+  assert(mismatches.length === 0, `summary grid: ${mismatches.length} published-bound mismatches (${mismatches.slice(0, 3).join(', ')})`);
+  console.log(`Checked ${rows.length} rendered summary rows against canonical FINAL/WARN bounds.`);
+}
+
 // ----- summary --------------------------------------------------------------
 
 if (failures.length > 0) {

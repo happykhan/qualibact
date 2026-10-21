@@ -43,6 +43,9 @@
 #   - Sandra Reuter (dr.sandra.reuter@gmail.com, affiliation TBD)
 # When confirmed, add s-reuter alongside a-komorowski on the three
 # Serratia attributions below.
+# Mónica Oleastro clarified on 2026-10-14 that she and Alexandra Nunes
+# contributed C. jejuni / C. coli, not C. fetus. Birgitta Duim's C. fetus
+# credit remains pending her confirmation; do not attribute it to Mónica.
 
 contributors:
   - id: m-oleastro
@@ -102,10 +105,10 @@ attributions:
   - species: Achromobacter_xylosoxidans
     scheme: qualibact-v1.1
     contributors: [h-johansen, r-marvig, c-michael, m-gabrielaite]
-  - species: Campylobacter_fetus
+  - species: Neisseria_meningitidis
     scheme: qualibact-v1.1
-    contributors: [m-oleastro]
-    note: "C. fetus subgroup of the Nov 2025 expert-feedback survey."
+    contributors: [a-nunes]
+    funding: [insa, geneo]
   - species: Serratia_bockelmannii
     scheme: qualibact-v1.0
     contributors: [a-komorowski]
@@ -125,7 +128,7 @@ attributions:
   - species: Haemophilus_haemolyticus
     scheme: qualibact-v1.1
     contributors: [m-diricks]
-    note: "Nov 2025 expert-feedback survey — proposed the 1.75 Mb assembly-size upper and the 100-contig cap."
+    note: "14 November 2025 correspondence — proposed a 1.75 Mb assembly-size lower bound and a 100-contig cap."
   - species: Salmonella_enterica
     scheme: qualibact-v1.0
     contributors: [z-dyson]
