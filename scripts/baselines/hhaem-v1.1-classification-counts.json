@@ -1,0 +1,9 @@
+{
+  "species": "Haemophilus_haemolyticus",
+  "scheme": "qualibact-v1.1",
+  "total": 158,
+  "pass_count": 134,
+  "warn_count": 12,
+  "fail_count": 12,
+  "criteria": "Seven directional published QC criteria; existing raw assembly metrics unchanged; no threshold fitting or outlier filtering."
+}

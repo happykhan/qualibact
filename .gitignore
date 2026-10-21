@@ -256,3 +256,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Auditable source for the corrected H. haemolyticus expert pin.
+!public/static/species/Haemophilus_haemolyticus/qualibact-v1.1/Haemophilus_haemolyticus_metrics.csv

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T11:31:10+00:00",
+  "generated_at": "2026-10-21T09:33:58+00:00",
   "species": {
     "Achromobacter_xylosoxidans": {
       "schemes": {
@@ -22559,12 +22559,12 @@
           "thresholds": [
             {
               "metric": "Genome_Size",
-              "lower": 1800000.0,
-              "upper": 1750000.0,
-              "final_lower": 1800000.0,
-              "final_upper": 1750000.0,
+              "lower": 1750000.0,
+              "upper": 2100000.0,
+              "final_lower": 1750000.0,
+              "final_upper": 2100000.0,
               "warn_lower": 1800000.0,
-              "warn_upper": 1750000.0,
+              "warn_upper": 2100000.0,
               "source": "pinned",
               "ml_lower": 1804755.31,
               "ml_upper": 2048873.41,
@@ -22692,8 +22692,8 @@
             "final_count": 143,
             "filtered_out_count": 0,
             "pass_count": 134,
-            "warn_count": 11,
-            "fail_count": 13
+            "warn_count": 12,
+            "fail_count": 12
           },
           "warnings": {
             "low_genome": false,

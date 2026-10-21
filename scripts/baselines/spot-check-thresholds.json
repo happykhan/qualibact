@@ -83,5 +83,18 @@
     "species": "Mycobacterium_tuberculosis",
     "scheme": "qualibact-v1.0",
     "metric": "Genome_Size"
+  },
+  {
+    "label": "H. haemolyticus v1.1 — corrected lower-bound expert pin",
+    "species": "Haemophilus_haemolyticus",
+    "scheme": "qualibact-v1.1",
+    "metric": "Genome_Size",
+    "final_lower": 1750000,
+    "final_upper": 2100000,
+    "warn_lower": 1800000,
+    "warn_upper": 2100000,
+    "source": "pinned",
+    "page_url": "/Haemophilus/Haemophilus_haemolyticus/qualibact-v1.1/",
+    "page_substring": "1,750,000"
   }
 ]

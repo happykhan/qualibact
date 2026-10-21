@@ -8,8 +8,8 @@ QualiBact `qualibact-v1.1` thresholds for *Haemophilus haemolyticus*, refined fr
 Two pins applied:
 
 - **No. of contigs upper pinned at 100** (engine v1.0-rev2 emits 110). Assemblies with >100 contigs are often related to contamination.
-- **Genome_Size upper pinned at 1.75 Mb** (engine v1.0-rev2 emits 2.1 Mb).
+- **Genome-size lower bound pinned at 1.75 Mb**, following Margo Diricks's 14 November 2025 recommendation that the lower bound was too high. The computed upper bound remains 2.1 Mb.
 
-> **Note** — the 1.75 Mb upper sits *below* the engine's published Genome_Size lower bound (1.8 Mb) for this species, so the strict PASS band collapses. This pin is published verbatim from the survey response; it likely deserves a follow-up with the expert to confirm intent (e.g., whether the lower bound should also drop, or whether 1.75 Mb is a guidance value rather than a hard cap).
+The warning bounds remain 1.8–2.1 Mb.
 
 All other thresholds inherit unchanged from v1.0. See the [methods page for qualibact-v1.1](/methods/qualibact-v1.1/) for the full pipeline.
