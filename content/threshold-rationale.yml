@@ -139,4 +139,4 @@ overrides:
     scheme:  qualibact-v1.1
     metric:  Genome_Size
     lower:   1750000
-    reason:  "Margo Diricks, Haemophilus subgroup, 14 November 2025 correspondence — the genome-length lower bound was too high; requested 1.75 Mb. The computed upper bound remains 2.1 Mb."
+    reason:  "Genome-size range 1.75–2.10 Mb; warning bounds 1.80–2.10 Mb."

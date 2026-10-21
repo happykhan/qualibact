@@ -128,7 +128,6 @@ attributions:
   - species: Haemophilus_haemolyticus
     scheme: qualibact-v1.1
     contributors: [m-diricks]
-    note: "14 November 2025 correspondence — proposed a 1.75 Mb assembly-size lower bound and a 100-contig cap."
   - species: Salmonella_enterica
     scheme: qualibact-v1.0
     contributors: [z-dyson]
