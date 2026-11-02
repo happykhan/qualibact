@@ -1,3 +1,7 @@
+> **Development has moved to GitLab:** [https://gitlab.com/cgps/tools/qualibact](https://gitlab.com/cgps/tools/qualibact)
+>
+> Please use GitLab for current code, issues and merge requests. The production website is [qualibact.org](https://qualibact.org/), published from GitLab to Cloudflare. This GitHub copy is retained to preserve existing links, history and its legacy Pages redirect.
+
 # QualiBact
 
 Community-curated, species-specific quality control thresholds for bacterial de novo genome assemblies.
